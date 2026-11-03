@@ -1,0 +1,36 @@
+site,category,url,report_file,scanned_at_utc,audit_completed_utc,hybrid_score,conformance_band,axe_score,images,links,headings,reading_level,tables,page_title,language,visual,motor,albanian_version_found,albanian_version_score
+Employment Agency,Central government,https://av.gov.mk/,reports/av_gov_mk.json,2026-04-23T20:01:19.887Z,2026-04-23T20:04:49.326Z,29,Non-conformant,0,0,78,40,88,0,15,28,42,53,True,35
+Government of North Macedonia (portal),Central government,https://vlada.mk/,reports/vlada_mk.json,2026-04-23T17:45:17.015Z,2026-04-23T17:55:52.398Z,33,Non-conformant,0,15,67,,65,8,60,68,34,32,True,35
+Invest North Macedonia,Central government,https://investnorthmacedonia.gov.mk/,reports/investnorthmacedonia_gov_mk.json,2026-04-23T08:22:59.291Z,2026-04-23T08:32:08.856Z,36,Non-conformant,9,18,78,41,30,100,30,68,36,24,True,35
+Ministry of Economy,Central government,https://www.economy.gov.mk/,reports/www_economy_gov_mk.json,2026-04-23T17:56:35.184Z,2026-04-23T18:07:56.895Z,43,Non-conformant,0,37,71,35,55,100,50,78,69,33,True,55
+Ministry of Education and Science,Central government,https://mon.gov.mk/,reports/mon_gov_mk.json,2026-04-23T19:18:54.965Z,2026-04-23T19:38:12.788Z,39,Non-conformant,0,28,67,,45,100,50,83,25,40,True,65
+Ministry of Environment,Central government,https://www.moepp.gov.mk/,reports/www_moepp_gov_mk.json,2026-04-23T19:01:28.755Z,2026-04-23T19:17:56.953Z,39,Non-conformant,0,21,69,30,70,100,50,70,55,30,True,40
+Ministry of Finance,Central government,https://finance.gov.mk/,reports/finance_gov_mk.json,2026-04-23T18:08:29.028Z,2026-04-23T18:21:19.800Z,33,Non-conformant,0,22,80,25,55,8,35,68,44,31,True,35
+Ministry of Foreign Affairs,Central government,https://mfa.gov.mk/,reports/mfa_gov_mk.json,2026-04-23T18:37:20.348Z,2026-04-23T18:47:03.047Z,44,Non-conformant,0,14,70,35,55,100,60,90,77,32,True,80
+Ministry of Health,Central government,https://zdravstvo.gov.mk/,reports/zdravstvo_gov_mk.json,2026-04-24T11:20:06.629Z,2026-04-24T11:29:41.409Z,40,Non-conformant,,17,68,35,35,100,40,50,44,8,True,0
+Ministry of Social Policy,Central government,https://mtsp.gov.mk/,reports/mtsp_gov_mk.json,2026-04-23T18:47:57.294Z,2026-04-23T18:59:57.942Z,36,Non-conformant,0,12,72,25,75,7,50,78,46,38,True,55
+Ministry of Transport,Central government,https://mtc.gov.mk/,reports/mtc_gov_mk.json,2026-04-23T18:22:09.540Z,2026-04-23T18:33:54.992Z,41,Non-conformant,0,29,70,35,55,100,40,85,45,33,True,70
+National Bank,Central government,https://www.nbrm.mk/,reports/www_nbrm_mk.json,2026-04-23T19:38:38.325Z,2026-04-23T19:55:38.308Z,23,Non-conformant,0,1,62,15,35,4,25,35,49,37,True,50
+Bitola,Municipality,https://www.bitola.gov.mk/,reports/www_bitola_gov_mk.json,2026-04-23T23:10:08.228Z,2026-04-23T23:13:09.381Z,28,Non-conformant,0,2,81,47,40,100,45,10,56,23,False,0
+Centar,Municipality,https://www.centar.gov.mk/,reports/www_centar_gov_mk.json,2026-04-24T11:04:57.192Z,2026-04-24T11:19:55.615Z,32,Non-conformant,0,15,74,25,40,100,40,53,9,60,True,5
+City of Skopje,Municipality,https://skopje.gov.mk/,reports/skopje_gov_mk.json,2026-04-23T11:40:47.184Z,2026-04-23T11:49:18.515Z,33,Non-conformant,0,3,72,35,45,100,40,80,0,43,True,60
+Gostivar,Municipality,https://gostivari.gov.mk/042/,reports/gostivari_gov_mk.json,2026-04-23T23:49:13.219Z,2026-04-23T23:54:45.491Z,37,Non-conformant,0,1,80,38,35,100,25,80,44,53,True,60
+Gradsko,Municipality,https://gradsko.gov.mk/,reports/gradsko_gov_mk.json,2026-04-23T23:01:02.662Z,2026-04-23T23:09:58.741Z,24,Non-conformant,0,0,70,10,35,100,60,10,25,43,False,0
+Haraçina,Municipality,https://www.haracina.gov.mk/,reports/www_haracina_gov_mk.json,2026-04-24T14:34:47.116Z,2026-04-24T14:46:53.423Z,40,Non-conformant,0,8,89,38,88,100,65,50,42,58,False,0
+Karpoš,Municipality,https://karpos.gov.mk/,reports/karpos_gov_mk.json,2026-04-23T23:28:15.691Z,2026-04-23T23:49:05.718Z,29,Non-conformant,0,1,76,25,45,100,60,50,30,11,False,0
+Ohrid,Municipality,https://ohrid.gov.mk/,reports/ohrid_gov_mk.json,2026-04-23T23:22:13.096Z,2026-04-23T23:28:05.128Z,24,Non-conformant,0,0,77,45,65,0,25,10,51,24,False,0
+Saraj,Municipality,https://saraj.gov.mk/,reports/saraj_gov_mk.json,2026-04-24T11:46:19.835Z,2026-04-24T12:29:23.631Z,32,Non-conformant,0,12,78,33,45,100,35,50,,,True,
+Struga,Municipality,https://www.struga.gov.mk/,reports/www_struga_gov_mk.json,2026-04-24T07:06:19.332Z,2026-04-24T07:11:06.710Z,27,Non-conformant,0,2,82,15,35,100,75,10,32,42,False,0
+Studeniçan,Municipality,https://studenicani.gov.mk/,reports/studenicani_gov_mk.json,2026-04-24T11:29:48.887Z,2026-04-24T11:33:07.200Z,52,Partial A,22,25,81,48,85,100,40,98,63,24,True,95
+Tetovo,Municipality,https://tetovo.gov.mk/,reports/tetovo_gov_mk.json,2026-04-24T06:40:26.385Z,2026-04-24T07:06:10.458Z,39,Non-conformant,0,13,84,41,40,100,50,75,40,43,True,50
+Zhelino,Municipality,https://zhelina.gov.mk/,reports/zhelina_gov_mk.json,2026-04-24T10:56:48.132Z,2026-04-24T11:04:48.948Z,31,Non-conformant,0,1,76,28,80,100,50,15,54,41,True,10
+Čair,Municipality,https://cair.gov.mk/,reports/cair_gov_mk.json,2026-04-24T11:33:13.125Z,2026-04-24T11:46:08.711Z,31,Non-conformant,0,5,68,8,45,100,40,45,57,44,True,70
+Štip,Municipality,https://stip.gov.mk/,reports/stip_gov_mk.json,2026-04-23T23:13:17.119Z,2026-04-23T23:22:06.322Z,30,Non-conformant,0,0,92,37,30,100,55,10,54,41,False,0
+IUST,Public university,https://iust.edu.mk/,reports/iust_edu_mk.json,2026-04-23T22:21:18.952Z,2026-04-23T22:28:35.424Z,33,Non-conformant,0,2,76,31,60,100,55,50,42,24,False,0
+SEEU,Public university,https://www.seeu.edu.mk/,reports/www_seeu_edu_mk.json,2026-04-23T11:36:43.335Z,2026-04-23T11:39:59.272Z,39,Non-conformant,0,2,85,10,65,100,35,94,44,42,True,88
+UGD,Public university,https://www.ugd.edu.mk/,reports/www_ugd_edu_mk.json,2026-04-23T22:38:04.392Z,2026-04-23T23:00:02.194Z,35,Non-conformant,0,11,86,15,45,100,40,50,58,44,False,0
+UKIM,Public university,https://ukim.edu.mk/,reports/ukim_edu_mk.json,2026-04-23T20:32:00.293Z,2026-04-23T20:38:53.309Z,33,Non-conformant,0,3,76,28,25,100,40,50,40,60,False,0
+UKLO,Public university,https://uklo.edu.mk/,reports/uklo_edu_mk.json,2026-04-23T22:09:26.442Z,2026-04-23T22:20:36.812Z,35,Non-conformant,0,10,90,47,30,100,15,50,60,43,False,0
+University of Tetova,Public university,https://unite.edu.mk/,reports/unite_edu_mk.json,2026-04-23T22:29:38.207Z,2026-04-23T22:37:00.306Z,39,Non-conformant,0,4,77,43,40,100,70,73,40,53,True,45
+JSP Skopje,Public transport,https://skopjebus.mk/mk/,reports/skopjebus_mk.json,2026-04-24T14:47:00.889Z,2026-04-24T14:51:19.854Z,54,Partial A,62,6,83,33,90,100,20,88,29,40,True,75
+Tetova Transport,Public transport,https://tetovatransport.mk/,reports/tetovatransport_mk.json,2026-04-24T14:52:08.408Z,2026-04-24T14:54:39.620Z,36,Non-conformant,0,0,94,22,95,100,50,50,41,,False,0

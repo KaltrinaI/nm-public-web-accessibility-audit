@@ -1,0 +1,9 @@
+{
+  "item": "E043",
+  "kind": "image",
+  "note": "banner is only content of link; empty alt → link has no name",
+  "rater": "",
+  "role": "functional",
+  "updatedAt": "2026-10-13T19:16:49.212Z",
+  "verdict": "not_acceptable"
+}

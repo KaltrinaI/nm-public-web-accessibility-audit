@@ -1,0 +1,9 @@
+{
+  "item": "E068",
+  "kind": "image",
+  "note": "only content of video link; empty alt → link has no name",
+  "rater": "",
+  "role": "functional",
+  "updatedAt": "2026-10-13T19:02:59.605Z",
+  "verdict": "not_acceptable"
+}

@@ -1,0 +1,202 @@
+item,kind,page,src,alt,link_text,href,image_role,alt_verdict,link_clear_alone_2_4_9,link_clear_with_context_2_4_4,note
+E001,image,https://www.bitola.gov.mk/,https://www.bitola.gov.mk/wp-content/uploads/2026/02/Top_logo.png,,,,functional,not_acceptable,,,header logo is only content of home link; empty alt → link has no name
+E002,image,https://mtsp.gov.mk/,https://portal.mdt.gov.mk/module-block-images/181-image-mk.jpg,gendermap.klimatskipromeni.mk,,,functional,acceptable,,,domain as alt; matches text on banner
+E003,image,https://www.centar.gov.mk/,https://www.centar.gov.mk/sites/default/files/alfa/img/partners/finansiski-indikator.jpg,Финансиски индикатор,,,decorative,acceptable,,,alt repeats adjacent link text”
+E004,image,https://www.centar.gov.mk/,https://www.centar.gov.mk/sites/default/files/alfa/img/office/dup-plan.jpg,услуга дуп,,,decorative,acceptable,,,
+E005,image,https://mon.gov.mk/,https://mon.gov.mk/build/assets/uslugi.gov.mk-Bz7nWQzw.png,https://uslugi.gov.mk/,,,functional,acceptable,,,
+E006,link,https://studenicani.gov.mk/,,,Lajmet e fundit,https://studenicani.gov.mk/#/lajme,,,yes,yes,
+E007,link,https://saraj.gov.mk/,,,Gazeta zyrtare nr.3 2021,https://saraj.gov.mk/gazeta-zyrtare-nr-3-2021/,,,yes,yes,
+E008,image,https://skopje.gov.mk/,https://skopje.gov.mk/media/1245/city_planning_01.png,ГУП,,,functional,acceptable,,,
+E009,image,https://karpos.gov.mk/,https://karpos.gov.mk/wp-content/uploads/2017/08/baner-spodeli-prostor-300x200.jpg,,,,functional,not_acceptable,,,banner is only content of link; empty alt; link destination broken”
+E010,image,https://finance.gov.mk/,https://finance.gov.mk/build/assets/finansiska-edukacija-cover-CFMxzPbJ.jpg,Финансиска едукација,,,functional,acceptable,,,
+E011,link,https://tetovo.gov.mk/,,,Vendet e Interesit,https://tetovo.gov.mk/#,,,yes,yes,
+E012,image,https://www.moepp.gov.mk/,https://www.moepp.gov.mk/build/assets/data-gov-mk-logo-Dtz-RfHK.png,https://data.gov.mk/,,,functional,acceptable,,,
+E013,image,https://www.moepp.gov.mk/,https://www.moepp.gov.mk/build/assets/mzs-priroda-bg-DVCWRscI.jpg,Природа,,,decorative,acceptable,,,background tile; alt repeats visible title; overlay link named ‘Open Link Here’
+E014,image,https://www.economy.gov.mk/,https://portal.mdt.gov.mk/post-images/durmisi-so-sistemski-merki-i-partnerstvo-ja-namaluvame-neformalnata-ekonomija-i-go-jakneme-formalniot-sektor-image.jpeg,Дурмиши: Со системски мерки и партнерство ја намалуваме неформалната економија и го јакнеме формалниот сектор,,,decorative,acceptable,,,alt repeats visible headline
+E015,link,https://cair.gov.mk/,,,Lexo Më Shumë,https://cair.gov.mk/transformim-i-plote-ne-dizhon-projekti-hyn-ne-fazen-perfundimtare/,,,no,yes,context from card heading
+E016,link,https://cair.gov.mk/,,,KRYETARI,https://cair.gov.mk/kryetari/,,,yes,yes,
+E017,image,https://www.centar.gov.mk/,https://www.centar.gov.mk/sites/default/files/alfa/news/img_1824.jpeg,1,,,decorative,not_acceptable,,,
+E018,image,https://www.ugd.edu.mk/,https://www.ugd.edu.mk/wp-content/uploads/2026/04/karieren-den-2026-13.jpg,,,,decorative,acceptable,,,
+E019,image,https://gostivari.gov.mk/042/,https://gostivari.gov.mk/042/wp-content/uploads/2026/03/2026_img-495x400.jpg,,,,not_loading,,,,
+E020,link,https://tetovo.gov.mk/,,,Petrit Bare,https://tetovo.gov.mk/petrit,,,yes,yes,
+E021,link,https://gostivari.gov.mk/042/,,,N.P. Rinia,https://gostivari.gov.mk/n-p-rinia/,,,yes,yes,
+E022,image,https://karpos.gov.mk/,https://karpos.gov.mk/wp-content/uploads/2019/05/formulari.jpg,,,,functional,not_acceptable,,,
+E023,image,https://skopje.gov.mk/,https://img.youtube.com/vi/WI53T8h0BbE/hqdefault.jpg,,,,functional,not_acceptable,,,only content of video link; empty alt → link has no name
+E024,image,https://www.centar.gov.mk/,https://www.centar.gov.mk/sites/default/files/alfa/news/kanal5.jpeg,1,,,decorative,not_acceptable,,,
+E025,link,https://studenicani.gov.mk/,,,Njoftim për qytetarët mbi analizat e ujit në territorin e komunës,https://studenicani.gov.mk/#/lajme/rod51f3nfUDEbb48NPzf,,,yes,yes,
+E026,image,https://cair.gov.mk/,https://cair.gov.mk/wp-content/uploads/2026/03/651762210_1459468588891721_4606619034455222887_n-668x520.jpg,AKSION I ZGJERUAR I PASTRIMIT NË ÇAIR NË PRAG TË FITËR BAJRAMIT,,,functional,acceptable,,,mage link named by headline alt; rated from current card template
+E027,image,https://ukim.edu.mk/,https://ukim.edu.mk/wp-content/uploads/2025/11/banerizaveb-0011-scaled.jpg,Слика 11,,,informative,not_acceptable,,,placeholder alt ‘Image N’ in event slider
+E028,link,https://unite.edu.mk/,,,Ekspeditë studimore në terren dhe ligjërata të hapura nga profesorë vizitorë në katedrën e Gjeografisë,https://unite.edu.mk/ekspedite-studimore-ne-terren-dhe-ligjerata-te-hapura-nga-profesore-vizitore-ne-katedren-e-gjeografise/,,,yes,yes,
+E029,image,https://saraj.gov.mk/,https://saraj.gov.mk/wp-content/uploads/2025/05/486445659_1117568023746502_3919161508314245278_n-740x524.jpg,"Sot, sekretari i Komunës bashkë me kryesuesin e këshillit dhe përfaqësues të tjerë të Komunës shpërndanë dhurata për të gjithë fëmijët e kopshtit “ Filizi” në Saraj dhe “Flutura” në Kondovë.",,,functional,acceptable,,,“alt repeats visible headline”
+E030,image,https://www.economy.gov.mk/,https://portal.mdt.gov.mk/module-block-images/235-image-mk.png,Управа за јавни приходи,,,functional,acceptable,,,
+E031,image,https://www.moepp.gov.mk/,https://portal.mdt.gov.mk/post-images/otpadot-od-pakuvanje-e-sustinski-del-od-posirokata-zalozba-za-odrzliv-razvojcirkularna-ekonomija-i-usoglasuvanje-so-standardite-na-eu-image.jpg,"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",,,functional,not_acceptable,,,orem ipsum alt in news-card link; link name = ‘Lorem ipsum… Open Link Here
+E032,link,https://skopje.gov.mk/,,,Е-набавки,https://www.e-nabavki.gov.mk/PublicAccess/Home.aspx#/home,,,yes,yes,
+E033,link,https://www.economy.gov.mk/,,,Министерство за економија и труд,https://www.economy.gov.mk/mk-MK/odnosi-so-javnost/soopstenija/soopstenie-za-neraboten-den52,,,no,no,
+E034,image,https://ukim.edu.mk/,https://ukim.edu.mk/wp-content/uploads/2025/11/banerizaveb-0001-scaled.jpg,Слика 1,,,informative,not_acceptable,,,placeholder alt ‘Image N’ in event slider
+E035,link,https://www.struga.gov.mk/,,,Informatori zyrtar nr.07 25.02.2026,https://www.struga.gov.mk/wp-content/uploads/2026/03/Sluzben-glasnik-br.7-od-25.02.2026.pdf,,,yes,yes,
+E036,link,https://www.seeu.edu.mk/,,,certified quality management,http://www.seeu.edu.mk/en/about/quality-assurance-management,,,yes,yes,
+E037,link,https://stip.gov.mk/,,,– Министерство за транспорт и врски,https://www.mtc.gov.mk/,,,yes,yes,
+E038,image,https://studenicani.gov.mk/,https://firebasestorage.googleapis.com/v0/b/komuna-e-studenicanit-web.firebasestorage.app/o/settings%2Fhero_1773392572831_studenicanilandscapeeeeee.jpg?alt=media&token=edfdf425-7f91-4322-973f-c2ffcf50fd6e,Studeniçan Landscape,,,decorative,acceptable,,,site under maintenance; role judged from image only
+E039,image,https://skopje.gov.mk/,https://skopje.gov.mk/media/1237/ecology_02.png,Животна средина,,,functional,acceptable,,,
+E040,image,https://www.bitola.gov.mk/,https://www.bitola.gov.mk/wp-content/uploads/2024/10/Container.png,,,,decorative,acceptable,,,
+E041,image,https://karpos.gov.mk/,https://karpos.gov.mk/wp-content/uploads/2023/04/Climate-Alliance-member-logo_anniversary_10-years_EN.png,,,,functional,not_acceptable,,,
+E042,link,https://www.bitola.gov.mk/,,,Бојан Бојкоски,https://www.bitola.gov.mk/#,,,no,no,
+E043,image,https://karpos.gov.mk/,https://karpos.gov.mk/wp-content/uploads/2019/09/baner-nedelen-bilten-2.jpg,,,,functional,not_acceptable,,,banner is only content of link; empty alt → link has no name
+E044,link,https://mtc.gov.mk/,,,Прочитај повеќе,https://mtc.gov.mk/mk-MK/ministerstvo/minister,,,no,yes,
+E045,image,https://www.moepp.gov.mk/,https://www.moepp.gov.mk/build/assets/mzs-pocva-bg-BEgZWnB5.jpg,Почва,,,decorative,acceptable,,,background tile; alt repeats visible title; overlay link named ‘Open Link Here’
+E046,link,https://mtsp.gov.mk/,,,Open Link Here,https://www.mtsp.gov.mk/mk-MK/socijalna-i-detska-zastita/prava-od-zastitata-na-decata,,,no,no,"“overlay link, hidden name ‘Open Link here’; repeated on every portal tile”."
+E047,link,https://saraj.gov.mk/,,,Kalendari Buxhetor,https://saraj.gov.mk/wp-content/uploads/2025/10/Kalendari-Buxhetor.pdf,,,yes,yes,
+E048,image,https://zhelina.gov.mk/,https://zhelina.gov.mk/wp-content/uploads/2019/01/sallarev11-1.jpg,sallarev11,,,informative,not_acceptable,,,file name as alt; photo not explained in surrounding text
+E049,link,https://www.bitola.gov.mk/,,,Инфраструктура,https://www.bitola.gov.mk/informacii-za-opshtinata/,,,yes,yes,
+E050,link,https://tetovo.gov.mk/,,,SH.F. Besa,https://tetovo.gov.mk/besa,,,yes,yes,
+E051,image,https://www.moepp.gov.mk/,https://portal.mdt.gov.mk/module-block-images/172-image-mk.png,РЕГИСТАР НА ЕКОЛОШКИ ДОЗВОЛИ,,,functional,acceptable,,,
+E052,image,https://www.nbrm.mk/,https://www.nbrm.mk/images/GBP.jpg,EUR,,,decorative,not_acceptable,,,
+E053,image,https://saraj.gov.mk/,https://saraj.gov.mk/wp-content/uploads/2025/05/486377811_1117565477080090_722953525753201583_n-740x524.jpg,"⭕ Sot, kryetari z. Ilas Veseli bashkë me një pjesë të ekipit të tij vizituan vendbanimin Gllumovë për të përuruar dy rrugë që janë bekatonizuar këtë periudhë",,,functional,acceptable,,,
+E054,image,https://www.economy.gov.mk/,https://portal.mdt.gov.mk/module-block-images/207-image-mk.jpg,МАПА ЗА ИНВЕСТИРАЊЕ,,,functional,acceptable,,,
+E055,image,https://tetovatransport.mk/,https://tetovatransport.mk/wp-content/uploads/2025/04/download_on_the_app_store_badge.svg-1024x303-1.webp,,,,functional,not_acceptable,,,only content of link; empty alt → link has no name
+E056,image,https://karpos.gov.mk/,https://karpos.gov.mk/wp-content/uploads/2017/08/icons8-facebook-circled-48.png,,,,functional,not_acceptable,,,only content of link; empty alt → link has no name
+E057,link,https://www.ugd.edu.mk/,,,Е-пошта,http://outlook.com/ugd.edu.mk,,,no,yes,
+E058,link,https://zdravstvo.gov.mk/,,,Контакт,https://zdravstvo.gov.mk/mk-MK/kontakt,,,yes,yes,
+E059,image,https://karpos.gov.mk/,https://karpos.gov.mk/wp-content/uploads/2017/08/ehedg-logo.jpg,,,,functional,not_acceptable,,,
+E060,link,https://saraj.gov.mk/,,,Llogaria Përfundimtare,https://saraj.gov.mk/#,,,yes,yes,
+E061,image,https://ukim.edu.mk/,https://ukim.edu.mk/wp-content/uploads/2023/03/tel.png,Phone,,,informative,acceptable,,,
+E062,link,https://www.nbrm.mk/,,,Промени на основната каматна стапка на Народната банка,https://www.nbrm.mk/promieni_na_osnovnata_kamatna_stapka_na_nbrm.nspx,,,yes,yes,
+E063,link,https://www.seeu.edu.mk/,,,ADMISSION,https://www.seeu.edu.mk/en/future-students,,,yes,yes,
+E064,image,https://tetovo.gov.mk/,https://tetovo.gov.mk/assets/images/resource/image-3.jpg,,,,informative,not_acceptable,,,
+E065,image,https://cair.gov.mk/,https://cair.gov.mk/wp-content/uploads/2023/06/Group-image1.png,,,,decorative,acceptable,,,
+E066,image,https://gostivari.gov.mk/042/,https://gostivari.gov.mk/042/wp-content/uploads/2025/09/12-495x400.png,,,,not_loading,,,,
+E067,image,https://tetovo.gov.mk/,https://tetovo.gov.mk/assets/images/resource/image-8.jpg,,,,decorative,acceptable,,,
+E068,image,https://skopje.gov.mk/,https://img.youtube.com/vi/kSyDSZwbRQU/hqdefault.jpg,,,,functional,not_acceptable,,,only content of video link; empty alt → link has no name
+E069,image,https://www.moepp.gov.mk/,https://www.moepp.gov.mk/build/assets/mzs-otpad-bg-BhrY75e6.jpg,Отпад,,,decorative,acceptable,,,background tile; alt repeats visible title; overlay link named ‘Open Link Here’
+E070,link,https://www.moepp.gov.mk/,,,Open Link Here,https://www.moepp.gov.mk/mk-MK/odnosi-so-javnost/novosti/sredba-xodza-tosnig-prodlabocuvanje-na-sorabotkata-so-avstrija-vo-oblasta-na-zivotnata-sredina,,,no,no,"“overlay link, hidden name ‘Open Link here’; repeated on every portal tile”."
+E071,image,https://stip.gov.mk/,https://stip.gov.mk/wp-content/uploads/2021/12/recekliranje-na-staklo.jpg,,,,not_loading,,,,
+E072,link,https://saraj.gov.mk/,,,Sot Kryetari i Komunës së Sarajit z.Ilas Veseli emëroi znj.Alije Saiti si ushtruese e detyrës Drejtor në Çerdhen ”Filizi” Saraj.,https://saraj.gov.mk/sot-kryetari-i-komunes-se-sarajit-z-ilas-veseli-emeroi-znj-alije-saiti-si-ushtruese-e-detyres-drejtor-ne-cerdhen-filizi-saraj/,,,yes,yes,
+E073,link,https://zdravstvo.gov.mk/,,,Ревизорски извештаи,https://zdravstvo.gov.mk/mk-MK/dokumenti/revizorski-izvestai,,,yes,yes,
+E074,image,https://tetovo.gov.mk/,https://tetovo.gov.mk/assets/news/default.jpg,PLANI I MOBILITETIT URBAN TË QËNDRUESHËM PËR TETOVËN 2026–2036,,,decorative,acceptable,,,
+E075,link,https://skopje.gov.mk/,,,Животна средина,https://zivotnasredina.skopje.gov.mk/,,,yes,yes,
+E076,image,https://uklo.edu.mk/,https://uklo.edu.mk/wp-content/uploads/2024/03/image.png,,,,functional,acceptable,,,link named by aria-label
+E077,link,https://www.nbrm.mk/,,,Види повеќе,https://www.nbrm.mk/informacii-za-potrosuvacite.nspx,,,no,yes,
+E078,image,https://mon.gov.mk/,https://portal.mdt.gov.mk/module-block-images/46-image-mk.png,Horizont 2020,,,functional,acceptable,,,link opens a PDF; alt names topic but not file type
+E079,link,https://cair.gov.mk/,,,Lexo Më Shumë,https://cair.gov.mk/vazhdon-mirembajtja-e-pastertise-ne-lagjet-e-cairit/,,,no,yes,context from card heading
+E080,link,https://mfa.gov.mk/,,,Провери дали ти е потребна виза,https://mfa.gov.mk/mk-MK/konzularni-uslugi/proveri-dali-ti-e-potrebna-viza,,,yes,yes,
+E081,image,https://mon.gov.mk/,https://portal.mdt.gov.mk/module-block-images/43-image-mk.jpg,alobushavko,,,functional,not_acceptable,,,
+E082,link,https://zhelina.gov.mk/,,,Të ndryshme,https://zhelina.gov.mk/#,,,no,no,
+E083,image,https://stip.gov.mk/,https://stip.gov.mk/wp-content/uploads/2022/11/Finansiski-Indikator_EN.png,null,,,not_loading,,,,
+E084,image,https://www.economy.gov.mk/,https://portal.mdt.gov.mk/post-images/istoriski-kolektiven-dogovor-platite-na-administrativnite-sluzbenici-kje-porasnat-do-40-procenti-image.jpeg,Историски Колективен договор – Платите на административните службеници ќе пораснат до 40 проценти,,,decorative,acceptable,,,alt repeats visible headline
+E085,image,https://karpos.gov.mk/,https://karpos.gov.mk/wp-content/uploads/2017/08/банер.jpg,"општина карпош, opstina karpos",,,functional,not_acceptable,,,keyword-style alt (municipality name only); banner text not in alt
+E086,image,https://karpos.gov.mk/,https://karpos.gov.mk/wp-content/uploads/2025/05/javen-povik-povkjenamensa.jpg,,,,informative,not_acceptable,,,"poster with text, empty alt;"
+E087,link,https://www.nbrm.mk/,,,Меѓународни организации и национални институции,https://www.nbrm.mk/megjunarodni-organizacii-i-nacionalni-institucii.nspx,,,yes,yes,
+E088,image,https://stip.gov.mk/,https://stip.gov.mk/wp-content/uploads/2021/09/gradezna-dozvola.jpg,,,,not_loading,,,,
+E089,image,https://mon.gov.mk/,https://mon.gov.mk/build/assets/data-gov-mk-logo-white-r8nbPVww.png,data.gov.mk,,,functional,acceptable,,,
+E090,image,https://www.economy.gov.mk/,https://www.economy.gov.mk/build/assets/uslugi.gov.mk-Bz7nWQzw.png,https://uslugi.gov.mk/,,,functional,acceptable,,,
+E091,image,https://mtsp.gov.mk/,https://portal.mdt.gov.mk/module-block-images/190-image-mk.png,ERCP Proekt,,,functional,not_acceptable,,,
+E092,image,https://mon.gov.mk/,https://portal.mdt.gov.mk/module-block-images/19-image-mk.jpg,Сместување во домови,,,functional,acceptable,,,
+E093,link,https://tetovo.gov.mk/,,,Tatimet,https://tetovo.gov.mk/,,,no,no,
+E094,image,https://cair.gov.mk/,https://cair.gov.mk/wp-content/uploads/2023/06/department-03-300x200.jpg,"Sektori për urbanizëm të tokës ndërtimore, punë komunale dhe mbrojtje të mjedisit jetësor",,,decorative,acceptable,,,
+E095,image,https://mfa.gov.mk/,https://mfa.gov.mk/build/assets/NDS_SDG_mk-BGqRwqtH.jpg,НРС,,,functional,not_acceptable,,,overlay link named ‘Open Link Here’; alt is an abbreviation
+E096,image,https://finance.gov.mk/,https://portal.mdt.gov.mk/post-images/dimitrieska-kocoska-na-sredba-so-pretstavnici-na-svetska-banka-potvrdena-poddrskata-za-reformite-i-razvojnite-prioriteti-na-drzavata-image.jpeg,Димитриеска-Кочоска на средба со претставници на Светска банка: Потврдена поддршката за реформите и развојните приоритети на државата  ,,,decorative,acceptable,,,alt repeats visible headline
+E097,image,https://karpos.gov.mk/,https://karpos.gov.mk/wp-content/uploads/2017/08/Baner-Polugodisen-izvestaj-Inspektorat.jpg,,,,informative,not_acceptable,,,"poster with text, empty alt;"
+E098,image,https://www.centar.gov.mk/,https://www.centar.gov.mk/sites/default/files/alfa/news/251112-gis-00.jpg,ГИС Портал-Општина Центар лидер во дигиталната трансформација,,,decorative,acceptable,,,alt repeats heading; image text ‘2024/2025’ not included
+E099,image,https://www.moepp.gov.mk/,https://portal.mdt.gov.mk/module-block-images/155-image-mk.jpg,РЕГИОНАЛЕН ПРОЕКТ ЗА УПРАВУВАЊЕ СО ЦВРСТ ОТПАД,,,functional,acceptable,,,
+E100,image,https://mon.gov.mk/,https://portal.mdt.gov.mk/module-block-images/28-image-mk.jpg,Е-дневник,,,functional,acceptable,,,
+E101,image,https://iust.edu.mk/,https://iust.edu.mk/wp-content/uploads/2022/06/DJI_0063-2500x1404-e1655473113524-1200x600.jpg.webp,DJI_0063,,,informative,not_acceptable,,,camera file name as alt; campus photo
+E102,image,https://mon.gov.mk/,https://portal.mdt.gov.mk/post-images/se-prosiruva-kapacitetot-na-ou-krum-tosev-vo-gazi-baba-image.JPG,Се проширува капацитетот на ОУ „Крум Тошев“ во Гази Баба,,,decorative,acceptable,,,alt repeats visible headline
+E103,image,https://saraj.gov.mk/,https://saraj.gov.mk/wp-content/uploads/2023/06/olymp_2.jpg,olymp_2,,,functional,not_acceptable,,,
+E104,image,https://zhelina.gov.mk/,https://zhelina.gov.mk/wp-content/uploads/2019/01/plane-urbanistike-2.png,,,,decorative,acceptable,,,
+E105,image,https://unite.edu.mk/,https://unite.edu.mk/wp-content/uploads/2026/04/IMG-20260422-WA0007-scaled.jpg,,,,decorative,acceptable,,,overlay link has aria-label; headline visible below
+E106,image,https://skopje.gov.mk/,https://img.youtube.com/vi/Flz8PcgHSnE/hqdefault.jpg,,,,functional,not_acceptable,,,only content of video link; empty alt → link has no name
+E107,link,https://mfa.gov.mk/,,,Македонски државјани,https://mfa.gov.mk/mk-MK/konzularni-uslugi/makedonski-drzavjani,,,yes,yes,
+E108,image,https://mon.gov.mk/,https://portal.mdt.gov.mk/module-block-images/26-image-mk.jpg,Државен испитен центар,,,functional,acceptable,,,
+E109,image,https://gostivari.gov.mk/042/,https://gostivari.gov.mk/042/wp-content/uploads/2024/10/plane.png,,,,not_loading,,,,
+E110,link,https://tetovo.gov.mk/,,,SH.M. Kiril Pejçinoviq,https://tetovo.gov.mk/pejcinoviq,,,yes,yes,
+E111,image,https://www.nbrm.mk/,https://www.nbrm.mk/images/EUR.jpg,EUR,,,decorative,acceptable,,,
+E112,image,https://zhelina.gov.mk/,https://zhelina.gov.mk/wp-content/uploads/2021/03/logo-10.png,Komuna e Zhelinës – Faqja Zyrtare,,,functional,acceptable,,,
+E113,image,https://www.economy.gov.mk/,https://portal.mdt.gov.mk/module-block-images/106-image-mk.png,World Trade Organization,,,functional,acceptable,,,
+E114,image,https://karpos.gov.mk/,https://karpos.gov.mk/wp-content/uploads/2017/08/КАНДИДАТИ-кои-ГИ-ИСПОЛНУВААТ-КРИТЕРИУМИТЕ-ЗА-ДОБИВАЊЕ-СУБВЕНЦИИ-ЗА-ПОЛАГАЊЕ-НА-ВОЗАЧКА-ДОЗВОЛА.jpg,,,,functional,not_acceptable,,,banner is only content of link; empty alt → link has no name
+E115,image,https://zdravstvo.gov.mk/,https://zdravstvo.gov.mk/build/assets/prijavete-DUTUjwOr.jpg,Prijavete Nepravilnosti,,,functional,acceptable,,,
+E116,image,https://www.ugd.edu.mk/,https://www.ugd.edu.mk/wp-content/uploads/elementor/thumbs/partner-npwe-qcsgkf0ubya0bbms2upkurfiadrsy3ypfoc5x6hxxc.jpg,NPWE,,,informative,not_acceptable,,,logo shows full name; alt is acronym only
+E117,link,https://vlada.mk/,,,Open Link here,https://data.gov.mk/,,,no,no,link name = alt ‘Lorem ipsum…’ + hidden ‘Open Link Here’; headline comes after the link
+E118,link,https://karpos.gov.mk/,,,+,https://karpos.gov.mk/%d0%ba%d0%b0%d1%80%d0%bf%d0%be%d1%88-%d0%b4%d0%be%d0%bc%d0%b0%d1%9c%d0%b8%d0%bd-%d0%bd%d0%b0-%d0%b5%d0%b2%d1%80%d0%be%d0%bf%d1%81%d0%ba%d0%be-%d0%bf%d1%80%d0%b2%d0%b5%d0%bd%d1%81%d1%82%d0%b2%d0%be/,,,no,yes,
+E119,image,https://www.haracina.gov.mk/,https://www.haracina.gov.mk/wp-content/uploads/2026/04/671664150_122123222541183799_5713695890313278699_n-1024x768.jpg,,,,informative,not_acceptable,,,site down at rating time; card layout could not be checked
+E120,image,https://gostivari.gov.mk/042/,https://gostivari.gov.mk/042/wp-content/uploads/2024/10/Finansiski-Indikator_Web-Banner_EN.png,,,,not_loading,,,,
+E121,image,https://www.haracina.gov.mk/,https://www.haracina.gov.mk/wp-content/uploads/2026/04/662955128_122122086825183799_1513077584229412600_n-1024x683.jpg,,,,informative,not_acceptable,,,site down at rating time; card layout could not be checked
+E122,image,https://saraj.gov.mk/,https://saraj.gov.mk/wp-content/uploads/2017/12/raporto_final2.jpg,raporto_final2,,,functional,not_acceptable,,,file-name alt is the link’s only name; title repeats it
+E123,link,https://zdravstvo.gov.mk/,,,Обнова на дозвола за работа,https://zdravstvo.gov.mk/mk-MK/ustanovi/obnova-na-dozvola-za-rabota,,,yes,yes,
+E124,image,https://www.ugd.edu.mk/,https://www.ugd.edu.mk/wp-content/uploads/elementor/thumbs/rectorsforum11-qlhnxvmtxf7eonokk6h82wwde1zjxu9oorwhn6k9og.jpg,rectorsforum11,,,functional,not_acceptable,,,
+E125,image,https://www.ugd.edu.mk/,https://www.ugd.edu.mk/wp-content/uploads/2023/06/fakultet-turizam-biznis-logistika.jpg,,,,functional,not_acceptable,,,image is only content of link; empty alt → link has no name”
+E126,image,https://ukim.edu.mk/,https://ukim.edu.mk/wp-content/uploads/2026/04/10-4-2026-1-240x300.png,,,,functional,not_acceptable,,,news thumbnail is only content of link; empty alt; headline is a separate link
+E127,image,https://www.ugd.edu.mk/,https://www.ugd.edu.mk/wp-content/uploads/elementor/thumbs/partner-advokatska-komora-qcsgkd55ya7fo3pidtwbprwl3m12ipr8rf16ymkq9s.jpg,Адвокатска комора на РС Македонија,,,informative,acceptable,,,
+E128,image,https://iust.edu.mk/,https://iust.edu.mk/wp-content/uploads/2024/09/20240912_121646-475x350.png.webp,,,,decorative,acceptable,,,
+E129,link,https://zhelina.gov.mk/,,,1. Llograitë Përfundimtare,http://zhelina.gov.mk/category/dokumente/llogariteperfundimtare/,,,yes,yes,typo in link text (‘Llograitë’); numbered list on tile
+E130,image,https://gostivari.gov.mk/042/,https://gostivari.gov.mk/042/wp-content/uploads/2024/10/ReLOad1.jpg,,,,not_loading,,,,
+E131,link,https://tetovo.gov.mk/,,,Komuna,https://tetovo.gov.mk/#,,,yes,yes,
+E132,link,https://stip.gov.mk/,,,Одделение за инспекциски надзор,https://stip.gov.mk/oddelenie-a-inspekciski-nadzor/,,,yes,yes,
+E133,image,https://tetovo.gov.mk/,https://tetovo.gov.mk/assets/images/qr_code_app/qr-playstore.png,Play Store QR,,,functional,acceptable,,,
+E134,image,https://www.economy.gov.mk/,https://portal.mdt.gov.mk/module-block-images/104-image-mk.png,OECD,,,functional,acceptable,,,
+E135,link,https://karpos.gov.mk/,,,Годишни програми,https://karpos.gov.mk/%d0%b3%d0%be%d0%b4%d0%b8%d1%88%d0%bd%d0%b8-%d0%bf%d1%80%d0%be%d0%b3%d1%80%d0%b0%d0%bc%d0%b8/,,,yes,yes,
+E136,image,https://mtc.gov.mk/,https://portal.mdt.gov.mk/post-images/nikoloski-na-sredba-so-stopanstvenicite-od-pelagoniskiot-region-vo-pelagonija-se-slucuva-infrastrukturen-bum-avtopapt-prilep-bitola-kje-go-zavrsime-pred-rokot-rabotime-na-obikolnica-prilep-i-na-drugi-krupni-infrastrukturni-resenija-image.jpg,"Николоски на средба со стопанствениците од Пелагонискиот регион. Во Пелагонија се случува инфраструктурен бум, автопапт Прилеп-Битола ќе го завршиме пред рокот, работиме на обиколница Прилеп и на други крупни инфраструктурни решенија",,,decorative,acceptable,,,"Headline used as alt, too long"
+E137,link,https://ohrid.gov.mk/,,,ОРГАНОГРАМ,https://official.ohrid.gov.mk/%d0%be%d1%80%d0%b3%d0%b0%d0%bd%d0%be%d0%b3%d1%80%d0%b0%d0%bc/,,,yes,yes,
+E138,link,https://tetovo.gov.mk/,,,SH.F. Goce Delçev,https://tetovo.gov.mk/goce,,,yes,yes,
+E139,link,https://www.seeu.edu.mk/,,,Publications,https://www.seeu.edu.mk/en/research/publications,,,yes,yes,
+E140,image,https://mon.gov.mk/,https://portal.mdt.gov.mk/module-block-images/27-image-mk.jpg,1000 книги,,,functional,acceptable,,,
+E141,image,https://karpos.gov.mk/,https://karpos.gov.mk/wp-content/uploads/2017/08/Finansiski-Indikator_Web-Banner_MK.jpg,,,,functional,not_acceptable,,,
+E142,image,https://iust.edu.mk/,https://iust.edu.mk/wp-content/uploads/2022/06/DSC07320-2500x1667-e1655473141586-1200x600.jpg.webp,DSC07320,,,informative,not_acceptable,,,"drone file name, campus slider"
+E143,image,https://www.ugd.edu.mk/,https://www.ugd.edu.mk/wp-content/uploads/elementor/thumbs/logo-footer-1-q7uwxng82wy67uuh38c3gzrrvnlg9636rw0g1fl2gg.png,logo-footer,,,decorative,not_acceptable,,,file-name alt on decorative footer logo; name written below”
+E144,image,https://mtsp.gov.mk/,https://portal.mdt.gov.mk/module-block-images/198-image-mk.png,sloboden-pristap-do-informacii,,,functional,acceptable,,,
+E145,image,https://mtsp.gov.mk/,https://portal.mdt.gov.mk/module-block-images/191-image-mk.png,SIAP Proekt,,,functional,not_acceptable,,,The image shows more information than the alt 
+E146,image,https://unite.edu.mk/,https://unite.edu.mk/wp-content/uploads/2026/04/0-ballina-14-scaled.jpg,,,,decorative,acceptable,,,
+E147,image,https://unite.edu.mk/,https://unite.edu.mk/wp-content/uploads/2026/04/1000101258-scaled.jpg,,,,decorative,acceptable,,,
+E148,image,https://www.economy.gov.mk/,https://www.economy.gov.mk/build/assets/data-gov-mk-logo-Dtz-RfHK.png,https://data.gov.mk/,,,functional,acceptable,,,
+E149,image,https://mon.gov.mk/,https://portal.mdt.gov.mk/module-block-images/20-image-mk.jpg,Патенти,,,functional,acceptable,,,
+E150,image,https://saraj.gov.mk/,https://saraj.gov.mk/wp-content/uploads/2024/12/1-9-740x524.jpg,Dita kombëtare e shtetit të Katarit.,,,functional,acceptable,,,
+E151,image,https://skopje.gov.mk/,https://img.youtube.com/vi/bROLb_gSMJ0/hqdefault.jpg,,,,functional,not_acceptable,,,only content of video link; empty alt → link has no name
+E152,image,https://tetovatransport.mk/,https://tetovatransport.mk/wp-content/uploads/2025/04/update-mockup-768x905rsz.webp,,,,decorative,acceptable,,,
+E153,image,https://www.centar.gov.mk/,https://www.centar.gov.mk/sites/default/files/alfa/img/partners/opstina-na-dlanka.jpg,Општината на дланка,,,decorative,acceptable,,,alt repeats adjacent link text
+E154,image,https://ukim.edu.mk/,https://ukim.edu.mk/wp-content/uploads/2026/04/ukim-14-04-2026-240x300.jpg,,,,functional,not_acceptable,,,news thumbnail is only content of link; empty alt; headline is a separate link
+E155,image,https://iust.edu.mk/,https://iust.edu.mk/wp-content/uploads/2015/11/Klevis-koci-287x267-100x100.jpg.webp,Klevis koçi,,,decorative,acceptable,,,
+E156,image,https://finance.gov.mk/,https://finance.gov.mk/build/assets/moj-ddv-Ck9JEjcC.jpg,Мој ДДВ,,,functional,acceptable,,,
+E157,image,https://www.moepp.gov.mk/,https://portal.mdt.gov.mk/post-images/xodza-go-odbeleza-denot-na-planetata-zemja-so-novite-sadnici-vo-cest-na-najmladite-image.jfif,"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",,,functional,not_acceptable,,,orem ipsum alt in news-card link; link name = ‘Lorem ipsum… Open Link Here
+E158,image,https://ukim.edu.mk/,https://ukim.edu.mk/wp-content/uploads/2026/04/1-2-240x300.jpg,,,,functional,not_acceptable,,,news thumbnail is only content of link; empty alt; headline is a separate link
+E159,link,https://cair.gov.mk/,,,Lexo më tepër,https://cair.gov.mk/vazhdon-mirembajtja-e-pastertise-ne-lagjet-e-cairit/,,,no,yes,context from card heading
+E160,image,https://mon.gov.mk/,https://portal.mdt.gov.mk/post-images/janevska-silna-poddrska-od-slovenija-za-zajaknuvanje-na-obrazovanieto-na-medicinskite-sestri-i-akuserkite-po-evropski-standardi-image.jpg,"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",,,functional,not_acceptable,,,orem ipsum alt in news-card link; link name = ‘Lorem ipsum… Open Link Here
+E161,image,https://www.moepp.gov.mk/,https://portal.mdt.gov.mk/module-block-images/157-image-mk.png,European Environment Agency,,,functional,acceptable,,,
+E162,image,https://saraj.gov.mk/,https://saraj.gov.mk/wp-content/uploads/2024/12/1-7-739x524.jpg,Kryetari i komunës bashkë me Shefin e kabinetit dhe Drejtorin e Ndërmarjes Publike Akcios inspektuan nga afër punimet për instalimin e rrjetit të ndriçimit publik në Paniçar.,,,functional,acceptable,,,alt repeats visible headline
+E163,image,https://uklo.edu.mk/,https://uklo.edu.mk/wp-content/uploads/2024/04/NH-UKLO.jpg,,,,functional,acceptable,,,
+E164,image,https://saraj.gov.mk/,https://saraj.gov.mk/wp-content/uploads/2024/12/1-8-740x524.jpg,"Sot, kryetari i komunës z. Ilas Veseli i shoqëruar nga një pjesë e ekipit të tij takoi kryetarin e Komunës së Rahovecit, z. Smajl Latifi",,,functional,acceptable,,,
+E165,image,https://www.ugd.edu.mk/,https://www.ugd.edu.mk/wp-content/uploads/elementor/thumbs/partner-mepso-qcsgke30548pzpo58caya9o1ozwfqeuz3joofwjc3k.jpg,МЕПСО,,,informative,acceptable,,,
+E166,image,https://iust.edu.mk/,https://iust.edu.mk/wp-content/uploads/2025/04/rr-475x350.png,,,,informative,not_acceptable,,,partner logos and EU co-funding shown only in image; empty alt
+E167,image,https://stip.gov.mk/,https://stip.gov.mk/wp-content/uploads/2021/10/ro_acted.jpg,,,,not_loading,,,,
+E168,image,https://skopje.gov.mk/,https://skopje.gov.mk/media/11382/opshtina-na-dlanka-elektonski-baner-mk.gif,,,,functional,not_acceptable,,,banner is only content of link; empty alt → link has no name
+E169,image,https://mtsp.gov.mk/,https://portal.mdt.gov.mk/post-images/sostanok-na-ministerskiot-odbor-po-povod-odrzuvanje-na-regionalna-ministerska-konferencija-vo-skopje-image.jpg,"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",,,functional,not_acceptable,,,orem ipsum alt in news-card link; link name = ‘Lorem ipsum… Open Link Here
+E170,link,https://skopje.gov.mk/,,,НВО Порта,http://nvo.skopje.gov.mk/,,,yes,yes,
+E171,image,https://www.economy.gov.mk/,https://portal.mdt.gov.mk/module-block-images/236-image-mk.png,Светска банка,,,functional,acceptable,,,
+E172,image,https://mfa.gov.mk/,https://mfa.gov.mk/build/assets/europe-country-map-DRhYBCk5.png,Министерство за надворешни работи и надворешна трговија,,,decorative,not_acceptable,,,decorative background map; alt unrelated to image
+E173,link,https://www.ugd.edu.mk/,,,угд фм,http://ugdfm-stream.ugd.edu.mk:8000/stream,,,yes,yes,
+E174,image,https://www.haracina.gov.mk/,https://www.haracina.gov.mk/wp-content/uploads/2026/04/668217164_927152893279066_4524245916223037575_n-768x1024.jpg,,,,informative,not_acceptable,,,"site down at rating time; card layout could not be checked
+"
+E175,image,https://tetovo.gov.mk/,https://tetovo.gov.mk/assets/images/qr_code_app/qr-appstore.png,App Store QR,,,functional,acceptable,,,
+E176,image,https://mtsp.gov.mk/,https://portal.mdt.gov.mk/post-images/ministerot-limani-od-samitot-na-dijasporata-vo-tirana-dijasporata-ne-e-samo-ekonomski-resurs-taa-e-most-na-znaenje-kultura-i-identitet-image.jpg,"Министерот Лимани од Самитот на дијаспората во Тирана: „Дијаспората не е само економски ресурс–таа е мост на знаење, култура и идентитет“",,,decorative,acceptable,,,alt repeats visible heading
+E177,image,https://karpos.gov.mk/,https://karpos.gov.mk/wp-content/uploads/2021/08/Kreativa-Otvoreni-podatoci-scaled.jpg,"Општина Карпош, opstina karpos, opshtina karposh, отворени податоци",,,functional,not_acceptable,,,keyword-stuffed alt (SEO); purpose buried at the end
+E178,image,https://investnorthmacedonia.gov.mk/,https://investnorthmacedonia.gov.mk/wp-content/uploads/2020/04/johnson-matthey-trarnsparenc.png,johnson-matthey-trarnsparenc,,,informative,not_acceptable,,,file-name alt (slug with typo); company logo in slider
+E179,link,https://www.seeu.edu.mk/,,,Online Brochure,https://www.seeu.edu.mk/en/future-students/brochure,,,yes,yes,
+E180,image,https://ukim.edu.mk/,https://ukim.edu.mk/wp-content/uploads/2025/11/banerizaveb-0004-scaled.jpg,Слика 4,,,informative,not_acceptable,,,placeholder alt ‘Image N’ in event slider
+E181,image,https://zhelina.gov.mk/,https://zhelina.gov.mk/wp-content/uploads/2019/01/npk-icon-4.png,,,,decorative,acceptable,,,
+E182,image,https://uklo.edu.mk/,https://uklo.edu.mk/wp-content/uploads/2025/05/UKLO-AISC.png,,,,functional,acceptable,,,
+E183,link,https://zdravstvo.gov.mk/,,,Архива,https://arhiva.zdravstvo.gov.mk/,,,yes,yes,
+E184,image,https://www.moepp.gov.mk/,https://portal.mdt.gov.mk/module-block-images/162-image-mk.png,UNESCO - КОМИСИЈА ЗА УПРАВУВАЊЕ СО СВЕТСКО ПРИРОДНО И КУЛТУРНО НАСЛЕДСТВО ВО ОХРИДСКИ РЕГИОН,,,functional,acceptable,,,
+E185,link,https://mtsp.gov.mk/,,,Open Link Here,https://www.mtsp.gov.mk/mk-MK/odnosi-so-javnost/soopstenija/sostanok-na-ministerskiot-odbor-po-povod-odrzuvanje-na-regionalna-ministerska-konferencija-vo-skopje,,,no,no,"“overlay link, hidden name ‘Open Link here’; repeated on every portal tile”."
+E186,image,https://www.moepp.gov.mk/,https://www.moepp.gov.mk/build/assets/data-gov-mk-logo-white-r8nbPVww.png,data.gov.mk,,,functional,acceptable,,,
+E187,link,https://www.bitola.gov.mk/,,,Е-услуги,https://www.bitola.gov.mk/e-uslugi/,,,yes,yes,
+E188,image,https://uklo.edu.mk/,https://uklo.edu.mk/wp-content/uploads/2023/06/Horizons-web-page.jpg,,,,functional,acceptable,,,
+E189,image,https://www.moepp.gov.mk/,https://portal.mdt.gov.mk/module-block-images/159-image-mk.png,MACEDONIA SMALL HYDRO POWER PROJECT,,,functional,acceptable,,,
+E190,link,https://www.economy.gov.mk/,,,ЈАВНИ НАБАВКИ,https://economy.gov.mk/mk-MK/javni-objavi/javni-nabavki,,,yes,yes,
+E191,link,https://mtsp.gov.mk/,,,Младински политики,https://www.mtsp.gov.mk/mk-MK/demografija-i-mladi/mladinski-politiki,,,yes,yes,
+E192,link,https://finance.gov.mk/,,,Документи,https://finance.gov.mk/mk-MK/oblasti/dokumenti,,,yes,yes,
+E193,image,https://www.economy.gov.mk/,https://portal.mdt.gov.mk/module-block-images/213-image-mk.jpg,Националната развојна стратегија 2024–2044,,,functional,acceptable,,,
+E194,image,https://karpos.gov.mk/,https://karpos.gov.mk/wp-content/uploads/2019/07/baner6.jpg,,,,functional,not_acceptable,,,banner is only content of link; empty alt → link has no name
+E195,link,https://tetovo.gov.mk/,,,Qendra Kulturore Institucionale Kombëtare,https://tetovo.gov.mk/cultural_center,,,yes,yes,
+E196,image,https://saraj.gov.mk/,https://saraj.gov.mk/wp-content/uploads/2017/12/download.jpg,Arsimi,,,functional,acceptable,,,
+E197,link,https://skopje.gov.mk/,,,Правилници,https://skopje.gov.mk/mk/objavi/pravilnici/,,,yes,yes,
+E198,link,https://uklo.edu.mk/,,,Политика за заштита на личните податоци,https://uklo.edu.mk/informacii-javen-karakter/politika-za-zastita-na-licnite-podatoci/,,,yes,yes,
+E199,image,https://ukim.edu.mk/,https://ukim.edu.mk/wp-content/uploads/2025/11/banerizaveb-0007-scaled.jpg,Слика 7,,,informative,not_acceptable,,,placeholder alt ‘Image N’ in event slider
+E200,image,https://finance.gov.mk/,https://finance.gov.mk/build/assets/NDS_SDG_mk-BGqRwqtH.jpg,НРС,,,functional,not_acceptable,,,overlay link named ‘Open Link Here’; alt is an abbreviation

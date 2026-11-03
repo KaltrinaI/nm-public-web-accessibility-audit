@@ -1,0 +1,3136 @@
+{
+  "site": "https://tetovatransport.mk/",
+  "auditedAt": "2026-04-24T14:54:39.620Z",
+  "score": 36,
+  "grade": "F",
+  "wcagConformance": "Non-conformant",
+  "axeOnlyScore": 0,
+  "axeVsHybridDelta": 36,
+  "totalViolations": 26,
+  "axeCoreViolations": 8,
+  "aiOnlyViolations": 18,
+  "criticalViolations": 7,
+  "disabilityScores": {
+    "visual": 41,
+    "motor": null,
+    "language": 50
+  },
+  "languageSummary": {
+    "albanianVersionFound": false,
+    "albanianScore": 0
+  },
+  "moduleHealth": {
+    "images": {
+      "valid": false,
+      "score": 0,
+      "skipped": 13,
+      "errored": false,
+      "errorMsg": null
+    },
+    "links": {
+      "valid": true,
+      "score": 94,
+      "skipped": 0,
+      "errored": false,
+      "errorMsg": null
+    },
+    "headings": {
+      "valid": true,
+      "score": 22,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "readingLevel": {
+      "valid": true,
+      "score": 95,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "tables": {
+      "valid": true,
+      "score": 100,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "pageTitle": {
+      "valid": true,
+      "score": 50,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "language": {
+      "valid": true,
+      "score": 50,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "visual": {
+      "valid": true,
+      "score": 41,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "motor": {
+      "valid": false,
+      "score": null,
+      "skipped": false,
+      "errored": true,
+      "errorMsg": "net::ERR_TIMED_OUT at https://tetovatransport.mk/"
+    }
+  },
+  "homepage": {
+    "url": "https://tetovatransport.mk/",
+    "isHomepage": true,
+    "timestamp": "2026-04-24T14:52:08.408Z",
+    "finalScore": 36,
+    "grade": "F",
+    "wcagConformance": "Non-conformant",
+    "scores": {
+      "axe": 0,
+      "images": 0,
+      "links": 94,
+      "headings": 22,
+      "readingLevel": 95,
+      "tables": 100,
+      "pageTitle": 50,
+      "language": 50,
+      "visual": 41,
+      "motor": null
+    },
+    "axeOnlyScore": 0,
+    "axeVsHybridDelta": 36,
+    "axe": {
+      "violations": [
+        {
+          "id": "aria-allowed-role",
+          "impact": "minor",
+          "tags": [
+            "cat.aria",
+            "best-practice"
+          ],
+          "description": "Ensure role attribute has an appropriate value for the element",
+          "help": "ARIA role should be appropriate for the element",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/aria-allowed-role?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "aria-allowed-role",
+                  "data": [
+                    "presentation"
+                  ],
+                  "relatedNodes": [],
+                  "impact": "minor",
+                  "message": "ARIA role presentation is not allowed for given element"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "minor",
+              "html": "<video class=\"elementor-background-video-hosted\" role=\"presentation\" autoplay=\"\" muted=\"\" playsinline=\"\" loop=\"\" src=\"https://tetovatransport.mk/wp-content/uploads/2024/08/video2.mp4\" style=\"width: 1123.36px; height: 631.891px;\"></video>",
+              "target": [
+                "video"
+              ],
+              "failureSummary": "Fix any of the following:\n  ARIA role presentation is not allowed for given element"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#ffffff",
+                    "bgColor": "#fefbfb",
+                    "contrastRatio": 1.02,
+                    "fontSize": "15.0pt (20px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<body class=\"home wp-singular pag...\" data-elementor-devic...=\"tablet\">",
+                      "target": [
+                        "body"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 1.02 (foreground color: #ffffff, background color: #fefbfb, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"elementor-heading-title elementor-size-default\">NP \"Tetova Transport\" - Tetovë</div>",
+              "target": [
+                ".elementor-element-6583c57 > .elementor-heading-title.elementor-size-default"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.02 (foreground color: #ffffff, background color: #fefbfb, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#ffffff",
+                    "bgColor": "#fefbfb",
+                    "contrastRatio": 1.02,
+                    "fontSize": "15.0pt (20px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<body class=\"home wp-singular pag...\" data-elementor-devic...=\"tablet\">",
+                      "target": [
+                        "body"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 1.02 (foreground color: #ffffff, background color: #fefbfb, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"elementor-heading-title elementor-size-default\">NP \"Tetova Transport\" - Tetovë</div>",
+              "target": [
+                ".elementor-element-1fc7d39 > .elementor-heading-title.elementor-size-default"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.02 (foreground color: #ffffff, background color: #fefbfb, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#ffffff",
+                    "bgColor": "#fefbfb",
+                    "contrastRatio": 1.02,
+                    "fontSize": "12.8pt (17px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<body class=\"home wp-singular pag...\" data-elementor-devic...=\"tablet\">",
+                      "target": [
+                        "body"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 1.02 (foreground color: #ffffff, background color: #fefbfb, font size: 12.8pt (17px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<span class=\"elementor-icon-list-text\">info@tetovatransport.mk</span>",
+              "target": [
+                ".elementor-inline-item.elementor-icon-list-item:nth-child(1) > a[href=\"mailto:info@tetovatransport.mk\"] > .elementor-icon-list-text"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.02 (foreground color: #ffffff, background color: #fefbfb, font size: 12.8pt (17px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#dd3333",
+                    "bgColor": "#f4f4f4",
+                    "contrastRatio": 4.15,
+                    "fontSize": "11.3pt (15px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<input id=\"elementor-search-form-56b4bb3\" placeholder=\"Kërko...\" class=\"elementor-search-form__input\" type=\"search\" name=\"s\" value=\"\">",
+                      "target": [
+                        "#elementor-search-form-56b4bb3"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.15 (foreground color: #dd3333, background color: #f4f4f4, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<input id=\"elementor-search-form-56b4bb3\" placeholder=\"Kërko...\" class=\"elementor-search-form__input\" type=\"search\" name=\"s\" value=\"\">",
+              "target": [
+                "#elementor-search-form-56b4bb3"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.15 (foreground color: #dd3333, background color: #f4f4f4, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "tags": [
+            "cat.semantics",
+            "best-practice"
+          ],
+          "description": "Ensure the order of headings is semantically correct",
+          "help": "Heading levels should only increase by one",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/heading-order?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "heading-order",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Heading order invalid"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<h5 class=\"elementor-heading-title elementor-size-default\">Na ndiqni në Facebook</h5>",
+              "target": [
+                ".elementor-element-e0f0706 > h5"
+              ],
+              "failureSummary": "Fix any of the following:\n  Heading order invalid"
+            }
+          ]
+        },
+        {
+          "id": "landmark-one-main",
+          "impact": "moderate",
+          "tags": [
+            "cat.semantics",
+            "best-practice"
+          ],
+          "description": "Ensure the document has a main landmark",
+          "help": "Document should have one main landmark",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/landmark-one-main?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "page-has-main",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Document does not have a main landmark"
+                }
+              ],
+              "none": [],
+              "impact": "moderate",
+              "html": "<html lang=\"sq-AL\">",
+              "target": [
+                "html"
+              ],
+              "failureSummary": "Fix all of the following:\n  Document does not have a main landmark"
+            }
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/link-name?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "has-visible-text",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element does not have text that is visible to screen readers"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [
+                {
+                  "id": "focusable-no-name",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element is in tab order and does not have accessible text"
+                }
+              ],
+              "impact": "serious",
+              "html": "<a href=\"https://tetovatransport.mk\">\n\t\t\t\t\t\t\t<img width=\"603\" height=\"416\" src=\"https://tetovatransport.mk/wp-content/uploads/2024/07/tetovo-transport-white-logo.svg\" class=\"attachment-medium size-medium wp-image-927\" alt=\"\" loading=\"lazy\" fetchpriority=\"low\">\t\t\t\t\t\t\t\t</a>",
+              "target": [
+                ".elementor-element-a8054ae > a[href$=\"tetovatransport.mk\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "any": [
+                {
+                  "id": "has-visible-text",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element does not have text that is visible to screen readers"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [
+                {
+                  "id": "focusable-no-name",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element is in tab order and does not have accessible text"
+                }
+              ],
+              "impact": "serious",
+              "html": "<a href=\"https://tetovatransport.mk\">\n\t\t\t\t\t\t\t<img width=\"603\" height=\"416\" src=\"https://tetovatransport.mk/wp-content/uploads/2024/07/tetovo-transport-white-logo.svg\" class=\"attachment-medium size-medium wp-image-927\" alt=\"\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\">\t\t\t\t\t\t\t\t</a>",
+              "target": [
+                ".elementor-element-244ae20 > a[href$=\"tetovatransport.mk\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "any": [
+                {
+                  "id": "has-visible-text",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element does not have text that is visible to screen readers"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [
+                {
+                  "id": "focusable-no-name",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element is in tab order and does not have accessible text"
+                }
+              ],
+              "impact": "serious",
+              "html": "<a href=\"https://tetovatransport.mk\">\n\t\t\t\t\t\t\t<img width=\"603\" height=\"416\" src=\"https://tetovatransport.mk/wp-content/uploads/2024/07/tetovo-transport-white-logo.svg\" class=\"attachment-medium size-medium wp-image-927\" alt=\"\" loading=\"lazy\" fetchpriority=\"low\">\t\t\t\t\t\t\t\t</a>",
+              "target": [
+                ".elementor-element-9da1ea0 > a[href$=\"tetovatransport.mk\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          ]
+        },
+        {
+          "id": "page-has-heading-one",
+          "impact": "moderate",
+          "tags": [
+            "cat.semantics",
+            "best-practice"
+          ],
+          "description": "Ensure that the page, or at least one of its frames contains a level-one heading",
+          "help": "Page should contain a level-one heading",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/page-has-heading-one?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "page-has-heading-one",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Page must have a level-one heading"
+                }
+              ],
+              "none": [],
+              "impact": "moderate",
+              "html": "<html lang=\"sq-AL\">",
+              "target": [
+                "html"
+              ],
+              "failureSummary": "Fix all of the following:\n  Page must have a level-one heading"
+            }
+          ]
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "cat.keyboard",
+            "best-practice",
+            "RGAAv4",
+            "RGAA-9.2.1"
+          ],
+          "description": "Ensure all page content is contained by landmarks",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/region?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<a class=\"skip-link screen-reader-text\" href=\"#content\">Skip to content</a>",
+              "target": [
+                ".skip-link"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<div class=\"elementor-element elementor-element-6bc5830 e-con-full e-flex e-con e-child\" data-id=\"6bc5830\" data-element_type=\"container\" data-e-type=\"container\">",
+              "target": [
+                ".elementor-element-6bc5830"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<div class=\"elementor-element elementor-element-b73d40f elementor-widget__width-auto elementor-widget elementor-widget-button\" data-id=\"b73d40f\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"button.default\">",
+              "target": [
+                ".elementor-element-b73d40f"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<div class=\"elementor-element elementor-element-7363df5 elementor-widget elementor-widget-text-editor\" data-id=\"7363df5\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">",
+              "target": [
+                ".elementor-element-7363df5"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<div data-elementor-type=\"single-post\" data-elementor-id=\"2221\" class=\"elementor elementor-...\" data-elementor-setti...=\"{\"element_pack_globa...\" data-elementor-post-...=\"elementor_library\">",
+              "target": [
+                ".uc-post-4162"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<div data-elementor-type=\"single-post\" data-elementor-id=\"2221\" class=\"elementor elementor-...\" data-elementor-setti...=\"{\"element_pack_globa...\" data-elementor-post-...=\"elementor_library\">",
+              "target": [
+                ".uc-post-4167"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<div class=\"elementor-element elementor-element-0e74f03 elementor-widget elementor-widget-heading\" data-id=\"0e74f03\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t\t<div class=\"elementor-heading-title elementor-size-default\">A keni pyetje?</div>\t\t\t\t</div>",
+              "target": [
+                ".elementor-element-0e74f03"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<span class=\"elementor-icon-list-text\">+389 76 233 208</span>",
+              "target": [
+                "a[href=\"tel:+38976233208\"][rel=\"nofollow\"] > .elementor-icon-list-text"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<span class=\"elementor-icon-list-text\">info@tetovatransport.mk</span>",
+              "target": [
+                "a[href=\"mailto:info@tetovatransport.mk\"][rel=\"nofollow\"] > .elementor-icon-list-text"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<div class=\"elementor-element elementor-element-8bed587 elementor-widget elementor-widget-bdt-advanced-heading\" data-id=\"8bed587\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"bdt-advanced-heading.default\">",
+              "target": [
+                ".elementor-element-8bed587"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<div class=\"elementor-element elementor-element-c9e97b1 elementor-widget__width-initial elementor-widget elementor-widget-text-editor\" data-id=\"c9e97b1\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">",
+              "target": [
+                ".elementor-element-c9e97b1"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<div class=\"elementor-element elementor-element-337690c elementor-widget elementor-widget-bdt-post-grid\" data-id=\"337690c\" data-element_type=\"widget\" data-e-type=\"widget\" data-settings=\"{\"columns\":\"2\",\"columns_tablet\":\"2\",\"columns_mobile\":\"1\"}\" data-widget_type=\"bdt-post-grid.bdt-harold\">",
+              "target": [
+                ".elementor-element-337690c"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<div class=\"elementor-element elementor-element-e0f0706 elementor-widget elementor-widget-heading\" data-id=\"e0f0706\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">",
+              "target": [
+                ".elementor-element-e0f0706"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<div class=\"elementor-element elementor-element-6264630 elementor-widget elementor-widget-heading\" data-id=\"6264630\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t\t<h5 class=\"elementor-heading-title elementor-size-default\">Dokumentet</h5>\t\t\t\t</div>",
+              "target": [
+                ".elementor-element-6264630"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ]
+        },
+        {
+          "id": "skip-link",
+          "impact": "moderate",
+          "tags": [
+            "cat.keyboard",
+            "best-practice",
+            "RGAAv4",
+            "RGAA-12.7.1"
+          ],
+          "description": "Ensure all skip links have a focusable target",
+          "help": "The skip-link target should exist and be focusable",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/skip-link?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "skip-link",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "No skip link target"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<a class=\"skip-link screen-reader-text\" href=\"#content\">Skip to content</a>",
+              "target": [
+                ".skip-link"
+              ],
+              "failureSummary": "Fix any of the following:\n  No skip link target"
+            }
+          ]
+        }
+      ],
+      "passCount": 45,
+      "incomplete": 2
+    },
+    "violationSummary": {
+      "critical": [
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "Meaningful image has empty alt text — screen readers will skip it entirely",
+          "wcag": "1.1.1",
+          "suggestion": "Two smartphones, angled, display a mobile public transport application. The left phone shows a digital bus ticket with details like 'Your Ticket', departure/arrival times and locations, passenger 'Fleece Marigold', a barcode, and payment method. A 'DOWNLOAD TICKET' button is visible. The right phone displays a map interface with 'Home', a search bar, and a highlighted 'Castle Bus Stop 4 km away' with nearby bus stops and a 'PLAN YOUR TRIP' button."
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "Meaningful image has empty alt text — screen readers will skip it entirely",
+          "wcag": "1.1.1",
+          "suggestion": "Black button with the white Apple logo and the text \"Download on the App Store\"."
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "Meaningful image has empty alt text — screen readers will skip it entirely",
+          "wcag": "1.1.1",
+          "suggestion": "A black rectangular button with rounded corners. On the left is the colorful Google Play triangle logo. To the right, in white text, it reads 'GET IT ON' above 'Google Play'."
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The link text describes a destination (Cookie Policy), but the href is a placeholder (#) and does not lead to a functional page or section.",
+          "wcag": "2.4.4",
+          "suggestion": "Politika e cookie-ve (once the link is functional)"
+        },
+        {
+          "source": "headings",
+          "rule": "missing-h1",
+          "description": "Page has no h1 element — every page needs exactly one h1 as the main topic",
+          "wcag": "1.3.1 / 2.4.6",
+          "suggestion": "Add a single h1 that describes the main purpose of this page"
+        },
+        {
+          "source": "headings",
+          "rule": "semantic-quality",
+          "description": "No h1 heading is present on the page, which is a critical structural accessibility failure.",
+          "wcag": "1.3.1 / 2.4.6",
+          "suggestion": null
+        },
+        {
+          "source": "visual",
+          "rule": "CSS outline:none on focus",
+          "description": "CSS removes focus outline globally — keyboard users have no visible focus indicator",
+          "wcag": "2.4.7",
+          "suggestion": "Remove outline:none from :focus selectors, or replace with a custom visible focus style"
+        }
+      ],
+      "serious": [
+        {
+          "source": "axe-core",
+          "rule": "color-contrast",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "wcag": "wcag2aa, wcag143",
+          "affectedElements": 4
+        },
+        {
+          "source": "axe-core",
+          "rule": "link-name",
+          "description": "Ensure links have discernible text",
+          "wcag": "wcag2a, wcag244, wcag412",
+          "affectedElements": 3
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link opens in a new tab without warning the user.",
+          "wcag": "2.4.4",
+          "suggestion": "Optimus Solutions (opens in new tab)"
+        },
+        {
+          "source": "pageTitle",
+          "rule": "AI evaluation",
+          "description": "The page title uses a generic term (\"Ballina\" / \"Home\") which does not adequately describe the unique purpose or topic of the page.",
+          "wcag": "2.4.2",
+          "suggestion": "NP Tetova Transport"
+        },
+        {
+          "source": "visual",
+          "rule": "Zoom/Reflow at 200%",
+          "description": "See module details",
+          "wcag": "1.4.10",
+          "suggestion": "Ensure all text content reflows correctly at 320px width without overflow or truncation. Specifically address the overflow of 'Politika e privatësisë' by adjusting its container width, font size, or using appropriate CSS for text wrapping."
+        },
+        {
+          "source": "visual",
+          "rule": "Dark Mode Support",
+          "description": "The site's background remains light/white despite 'prefers-color-scheme: dark' being applied.",
+          "wcag": "1.4.3",
+          "suggestion": null
+        }
+      ],
+      "moderate": [
+        {
+          "source": "axe-core",
+          "rule": "heading-order",
+          "description": "Ensure the order of headings is semantically correct",
+          "wcag": "",
+          "affectedElements": 1
+        },
+        {
+          "source": "axe-core",
+          "rule": "landmark-one-main",
+          "description": "Ensure the document has a main landmark",
+          "wcag": "",
+          "affectedElements": 1
+        },
+        {
+          "source": "axe-core",
+          "rule": "page-has-heading-one",
+          "description": "Ensure that the page, or at least one of its frames contains a level-one heading",
+          "wcag": "",
+          "affectedElements": 1
+        },
+        {
+          "source": "axe-core",
+          "rule": "region",
+          "description": "Ensure all page content is contained by landmarks",
+          "wcag": "",
+          "affectedElements": 14
+        },
+        {
+          "source": "axe-core",
+          "rule": "skip-link",
+          "description": "Ensure all skip links have a focusable target",
+          "wcag": "",
+          "affectedElements": 1
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The link text 'Kontratat e prokurimit publik të realizuara' is very similar to 'Kontratat e lidhura të prokurimit publik'. The long common prefix makes it difficult for screen reader users to quickly distinguish between these two links when navigating by links alone, potentially causing confusion about their distinct purposes.",
+          "wcag": "2.4.4",
+          "suggestion": "Consider rephrasing to emphasize the unique aspect earlier or adding a more distinct identifier. For example, 'Prokurimi Publik: Kontratat e Realizuara' or 'Kontratat e Realizuara (Prokurimi Publik)'."
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "See module details",
+          "wcag": "2.4.4",
+          "suggestion": null
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "See module details",
+          "wcag": "2.4.4",
+          "suggestion": null
+        },
+        {
+          "source": "headings",
+          "rule": "skipped-level",
+          "description": "Heading jumps from h2 (\"\") to h5 (\"\") — levels should not skip",
+          "wcag": "1.3.1 / 2.4.6",
+          "suggestion": "Change h5 to h3 or add intermediate heading levels"
+        }
+      ],
+      "minor": [
+        {
+          "source": "axe-core",
+          "rule": "aria-allowed-role",
+          "description": "Ensure role attribute has an appropriate value for the element",
+          "wcag": "",
+          "affectedElements": 1
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The link text 'Linja 2' is not fully descriptive without the context of a transport website. While common in context, it could be ambiguous to a user hearing it completely out of context, as 'Linja' (Line) could refer to various types of lines.",
+          "wcag": "2.4.4",
+          "suggestion": "Bus Linja 2"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The link text 'Linja 3' is not fully descriptive without the context of a transport website. While common in context, it could be ambiguous to a user hearing it completely out of context, as 'Linja' (Line) could refer to various types of lines.",
+          "wcag": "2.4.4",
+          "suggestion": "Bus Linja 3"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The link text 'Linja 4 (sezonale)' is mostly descriptive due to the 'sezonale' (seasonal) addition, but 'Linja' (Line) on its own could still be ambiguous without the context of a transport website.",
+          "wcag": "2.4.4",
+          "suggestion": "Bus Linja 4 (sezonale)"
+        }
+      ],
+      "total": 26,
+      "axeCoreCount": 8,
+      "aiOnlyCount": 18
+    },
+    "moduleHealth": {
+      "images": {
+        "valid": false,
+        "score": 0,
+        "skipped": 13,
+        "errored": false,
+        "errorMsg": null
+      },
+      "links": {
+        "valid": true,
+        "score": 94,
+        "skipped": 0,
+        "errored": false,
+        "errorMsg": null
+      },
+      "headings": {
+        "valid": true,
+        "score": 22,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "readingLevel": {
+        "valid": true,
+        "score": 95,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "tables": {
+        "valid": true,
+        "score": 100,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "pageTitle": {
+        "valid": true,
+        "score": 50,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "language": {
+        "valid": true,
+        "score": 50,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "visual": {
+        "valid": true,
+        "score": 41,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "motor": {
+        "valid": false,
+        "score": null,
+        "skipped": false,
+        "errored": true,
+        "errorMsg": "net::ERR_TIMED_OUT at https://tetovatransport.mk/"
+      }
+    },
+    "modules": {
+      "images": {
+        "moduleName": "Image Alt Text Quality",
+        "wcag": "1.1.1",
+        "total": 16,
+        "evaluated": 3,
+        "skipped": 13,
+        "passed": 0,
+        "failed": 3,
+        "score": 0,
+        "items": [
+          {
+            "src": "https://tetovatransport.mk/wp-content/uploads/2024/07/tetovo-transport-white-logo.svg",
+            "alt": "",
+            "pass": null,
+            "score": null,
+            "skipped": true,
+            "reason": "Image could not be downloaded for analysis",
+            "severity": "warning"
+          },
+          {
+            "src": "https://tetovatransport.mk/wp-content/plugins/sitepress-multilingual-cms/res/flags/mk.svg",
+            "alt": "",
+            "pass": null,
+            "score": null,
+            "skipped": true,
+            "reason": "Image could not be downloaded for analysis",
+            "severity": "warning"
+          },
+          {
+            "src": "https://tetovatransport.mk/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.svg",
+            "alt": "",
+            "pass": null,
+            "score": null,
+            "skipped": true,
+            "reason": "Image could not be downloaded for analysis",
+            "severity": "warning"
+          },
+          {
+            "src": "https://tetovatransport.mk/wp-content/plugins/sitepress-multilingual-cms/res/flags/mk.svg",
+            "alt": "",
+            "pass": null,
+            "score": null,
+            "skipped": true,
+            "reason": "Image could not be downloaded for analysis",
+            "severity": "warning"
+          },
+          {
+            "src": "https://tetovatransport.mk/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.svg",
+            "alt": "",
+            "pass": null,
+            "score": null,
+            "skipped": true,
+            "reason": "Image could not be downloaded for analysis",
+            "severity": "warning"
+          },
+          {
+            "src": "https://tetovatransport.mk/wp-content/uploads/2024/07/tetovo-transport-white-logo.svg",
+            "alt": "",
+            "pass": null,
+            "score": null,
+            "skipped": true,
+            "reason": "Image could not be downloaded for analysis",
+            "severity": "warning"
+          },
+          {
+            "src": "https://tetovatransport.mk/wp-content/plugins/sitepress-multilingual-cms/res/flags/mk.svg",
+            "alt": "",
+            "pass": null,
+            "score": null,
+            "skipped": true,
+            "reason": "Image could not be downloaded for analysis",
+            "severity": "warning"
+          },
+          {
+            "src": "https://tetovatransport.mk/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.svg",
+            "alt": "",
+            "pass": null,
+            "score": null,
+            "skipped": true,
+            "reason": "Image could not be downloaded for analysis",
+            "severity": "warning"
+          },
+          {
+            "src": "https://tetovatransport.mk/wp-content/plugins/sitepress-multilingual-cms/res/flags/mk.svg",
+            "alt": "",
+            "pass": null,
+            "score": null,
+            "skipped": true,
+            "reason": "Image could not be downloaded for analysis",
+            "severity": "warning"
+          },
+          {
+            "src": "https://tetovatransport.mk/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.svg",
+            "alt": "",
+            "pass": null,
+            "score": null,
+            "skipped": true,
+            "reason": "Image could not be downloaded for analysis",
+            "severity": "warning"
+          },
+          {
+            "src": "https://tetovatransport.mk/wp-content/plugins/sitepress-multilingual-cms/res/flags/mk.svg",
+            "alt": "Macedonian",
+            "pass": null,
+            "score": null,
+            "skipped": true,
+            "reason": "Image could not be downloaded for analysis",
+            "severity": "warning"
+          },
+          {
+            "src": "https://tetovatransport.mk/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.svg",
+            "alt": "English",
+            "pass": null,
+            "score": null,
+            "skipped": true,
+            "reason": "Image could not be downloaded for analysis",
+            "severity": "warning"
+          },
+          {
+            "src": "https://tetovatransport.mk/wp-content/uploads/2025/04/update-mockup-768x905rsz.webp",
+            "alt": "",
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "imageType": "screenshot",
+            "issue": "Meaningful image has empty alt text — screen readers will skip it entirely",
+            "suggestion": "Two smartphones, angled, display a mobile public transport application. The left phone shows a digital bus ticket with details like 'Your Ticket', departure/arrival times and locations, passenger 'Fleece Marigold', a barcode, and payment method. A 'DOWNLOAD TICKET' button is visible. The right phone displays a map interface with 'Home', a search bar, and a highlighted 'Castle Bus Stop 4 km away' with nearby bus stops and a 'PLAN YOUR TRIP' button.",
+            "aiDescription": "Two smartphones, angled, display a mobile public transport application. The left phone shows a digital bus ticket with details like 'Your Ticket', departure/arrival times and locations, passenger 'Fleece Marigold', a barcode, and payment method. A 'DOWNLOAD TICKET' button is visible. The right phone displays a map interface with 'Home', a search bar, and a highlighted 'Castle Bus Stop 4 km away' with nearby bus stops and a 'PLAN YOUR TRIP' button.",
+            "source": "ai-decorative-check"
+          },
+          {
+            "src": "https://tetovatransport.mk/wp-content/uploads/2025/04/download_on_the_app_store_badge.svg-1024x303-1.webp",
+            "alt": "",
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "imageType": "icon",
+            "issue": "Meaningful image has empty alt text — screen readers will skip it entirely",
+            "suggestion": "Black button with the white Apple logo and the text \"Download on the App Store\".",
+            "aiDescription": "Black button with the white Apple logo and the text \"Download on the App Store\".",
+            "source": "ai-decorative-check"
+          },
+          {
+            "src": "https://tetovatransport.mk/wp-content/uploads/2025/04/google_play_store_badge_en.svg-1024x301-1.webp",
+            "alt": "",
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "imageType": "logo",
+            "issue": "Meaningful image has empty alt text — screen readers will skip it entirely",
+            "suggestion": "A black rectangular button with rounded corners. On the left is the colorful Google Play triangle logo. To the right, in white text, it reads 'GET IT ON' above 'Google Play'.",
+            "aiDescription": "A black rectangular button with rounded corners. On the left is the colorful Google Play triangle logo. To the right, in white text, it reads 'GET IT ON' above 'Google Play'.",
+            "source": "ai-decorative-check"
+          },
+          {
+            "src": "https://tetovatransport.mk/wp-content/uploads/2024/07/tetovo-transport-white-logo.svg",
+            "alt": "",
+            "pass": null,
+            "score": null,
+            "skipped": true,
+            "reason": "Image could not be downloaded for analysis",
+            "severity": "warning"
+          }
+        ]
+      },
+      "links": {
+        "moduleName": "Link Text Meaningfulness",
+        "wcag": "2.4.4",
+        "total": 67,
+        "evaluated": 67,
+        "skipped": 0,
+        "passed": 59,
+        "failed": 8,
+        "score": 94,
+        "items": [
+          {
+            "text": "Skip to content",
+            "href": "https://tetovatransport.mk/#content",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Ballina",
+            "href": "https://tetovatransport.mk/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Ballina",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Rreth ndërmarrjes",
+            "href": "https://tetovatransport.mk/rreth-ndermarrjes/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Rreth ndërmarrjes",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Menaxhmenti",
+            "href": "https://tetovatransport.mk/menaxhmenti/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Menaxhmenti",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Shpalljet publike",
+            "href": "https://tetovatransport.mk/category/shpalljet-publike/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Shpalljet publike",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Njoftimet e prokurimit publik",
+            "href": "https://tetovatransport.mk/njoftimet-e-prokurimit-publik/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Njoftimet e prokurimit publik",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Plani vjetor për prokurimin publik",
+            "href": "https://tetovatransport.mk/plani-vjetor-per-prokurimin-publik/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Plani vjetor për prokurimin publik",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Kontratat e lidhura të prokurimit publik",
+            "href": "https://tetovatransport.mk/kontratat-e-lidhura-te-prokurimit-publik/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Kontratat e lidhura të prokurimit publik",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Kontratat e prokurimit publik të realizuara",
+            "href": "https://tetovatransport.mk/kontratat-e-prokurimit-publik-te-realizuara/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Kontratat e prokurimit publik të realizuara",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Linja 1 & 1A",
+            "href": "https://tetovatransport.mk/linja-1-1a/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Linja 1 & 1A",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Linja 2",
+            "href": "https://tetovatransport.mk/linja-2/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Linja 2",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 75,
+            "severity": "minor",
+            "issue": "The link text 'Linja 2' is not fully descriptive without the context of a transport website. While common in context, it could be ambiguous to a user hearing it completely out of context, as 'Linja' (Line) could refer to various types of lines.",
+            "suggestion": "Bus Linja 2",
+            "additionalIssue": null
+          },
+          {
+            "text": "Linja 3",
+            "href": "https://tetovatransport.mk/linja-3/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Linja 3",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 75,
+            "severity": "minor",
+            "issue": "The link text 'Linja 3' is not fully descriptive without the context of a transport website. While common in context, it could be ambiguous to a user hearing it completely out of context, as 'Linja' (Line) could refer to various types of lines.",
+            "suggestion": "Bus Linja 3",
+            "additionalIssue": null
+          },
+          {
+            "text": "Linja 4 (sezonale)",
+            "href": "https://tetovatransport.mk/linja-4-sezonale/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Linja 4 (sezonale)",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 80,
+            "severity": "minor",
+            "issue": "The link text 'Linja 4 (sezonale)' is mostly descriptive due to the 'sezonale' (seasonal) addition, but 'Linja' (Line) on its own could still be ambiguous without the context of a transport website.",
+            "suggestion": "Bus Linja 4 (sezonale)",
+            "additionalIssue": null
+          },
+          {
+            "text": "Biletat",
+            "href": "https://tetovatransport.mk/biletat/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Biletat",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Lajme",
+            "href": "https://tetovatransport.mk/lajme/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Lajme",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Kontaktoni",
+            "href": "https://tetovatransport.mk/kontaktoni/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Kontaktoni",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Ballina",
+            "href": "https://tetovatransport.mk/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Ballina",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Rreth ndërmarrjes",
+            "href": "https://tetovatransport.mk/rreth-ndermarrjes/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Rreth ndërmarrjes",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Menaxhmenti",
+            "href": "https://tetovatransport.mk/menaxhmenti/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Menaxhmenti",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Shpalljet publike",
+            "href": "https://tetovatransport.mk/category/shpalljet-publike/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Shpalljet publike",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Njoftimet e prokurimit publik",
+            "href": "https://tetovatransport.mk/njoftimet-e-prokurimit-publik/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Njoftimet e prokurimit publik",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Plani vjetor për prokurimin publik",
+            "href": "https://tetovatransport.mk/plani-vjetor-per-prokurimin-publik/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Plani vjetor për prokurimin publik",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Kontratat e lidhura të prokurimit publik",
+            "href": "https://tetovatransport.mk/kontratat-e-lidhura-te-prokurimit-publik/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Kontratat e lidhura të prokurimit publik",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Kontratat e prokurimit publik të realizuara",
+            "href": "https://tetovatransport.mk/kontratat-e-prokurimit-publik-te-realizuara/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Kontratat e prokurimit publik të realizuara",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 60,
+            "severity": "moderate",
+            "issue": "The link text 'Kontratat e prokurimit publik të realizuara' is very similar to 'Kontratat e lidhura të prokurimit publik'. The long common prefix makes it difficult for screen reader users to quickly distinguish between these two links when navigating by links alone, potentially causing confusion about their distinct purposes.",
+            "suggestion": "Consider rephrasing to emphasize the unique aspect earlier or adding a more distinct identifier. For example, 'Prokurimi Publik: Kontratat e Realizuara' or 'Kontratat e Realizuara (Prokurimi Publik)'.",
+            "additionalIssue": null
+          },
+          {
+            "text": "Linja 1 & 1A",
+            "href": "https://tetovatransport.mk/linja-1-1a/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Linja 1 & 1A",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Linja 2",
+            "href": "https://tetovatransport.mk/linja-2/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Linja 2",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Linja 3",
+            "href": "https://tetovatransport.mk/linja-3/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Linja 3",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Linja 4 (sezonale)",
+            "href": "https://tetovatransport.mk/linja-4-sezonale/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Linja 4 (sezonale)",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Biletat",
+            "href": "https://tetovatransport.mk/biletat/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Biletat",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Lajme",
+            "href": "https://tetovatransport.mk/lajme/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Lajme",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Kontaktoni",
+            "href": "https://tetovatransport.mk/kontaktoni/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Kontaktoni",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Facebook",
+            "href": "https://www.facebook.com/nptetovatransport",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": false,
+            "score": 70,
+            "severity": "moderate",
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": "Link opens in a new tab without warning the user. Consider adding '(opens in new tab)' or an icon with appropriate alt text."
+          },
+          {
+            "text": "Instagram",
+            "href": "https://www.instagram.com/np_jp.tetovatransport",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": false,
+            "score": 70,
+            "severity": "moderate",
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": "Link opens in a new tab without warning the user. Consider adding '(opens in new tab)' or an icon with appropriate alt text."
+          },
+          {
+            "text": "Ballina",
+            "href": "https://tetovatransport.mk/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Ballina",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Rreth ndërmarrjes",
+            "href": "https://tetovatransport.mk/rreth-ndermarrjes/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Rreth ndërmarrjes",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Menaxhmenti",
+            "href": "https://tetovatransport.mk/menaxhmenti/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Menaxhmenti",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Shpalljet publike",
+            "href": "https://tetovatransport.mk/category/shpalljet-publike/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Shpalljet publike",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Njoftimet e prokurimit publik",
+            "href": "https://tetovatransport.mk/njoftimet-e-prokurimit-publik/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Njoftimet e prokurimit publik",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Plani vjetor për prokurimin publik",
+            "href": "https://tetovatransport.mk/plani-vjetor-per-prokurimin-publik/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Plani vjetor për prokurimin publik",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Kontratat e lidhura të prokurimit publik",
+            "href": "https://tetovatransport.mk/kontratat-e-lidhura-te-prokurimit-publik/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Kontratat e lidhura të prokurimit publik",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Kontratat e prokurimit publik të realizuara",
+            "href": "https://tetovatransport.mk/kontratat-e-prokurimit-publik-te-realizuara/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Kontratat e prokurimit publik të realizuara",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Linja 1 & 1A",
+            "href": "https://tetovatransport.mk/linja-1-1a/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Linja 1 & 1A",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Linja 2",
+            "href": "https://tetovatransport.mk/linja-2/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Linja 2",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Linja 3",
+            "href": "https://tetovatransport.mk/linja-3/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Linja 3",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Linja 4 (sezonale)",
+            "href": "https://tetovatransport.mk/linja-4-sezonale/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Linja 4 (sezonale)",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Biletat",
+            "href": "https://tetovatransport.mk/biletat/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Biletat",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Lajme",
+            "href": "https://tetovatransport.mk/lajme/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Lajme",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Kontaktoni",
+            "href": "https://tetovatransport.mk/kontaktoni/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Kontaktoni",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "BALLINA",
+            "href": "https://tetovatransport.mk/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "BALLINA",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Rreth ndërmarrjes",
+            "href": "https://tetovatransport.mk/rreth-ndermarrjes/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Rreth ndërmarrjes",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Menaxhmenti",
+            "href": "https://tetovatransport.mk/menaxhmenti/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Menaxhmenti",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Shpalljet publike",
+            "href": "https://tetovatransport.mk/category/shpalljet-publike/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Shpalljet publike",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Njoftimet e prokurimit publik",
+            "href": "https://tetovatransport.mk/njoftimet-e-prokurimit-publik/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Njoftimet e prokurimit publik",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Plani vjetor për prokurimin publik",
+            "href": "https://tetovatransport.mk/plani-vjetor-per-prokurimin-publik/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Plani vjetor për prokurimin publik",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Kontratat e lidhura të prokurimit publik",
+            "href": "https://tetovatransport.mk/kontratat-e-lidhura-te-prokurimit-publik/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Kontratat e lidhura të prokurimit publik",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Kontratat e prokurimit publik të realizuara",
+            "href": "https://tetovatransport.mk/kontratat-e-prokurimit-publik-te-realizuara/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Kontratat e prokurimit publik të realizuara",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Linja 1 & 1A",
+            "href": "https://tetovatransport.mk/linja-1-1a/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Linja 1 & 1A",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Linja 2",
+            "href": "https://tetovatransport.mk/linja-2/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Linja 2",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Linja 3",
+            "href": "https://tetovatransport.mk/linja-3/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Linja 3",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Linja 4 (sezonale)",
+            "href": "https://tetovatransport.mk/linja-4-sezonale/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Linja 4 (sezonale)",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "BILETAT",
+            "href": "https://tetovatransport.mk/biletat/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "BILETAT",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "LAJME",
+            "href": "https://tetovatransport.mk/lajme/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "LAJME",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "KONTAKTONI",
+            "href": "https://tetovatransport.mk/kontaktoni/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "KONTAKTONI",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "DOKUMENTET PËR LËSHIMIN E BILETËS SË TRANSPORTIT PUBLIK",
+            "href": "https://tetovatransport.mk/biletat/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Optimus Solutions",
+            "href": "https://optimus.mk/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": false,
+            "score": 60,
+            "severity": "serious",
+            "issue": "Link opens in a new tab without warning the user.",
+            "suggestion": "Optimus Solutions (opens in new tab)",
+            "additionalIssue": "Link opens in a new tab without explicit warning."
+          },
+          {
+            "text": "Politika e privatësisë",
+            "href": "https://tetovatransport.mk/politika-e-privatesise/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Politika e privatësisë",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Politika e cookie-ve",
+            "href": "https://tetovatransport.mk/#",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Politika e cookie-ve",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 10,
+            "severity": "critical",
+            "issue": "The link text describes a destination (Cookie Policy), but the href is a placeholder (#) and does not lead to a functional page or section.",
+            "suggestion": "Politika e cookie-ve (once the link is functional)",
+            "additionalIssue": "Link points to a placeholder (#) and is not functional."
+          }
+        ]
+      },
+      "headings": {
+        "moduleName": "Heading Structure Logic",
+        "wcag": "1.3.1 / 2.4.6",
+        "headingCount": 13,
+        "headingTree": [
+          {
+            "level": 2,
+            "text": ""
+          },
+          {
+            "level": 2,
+            "text": "TRANSPORTI PUBLIK ME ÇMIMET MË TË LIRA"
+          },
+          {
+            "level": 2,
+            "text": "Lista e çmimeve të biletave"
+          },
+          {
+            "level": 2,
+            "text": ""
+          },
+          {
+            "level": 2,
+            "text": ""
+          },
+          {
+            "level": 2,
+            "text": ""
+          },
+          {
+            "level": 2,
+            "text": ""
+          },
+          {
+            "level": 5,
+            "text": ""
+          },
+          {
+            "level": 5,
+            "text": ""
+          },
+          {
+            "level": 2,
+            "text": ""
+          },
+          {
+            "level": 2,
+            "text": ""
+          },
+          {
+            "level": 2,
+            "text": ""
+          },
+          {
+            "level": 2,
+            "text": ""
+          }
+        ],
+        "total": 3,
+        "passed": 0,
+        "failed": 3,
+        "score": 22,
+        "items": [
+          {
+            "type": "missing-h1",
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issue": "Page has no h1 element — every page needs exactly one h1 as the main topic",
+            "suggestion": "Add a single h1 that describes the main purpose of this page"
+          },
+          {
+            "type": "skipped-level",
+            "pass": false,
+            "score": 50,
+            "severity": "moderate",
+            "issue": "Heading jumps from h2 (\"\") to h5 (\"\") — levels should not skip",
+            "suggestion": "Change h5 to h3 or add intermediate heading levels"
+          },
+          {
+            "type": "semantic-quality",
+            "pass": false,
+            "score": 15,
+            "severity": "critical",
+            "issues": [
+              "No h1 heading is present on the page, which is a critical structural accessibility failure.",
+              "Multiple headings are empty, providing no semantic value or navigation aid.",
+              "The heading hierarchy is illogical, with a direct jump from h2 to h5 without intermediate levels (h3, h4).",
+              "The heading structure does not accurately reflect the content sections of the page, making navigation difficult for screen reader users."
+            ],
+            "missingSections": [
+              "Rreth ndërmarrjes (About the company)",
+              "Linjat e autobusëve (Bus lines)",
+              "Lajme (News)",
+              "Kontaktoni (Contact)",
+              "DOKUMENTET PËR LËSHIMIN E BILETËS SË TRANSPORTIT PUBLIK (Documents for issuing public transport tickets)"
+            ],
+            "vagueHeadings": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "suggestions": [
+              "Add a single h1 heading that clearly describes the main topic of the page, such as 'NP “Tetova Transport”' or 'Ballina'.",
+              "Ensure all headings contain descriptive text relevant to their section; remove or fill empty headings.",
+              "Establish a logical heading hierarchy (h1, then h2, then h3, etc.) without skipping levels.",
+              "Identify all major content sections and assign appropriate, descriptive headings to them.",
+              "Consider making 'Lista e çmimeve të biletave' an h3 under 'TRANSPORTI PUBLIK ME ÇMIMET MË TË LIRA' if it is a sub-section."
+            ],
+            "summary": "The page's heading structure is critically flawed, lacking an h1, containing numerous empty headings, and failing to provide a logical or descriptive content outline for screen reader users."
+          }
+        ]
+      },
+      "readingLevel": {
+        "moduleName": "Reading Level & Plain Language",
+        "wcag": "3.1.5",
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "score": 95,
+        "severity": null,
+        "items": [
+          {
+            "estimatedReadingLevel": "primary",
+            "estimatedGradeLevel": "Grade 5",
+            "pass": true,
+            "overallScore": 95,
+            "severity": null,
+            "complexSentences": [],
+            "jargonFound": [],
+            "passiveVoiceExamples": [],
+            "positives": [
+              "Uses extremely simple and common vocabulary, making it accessible to a very wide audience.",
+              "Content is concise, primarily consisting of navigation labels and short, direct phrases.",
+              "No complex sentence structures are present, ensuring immediate comprehension.",
+              "Direct and clear presentation of essential information like contact details and main services."
+            ],
+            "improvements": [
+              "While the current content is very simple, ensure any future descriptive text or instructions maintain this high level of plain language.",
+              "The sample is too brief to assess the clarity of instructions for tasks like purchasing tickets, which would be important for a public service website."
+            ],
+            "summary": "The content is exceptionally clear and uses very simple language, making it highly accessible to a wide audience. It easily meets and exceeds the WCAG 3.1.5 readability recommendations."
+          }
+        ]
+      },
+      "tables": {
+        "moduleName": "Table Header Quality",
+        "wcag": "1.3.1",
+        "total": 0,
+        "passed": 0,
+        "failed": 0,
+        "score": 100,
+        "note": "No tables found on this page",
+        "items": []
+      },
+      "pageTitle": {
+        "moduleName": "Page Title Quality",
+        "wcag": "2.4.2",
+        "currentTitle": "Ballina - NP “Tetova Transport”",
+        "total": 1,
+        "passed": 0,
+        "failed": 1,
+        "score": 50,
+        "items": [
+          {
+            "pass": false,
+            "score": 50,
+            "severity": "serious",
+            "issues": [
+              "The page title uses a generic term (\"Ballina\" / \"Home\") which does not adequately describe the unique purpose or topic of the page.",
+              "The most unique information (the organization name) is not front-loaded; instead, a generic page type is placed first."
+            ],
+            "suggestion": "NP Tetova Transport",
+            "isTooGeneric": true,
+            "isFrontLoaded": false,
+            "includesSiteName": true,
+            "characterCount": 31,
+            "source": "ai-evaluation"
+          }
+        ]
+      },
+      "language": {
+        "moduleName": "Language Accessibility & Albanian Evaluation",
+        "wcag": "3.1.1 / 3.1.2",
+        "pageUrl": "https://tetovatransport.mk/",
+        "languagesOffered": {
+          "albanian": true,
+          "macedonian": true,
+          "english": false,
+          "albanianLinks": [
+            {
+              "text": "Ballina",
+              "href": "https://tetovatransport.mk/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            }
+          ],
+          "macedonianLinks": [
+            {
+              "text": "Skip to content",
+              "href": "https://tetovatransport.mk/#content",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "",
+              "href": "https://tetovatransport.mk/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Rreth ndërmarrjes",
+              "href": "https://tetovatransport.mk/rreth-ndermarrjes/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Menaxhmenti",
+              "href": "https://tetovatransport.mk/menaxhmenti/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Shpalljet publike",
+              "href": "https://tetovatransport.mk/category/shpalljet-publike/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Njoftimet e prokurimit publik",
+              "href": "https://tetovatransport.mk/njoftimet-e-prokurimit-publik/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Plani vjetor për prokurimin publik",
+              "href": "https://tetovatransport.mk/plani-vjetor-per-prokurimin-publik/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Kontratat e lidhura të prokurimit publik",
+              "href": "https://tetovatransport.mk/kontratat-e-lidhura-te-prokurimit-publik/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Kontratat e prokurimit publik të realizuara",
+              "href": "https://tetovatransport.mk/kontratat-e-prokurimit-publik-te-realizuara/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Linja 1 & 1A",
+              "href": "https://tetovatransport.mk/linja-1-1a/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Linja 2",
+              "href": "https://tetovatransport.mk/linja-2/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Linja 3",
+              "href": "https://tetovatransport.mk/linja-3/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Linja 4 (sezonale)",
+              "href": "https://tetovatransport.mk/linja-4-sezonale/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Biletat",
+              "href": "https://tetovatransport.mk/biletat/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Lajme",
+              "href": "https://tetovatransport.mk/lajme/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Kontaktoni",
+              "href": "https://tetovatransport.mk/kontaktoni/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Македонски",
+              "href": "https://tetovatransport.mk/mk/",
+              "hreflang": null,
+              "ariaLabel": "Switch to Македонски",
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "English",
+              "href": "https://tetovatransport.mk/en/",
+              "hreflang": null,
+              "ariaLabel": "Switch to English",
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "info@tetovatransport.mk",
+              "href": "mailto:info@tetovatransport.mk",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "",
+              "href": "https://tetovatransport.mk/perzgjedhja-e-anetareve-te-keshillit-drejtues/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "NP “Tetova Transport” - Tetovë",
+              "href": "https://tetovatransport.mk/author/admin/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Lajme",
+              "href": "https://tetovatransport.mk/category/lajme/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "",
+              "href": "https://tetovatransport.mk/rikthimi-i-regjimit-dimeror-3/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "",
+              "href": "https://tetovatransport.mk/thirrje-publike-2/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "",
+              "href": "https://tetovatransport.mk/konkurs-publik-01-2026/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "",
+              "href": "https://tetovatransport.mk/ndryshim-ne-orarin-e-linjes-2-dhe-3-3/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Komuna e Tetovës",
+              "href": "https://www.tetova.gov.mk/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Qeveria e Maqedonisë së Veriut",
+              "href": "https://vlada.mk/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Ministria e Transportit",
+              "href": "https://mtc.gov.mk/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Qendra për Zhvillimin e Rajonit të Planifikimit të",
+              "href": "https://rdcpolog.mk/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Kodi i sjelljes së pasagjerëve",
+              "href": "https://tetovatransport.mk/kodi-i-sjelljes-se-pasagjereve/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Kodi i sjelljes së punonjësve",
+              "href": "https://tetovatransport.mk/kodi-i-sjelljes-per-punonjesve/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Pse nevojitet transporti publik?",
+              "href": "https://tetovatransport.mk/pse-nevojitet-transporti-publik/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Marketingu",
+              "href": "https://tetovatransport.mk/marketingu/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Optimus Solutions",
+              "href": "https://optimus.mk/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Politika e privatësisë",
+              "href": "https://tetovatransport.mk/politika-e-privatesise/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Politika e cookie-ve",
+              "href": "https://tetovatransport.mk/#",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            }
+          ],
+          "englishLinks": [],
+          "detectionMethod": "full-dom-scan including hidden dropdowns, select elements, and clickable-div patterns"
+        },
+        "langAttributeCheck": {
+          "declared": "sq-AL",
+          "detected": "Albanian",
+          "matches": true,
+          "issue": null,
+          "pass": true,
+          "score": 100,
+          "severity": null,
+          "confidence": "high"
+        },
+        "inlineLangUsage": {
+          "found": true,
+          "count": 11,
+          "elements": [
+            {
+              "lang": "sq-AL",
+              "tag": "html",
+              "text": "Skip to content\nNP \"Tetova Transport\" - Tetovë\nBallina\nRreth ndërmarrjes\nLinjat e autobusëve\nBiletat"
+            },
+            {
+              "lang": "mk",
+              "tag": "span",
+              "text": "Македонски"
+            },
+            {
+              "lang": "en",
+              "tag": "span",
+              "text": "English"
+            },
+            {
+              "lang": "mk",
+              "tag": "span",
+              "text": "Македонски"
+            },
+            {
+              "lang": "en",
+              "tag": "span",
+              "text": "English"
+            }
+          ],
+          "note": "Page uses inline lang attributes for mixed-language content — good practice"
+        },
+        "albanianVersion": {
+          "found": false,
+          "overallPass": false,
+          "overallScore": 0,
+          "severity": "serious",
+          "issue": "No Albanian language version detected on this website",
+          "suggestion": "Under North Macedonia's Law on the Use of Languages, public institutions must provide content in Albanian. Add a language switcher linking to a full Albanian version."
+        },
+        "total": 2,
+        "score": 50,
+        "passed": 1,
+        "failed": 1
+      },
+      "visual": {
+        "moduleName": "Visual Disability Checks",
+        "category": "visual",
+        "wcagPrinciples": [
+          "Perceivable",
+          "Operable"
+        ],
+        "affectedUsers": "Blind users, low-vision users, photosensitive users",
+        "total": 5,
+        "passed": 2,
+        "failed": 3,
+        "errored": 0,
+        "score": 41,
+        "items": [
+          {
+            "test": "CSS outline:none on focus",
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "wcag": "2.4.7",
+            "issue": "CSS removes focus outline globally — keyboard users have no visible focus indicator",
+            "detail": ".w3eden .form-control:focus { border-color: var(--color-primary); outline: 0px; box-shadow: 0 0 0 3px rgba(var(--color-primary-rgb),.15); }",
+            "suggestion": "Remove outline:none from :focus selectors, or replace with a custom visible focus style"
+          },
+          {
+            "focusVisibleInScreenshot": true,
+            "focusIndicatorDescription": "A blue rectangular button with rounded corners, white text 'Skip to content', and a 1px light blue border appears at the top left of the page. This button was not present in Image 1.",
+            "meetsContrastRequirement": true,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "test": "Focus indicator visibility",
+            "wcag": "2.4.7 / 2.4.11"
+          },
+          {
+            "pass": false,
+            "score": 0,
+            "severity": "serious",
+            "hasHorizontalScroll": false,
+            "textOverflowCount": 5,
+            "visualIssues": [
+              "Text 'Politika e privatësisë' is overflowing by 10px and is likely cut off."
+            ],
+            "suggestion": "Ensure all text content reflows correctly at 320px width without overflow or truncation. Specifically address the overflow of 'Politika e privatësisë' by adjusting its container width, font size, or using appropriate CSS for text wrapping.",
+            "test": "Zoom/Reflow at 200%",
+            "wcag": "1.4.10",
+            "overflowElements": [
+              {
+                "tag": "LI",
+                "text": "",
+                "overflow": 23
+              },
+              {
+                "tag": "SPAN",
+                "text": "",
+                "overflow": 10
+              },
+              {
+                "tag": "SPAN",
+                "text": "",
+                "overflow": 16
+              },
+              {
+                "tag": "LI",
+                "text": "Politika e privatësisë",
+                "overflow": 10
+              },
+              {
+                "tag": "SPAN",
+                "text": "",
+                "overflow": 44
+              }
+            ]
+          },
+          {
+            "pass": true,
+            "score": 100,
+            "severity": "null",
+            "contentClipped": false,
+            "layoutBroken": false,
+            "issues": [],
+            "suggestion": "null",
+            "test": "Text Spacing Override",
+            "wcag": "1.4.12",
+            "clippedElementsFound": 5,
+            "clippedElements": [
+              {
+                "tag": "A",
+                "text": "Skip to content"
+              },
+              {
+                "tag": "SPAN",
+                "text": "Facebook"
+              },
+              {
+                "tag": "SPAN",
+                "text": "Instagram"
+              },
+              {
+                "tag": "SPAN",
+                "text": ""
+              },
+              {
+                "tag": "SPAN",
+                "text": ""
+              }
+            ]
+          },
+          {
+            "darkModeSupported": true,
+            "darkModeScore": 5,
+            "pass": false,
+            "score": 5,
+            "severity": "serious",
+            "issues": [
+              "The site's background remains light/white despite 'prefers-color-scheme: dark' being applied.",
+              "All white text and the white logo are invisible against the light background, resulting in zero readability and usability.",
+              "Extremely poor contrast makes the majority of the content unreadable."
+            ],
+            "suggestions": [
+              "Implement a dark background color when 'prefers-color-scheme: dark' is active.",
+              "Ensure sufficient contrast between text/logo and background colors in dark mode (e.g., light text on a dark background).",
+              "Thoroughly test all UI elements, text, and images for visibility and readability in dark mode."
+            ],
+            "test": "Dark Mode Support",
+            "wcag": "1.4.3",
+            "mediaQuerySupport": {
+              "hasDarkMode": true,
+              "hasReducedMotion": true,
+              "hasForcedColors": false
+            },
+            "note": "High contrast (forced-colors) skipped — not supported in Puppeteer 21"
+          }
+        ]
+      },
+      "motor": {
+        "moduleName": "motor",
+        "error": "net::ERR_TIMED_OUT at https://tetovatransport.mk/",
+        "score": null,
+        "items": []
+      }
+    }
+  }
+}

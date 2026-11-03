@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the corresponding paper."
+title: "Hybrid AI-assisted web accessibility audit of North Macedonian public-sector websites: code, prompts and data"
+authors:
+  - family-names: Ismaili
+    given-names: Kaltrina
+    email: k.ismaili@seeu.edu.mk
+    affiliation: "Faculty of Contemporary Sciences and Technologies, South East European University"
+date-released: 2026-11-03
+license: MIT
+keywords:
+  - web accessibility
+  - WCAG 2.1
+  - automated accessibility evaluation
+  - large language models
+  - North Macedonia

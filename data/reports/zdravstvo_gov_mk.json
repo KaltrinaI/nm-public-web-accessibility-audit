@@ -1,0 +1,3894 @@
+{
+  "site": "https://zdravstvo.gov.mk/",
+  "auditedAt": "2026-04-24T11:29:41.409Z",
+  "score": 40,
+  "grade": "F",
+  "wcagConformance": "Non-conformant",
+  "axeOnlyScore": null,
+  "axeVsHybridDelta": null,
+  "totalViolations": 81,
+  "axeCoreViolations": 0,
+  "aiOnlyViolations": 81,
+  "criticalViolations": 45,
+  "disabilityScores": {
+    "visual": 44,
+    "motor": 8,
+    "language": 50
+  },
+  "languageSummary": {
+    "albanianVersionFound": true,
+    "albanianScore": 0
+  },
+  "moduleHealth": {
+    "images": {
+      "valid": false,
+      "score": 17,
+      "skipped": 9,
+      "errored": false,
+      "errorMsg": null
+    },
+    "links": {
+      "valid": true,
+      "score": 68,
+      "skipped": 0,
+      "errored": false,
+      "errorMsg": null
+    },
+    "headings": {
+      "valid": true,
+      "score": 35,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "readingLevel": {
+      "valid": true,
+      "score": 35,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "tables": {
+      "valid": true,
+      "score": 100,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "pageTitle": {
+      "valid": true,
+      "score": 40,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "language": {
+      "valid": true,
+      "score": 50,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "visual": {
+      "valid": true,
+      "score": 44,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "motor": {
+      "valid": true,
+      "score": 8,
+      "skipped": 0,
+      "errored": false,
+      "errorMsg": null
+    }
+  },
+  "homepage": {
+    "url": "https://zdravstvo.gov.mk/",
+    "isHomepage": true,
+    "timestamp": "2026-04-24T11:20:06.629Z",
+    "finalScore": 40,
+    "grade": "F",
+    "wcagConformance": "Non-conformant",
+    "scores": {
+      "axe": null,
+      "images": 17,
+      "links": 68,
+      "headings": 35,
+      "readingLevel": 35,
+      "tables": 100,
+      "pageTitle": 40,
+      "language": 50,
+      "visual": 44,
+      "motor": 8
+    },
+    "axeOnlyScore": null,
+    "axeVsHybridDelta": null,
+    "axe": {
+      "violations": [],
+      "passCount": 0,
+      "incomplete": 0
+    },
+    "violationSummary": {
+      "critical": [
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text is completely inaccurate and describes content entirely unrelated to the image.",
+          "wcag": "1.1.1",
+          "suggestion": "A formal meeting of government officials in an ornate room. They are seated around a U-shaped table with screens displaying 'ВЛАДА НА РСМ' and 'СЕДНИЦА'. NATO, North Macedonia, and EU flags are in the center."
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text is completely inaccurate and describes content unrelated to the image.",
+          "wcag": "1.1.1",
+          "suggestion": "A conference with a man speaking at a podium. Attendees are visible, and two screens in the background show \"GLOBAL CONTEXT OF WORKPLACE CONTROL AND REGULATION\" on the left and a speaker on the right."
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text does not describe the visual content of the image at all.",
+          "wcag": "1.1.1",
+          "suggestion": "Three people, two men and one woman, seated in the front row of an event, looking towards the camera. A poster with the number 80 is visible on the wall."
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text does not accurately describe the visual content of the image; it describes a medical outcome rather than the scene depicted.",
+          "wcag": "1.1.1",
+          "suggestion": "Medical staff in green scrubs and masks perform surgery in a brightly lit operating room. Monitors show vital signs like '55' and '107/60 (12)', and infusion pumps display 'INFUSING 60.0' and 'INFUSING 40.0'."
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text does not describe the visual content of the image.",
+          "wcag": "1.1.1",
+          "suggestion": "Two women in white lab coats sit at a desk, looking at a computer monitor displaying a video call with two other women, representing a telemedicine consultation."
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text is placeholder 'Lorem ipsum' text and does not describe the image content at all.",
+          "wcag": "1.1.1",
+          "suggestion": "A formal meeting in a grand, ornate room. Around 20-25 men in suits are seated at a U-shaped table, with NATO, North Macedonia, and EU flags displayed behind them. Monitors on the table show a building emblem."
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text is generic placeholder text and does not describe the image content at all.",
+          "wcag": "1.1.1",
+          "suggestion": "A formal conference in a large room with wood-paneled walls. A male speaker is at a podium, with rows of attendees in front. Two screens are visible: the left displays 'Rolul femeii în societatea contemporană' (The role of women in contemporary society), and the right shows a man speaking."
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text is a generic placeholder ('Lorem ipsum...') and does not describe the image content at all.",
+          "wcag": "1.1.1",
+          "suggestion": "Three well-dressed people, two men and one woman, are seated in the front row of an event. A poster in the background shows '80'."
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text is completely inaccurate and describes something unrelated to the image content.",
+          "wcag": "1.1.1",
+          "suggestion": "A sterile medical examination room with a grey examination table and a white medical headwall unit."
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text is completely inaccurate and describes content unrelated to the image.",
+          "wcag": "1.1.1",
+          "suggestion": "Logo for Medical Simulation Center Skopje. It features a red and black circular emblem with the acronym 'МСЦ' and 'скоПЈЕ' inside, and the full name 'МЕДИЦИНСКИ СИМУЛАЦИСКИ ЦЕНТАР' written around the top arc and vertically to the right."
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text is highly inaccurate, describing a 'logo' and only part of the visible text, while completely omitting the prominent stethoscope.",
+          "wcag": "1.1.1",
+          "suggestion": "A black and silver stethoscope on a white background, next to blue text reading 'ГОЛЕМА КАШЛИЦА - Пертусис'."
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text 'data.gov.mk' is critically redundant with the surrounding page context (the URL 'https://data.gov.mk/' and likely the site's main title or a prominent heading), causing unnecessary repetition for screen reader users.",
+          "wcag": "1.1.1",
+          "suggestion": "Consider using `alt=\"\"` if the site name 'data.gov.mk' is already conveyed by surrounding text (e.g., a link's visible text, a heading, or the page title) to avoid redundancy."
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text is an acronym (\"SEEHN\") which is not descriptive out of context and does not clearly communicate the destination or purpose.",
+          "wcag": "2.4.4",
+          "suggestion": "SEEHN (South Eastern Europe Health Network)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The acronym 'SEEHN' is not descriptive without context and does not clearly communicate its purpose or destination.",
+          "wcag": "2.4.4",
+          "suggestion": "SEEHN (South Eastern European Health Network) Information"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The acronym 'ЗД' (ZD) is not descriptive without context and does not clearly communicate its purpose or destination.",
+          "wcag": "2.4.4",
+          "suggestion": "Addresses of Health Departments"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The link text 'Open Link here' is generic and does not describe the purpose or destination of the link. It is also not unique on the page.",
+          "wcag": "2.4.4",
+          "suggestion": "Uslugi.gov.mk Portal (opens in new tab)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The link text 'Open Link here' is generic and does not describe the purpose or destination of the link. It is also not unique on the page.",
+          "wcag": "2.4.4",
+          "suggestion": "Data.gov.mk Portal (opens in new tab)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The link text is generic, non-descriptive, and not unique. It does not communicate the destination or purpose when read out of context.",
+          "wcag": "2.4.4",
+          "suggestion": "За секој денар од акциза од тутун, економијата троши приближно четири денари за справување со здравствените последици од пушењето"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The link text is generic, non-descriptive, and not unique. It does not communicate the destination or purpose when read out of context.",
+          "wcag": "2.4.4",
+          "suggestion": "Улогата на здравствениот систем во превенција и контрола на незаразни болести"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The link text is generic, non-descriptive, and not unique. It does not communicate the destination or purpose when read out of context.",
+          "wcag": "2.4.4",
+          "suggestion": "Со предлог измените на Законот за здравствена заштита се унапредуваат правата на пациентите"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The link text is generic, non-descriptive, and not unique. It does not communicate the destination or purpose when read out of context.",
+          "wcag": "2.4.4",
+          "suggestion": "Спасен живот на пациент со тешка срцева мана благодарение на брзата интервенција"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The link text is generic, non-descriptive, and not unique. It does not communicate the destination or purpose when read out of context.",
+          "wcag": "2.4.4",
+          "suggestion": "Телемедицината станува клучна алатка за пристап до здравствена нега во руралните области"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The link text is generic, non-descriptive, and not unique. It does not communicate the destination or purpose when read out of context.",
+          "wcag": "2.4.4",
+          "suggestion": "За секој денар од акциза од тутун, економијата троши приближно четири денари за справување со здравствените последици од пушењето"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Generic and non-descriptive link text. It does not convey the purpose or destination of the link when read out of context.",
+          "wcag": "2.4.4",
+          "suggestion": "Улогата на здравствениот систем клучна во раната детекција и обезбедувањето соодветна поддршка за жртвите на семејно насилство"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Generic and non-descriptive link text. Multiple identical 'Прочитај повеќе' links lead to different destinations, making it impossible to distinguish their purpose when read out of context.",
+          "wcag": "2.4.4",
+          "suggestion": "Прочитај повеќе за Улогата на здравствениот систем клучна во раната детекција и обезбедувањето соодветна поддршка за жртвите на семејно насилство"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Generic and non-descriptive link text. It does not convey the purpose or destination of the link when read out of context.",
+          "wcag": "2.4.4",
+          "suggestion": "Со предлог измените на ЗЗЗ се вреднува знаењето, искуството и придонесот на здравствените работници со долгогодишно искуство"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Generic and non-descriptive link text. Multiple identical 'Прочитај повеќе' links lead to different destinations, making it impossible to distinguish their purpose when read out of context.",
+          "wcag": "2.4.4",
+          "suggestion": "Прочитај повеќе за Со предлог измените на ЗЗЗ се вреднува знаењето, искуството и придонесот на здравствените работници со долгогодишно искуство"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Generic and non-descriptive link text. This 'Прочитај повеќе' link leads to a general news category page, while other identical links lead to specific articles, causing significant confusion for screen reader users.",
+          "wcag": "2.4.4",
+          "suggestion": "Повеќе новости"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Generic and non-descriptive link text. It does not convey the purpose or destination of the link when read out of context.",
+          "wcag": "2.4.4",
+          "suggestion": "MojTermin.mk"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text 'open link here' is not descriptive, does not communicate the destination, and is not unique. A screen reader user would not understand the purpose of this link out of context, especially when encountering multiple identical links.",
+          "wcag": "2.4.4",
+          "suggestion": "Често поставувани прашања"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text 'open link here' is not descriptive, does not communicate the destination, and is not unique. A screen reader user would not understand the purpose of this link out of context, especially when encountering multiple identical links.",
+          "wcag": "2.4.4",
+          "suggestion": "Проект за енергетска ефикасност (се отвора во нов прозорец)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text 'open link here' is not descriptive, does not communicate the destination, and is not unique. A screen reader user would not understand the purpose of this link out of context, especially when encountering multiple identical links.",
+          "wcag": "2.4.4",
+          "suggestion": "Упатства за практикување на медицина"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text 'open link here' is not descriptive, does not communicate the destination, and is not unique. A screen reader user would not understand the purpose of this link out of context, especially when encountering multiple identical links.",
+          "wcag": "2.4.4",
+          "suggestion": "Портал за лекови (се отвора во нов прозорец)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text 'open link here' is not descriptive, does not communicate the destination, and is not unique. A screen reader user would not understand the purpose of this link out of context, especially when encountering multiple identical links.",
+          "wcag": "2.4.4",
+          "suggestion": "Упатство за спроведување на политики"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text 'open link here' is not descriptive, does not communicate the destination, and is not unique. A screen reader user would not understand the purpose of this link out of context, especially when encountering multiple identical links.",
+          "wcag": "2.4.4",
+          "suggestion": "Листа на информации од јавен карактер"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text 'open link here' is not descriptive, does not communicate the destination, and is not unique. A screen reader user would not understand the purpose of this link out of context, especially when encountering multiple identical links.",
+          "wcag": "2.4.4",
+          "suggestion": "Пријавете неправилност"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text 'open link here' is not descriptive, does not communicate the destination, and is not unique. A screen reader user would not understand the purpose of this link out of context, especially when encountering multiple identical links.",
+          "wcag": "2.4.4",
+          "suggestion": "Обрасци"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text 'open link here' is not descriptive, does not communicate the destination, and is not unique. A screen reader user would not understand the purpose of this link out of context, especially when encountering multiple identical links.",
+          "wcag": "2.4.4",
+          "suggestion": "Министерство за здравство (се отвора во нов прозорец)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text 'open link here' is not descriptive, does not communicate the destination, and is not unique. A screen reader user would not understand the purpose of this link out of context, especially when encountering multiple identical links.",
+          "wcag": "2.4.4",
+          "suggestion": "Упатство за следење на голема кашлица (се отвора во нов прозорец)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The link text 'open link here' is generic and provides no information about the link's destination or purpose when read out of context. It fails to meet WCAG 2.4.4 Link Purpose (In Context).",
+          "wcag": "2.4.4",
+          "suggestion": "Given the href 'http://www.nrs.mk/', a more descriptive text could be 'National Registry System (opens new tab)' or 'Visit National Registry System website (opens new tab)'."
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The link text 'open link here' is generic and provides no information about the link's destination or purpose when read out of context. It fails to meet WCAG 2.4.4 Link Purpose (In Context).",
+          "wcag": "2.4.4",
+          "suggestion": "Given the href 'https://sdgprivatefinance.undp.org/leveraging-capital/sdg-investor-platform/coun', a more descriptive text could be 'UNDP SDG Investor Platform (opens new tab)' or 'Learn about SDG Investor Platform (opens new tab)'."
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The link text 'open link here' is generic and provides no information about the link's destination or purpose when read out of context. It fails to meet WCAG 2.4.4 Link Purpose (In Context).",
+          "wcag": "2.4.4",
+          "suggestion": "Given the href 'https://operacii.zdravstvo.gov.mk/', a more descriptive text could be 'Healthcare Operations Portal (opens new tab)' or 'Ministry of Health Operations (opens new tab)'."
+        },
+        {
+          "source": "visual",
+          "rule": "CSS outline:none on focus",
+          "description": "CSS removes focus outline globally — keyboard users have no visible focus indicator",
+          "wcag": "2.4.7",
+          "suggestion": "Remove outline:none from :focus selectors, or replace with a custom visible focus style"
+        },
+        {
+          "source": "visual",
+          "rule": "Focus indicator visibility",
+          "description": "The focus indicator is a very faint, 1px dotted outline that lacks sufficient contrast against the background and does not meet the minimum size requirement of 2px. It is difficult to perceive for many users, especially those with low vision or cognitive disabilities.",
+          "wcag": "2.4.7 / 2.4.11",
+          "suggestion": "Implement a focus indicator that is at least 2px thick (solid or equivalent) and has a contrast ratio of at least 3:1 against the adjacent background color. A solid outline or a distinct background change would be more effective and perceivable."
+        },
+        {
+          "source": "motor",
+          "rule": "Keyboard trap detection",
+          "description": "Keyboard trap detected — user cannot Tab away from an element",
+          "wcag": "2.1.2",
+          "suggestion": "Ensure modals and widgets release focus correctly when closed"
+        }
+      ],
+      "serious": [
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text is a URL and does not describe the visual content of the logo.",
+          "wcag": "1.1.1",
+          "suggestion": "Logo for data.gov.mk with 'data' in dark blue and '.gov.mk' in magenta."
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text fails to describe the main visual element, a black stethoscope.",
+          "wcag": "1.1.1",
+          "suggestion": "Black stethoscope next to text 'Guidelines: Evidence-based medicine'."
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text does not identify the image as a logo.",
+          "wcag": "1.1.1",
+          "suggestion": "Registar na lekovi logo, featuring colorful pills and capsules."
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text fails to describe the visual elements of the icon (blue stethoscope and golden judge's gavel).",
+          "wcag": "1.1.1",
+          "suggestion": "Icon: blue stethoscope and golden gavel with text 'Report Irregularity'."
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text does not include all visible text from the image, specifically 'СОЗДАВАМЕ ИДНИНА ЗАЕДНО' and the full 'НАЦИОНАЛНА РАЗВОЈНА СТРАТЕГИЈА'.",
+          "wcag": "1.1.1",
+          "suggestion": "Logo for the National Development Strategy, with the text 'СОЗДАВАМЕ ИДНИНА ЗАЕДНО' and 'НАЦИОНАЛНА РАЗВОЈНА СТРАТЕГИЈА', surrounded by colorful abstract shapes."
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The acronym 'SEEHN' is not descriptive without context, even with 'Новости' (News) appended.",
+          "wcag": "2.4.4",
+          "suggestion": "SEEHN (South Eastern European Health Network) News"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The link text is generic and not descriptive enough when read out of context. It does not clearly communicate the destination or purpose, especially if there are multiple 'Прочитај повеќе' links on the page.",
+          "wcag": "2.4.4",
+          "suggestion": "Сите новости"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The link text is generic and not descriptive enough when read out of context. It does not clearly communicate the destination or purpose, especially if there are multiple 'Прочитај повеќе' links on the page.",
+          "wcag": "2.4.4",
+          "suggestion": "За секој денар од акциза од тутун, економијата троши приближно четири денари за справување со здравствените последици од пушењето"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The link text is a physical address, which does not clearly communicate that clicking it will open a map application.",
+          "wcag": "2.4.4",
+          "suggestion": "Погледнете ја локацијата на мапа (се отвора во нов прозорец)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Generic link text 'Прочитајте повеќе' (Read more) does not describe the link's purpose or destination when read out of context. It is not unique and provides no information about the content of the cookie policy.",
+          "wcag": "2.4.4",
+          "suggestion": "Политика за колачиња"
+        },
+        {
+          "source": "headings",
+          "rule": "semantic-quality",
+          "description": "The heading hierarchy is illogical and confusing: several news article titles are used as h2s, but then some of the exact same titles are repeated as h3s under a generic 'Новости' (News) h2. This creates redundancy and breaks the logical flow.",
+          "wcag": "1.3.1 / 2.4.6",
+          "suggestion": null
+        },
+        {
+          "source": "readingLevel",
+          "rule": "AI evaluation",
+          "description": "See module details",
+          "wcag": "3.1.5",
+          "suggestion": null
+        },
+        {
+          "source": "pageTitle",
+          "rule": "AI evaluation",
+          "description": "The page title is too generic, consisting only of the site name for the homepage.",
+          "wcag": "2.4.2",
+          "suggestion": "Почетна - Министерство за здравство"
+        },
+        {
+          "source": "visual",
+          "rule": "Dark Mode Support",
+          "description": "The main content area of the website retains a light/white background, failing to adapt to the dark mode preference.",
+          "wcag": "1.4.3",
+          "suggestion": null
+        },
+        {
+          "source": "motor",
+          "rule": "Skip navigation link",
+          "description": "No \"Skip to main content\" link found — keyboard users must tab through entire navigation on every page",
+          "wcag": "2.4.1",
+          "suggestion": "Add <a href=\"#main\" class=\"skip-link\">Skip to main content</a> as the first focusable element"
+        },
+        {
+          "source": "motor",
+          "rule": "Touch Target Size",
+          "description": "20 interactive elements are smaller than the 44×44px minimum touch target size",
+          "wcag": "2.5.5",
+          "suggestion": "Increase padding on small links and buttons so the clickable area is at least 44×44px"
+        },
+        {
+          "source": "motor",
+          "rule": "Session Timeout Warning",
+          "description": "Session timeout detected but no warning dialog found — users are logged out without notice",
+          "wcag": "2.2.1",
+          "suggestion": "Warn users at least 20 seconds before timeout with a dialog offering to extend the session"
+        }
+      ],
+      "moderate": [
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text is incomplete as it omits key visual details of the logo's design, specifically the stylized 'T' as a clock face and the blue underline.",
+          "wcag": "1.1.1",
+          "suggestion": "Logo for Moj Termin, featuring a stylized 'T' as a clock face and a blue underline."
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text is too generic and lacks specific context about what aspect of the Ministry it refers to.",
+          "wcag": "2.4.4",
+          "suggestion": "За Министерството (About the Ministry)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text is too abstract and does not clearly communicate the specific content or purpose of the linked page.",
+          "wcag": "2.4.4",
+          "suggestion": "Политика за интегритет (Integrity Policy)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text is too generic and does not specify the type of announcements or notices.",
+          "wcag": "2.4.4",
+          "suggestion": "Тековни огласи (Current Announcements)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text is too general and does not specify what kind of prevention is being discussed.",
+          "wcag": "2.4.4",
+          "suggestion": "Здравствена превенција (Health Prevention)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The term 'Установи' (Institutions) is too generic and lacks specificity about the type of institutions.",
+          "wcag": "2.4.4",
+          "suggestion": "Health Institutions"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text 'Контакт' is not unique on the page, making it difficult for screen reader users to distinguish its purpose from other identical links when navigating by links alone.",
+          "wcag": "2.4.4",
+          "suggestion": "Општ Контакт (General Contact)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text 'Контакт' is not unique on the page, making it difficult for screen reader users to distinguish its purpose from other identical links when navigating by links alone.",
+          "wcag": "2.4.4",
+          "suggestion": "Формулар за Контакт (Contact Form)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "See module details",
+          "wcag": "2.4.4",
+          "suggestion": "Архива (се отвора во нов прозорец)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text is a full URL, which can be verbose and less user-friendly for screen reader users.",
+          "wcag": "2.4.4",
+          "suggestion": "Портал за владини услуги (Opens in new tab)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text is a full URL, which can be verbose and less user-friendly for screen reader users.",
+          "wcag": "2.4.4",
+          "suggestion": "Портал за отворени податоци (Opens in new tab)"
+        },
+        {
+          "source": "visual",
+          "rule": "Text Spacing Override",
+          "description": "The cookie banner at the bottom overlaps and obscures content behind it, specifically the text 'Резервација за 15-min Meeting', making it unreadable.",
+          "wcag": "1.4.12",
+          "suggestion": "Ensure that overlay elements like cookie banners do not obscure underlying content when text spacing is applied. This can be achieved by using a modal dialog that takes focus or by ensuring the overlay pushes content down rather than covering it."
+        }
+      ],
+      "minor": [
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "While 'Листа на установи' (List of Institutions) is better, it still lacks specificity about the type of institutions.",
+          "wcag": "2.4.4",
+          "suggestion": "List of Health Institutions"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The acronym 'ЗЗ' (ZZ) is not explicitly expanded in the link text, which can be confusing out of context.",
+          "wcag": "2.4.4",
+          "suggestion": "Institutions of Secondary and Tertiary Healthcare"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The link text 'Завршни сметки' (Final Accounts) lacks specificity about whose final accounts are being referred to.",
+          "wcag": "2.4.4",
+          "suggestion": "Final Accounts of Health Institutions"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The link text \"Документи\" (Documents) is too generic and does not clearly communicate the specific type or purpose of the documents it leads to when read out of context. A screen reader user cycling through links might not understand what kind of documents this link refers to.",
+          "wcag": "2.4.4",
+          "suggestion": "Официјални Документи (Official Documents) or Извештаи и Упатства (Reports and Guidelines) to provide more specific context."
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "See module details",
+          "wcag": "2.4.4",
+          "suggestion": null
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "See module details",
+          "wcag": "2.4.4",
+          "suggestion": null
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "See module details",
+          "wcag": "2.4.4",
+          "suggestion": null
+        }
+      ],
+      "total": 81,
+      "axeCoreCount": 0,
+      "aiOnlyCount": 81
+    },
+    "moduleHealth": {
+      "images": {
+        "valid": false,
+        "score": 17,
+        "skipped": 9,
+        "errored": false,
+        "errorMsg": null
+      },
+      "links": {
+        "valid": true,
+        "score": 68,
+        "skipped": 0,
+        "errored": false,
+        "errorMsg": null
+      },
+      "headings": {
+        "valid": true,
+        "score": 35,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "readingLevel": {
+        "valid": true,
+        "score": 35,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "tables": {
+        "valid": true,
+        "score": 100,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "pageTitle": {
+        "valid": true,
+        "score": 40,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "language": {
+        "valid": true,
+        "score": 50,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "visual": {
+        "valid": true,
+        "score": 44,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "motor": {
+        "valid": true,
+        "score": 8,
+        "skipped": 0,
+        "errored": false,
+        "errorMsg": null
+      }
+    },
+    "modules": {
+      "images": {
+        "moduleName": "Image Alt Text Quality",
+        "wcag": "1.1.1",
+        "total": 27,
+        "evaluated": 18,
+        "skipped": 9,
+        "passed": 0,
+        "failed": 18,
+        "score": 17,
+        "items": [
+          {
+            "src": "https://zdravstvo.gov.mk/build/assets/logo-white-DLkR78ku.svg",
+            "alt": "Main Logo",
+            "pass": null,
+            "score": null,
+            "skipped": true,
+            "reason": "Image could not be downloaded for analysis",
+            "severity": "warning"
+          },
+          {
+            "src": "https://zdravstvo.gov.mk/build/assets/uslugi.gov.mk-Bz7nWQzw.png",
+            "alt": "https://uslugi.gov.mk/",
+            "pass": null,
+            "score": null,
+            "skipped": true,
+            "reason": "Image could not be downloaded for analysis",
+            "severity": "warning"
+          },
+          {
+            "src": "https://zdravstvo.gov.mk/build/assets/data-gov-mk-logo-Dtz-RfHK.png",
+            "alt": "https://data.gov.mk/",
+            "imageType": "logo",
+            "isDecorative": false,
+            "aiDescription": "The logo for data.gov.mk. The word \"data\" is in dark blue, and \".gov.mk\" is in magenta.",
+            "visibleTextInImage": "data.gov.mk",
+            "pass": false,
+            "score": 15,
+            "severity": "serious",
+            "issues": [
+              "The alt text is a URL and does not describe the visual content of the logo.",
+              "It fails to identify the image as a logo.",
+              "It omits key visual details such as the colors of the text."
+            ],
+            "suggestion": "Logo for data.gov.mk with 'data' in dark blue and '.gov.mk' in magenta.",
+            "reasoning": "The alt text provides a URL instead of a visual description of the logo, failing to convey its appearance or type to screen reader users.",
+            "isGenericPlaceholder": false,
+            "accuracyIssue": true,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "https://portal.mdt.gov.mk/post-images/za-sekoj-denar-od-akciza-od-tutun-ekonomijata-trosi-priblizno-cetiri-denari-za-spravuvanje-so-zdravstvenite-posledici-od-pusenjeto-image.jpeg",
+            "alt": "За секој денар од акциза од тутун, економијата троши приближно четири денари за справување со здравствените последици од пушењето",
+            "imageType": "photo",
+            "isDecorative": false,
+            "aiDescription": "A formal meeting of government officials in an ornate room. People are seated around a U-shaped table with microphones and screens displaying a building emblem and the text 'ВЛАДА НА РСМ' and 'СЕДНИЦА'. In the center stand the NATO, North Macedonia, and European Union flags.",
+            "visibleTextInImage": "ВЛАДА НА РСМ, СЕДНИЦА",
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issues": [
+              "The alt text is completely inaccurate and describes content entirely unrelated to the image.",
+              "The alt text fails to include visible text from the image: 'ВЛАДА НА РСМ', 'СЕДНИЦА'.",
+              "The alt text fails to describe key visual details of the image, such as the government officials, ornate room, U-shaped table, and the NATO, North Macedonia, and European Union flags."
+            ],
+            "suggestion": "A formal meeting of government officials in an ornate room. They are seated around a U-shaped table with screens displaying 'ВЛАДА НА РСМ' and 'СЕДНИЦА'. NATO, North Macedonia, and EU flags are in the center.",
+            "reasoning": "The alt text is critically flawed as it describes content entirely unrelated to the image, failing all aspects of accuracy and completeness.",
+            "isGenericPlaceholder": false,
+            "accuracyIssue": true,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "https://portal.mdt.gov.mk/post-images/ulogata-na-zdravstveniot-sistem-klucna-vo-ranata-detekcija-i-obezbeduvanjeto-soodvetna-poddrska-za-zrtvite-na-semejno-nasilstvo-image.jpg",
+            "alt": "Улогата на здравствениот систем клучна во раната детекција и обезбедувањето соодветна поддршка за жртвите на семејно насилство",
+            "imageType": "photo",
+            "isDecorative": false,
+            "aiDescription": "A wide shot of a conference or meeting in a large room with high ceilings and bookshelves lining the walls. In the foreground, a man sits at a wooden podium, speaking into a microphone. Rows of attendees, many wearing headphones, face forward. Two large screens are visible in the background; the left screen displays a presentation slide with the title \"GLOBAL CONTEXT OF WORKPLACE CONTROL AND REGULATION,\" and the right screen shows a close-up of a man speaking.",
+            "visibleTextInImage": "GLOBAL CONTEXT OF WORKPLACE CONTROL AND REGULATION",
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issues": [
+              "The alt text is completely inaccurate and describes content unrelated to the image.",
+              "It fails to include any description of the actual image content, including the visible text 'GLOBAL CONTEXT OF WORKPLACE CONTROL AND REGULATION'."
+            ],
+            "suggestion": "A conference with a man speaking at a podium. Attendees are visible, and two screens in the background show \"GLOBAL CONTEXT OF WORKPLACE CONTROL AND REGULATION\" on the left and a speaker on the right.",
+            "reasoning": "The alt text is entirely inaccurate, describing content unrelated to the image, making it useless and misleading for screen reader users.",
+            "isGenericPlaceholder": false,
+            "accuracyIssue": true,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "https://portal.mdt.gov.mk/post-images/so-predlog-izmenite-na-zzz-se-vrednuva-znaenjeto-iskustvoto-i-pridonesot-na-zdravstvenite-rabotnici-so-dolgogodisno-iskustvo-image.jpg",
+            "alt": " Со предлог измените на ЗЗЗ се вреднува знаењето, искуството и придонесот на здравствените работници со долгогодишно искуство",
+            "imageType": "photo",
+            "isDecorative": false,
+            "aiDescription": "Three individuals, two men and one woman, are seated in the front row of an indoor event, looking towards the camera. The man on the left wears a blue suit and glasses, smiling. The man in the middle wears a brown suit and pinstripe vest. The woman on the right has blonde hair, wears a black top and patterned jacket, and is smiling while holding glasses. Other attendees are visible in the background, along with a cameraman filming the event. A poster with the number '80' is visible on the wall.",
+            "visibleTextInImage": "80",
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issues": [
+              "The alt text does not describe the visual content of the image at all.",
+              "The alt text does not include the visible text '80' from the image.",
+              "The alt text is completely irrelevant to the image it is supposed to describe, providing a statement in a different language."
+            ],
+            "suggestion": "Three people, two men and one woman, seated in the front row of an event, looking towards the camera. A poster with the number 80 is visible on the wall.",
+            "reasoning": "The alt text completely fails to describe the image content, instead providing an unrelated statement in a different language, making it critically unhelpful for users who cannot see the image.",
+            "isGenericPlaceholder": false,
+            "accuracyIssue": true,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "https://portal.mdt.gov.mk/post-images/spasen-zivot-na-pacient-so-transplantacija-na-crn-drob-i-podobren-kvalitet-na-zivot-kaj-pacient-so-transplantiran-bubreg-image.jpg",
+            "alt": "Спасен живот на пациент со трансплантација на црн дроб и подобрен квалитет на живот кај пациент со трансплантиран бубрег",
+            "imageType": "photo",
+            "isDecorative": false,
+            "aiDescription": "An operating room scene with multiple medical staff in green scrubs and masks performing surgery on a patient, illuminated by bright overhead lights. Various medical equipment surrounds them, including monitors displaying vital signs like '55' and '107/60 (12)', and infusion pumps showing 'INFUSING 60.0' and 'INFUSING 40.0'. A clock on the wall shows approximately 1:45.",
+            "visibleTextInImage": "INFUSING 60.0, INFUSING 40.0, CC, BD, HION, HELIOS, 55, 107/60 (12), 99, 38, 63, 45, Sall Anest, mu, Panasonic, 12, 3, 6, 9",
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issues": [
+              "The alt text does not accurately describe the visual content of the image; it describes a medical outcome rather than the scene depicted.",
+              "The alt text fails to include any key visual details a sighted user would notice, such as the operating room setting, medical staff, or equipment.",
+              "The alt text omits all visible text from the image, which includes vital signs and infusion pump readings."
+            ],
+            "suggestion": "Medical staff in green scrubs and masks perform surgery in a brightly lit operating room. Monitors show vital signs like '55' and '107/60 (12)', and infusion pumps display 'INFUSING 60.0' and 'INFUSING 40.0'.",
+            "reasoning": "The alt text is completely inaccurate as it describes a medical outcome rather than the visual content of the operating room scene, making it critically misleading for screen reader users.",
+            "isGenericPlaceholder": false,
+            "accuracyIssue": true,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "https://portal.mdt.gov.mk/post-images/telemedicinata-stanuva-realnost-vo-opsta-bolnica-debar-oznacen-pocetokot-na-pilot-proekt-vo-sorabotka-so-specijalisti-od-klinikata-za-dermatovenerologija-image.jpg",
+            "alt": "Телемедицината станува реалност – во Општа болница Дебар почна пилот-проект во соработка со специјалисти од Клиника за дерматовенерологија",
+            "imageType": "photo",
+            "isDecorative": false,
+            "aiDescription": "Two women in white lab coats sit at a white desk, looking at a computer monitor displaying a video call with two other women. A webcam is mounted on the monitor, suggesting a virtual meeting or consultation in a clean, modern room.",
+            "visibleTextInImage": null,
+            "pass": false,
+            "score": 10,
+            "severity": "critical",
+            "issues": [
+              "The alt text does not describe the visual content of the image.",
+              "It provides a caption or headline related to the image's theme instead of a visual description.",
+              "It fails to convey key visual details such as the women in lab coats, the desk, the computer monitor, and the video call."
+            ],
+            "suggestion": "Two women in white lab coats sit at a desk, looking at a computer monitor displaying a video call with two other women, representing a telemedicine consultation.",
+            "reasoning": "The alt text completely fails to describe the visual content of the image, instead providing a caption or headline about the image's topic, which makes the image inaccessible to screen reader users.",
+            "isGenericPlaceholder": false,
+            "accuracyIssue": true,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "https://portal.mdt.gov.mk/post-images/za-sekoj-denar-od-akciza-od-tutun-ekonomijata-trosi-priblizno-cetiri-denari-za-spravuvanje-so-zdravstvenite-posledici-od-pusenjeto-image.jpeg",
+            "alt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "imageType": "photo",
+            "isDecorative": false,
+            "aiDescription": "A formal meeting is underway in a grand, ornate room with white walls, columns, and a large chandelier. Approximately 20-25 people, mostly men in suits, are seated around a U-shaped dark wooden conference table. In the center, behind the table, stand the flags of NATO, North Macedonia, and the European Union. Several monitors on the table display a red background with a white emblem of a building. Participants have microphones, water, and documents, with some looking at laptops. The floor features an intricate wooden pattern.",
+            "visibleTextInImage": null,
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issues": [
+              "The alt text is placeholder 'Lorem ipsum' text and does not describe the image content at all.",
+              "It fails to convey any key visual details of the image.",
+              "The alt text is not specific or meaningful, providing no information about the image.",
+              "It is not useful given the surrounding page context."
+            ],
+            "suggestion": "A formal meeting in a grand, ornate room. Around 20-25 men in suits are seated at a U-shaped table, with NATO, North Macedonia, and EU flags displayed behind them. Monitors on the table show a building emblem.",
+            "reasoning": "The alt text is placeholder text that provides no meaningful description of the image, rendering it completely inaccessible.",
+            "isGenericPlaceholder": true,
+            "accuracyIssue": true,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "https://portal.mdt.gov.mk/post-images/ulogata-na-zdravstveniot-sistem-klucna-vo-ranata-detekcija-i-obezbeduvanjeto-soodvetna-poddrska-za-zrtvite-na-semejno-nasilstvo-image.jpg",
+            "alt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "imageType": "photo",
+            "isDecorative": false,
+            "aiDescription": "A wide shot of a formal conference or meeting in a large room with wood-paneled walls and extensive bookshelves. A male speaker is seated at a dark wooden podium in the foreground. Rows of attendees, mostly women, are seated in front of him, many wearing headphones. Two large screens are visible above the bookshelves; the left screen displays a presentation slide with the title 'Rolul femeii în societatea contemporană', and the right screen shows a close-up of a man speaking.",
+            "visibleTextInImage": "Rolul femeii în societatea contemporană",
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issues": [
+              "The alt text is generic placeholder text and does not describe the image content at all.",
+              "It fails to include any visible text from the image or key visual details.",
+              "It is not concise as it's a block of irrelevant text.",
+              "It provides no useful context given the surrounding page content.",
+              "It is completely unspecific and meaningless."
+            ],
+            "suggestion": "A formal conference in a large room with wood-paneled walls. A male speaker is at a podium, with rows of attendees in front. Two screens are visible: the left displays 'Rolul femeii în societatea contemporană' (The role of women in contemporary society), and the right shows a man speaking.",
+            "reasoning": "The alt text is generic placeholder text that completely fails to describe the image content, making it inaccessible and useless for screen reader users.",
+            "isGenericPlaceholder": true,
+            "accuracyIssue": true,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "https://portal.mdt.gov.mk/post-images/so-predlog-izmenite-na-zzz-se-vrednuva-znaenjeto-iskustvoto-i-pridonesot-na-zdravstvenite-rabotnici-so-dolgogodisno-iskustvo-image.jpg",
+            "alt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "imageType": "photo",
+            "isDecorative": false,
+            "aiDescription": "Three well-dressed individuals, two men and one woman, are seated in the front row of an event. The man on the left in a blue suit smiles, the man in the middle in a brown suit looks forward, and the woman on the right in a black sparkly jacket smiles while holding glasses. Other attendees and a camera operator are visible in the background, along with a poster showing '80'.",
+            "visibleTextInImage": "80",
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issues": [
+              "The alt text is a generic placeholder ('Lorem ipsum...') and does not describe the image content at all.",
+              "The alt text is completely inaccurate and describes something unrelated to the image.",
+              "The alt text does not include the visible text '80' from the image.",
+              "The alt text provides no useful information given the surrounding page context."
+            ],
+            "suggestion": "Three well-dressed people, two men and one woman, are seated in the front row of an event. A poster in the background shows '80'.",
+            "reasoning": "The alt text is a generic placeholder that completely fails to describe the image content, making it inaccessible to screen reader users.",
+            "isGenericPlaceholder": true,
+            "accuracyIssue": true,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "https://zdravstvo.gov.mk/build/assets/counter-bg-C3tKyN63.jpg",
+            "alt": "Counter Backgorund",
+            "imageType": "photo",
+            "isDecorative": false,
+            "aiDescription": "A sterile, brightly lit medical examination room featuring a grey padded examination table in the foreground. A white medical headwall unit with various outlets and controls is mounted on the left wall, with a smaller control panel below it. On the far right, a portion of another medical bed with white rails and a blue mattress is visible.",
+            "visibleTextInImage": null,
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issues": [
+              "The alt text is completely inaccurate and describes something unrelated to the image content.",
+              "The alt text is incomplete, missing all key visual details of the medical examination room and equipment.",
+              "The alt text contains a typo ('Backgorund' instead of 'Background')."
+            ],
+            "suggestion": "A sterile medical examination room with a grey examination table and a white medical headwall unit.",
+            "reasoning": "The alt text is critically flawed as it is completely inaccurate, incomplete, and contains a typo, failing to describe the image content in any meaningful way.",
+            "isGenericPlaceholder": false,
+            "accuracyIssue": true,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "https://zdravstvo.gov.mk/build/assets/moj-termin-DxG1UwMM.jpg",
+            "alt": "Moj Termin",
+            "imageType": "logo",
+            "isDecorative": false,
+            "aiDescription": "Logo for 'Moj Termin' featuring the Cyrillic text 'МОЈ ТЕРМИН'. The letter 'Т' in 'ТЕРМИН' is stylized as a clock face with a blue pointer, and a blue line underlines the text.",
+            "visibleTextInImage": "МОЈ ТЕРМИН",
+            "pass": false,
+            "score": 50,
+            "severity": "moderate",
+            "issues": [
+              "The alt text is incomplete as it omits key visual details of the logo's design, specifically the stylized 'T' as a clock face and the blue underline.",
+              "The alt text does not convey the visual appearance of the logo, which is important for users who cannot see the image to understand its unique design."
+            ],
+            "suggestion": "Logo for Moj Termin, featuring a stylized 'T' as a clock face and a blue underline.",
+            "reasoning": "The alt text accurately identifies the logo's name but fails to describe its unique visual characteristics, making it incomplete and less useful.",
+            "isGenericPlaceholder": false,
+            "accuracyIssue": false,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "https://zdravstvo.gov.mk/build/assets/upatstva-medicina-bazirana-na-dokazi-Bi5S55GP.jpg",
+            "alt": "Upatstva",
+            "imageType": "photo",
+            "isDecorative": false,
+            "aiDescription": "A black stethoscope is placed on a white background next to blue text that reads \"УПАТСТВА\" (Guidelines) and \"Медицина базирана на докази\" (Evidence-based medicine).",
+            "visibleTextInImage": "УПАТСТВА\nМедицина базирана\nна докази",
+            "pass": false,
+            "score": 15,
+            "severity": "serious",
+            "issues": [
+              "The alt text fails to describe the main visual element, a black stethoscope.",
+              "The alt text omits the second line of visible text: 'Медицина базирана на докази' (Evidence-based medicine).",
+              "The alt text only provides a transliteration of one word, which is insufficient to convey the image's full meaning."
+            ],
+            "suggestion": "Black stethoscope next to text 'Guidelines: Evidence-based medicine'.",
+            "reasoning": "The alt text is severely incomplete, omitting the primary visual element and most of the visible text, making it largely uninformative for users who cannot see the image.",
+            "isGenericPlaceholder": false,
+            "accuracyIssue": false,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "https://zdravstvo.gov.mk/build/assets/registar-na-lekovi-CiWHPD-P.jpg",
+            "alt": "Registar na lekovi",
+            "imageType": "logo",
+            "isDecorative": false,
+            "aiDescription": "Logo for a 'Register of Medicines' featuring the text 'РЕГИСТАР НА ЛЕКОВИ' in blue, alongside an assortment of colorful pills and capsules including an orange and blue capsule, a red oval tablet, a yellow round tablet, a green round tablet, and a golden gel cap.",
+            "visibleTextInImage": "РЕГИСТАР НА ЛЕКОВИ",
+            "pass": false,
+            "score": 70,
+            "severity": "serious",
+            "issues": [
+              "The alt text does not identify the image as a logo.",
+              "The alt text omits key visual details (colorful pills and capsules) that convey the image's purpose and context."
+            ],
+            "suggestion": "Registar na lekovi logo, featuring colorful pills and capsules.",
+            "reasoning": "The alt text accurately provides the visible text but is incomplete as it fails to identify the image as a logo and omits key visual details that convey its purpose.",
+            "isGenericPlaceholder": false,
+            "accuracyIssue": false,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "https://zdravstvo.gov.mk/build/assets/prijavete-DUTUjwOr.jpg",
+            "alt": "Prijavete Nepravilnosti",
+            "imageType": "icon",
+            "isDecorative": false,
+            "aiDescription": "Icon featuring a blue stethoscope and a golden judge's gavel, with the Cyrillic text 'ПРИЈАВЕТЕ НЕПРАВИЛНОСТ' (Report Irregularity).",
+            "visibleTextInImage": "ПРИЈАВЕТЕ НЕПРАВИЛНОСТ",
+            "pass": false,
+            "score": 20,
+            "severity": "serious",
+            "issues": [
+              "The alt text fails to describe the visual elements of the icon (blue stethoscope and golden judge's gavel).",
+              "The alt text provides a transliteration of the Cyrillic text but does not provide its English meaning ('Report Irregularity')."
+            ],
+            "suggestion": "Icon: blue stethoscope and golden gavel with text 'Report Irregularity'.",
+            "reasoning": "The alt text is severely incomplete and inaccurate as it only transliterates the text within the image, completely omitting the visual description of the stethoscope and gavel, and the meaning of the text.",
+            "isGenericPlaceholder": false,
+            "accuracyIssue": true,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "https://zdravstvo.gov.mk/build/assets/msc-6JPofQ2S.jpg",
+            "alt": "Prijavete Nepravilnosti",
+            "imageType": "logo",
+            "isDecorative": false,
+            "aiDescription": "The logo for the Medical Simulation Center Skopje, featuring a circular emblem with the acronym \"МСЦ\" and \"скоПЈЕ\" inside, surrounded by \"МЕДИЦИНСКИ СИМУЛАЦИСКИ ЦЕНТАР\" along the top arc, quartered in red and black. To the right, the full name \"МЕДИЦИНСКИ СИМУЛАЦИСКИ ЦЕНТАР\" is written vertically in black text.",
+            "visibleTextInImage": "МЕДИЦИНСКИ СИМУЛАЦИСКИ ЦЕНТАР МСЦ скоПЈЕ МЕДИЦИНСКИ СИМУЛАЦИСКИ ЦЕНТАР",
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issues": [
+              "The alt text is completely inaccurate and describes content unrelated to the image.",
+              "The alt text fails to convey any information about the logo, including its purpose, visual characteristics, or the text it contains."
+            ],
+            "suggestion": "Logo for Medical Simulation Center Skopje. It features a red and black circular emblem with the acronym 'МСЦ' and 'скоПЈЕ' inside, and the full name 'МЕДИЦИНСКИ СИМУЛАЦИСКИ ЦЕНТАР' written around the top arc and vertically to the right.",
+            "reasoning": "The alt text is completely inaccurate and describes content unrelated to the image, making it critically misleading for screen reader users.",
+            "isGenericPlaceholder": false,
+            "accuracyIssue": true,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "https://zdravstvo.gov.mk/build/assets/PerusisLogo-CiqgeV3j.jpg",
+            "alt": "PerusisLogo",
+            "imageType": "photo",
+            "isDecorative": false,
+            "aiDescription": "A black and silver stethoscope lies on a plain white background. To the right of the stethoscope, blue text is displayed, reading 'ГОЛЕМА КАШЛИЦА - Пертусис'.",
+            "visibleTextInImage": "ГОЛЕМА КАШЛИЦА - Пертусис",
+            "pass": false,
+            "score": 10,
+            "severity": "critical",
+            "issues": [
+              "The alt text is highly inaccurate, describing a 'logo' and only part of the visible text, while completely omitting the prominent stethoscope.",
+              "The alt text is incomplete, failing to include the visual detail of the stethoscope and the full text 'ГОЛЕМА КАШЛИЦА'.",
+              "The alt text uses the generic term 'Logo', which is unhelpful and does not describe the image content.",
+              "The alt text is too short to be meaningful, as it omits critical information about the image."
+            ],
+            "suggestion": "A black and silver stethoscope on a white background, next to blue text reading 'ГОЛЕМА КАШЛИЦА - Пертусис'.",
+            "reasoning": "The alt text is highly inaccurate and incomplete, failing to describe the primary visual elements and using a generic placeholder.",
+            "isGenericPlaceholder": true,
+            "accuracyIssue": true,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "https://zdravstvo.gov.mk/build/assets/NRS_baner-IkBZl3Ja.jpg",
+            "alt": "НРС",
+            "imageType": "logo",
+            "isDecorative": false,
+            "aiDescription": "Logo for the National Development Strategy. A white square with the Macedonian text 'СОЗДАВАМЕ ИДНИНА ЗАЕДНО' (Creating a Future Together) and 'НАЦИОНАЛНА РАЗВОЈНА СТРАТЕГИЈА' (National Development Strategy) is surrounded by colorful abstract arrows and shapes in blue, green, red, and yellow, suggesting progress and collaboration.",
+            "visibleTextInImage": "СОЗДАВАМЕ ИДНИНА ЗАЕДНО\nНАЦИОНАЛНА РАЗВОЈНА СТРАТЕГИЈА",
+            "pass": false,
+            "score": 41,
+            "severity": "serious",
+            "issues": [
+              "The alt text does not include all visible text from the image, specifically 'СОЗДАВАМЕ ИДНИНА ЗАЕДНО' and the full 'НАЦИОНАЛНА РАЗВОЈНА СТРАТЕГИЈА'.",
+              "The alt text fails to describe any of the visual elements of the logo, such as the colorful abstract arrows and shapes.",
+              "The alt text is too concise to be fully informative without additional surrounding page context."
+            ],
+            "suggestion": "Logo for the National Development Strategy, with the text 'СОЗДАВАМЕ ИДНИНА ЗАЕДНО' and 'НАЦИОНАЛНА РАЗВОЈНА СТРАТЕГИЈА', surrounded by colorful abstract shapes.",
+            "reasoning": "The alt text is too brief, failing to include the full visible text and visual description of the logo, making it incomplete and not fully informative.",
+            "isGenericPlaceholder": false,
+            "accuracyIssue": false,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "https://zdravstvo.gov.mk/build/assets/NDS_SDG_mk-BGqRwqtH.jpg",
+            "alt": "НРС",
+            "pass": null,
+            "score": null,
+            "skipped": true,
+            "reason": "Image could not be downloaded for analysis",
+            "severity": "warning"
+          },
+          {
+            "src": "https://zdravstvo.gov.mk/build/assets/logo-moe-zdravje-DKrcP755.svg",
+            "alt": "Moe Zdravje",
+            "pass": null,
+            "score": null,
+            "skipped": true,
+            "reason": "Image could not be downloaded for analysis",
+            "severity": "warning"
+          },
+          {
+            "src": "https://zdravstvo.gov.mk/build/assets/google-play-badge-logo-svgrepo-com-CgYAt45P.svg",
+            "alt": "Google Play",
+            "pass": null,
+            "score": null,
+            "skipped": true,
+            "reason": "Image could not be downloaded for analysis",
+            "severity": "warning"
+          },
+          {
+            "src": "https://zdravstvo.gov.mk/build/assets/download-on-the-app-store-apple-logo-svgrepo-com-C6n9CgUG.svg",
+            "alt": "Apple store",
+            "pass": null,
+            "score": null,
+            "skipped": true,
+            "reason": "Image could not be downloaded for analysis",
+            "severity": "warning"
+          },
+          {
+            "src": "https://zdravstvo.gov.mk/build/assets/moe-zdravje-app-yr9gdH0K.png",
+            "alt": "Counter Backgorund",
+            "pass": null,
+            "score": null,
+            "skipped": true,
+            "reason": "Image could not be downloaded for analysis",
+            "severity": "warning"
+          },
+          {
+            "src": "https://zdravstvo.gov.mk/build/assets/logo-white-DLkR78ku.svg",
+            "alt": "Logo White",
+            "pass": null,
+            "score": null,
+            "skipped": true,
+            "reason": "Image could not be downloaded for analysis",
+            "severity": "warning"
+          },
+          {
+            "src": "https://zdravstvo.gov.mk/build/assets/uslugi-logo-CAeFWK1T.svg",
+            "alt": "Uslugi gov mk",
+            "pass": null,
+            "score": null,
+            "skipped": true,
+            "reason": "Image could not be downloaded for analysis",
+            "severity": "warning"
+          },
+          {
+            "src": "https://zdravstvo.gov.mk/build/assets/data-gov-mk-logo-white-r8nbPVww.png",
+            "alt": "data.gov.mk",
+            "imageType": "logo",
+            "isDecorative": false,
+            "aiDescription": "The domain name data.gov.mk in white sans-serif letters.",
+            "visibleTextInImage": "data.gov.mk",
+            "pass": false,
+            "score": 70,
+            "severity": "critical",
+            "issues": [
+              "The alt text 'data.gov.mk' is critically redundant with the surrounding page context (the URL 'https://data.gov.mk/' and likely the site's main title or a prominent heading), causing unnecessary repetition for screen reader users."
+            ],
+            "suggestion": "Consider using `alt=\"\"` if the site name 'data.gov.mk' is already conveyed by surrounding text (e.g., a link's visible text, a heading, or the page title) to avoid redundancy.",
+            "reasoning": "The alt text accurately describes the image content but is critically redundant with the surrounding page context, leading to a poor experience for screen reader users.",
+            "isGenericPlaceholder": false,
+            "accuracyIssue": false,
+            "source": "ai-evaluation"
+          }
+        ]
+      },
+      "links": {
+        "moduleName": "Link Text Meaningfulness",
+        "wcag": "2.4.4",
+        "total": 126,
+        "evaluated": 126,
+        "skipped": 0,
+        "passed": 74,
+        "failed": 52,
+        "score": 68,
+        "items": [
+          {
+            "text": "Република Северна Македонија\nМинистерство за здравство",
+            "href": "https://zdravstvo.gov.mk/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": true,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Министерство",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ministerstvo",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 60,
+            "severity": "moderate",
+            "issue": "Link text is too generic and lacks specific context about what aspect of the Ministry it refers to.",
+            "suggestion": "За Министерството (About the Ministry)",
+            "additionalIssue": null
+          },
+          {
+            "text": "Министер",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ministerstvo/minister",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Заменик министер",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ministerstvo/zamenik-minister",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Државен секретар",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ministerstvo/drzaven-sekretar",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Интегритет",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ministerstvo/integritet",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 50,
+            "severity": "moderate",
+            "issue": "Link text is too abstract and does not clearly communicate the specific content or purpose of the linked page.",
+            "suggestion": "Политика за интегритет (Integrity Policy)",
+            "additionalIssue": null
+          },
+          {
+            "text": "Јавни набавки",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ministerstvo/javni-nabavki",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Огласи",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ministerstvo/oglasi",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 55,
+            "severity": "moderate",
+            "issue": "Link text is too generic and does not specify the type of announcements or notices.",
+            "suggestion": "Тековни огласи (Current Announcements)",
+            "additionalIssue": null
+          },
+          {
+            "text": "Јавни огласи",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ministerstvo/javni-oglasi",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Завршени јавни огласи",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ministerstvo/zavrseni-javni-oglasi",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Конкурси",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ministerstvo/konkursi",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 75,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Завршени конкурси",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ministerstvo/zavrseni-konkursi",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Проекти",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ministerstvo/proekti",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 75,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Превенција",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ministerstvo/prevencija",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 60,
+            "severity": "moderate",
+            "issue": "Link text is too general and does not specify what kind of prevention is being discussed.",
+            "suggestion": "Здравствена превенција (Health Prevention)",
+            "additionalIssue": null
+          },
+          {
+            "text": "Сектори",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ministerstvo/sektori",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 85,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Органи во состав",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ministerstvo/organi-vo-sostav",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Организација и систематизација",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ministerstvo/organizacija-i-sistematizacija",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Органограм",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ministerstvo/organogram",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Кодекс за административни службеници",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ministerstvo/kodeks-za-administrativni-sluzbenici",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "SEEHN",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ministerstvo/seehn",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 30,
+            "severity": "critical",
+            "issue": "Link text is an acronym (\"SEEHN\") which is not descriptive out of context and does not clearly communicate the destination or purpose.",
+            "suggestion": "SEEHN (South Eastern Europe Health Network)",
+            "additionalIssue": null
+          },
+          {
+            "text": "SEEHN",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ministerstvo/seehn",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 20,
+            "severity": "critical",
+            "issue": "The acronym 'SEEHN' is not descriptive without context and does not clearly communicate its purpose or destination.",
+            "suggestion": "SEEHN (South Eastern European Health Network) Information",
+            "additionalIssue": null
+          },
+          {
+            "text": "SEEHN - Новости",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ministerstvo/seehn-novosti",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 50,
+            "severity": "serious",
+            "issue": "The acronym 'SEEHN' is not descriptive without context, even with 'Новости' (News) appended.",
+            "suggestion": "SEEHN (South Eastern European Health Network) News",
+            "additionalIssue": null
+          },
+          {
+            "text": "Установи",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ustanovi",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 60,
+            "severity": "moderate",
+            "issue": "The term 'Установи' (Institutions) is too generic and lacks specificity about the type of institutions.",
+            "suggestion": "Health Institutions",
+            "additionalIssue": null
+          },
+          {
+            "text": "Адреси на ЗД",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ustanovi/adresi-na-zd",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 30,
+            "severity": "critical",
+            "issue": "The acronym 'ЗД' (ZD) is not descriptive without context and does not clearly communicate its purpose or destination.",
+            "suggestion": "Addresses of Health Departments",
+            "additionalIssue": null
+          },
+          {
+            "text": "Листа на установи",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ustanovi/lista-na-ustanovi",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 70,
+            "severity": "minor",
+            "issue": "While 'Листа на установи' (List of Institutions) is better, it still lacks specificity about the type of institutions.",
+            "suggestion": "List of Health Institutions",
+            "additionalIssue": null
+          },
+          {
+            "text": "Установи од секундарна и терцијална ЗЗ",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ustanovi/ustanovi-od-sekundarna-i-tercijalna-zz",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 80,
+            "severity": "minor",
+            "issue": "The acronym 'ЗЗ' (ZZ) is not explicitly expanded in the link text, which can be confusing out of context.",
+            "suggestion": "Institutions of Secondary and Tertiary Healthcare",
+            "additionalIssue": null
+          },
+          {
+            "text": "Аптеки",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ustanovi/apteki",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Овластувања за здравствени установи",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ustanovi/ovlastuvanja-za-zdravstveni-ustanovi",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Обнова на дозвола за работа",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ustanovi/obnova-na-dozvola-za-rabota",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Завршни сметки",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ustanovi/zavrsni-smetki",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 75,
+            "severity": "minor",
+            "issue": "The link text 'Завршни сметки' (Final Accounts) lacks specificity about whose final accounts are being referred to.",
+            "suggestion": "Final Accounts of Health Institutions",
+            "additionalIssue": null
+          },
+          {
+            "text": "Регулатива",
+            "href": "https://zdravstvo.gov.mk/mk-MK/regulativa",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Закони",
+            "href": "https://zdravstvo.gov.mk/mk-MK/regulativa/zakoni",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Предлог закони",
+            "href": "https://zdravstvo.gov.mk/mk-MK/regulativa/predlog-zakoni",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Подзаконски акти",
+            "href": "https://zdravstvo.gov.mk/mk-MK/regulativa/podzakonski-akti",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Одлуки",
+            "href": "https://zdravstvo.gov.mk/mk-MK/regulativa/odluki",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Модел на статут на ЈЗУ",
+            "href": "https://zdravstvo.gov.mk/mk-MK/regulativa/model-na-statut-na-jzu",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Документи",
+            "href": "https://zdravstvo.gov.mk/mk-MK/dokumenti",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 75,
+            "severity": "minor",
+            "issue": "The link text \"Документи\" (Documents) is too generic and does not clearly communicate the specific type or purpose of the documents it leads to when read out of context. A screen reader user cycling through links might not understand what kind of documents this link refers to.",
+            "suggestion": "Официјални Документи (Official Documents) or Извештаи и Упатства (Reports and Guidelines) to provide more specific context.",
+            "additionalIssue": null
+          },
+          {
+            "text": "Стратешки план и буџет",
+            "href": "https://zdravstvo.gov.mk/mk-MK/dokumenti/strateski-plan-i-budzet",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Реализација на Буџетот",
+            "href": "https://zdravstvo.gov.mk/mk-MK/dokumenti/realizacija-na-budzetot",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Упатства",
+            "href": "https://zdravstvo.gov.mk/mk-MK/dokumenti/upatstva",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Работни документи",
+            "href": "https://zdravstvo.gov.mk/mk-MK/dokumenti/rabotni-dokumenti",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Интервенциски процедури",
+            "href": "https://zdravstvo.gov.mk/mk-MK/dokumenti/intervenciski-proceduri",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Клинички упатства",
+            "href": "https://zdravstvo.gov.mk/mk-MK/dokumenti/klinicki-upatstva",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Програми",
+            "href": "https://zdravstvo.gov.mk/mk-MK/dokumenti/programi",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Стратегии",
+            "href": "https://zdravstvo.gov.mk/mk-MK/dokumenti/strategii",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Дописи",
+            "href": "https://zdravstvo.gov.mk/mk-MK/dokumenti/dopisi",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Извештаи",
+            "href": "https://zdravstvo.gov.mk/mk-MK/dokumenti/izvestai",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Ревизорски извештаи",
+            "href": "https://zdravstvo.gov.mk/mk-MK/dokumenti/revizorski-izvestai",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Акциски планови",
+            "href": "https://zdravstvo.gov.mk/mk-MK/dokumenti/akciski-planovi",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Обрасци",
+            "href": "https://zdravstvo.gov.mk/mk-MK/dokumenti/obrasci",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Презентации",
+            "href": "https://zdravstvo.gov.mk/mk-MK/dokumenti/prezentacii",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Односи со јавност",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Соопштенија",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/soopstenija",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Новости",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/novosti",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Интервјуа",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/intervjua",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Прес-конференции",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/pres-konferencii",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Слободен пристап до информации од јавен карактер",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/sloboden-pristap-do-informacii-od-javen-karakter",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Листа на информации од јавен карактер",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/lista-na-informacii-od-javen-karakter",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Анкети",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/anketi",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Флаери",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/flaeri",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Доктори од дијаспората – изразување интерес",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/doktori-od-dijasporata-izrazuvanje-interes",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Колумни",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/kolumni",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Контакт",
+            "href": "https://zdravstvo.gov.mk/mk-MK/kontakt",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 50,
+            "severity": "moderate",
+            "issue": "Link text 'Контакт' is not unique on the page, making it difficult for screen reader users to distinguish its purpose from other identical links when navigating by links alone.",
+            "suggestion": "Општ Контакт (General Contact)",
+            "additionalIssue": null
+          },
+          {
+            "text": "Контакт",
+            "href": "https://zdravstvo.gov.mk/mk-MK/kontakt/kontakt",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 50,
+            "severity": "moderate",
+            "issue": "Link text 'Контакт' is not unique on the page, making it difficult for screen reader users to distinguish its purpose from other identical links when navigating by links alone.",
+            "suggestion": "Формулар за Контакт (Contact Form)",
+            "additionalIssue": null
+          },
+          {
+            "text": "Одделение за односи со јавноста",
+            "href": "https://zdravstvo.gov.mk/mk-MK/kontakt/oddelenie-za-odnosi-so-javnosta",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Заштитено внатрешно пријавување",
+            "href": "https://zdravstvo.gov.mk/mk-MK/kontakt/zastiteno-vnatresno-prijavuvanje",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Пријавете неправилност",
+            "href": "https://zdravstvo.gov.mk/mk-MK/kontakt/prijavete-nepravilnost",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ЧПП - Често поставувани прашања",
+            "href": "https://zdravstvo.gov.mk/mk-MK/kontakt/cpp-cesto-postavuvani-prasanja",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Open Link here",
+            "href": "https://uslugi.gov.mk/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issue": "The link text 'Open Link here' is generic and does not describe the purpose or destination of the link. It is also not unique on the page.",
+            "suggestion": "Uslugi.gov.mk Portal (opens in new tab)",
+            "additionalIssue": "The link opens in a new tab without warning the user in the link text."
+          },
+          {
+            "text": "Open Link here",
+            "href": "https://data.gov.mk/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issue": "The link text 'Open Link here' is generic and does not describe the purpose or destination of the link. It is also not unique on the page.",
+            "suggestion": "Data.gov.mk Portal (opens in new tab)",
+            "additionalIssue": "The link opens in a new tab without warning the user in the link text."
+          },
+          {
+            "text": "Open Link Here",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/novosti/za-sekoj-denar-od-akciza-od-tutun-ekonomijata-trosi-priblizno-cetiri-denari-za-spravuvanje-so-zdravstvenite-posledici-od-pusenjeto",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issue": "The link text is generic, non-descriptive, and not unique. It does not communicate the destination or purpose when read out of context.",
+            "suggestion": "За секој денар од акциза од тутун, економијата троши приближно четири денари за справување со здравствените последици од пушењето",
+            "additionalIssue": null
+          },
+          {
+            "text": "Open Link Here",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/novosti/ulogata-na-zdravstveniot-sistem-klucna-vo-ranata-detekcija-i-obezbeduvanjeto-soodvetna-poddrska-za-zrtvite-na-semejno-nasilstvo",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issue": "The link text is generic, non-descriptive, and not unique. It does not communicate the destination or purpose when read out of context.",
+            "suggestion": "Улогата на здравствениот систем во превенција и контрола на незаразни болести",
+            "additionalIssue": null
+          },
+          {
+            "text": "Open Link Here",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/novosti/so-predlog-izmenite-na-zzz-se-vrednuva-znaenjeto-iskustvoto-i-pridonesot-na-zdravstvenite-rabotnici-so-dolgogodisno-iskustvo",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issue": "The link text is generic, non-descriptive, and not unique. It does not communicate the destination or purpose when read out of context.",
+            "suggestion": "Со предлог измените на Законот за здравствена заштита се унапредуваат правата на пациентите",
+            "additionalIssue": null
+          },
+          {
+            "text": "Open Link Here",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/novosti/spasen-zivot-na-pacient-so-transplantacija-na-crn-drob-i-podobren-kvalitet-na-zivot-kaj-pacient-so-transplantiran-bubreg",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issue": "The link text is generic, non-descriptive, and not unique. It does not communicate the destination or purpose when read out of context.",
+            "suggestion": "Спасен живот на пациент со тешка срцева мана благодарение на брзата интервенција",
+            "additionalIssue": null
+          },
+          {
+            "text": "Open Link Here",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/novosti/telemedicinata-stanuva-realnost-vo-opsta-bolnica-debar-oznacen-pocetokot-na-pilot-proekt-vo-sorabotka-so-specijalisti-od-klinikata-za-dermatovenerologija",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issue": "The link text is generic, non-descriptive, and not unique. It does not communicate the destination or purpose when read out of context.",
+            "suggestion": "Телемедицината станува клучна алатка за пристап до здравствена нега во руралните области",
+            "additionalIssue": null
+          },
+          {
+            "text": "Прочитај повеќе",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/novosti",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 10,
+            "severity": "serious",
+            "issue": "The link text is generic and not descriptive enough when read out of context. It does not clearly communicate the destination or purpose, especially if there are multiple 'Прочитај повеќе' links on the page.",
+            "suggestion": "Сите новости",
+            "additionalIssue": null
+          },
+          {
+            "text": "Open Link Here",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/novosti/za-sekoj-denar-od-akciza-od-tutun-ekonomijata-trosi-priblizno-cetiri-denari-za-spravuvanje-so-zdravstvenite-posledici-od-pusenjeto",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": true,
+            "openNewTab": false,
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issue": "The link text is generic, non-descriptive, and not unique. It does not communicate the destination or purpose when read out of context.",
+            "suggestion": "За секој денар од акциза од тутун, економијата троши приближно четири денари за справување со здравствените последици од пушењето",
+            "additionalIssue": null
+          },
+          {
+            "text": "Новости",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/novosti",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "За секој денар од акциза од тутун, економијата троши приближно четири денари за справување со здравствените последици од пушењето",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/novosti/za-sekoj-denar-od-akciza-od-tutun-ekonomijata-trosi-priblizno-cetiri-denari-za-spravuvanje-so-zdravstvenite-posledici-od-pusenjeto",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Прочитај повеќе",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/novosti/za-sekoj-denar-od-akciza-od-tutun-ekonomijata-trosi-priblizno-cetiri-denari-za-spravuvanje-so-zdravstvenite-posledici-od-pusenjeto",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 10,
+            "severity": "serious",
+            "issue": "The link text is generic and not descriptive enough when read out of context. It does not clearly communicate the destination or purpose, especially if there are multiple 'Прочитај повеќе' links on the page.",
+            "suggestion": "За секој денар од акциза од тутун, економијата троши приближно четири денари за справување со здравствените последици од пушењето",
+            "additionalIssue": null
+          },
+          {
+            "text": "Open Link Here",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/novosti/ulogata-na-zdravstveniot-sistem-klucna-vo-ranata-detekcija-i-obezbeduvanjeto-soodvetna-poddrska-za-zrtvite-na-semejno-nasilstvo",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": true,
+            "openNewTab": false,
+            "pass": false,
+            "score": 10,
+            "severity": "critical",
+            "issue": "Generic and non-descriptive link text. It does not convey the purpose or destination of the link when read out of context.",
+            "suggestion": "Улогата на здравствениот систем клучна во раната детекција и обезбедувањето соодветна поддршка за жртвите на семејно насилство",
+            "additionalIssue": null
+          },
+          {
+            "text": "Новости",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/novosti",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Улогата на здравствениот систем клучна во раната детекција и обезбедувањето соодветна поддршка за жртвите на семејно насилство",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/novosti/ulogata-na-zdravstveniot-sistem-klucna-vo-ranata-detekcija-i-obezbeduvanjeto-soodvetna-poddrska-za-zrtvite-na-semejno-nasilstvo",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Прочитај повеќе",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/novosti/ulogata-na-zdravstveniot-sistem-klucna-vo-ranata-detekcija-i-obezbeduvanjeto-soodvetna-poddrska-za-zrtvite-na-semejno-nasilstvo",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 10,
+            "severity": "critical",
+            "issue": "Generic and non-descriptive link text. Multiple identical 'Прочитај повеќе' links lead to different destinations, making it impossible to distinguish their purpose when read out of context.",
+            "suggestion": "Прочитај повеќе за Улогата на здравствениот систем клучна во раната детекција и обезбедувањето соодветна поддршка за жртвите на семејно насилство",
+            "additionalIssue": null
+          },
+          {
+            "text": "Open Link Here",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/novosti/so-predlog-izmenite-na-zzz-se-vrednuva-znaenjeto-iskustvoto-i-pridonesot-na-zdravstvenite-rabotnici-so-dolgogodisno-iskustvo",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": true,
+            "openNewTab": false,
+            "pass": false,
+            "score": 10,
+            "severity": "critical",
+            "issue": "Generic and non-descriptive link text. It does not convey the purpose or destination of the link when read out of context.",
+            "suggestion": "Со предлог измените на ЗЗЗ се вреднува знаењето, искуството и придонесот на здравствените работници со долгогодишно искуство",
+            "additionalIssue": null
+          },
+          {
+            "text": "Новости",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/novosti",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 80,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": "Redundant link text pointing to the exact same destination as another 'Новости' link, which can be slightly confusing for screen reader users navigating by links."
+          },
+          {
+            "text": "Со предлог измените на ЗЗЗ се вреднува знаењето, искуството и придонесот на здравствените работници со долгогодишно искуство",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/novosti/so-predlog-izmenite-na-zzz-se-vrednuva-znaenjeto-iskustvoto-i-pridonesot-na-zdravstvenite-rabotnici-so-dolgogodisno-iskustvo",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Прочитај повеќе",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/novosti/so-predlog-izmenite-na-zzz-se-vrednuva-znaenjeto-iskustvoto-i-pridonesot-na-zdravstvenite-rabotnici-so-dolgogodisno-iskustvo",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 10,
+            "severity": "critical",
+            "issue": "Generic and non-descriptive link text. Multiple identical 'Прочитај повеќе' links lead to different destinations, making it impossible to distinguish their purpose when read out of context.",
+            "suggestion": "Прочитај повеќе за Со предлог измените на ЗЗЗ се вреднува знаењето, искуството и придонесот на здравствените работници со долгогодишно искуство",
+            "additionalIssue": null
+          },
+          {
+            "text": "Прочитај повеќе",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/novosti",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 5,
+            "severity": "critical",
+            "issue": "Generic and non-descriptive link text. This 'Прочитај повеќе' link leads to a general news category page, while other identical links lead to specific articles, causing significant confusion for screen reader users.",
+            "suggestion": "Повеќе новости",
+            "additionalIssue": null
+          },
+          {
+            "text": "open link here",
+            "href": "http://mojtermin.mk/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 10,
+            "severity": "critical",
+            "issue": "Generic and non-descriptive link text. It does not convey the purpose or destination of the link when read out of context.",
+            "suggestion": "MojTermin.mk",
+            "additionalIssue": null
+          },
+          {
+            "text": "open link here",
+            "href": "https://zdravstvo.gov.mk/mk-MK/kontakt/cpp-cesto-postavuvani-prasanja",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 10,
+            "severity": "critical",
+            "issue": "Link text 'open link here' is not descriptive, does not communicate the destination, and is not unique. A screen reader user would not understand the purpose of this link out of context, especially when encountering multiple identical links.",
+            "suggestion": "Често поставувани прашања",
+            "additionalIssue": null
+          },
+          {
+            "text": "open link here",
+            "href": "https://finance.gov.mk/mk-MK/klucni-segmenti/proekti/proekt-za-energetska-efikasnost-vo-javniot-sektor",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": false,
+            "score": 5,
+            "severity": "critical",
+            "issue": "Link text 'open link here' is not descriptive, does not communicate the destination, and is not unique. A screen reader user would not understand the purpose of this link out of context, especially when encountering multiple identical links.",
+            "suggestion": "Проект за енергетска ефикасност (се отвора во нов прозорец)",
+            "additionalIssue": "Link opens in a new tab without warning the user in the link text."
+          },
+          {
+            "text": "open link here",
+            "href": "https://zdravstvo.gov.mk/mk-MK/dokumenti/upatstva/upatstva-za-praktikuvanje-na-medicina-zasnovana-na-dokazi",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 10,
+            "severity": "critical",
+            "issue": "Link text 'open link here' is not descriptive, does not communicate the destination, and is not unique. A screen reader user would not understand the purpose of this link out of context, especially when encountering multiple identical links.",
+            "suggestion": "Упатства за практикување на медицина",
+            "additionalIssue": null
+          },
+          {
+            "text": "open link here",
+            "href": "https://lekovi.zdravstvo.gov.mk/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": false,
+            "score": 5,
+            "severity": "critical",
+            "issue": "Link text 'open link here' is not descriptive, does not communicate the destination, and is not unique. A screen reader user would not understand the purpose of this link out of context, especially when encountering multiple identical links.",
+            "suggestion": "Портал за лекови (се отвора во нов прозорец)",
+            "additionalIssue": "Link opens in a new tab without warning the user in the link text."
+          },
+          {
+            "text": "open link here",
+            "href": "https://zdravstvo.gov.mk/mk-MK/dokumenti/upatstva/patstvo-za-sproveduvanje-na-postapka-za-prezemanje-na-zdravstven-rabotnik-so-visoko-obrazovanie-od-oblasta-na-medicinata-stomatologijata-i-farmacijata",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 10,
+            "severity": "critical",
+            "issue": "Link text 'open link here' is not descriptive, does not communicate the destination, and is not unique. A screen reader user would not understand the purpose of this link out of context, especially when encountering multiple identical links.",
+            "suggestion": "Упатство за спроведување на политики",
+            "additionalIssue": null
+          },
+          {
+            "text": "open link here",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/lista-na-informacii-od-javen-karakter",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 10,
+            "severity": "critical",
+            "issue": "Link text 'open link here' is not descriptive, does not communicate the destination, and is not unique. A screen reader user would not understand the purpose of this link out of context, especially when encountering multiple identical links.",
+            "suggestion": "Листа на информации од јавен карактер",
+            "additionalIssue": null
+          },
+          {
+            "text": "open link here",
+            "href": "https://zdravstvo.gov.mk/mk-MK/kontakt/prijavete-nepravilnost",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 10,
+            "severity": "critical",
+            "issue": "Link text 'open link here' is not descriptive, does not communicate the destination, and is not unique. A screen reader user would not understand the purpose of this link out of context, especially when encountering multiple identical links.",
+            "suggestion": "Пријавете неправилност",
+            "additionalIssue": null
+          },
+          {
+            "text": "open link here",
+            "href": "https://zdravstvo.gov.mk/mk-MK/dokumenti/obrasci",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 10,
+            "severity": "critical",
+            "issue": "Link text 'open link here' is not descriptive, does not communicate the destination, and is not unique. A screen reader user would not understand the purpose of this link out of context, especially when encountering multiple identical links.",
+            "suggestion": "Обрасци",
+            "additionalIssue": null
+          },
+          {
+            "text": "open link here",
+            "href": "https://msc.gov.mk/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": false,
+            "score": 5,
+            "severity": "critical",
+            "issue": "Link text 'open link here' is not descriptive, does not communicate the destination, and is not unique. A screen reader user would not understand the purpose of this link out of context, especially when encountering multiple identical links.",
+            "suggestion": "Министерство за здравство (се отвора во нов прозорец)",
+            "additionalIssue": "Link opens in a new tab without warning the user in the link text."
+          },
+          {
+            "text": "open link here",
+            "href": "https://zdravstvo.gov.mk/build/assets/Upatstvo-za-sledene-na-golema-kashlitsa-i-postapuvane-pri-pojava-na-epidemija-23.02.2024--oNmzuXO8.pdf",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": false,
+            "score": 5,
+            "severity": "critical",
+            "issue": "Link text 'open link here' is not descriptive, does not communicate the destination, and is not unique. A screen reader user would not understand the purpose of this link out of context, especially when encountering multiple identical links.",
+            "suggestion": "Упатство за следење на голема кашлица (се отвора во нов прозорец)",
+            "additionalIssue": "Link opens in a new tab without warning the user in the link text."
+          },
+          {
+            "text": "open link here",
+            "href": "http://www.nrs.mk/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issue": "The link text 'open link here' is generic and provides no information about the link's destination or purpose when read out of context. It fails to meet WCAG 2.4.4 Link Purpose (In Context).",
+            "suggestion": "Given the href 'http://www.nrs.mk/', a more descriptive text could be 'National Registry System (opens new tab)' or 'Visit National Registry System website (opens new tab)'.",
+            "additionalIssue": "The link opens in a new tab without warning the user, which can disorient screen reader users. (WCAG 3.2.5)"
+          },
+          {
+            "text": "open link here",
+            "href": "https://sdgprivatefinance.undp.org/leveraging-capital/sdg-investor-platform/country/republic-north-macedonia",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issue": "The link text 'open link here' is generic and provides no information about the link's destination or purpose when read out of context. It fails to meet WCAG 2.4.4 Link Purpose (In Context).",
+            "suggestion": "Given the href 'https://sdgprivatefinance.undp.org/leveraging-capital/sdg-investor-platform/coun', a more descriptive text could be 'UNDP SDG Investor Platform (opens new tab)' or 'Learn about SDG Investor Platform (opens new tab)'.",
+            "additionalIssue": "The link opens in a new tab without warning the user, which can disorient screen reader users. (WCAG 3.2.5)"
+          },
+          {
+            "text": "open link here",
+            "href": "https://operacii.zdravstvo.gov.mk/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issue": "The link text 'open link here' is generic and provides no information about the link's destination or purpose when read out of context. It fails to meet WCAG 2.4.4 Link Purpose (In Context).",
+            "suggestion": "Given the href 'https://operacii.zdravstvo.gov.mk/', a more descriptive text could be 'Healthcare Operations Portal (opens new tab)' or 'Ministry of Health Operations (opens new tab)'.",
+            "additionalIssue": "The link opens in a new tab without warning the user, which can disorient screen reader users. (WCAG 3.2.5)"
+          },
+          {
+            "text": "Почетна",
+            "href": "https://zdravstvo.gov.mk/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": "null",
+            "issue": "null",
+            "suggestion": "null",
+            "additionalIssue": "null"
+          },
+          {
+            "text": "Министер",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ministerstvo/minister",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": "null",
+            "issue": "null",
+            "suggestion": "null",
+            "additionalIssue": "null"
+          },
+          {
+            "text": "Заменик министер",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ministerstvo/zamenik-minister",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": "null",
+            "issue": "null",
+            "suggestion": "null",
+            "additionalIssue": "null"
+          },
+          {
+            "text": "Организациска структура",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ministerstvo/organizacija-i-sistematizacija",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": "null",
+            "issue": "null",
+            "suggestion": "null",
+            "additionalIssue": "null"
+          },
+          {
+            "text": "Политика на интегритет",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ministerstvo/integritet",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": "null",
+            "issue": "null",
+            "suggestion": "null",
+            "additionalIssue": "null"
+          },
+          {
+            "text": "Сектори",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ministerstvo/sektori",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": "null",
+            "issue": "null",
+            "suggestion": "null",
+            "additionalIssue": "null"
+          },
+          {
+            "text": "Превенција",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ministerstvo/prevencija",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": "null",
+            "issue": "null",
+            "suggestion": "null",
+            "additionalIssue": "null"
+          },
+          {
+            "text": "Институции",
+            "href": "https://zdravstvo.gov.mk/mk-MK/ustanovi",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Регулатива",
+            "href": "https://zdravstvo.gov.mk/mk-MK/regulativa",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Документи",
+            "href": "https://zdravstvo.gov.mk/mk-MK/dokumenti%7D",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Соопштенија",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/soopstenija",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Новости",
+            "href": "https://zdravstvo.gov.mk/mk-MK/odnosi-so-javnost/novosti",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Контакт",
+            "href": "https://zdravstvo.gov.mk/mk-MK/kontakt/kontakt",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Архива",
+            "href": "https://arhiva.zdravstvo.gov.mk/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": false,
+            "score": 70,
+            "severity": "moderate",
+            "issue": null,
+            "suggestion": "Архива (се отвора во нов прозорец)",
+            "additionalIssue": "Link opens in a new tab without warning the user."
+          },
+          {
+            "text": "Мапа на сајтот",
+            "href": "https://zdravstvo.gov.mk/mk-MK/mapa-na-sajtot",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Политика за приватност",
+            "href": "https://zdravstvo.gov.mk/mk-MK/politika-za-privatnost",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "50 та Дивизија бр.14,\n1000 Скопје, Република Северна Македонија",
+            "href": "https://maps.app.goo.gl/bDjEgWwe7c3vBDbJA",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": false,
+            "score": 40,
+            "severity": "serious",
+            "issue": "The link text is a physical address, which does not clearly communicate that clicking it will open a map application.",
+            "suggestion": "Погледнете ја локацијата на мапа (се отвора во нов прозорец)",
+            "additionalIssue": "Link opens in a new tab without warning the user."
+          },
+          {
+            "text": "Facebook",
+            "href": "https://www.facebook.com/zdravstvomk",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": false,
+            "score": 80,
+            "severity": "minor",
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": "Link opens in a new tab without warning the user."
+          },
+          {
+            "text": "Twitter / X",
+            "href": "https://twitter.com/ZdravstvoMK?lang=en",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": false,
+            "score": 80,
+            "severity": "minor",
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": "Link opens in a new tab without warning the user."
+          },
+          {
+            "text": "Youtube",
+            "href": "https://www.youtube.com/channel/UCCRAOUglnUv21q28lUO1Zow",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": false,
+            "score": 80,
+            "severity": "minor",
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": "Link opens in a new tab without warning the user."
+          },
+          {
+            "text": "https://uslugi.gov.mk/",
+            "href": "https://uslugi.gov.mk/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": true,
+            "openNewTab": true,
+            "pass": false,
+            "score": 60,
+            "severity": "moderate",
+            "issue": "Link text is a full URL, which can be verbose and less user-friendly for screen reader users.",
+            "suggestion": "Портал за владини услуги (Opens in new tab)",
+            "additionalIssue": "Link opens in a new tab without warning the user."
+          },
+          {
+            "text": "https://data.gov.mk/",
+            "href": "https://data.gov.mk/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": true,
+            "openNewTab": true,
+            "pass": false,
+            "score": 60,
+            "severity": "moderate",
+            "issue": "Link text is a full URL, which can be verbose and less user-friendly for screen reader users.",
+            "suggestion": "Портал за отворени податоци (Opens in new tab)",
+            "additionalIssue": "Link opens in a new tab without warning the user."
+          },
+          {
+            "text": "Прочитајте повеќе",
+            "href": "https://zdravstvo.gov.mk/mk-MK/politika-za-kolacinja",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Оваа веб-страница користи „колачиња“, за да го подобри корисничкото искуство. Доколку ги прифаќате условите притиснете „Се согласувам“. Прочитајте повеќе",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 10,
+            "severity": "serious",
+            "issue": "Generic link text 'Прочитајте повеќе' (Read more) does not describe the link's purpose or destination when read out of context. It is not unique and provides no information about the content of the cookie policy.",
+            "suggestion": "Политика за колачиња",
+            "additionalIssue": null
+          }
+        ]
+      },
+      "headings": {
+        "moduleName": "Heading Structure Logic",
+        "wcag": "1.3.1 / 2.4.6",
+        "headingCount": 11,
+        "headingTree": [
+          {
+            "level": 1,
+            "text": "Министерство за здравство"
+          },
+          {
+            "level": 2,
+            "text": "За секој денар од акциза од тутун, економијата троши приближно четири денари за справување со здравствените последици од пушењето"
+          },
+          {
+            "level": 2,
+            "text": "Улогата на здравствениот систем клучна во раната детекција и обезбедувањето соодветна поддршка за жртвите на семејно насилство"
+          },
+          {
+            "level": 2,
+            "text": "Со предлог измените на ЗЗЗ се вреднува знаењето, искуството и придонесот на здравствените работници со долгогодишно искуство"
+          },
+          {
+            "level": 2,
+            "text": "Спасен живот на пациент со трансплантација на црн дроб и подобрен квалитет на живот кај пациент со трансплантиран бубрег"
+          },
+          {
+            "level": 2,
+            "text": "Телемедицината станува реалност – во Општа болница Дебар почна пилот-проект во соработка со специјалисти од Клиника за дерматовенерологија"
+          },
+          {
+            "level": 2,
+            "text": "Новости"
+          },
+          {
+            "level": 3,
+            "text": "За секој денар од акциза од тутун, економијата троши приближно четири денари за справување со здравствените последици од пушењето"
+          },
+          {
+            "level": 3,
+            "text": "Улогата на здравствениот систем клучна во раната детекција и обезбедувањето соодветна поддршка за жртвите на семејно насилство"
+          },
+          {
+            "level": 3,
+            "text": "Со предлог измените на ЗЗЗ се вреднува знаењето, искуството и придонесот на здравствените работници со долгогодишно искуство"
+          },
+          {
+            "level": 2,
+            "text": "Мени за пристапност"
+          }
+        ],
+        "total": 1,
+        "passed": 0,
+        "failed": 1,
+        "score": 35,
+        "items": [
+          {
+            "type": "semantic-quality",
+            "pass": false,
+            "score": 35,
+            "severity": "serious",
+            "issues": [
+              "The heading hierarchy is illogical and confusing: several news article titles are used as h2s, but then some of the exact same titles are repeated as h3s under a generic 'Новости' (News) h2. This creates redundancy and breaks the logical flow.",
+              "Major content sections identified in the page body (e.g., 'Министерство', 'Установи', 'Регулатива', 'Документи', 'Програми', 'Односи со јавност') are completely missing headings, making them inaccessible via heading navigation.",
+              "Headings at the same level (h2) are not parallel in importance or type; individual news articles are mixed with a category ('Новости') and a utility section ('Мени за пристапност')."
+            ],
+            "missingSections": [
+              "Министерство (Ministry)",
+              "Установи (Institutions)",
+              "Регулатива (Regulations)",
+              "Документи (Documents)",
+              "Програми (Programs)",
+              "Односи со јавност (Public Relations)"
+            ],
+            "vagueHeadings": [
+              "Новости"
+            ],
+            "suggestions": [],
+            "summary": null
+          }
+        ]
+      },
+      "readingLevel": {
+        "moduleName": "Reading Level & Plain Language",
+        "wcag": "3.1.5",
+        "total": 1,
+        "passed": 0,
+        "failed": 1,
+        "score": 35,
+        "severity": "serious",
+        "items": [
+          {
+            "estimatedReadingLevel": "upper-secondary",
+            "estimatedGradeLevel": "Grade 10-12",
+            "pass": false,
+            "overallScore": 35,
+            "severity": "serious",
+            "complexSentences": [
+              "Министерот Алиу се обрати на надзорна расправа на Комисија за еднакви можности во Собрание, каде истакна дека улогата на здравствениот систем е клучна, како во раната детекција, така и во обезбедувањето соодветна поддршка за жртвите на семејно насилство",
+              "Преку програмите на Министерството е обезбено и бесплатно болничко лекување и ослободување од партиципација за пензионери со пониски примања, со што директно се намалува финансискиот товар и се овозможува подобар пристап до неопходната здравствена грижа",
+              "Упатство за спроведување на постапка за преземање на здравствен работник со високо образование од областа на медицината, стоматологијата и фармацијата"
+            ],
+            "jargonFound": [
+              "акциза",
+              "детекција",
+              "партиципација",
+              "ЗЗЗ",
+              "Економско-социјалниот совет",
+              "надзорна расправа",
+              "дерматовенерологија",
+              "елективни хируршки интервенци"
+            ],
+            "passiveVoiceExamples": [
+              "Со предлог измените на ЗЗЗ се вреднува знаењето, искуството и придонесот на здравствените работници со долгогодишно искуство",
+              "Преку програмите на Министерството е обезбено и бесплатно болничко лекување и ослободување од партиципација за пензионери со пониски примања",
+              "Спасен живот на пациент со трансплантација на црн дроб и подобрен квалитет на живот кај пациент со трансплантиран бубрег"
+            ],
+            "positives": [
+              "The website uses clear and direct labels for primary navigation sections like 'Новости' (News), 'Контакт' (Contact), and 'ЧПП' (FAQ).",
+              "The inclusion of a dedicated FAQ section is a positive step towards addressing common user queries."
+            ],
+            "improvements": [
+              "Simplify complex vocabulary and explain all technical terms and abbreviations (e.g., ЗЗЗ, ЈЗУ, ПЗУ) for a general audience.",
+              "Break down overly long and multi-clause sentences into shorter, more digestible units to improve comprehension.",
+              "Rewrite passive voice constructions into active voice where appropriate to make the content more direct and easier to follow.",
+              "Provide simplified summaries or alternative versions of complex news articles and administrative documents to meet the WCAG 3.1.5 recommendation for lower secondary education level."
+            ],
+            "summary": "The content generally uses language that is too complex for a lower secondary education level, featuring extensive jargon, long sentences, and frequent passive voice. While basic navigation is clear, the informational and news content requires a higher level of literacy and specialized knowledge, failing to meet WCAG 3.1.5 guidelines."
+          }
+        ]
+      },
+      "tables": {
+        "moduleName": "Table Header Quality",
+        "wcag": "1.3.1",
+        "total": 0,
+        "passed": 0,
+        "failed": 0,
+        "score": 100,
+        "note": "No tables found on this page",
+        "items": []
+      },
+      "pageTitle": {
+        "moduleName": "Page Title Quality",
+        "wcag": "2.4.2",
+        "currentTitle": "Министерство за здравство",
+        "total": 1,
+        "passed": 0,
+        "failed": 1,
+        "score": 40,
+        "items": [
+          {
+            "pass": false,
+            "score": 40,
+            "severity": "serious",
+            "issues": [
+              "The page title is too generic, consisting only of the site name for the homepage.",
+              "The title does not describe the specific purpose of this page (e.g., 'Home' or 'Official Website').",
+              "The most unique information (page purpose) is not front-loaded because it is missing from the title."
+            ],
+            "suggestion": "Почетна - Министерство за здравство",
+            "isTooGeneric": true,
+            "isFrontLoaded": false,
+            "includesSiteName": true,
+            "characterCount": 25,
+            "source": "ai-evaluation"
+          }
+        ]
+      },
+      "language": {
+        "moduleName": "Language Accessibility & Albanian Evaluation",
+        "wcag": "3.1.1 / 3.1.2",
+        "pageUrl": "https://zdravstvo.gov.mk/",
+        "languagesOffered": {
+          "albanian": true,
+          "macedonian": true,
+          "english": true,
+          "albanianLinks": [
+            {
+              "text": "",
+              "href": "https://apps.apple.com/al/app/moe-zdravje/id1585980981",
+              "hreflang": null,
+              "ariaLabel": null,
+              "classes": ""
+            }
+          ],
+          "macedonianLinks": [
+            {
+              "text": "MK",
+              "href": null,
+              "hreflang": null,
+              "ariaLabel": null,
+              "classes": "group relative uppercase font-semibold flex items-center flex-row pr-5 transition-all duration-300"
+            },
+            {
+              "text": "info@zdravstvo.gov.mk",
+              "href": "mailto:info@zdravstvo.gov.mk",
+              "hreflang": null,
+              "ariaLabel": null,
+              "classes": "hover:underline text-xs md:text-sm !leading-tight xl:max-w-[305px] inline-block relative pl-[26px]"
+            },
+            {
+              "text": "https://uslugi.gov.mk/",
+              "href": "https://uslugi.gov.mk/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "classes": ""
+            },
+            {
+              "text": "https://data.gov.mk/",
+              "href": "https://data.gov.mk/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "classes": ""
+            }
+          ],
+          "englishLinks": [
+            {
+              "text": "Twitter / X",
+              "href": "https://twitter.com/ZdravstvoMK?lang=en",
+              "hreflang": null,
+              "ariaLabel": null,
+              "classes": "inline-block relative"
+            }
+          ],
+          "detectionMethod": "full-dom-scan including hidden dropdowns, select elements, and clickable-div patterns"
+        },
+        "langAttributeCheck": {
+          "declared": "mk",
+          "detected": "Macedonian",
+          "matches": true,
+          "issue": null,
+          "pass": true,
+          "score": 100,
+          "severity": null,
+          "confidence": "high"
+        },
+        "inlineLangUsage": {
+          "found": true,
+          "count": 1,
+          "elements": [
+            {
+              "lang": "mk",
+              "tag": "html",
+              "text": "Scroll to top\nРепублика Северна Македонија\nМинистерство за здравство\nMenu toggler\nMK\nToggle search\nМ"
+            }
+          ],
+          "note": "Page uses inline lang attributes for mixed-language content — good practice"
+        },
+        "albanianVersion": {
+          "found": true,
+          "url": "https://apps.apple.com/al/app/moe-zdravje/id1585980981",
+          "wasHidden": false,
+          "langAttributeOnAlbanianPage": "en-GB",
+          "evaluation": {
+            "langAttributeCorrect": false,
+            "langAttributeFound": "en-GB",
+            "isActuallyAlbanian": false,
+            "detectedLanguage": "English with embedded Macedonian Cyrillic",
+            "hasMixedContent": true,
+            "mixedContentExamples": [
+              "Мое Здравје",
+              "Moj Termin",
+              "Најголемата женска фит армија!",
+              "Врвно фитнес искуство!"
+            ],
+            "translationQuality": "not-translated",
+            "translationScore": 0,
+            "qualityIssues": [
+              "The entire page content, intended for Albanian users, is in English.",
+              "Macedonian Cyrillic text is present within the English content, indicating a lack of proper localization."
+            ],
+            "completenessEstimate": "empty",
+            "completenessScore": 0,
+            "missingAlbanianChars": true,
+            "technicalTermIssues": [
+              "All content, including technical and legal terms, is presented in English or Macedonian, not Albanian."
+            ],
+            "overallPass": false,
+            "overallScore": 0,
+            "severity": "critical",
+            "summary": "The page, despite being an Albanian language version, contains no Albanian content whatsoever. It is entirely in English with some Macedonian Cyrillic terms, representing a complete failure to comply with legal requirements for official language provision. This is a critical accessibility and linguistic failure.",
+            "recommendations": [
+              "Translate all page content into standard literary Albanian.",
+              "Ensure the HTML `lang` attribute is correctly set to 'sq' for Albanian content.",
+              "Remove all Macedonian Cyrillic text from the Albanian version of the page, ensuring full translation into Albanian.",
+              "Implement a robust translation and localization workflow to prevent English or other languages from appearing on official Albanian language pages."
+            ]
+          },
+          "overallPass": false,
+          "overallScore": 0,
+          "severity": "critical"
+        },
+        "total": 2,
+        "score": 50,
+        "passed": 1,
+        "failed": 1
+      },
+      "visual": {
+        "moduleName": "Visual Disability Checks",
+        "category": "visual",
+        "wcagPrinciples": [
+          "Perceivable",
+          "Operable"
+        ],
+        "affectedUsers": "Blind users, low-vision users, photosensitive users",
+        "total": 5,
+        "passed": 1,
+        "failed": 4,
+        "errored": 0,
+        "score": 44,
+        "items": [
+          {
+            "test": "CSS outline:none on focus",
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "wcag": "2.4.7",
+            "issue": "CSS removes focus outline globally — keyboard users have no visible focus indicator",
+            "detail": ".fc .fc-button:focus { box-shadow: rgba(44, 62, 80, 0.25) 0px 0px 0px 0.2rem; outline: 0px; }",
+            "suggestion": "Remove outline:none from :focus selectors, or replace with a custom visible focus style"
+          },
+          {
+            "focusVisibleInScreenshot": true,
+            "focusIndicatorDescription": "A very thin, light grey/blue dotted outline appears around the text 'Прочитај повеќе'. The dots are barely discernible.",
+            "meetsContrastRequirement": false,
+            "pass": false,
+            "score": 20,
+            "severity": "critical",
+            "issue": "The focus indicator is a very faint, 1px dotted outline that lacks sufficient contrast against the background and does not meet the minimum size requirement of 2px. It is difficult to perceive for many users, especially those with low vision or cognitive disabilities.",
+            "suggestion": "Implement a focus indicator that is at least 2px thick (solid or equivalent) and has a contrast ratio of at least 3:1 against the adjacent background color. A solid outline or a distinct background change would be more effective and perceivable.",
+            "test": "Focus indicator visibility",
+            "wcag": "2.4.7 / 2.4.11"
+          },
+          {
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "hasHorizontalScroll": false,
+            "textOverflowCount": 0,
+            "visualIssues": [],
+            "suggestion": null,
+            "test": "Zoom/Reflow at 200%",
+            "wcag": "1.4.10",
+            "overflowElements": []
+          },
+          {
+            "pass": false,
+            "score": 70,
+            "severity": "moderate",
+            "contentClipped": false,
+            "layoutBroken": true,
+            "issues": [
+              "The cookie banner at the bottom overlaps and obscures content behind it, specifically the text 'Резервација за 15-min Meeting', making it unreadable."
+            ],
+            "suggestion": "Ensure that overlay elements like cookie banners do not obscure underlying content when text spacing is applied. This can be achieved by using a modal dialog that takes focus or by ensuring the overlay pushes content down rather than covering it.",
+            "test": "Text Spacing Override",
+            "wcag": "1.4.12",
+            "clippedElementsFound": 5,
+            "clippedElements": [
+              {
+                "tag": "H2",
+                "text": "Со предлог измените на ЗЗЗ се вреднува знаењето, искуството "
+              },
+              {
+                "tag": "H2",
+                "text": "Телемедицината станува реалност – во Општа болница Дебар поч"
+              },
+              {
+                "tag": "H3",
+                "text": "За секој денар од акциза од тутун, економијата троши приближ"
+              },
+              {
+                "tag": "P",
+                "text": "Министерот за здравство, Азир Алиу денеска се обрати на сост"
+              },
+              {
+                "tag": "H3",
+                "text": "Улогата на здравствениот систем клучна во раната детекција и"
+              }
+            ]
+          },
+          {
+            "darkModeSupported": true,
+            "darkModeScore": 30,
+            "pass": false,
+            "score": 30,
+            "severity": "serious",
+            "issues": [
+              "The main content area of the website retains a light/white background, failing to adapt to the dark mode preference.",
+              "Text in the main content area is dark on a light background, which is inconsistent with a dark mode color scheme and does not provide the expected dark mode experience."
+            ],
+            "suggestions": [
+              "Implement a dark background color for the main content area when `prefers-color-scheme: dark` is active.",
+              "Adjust text colors in the main content area to be light on a dark background to ensure proper contrast and a consistent dark mode experience.",
+              "Ensure all UI elements and components adapt their colors consistently across the entire site for a complete dark mode implementation."
+            ],
+            "test": "Dark Mode Support",
+            "wcag": "1.4.3",
+            "mediaQuerySupport": {
+              "hasDarkMode": true,
+              "hasReducedMotion": false,
+              "hasForcedColors": true
+            },
+            "note": "High contrast (forced-colors) skipped — not supported in Puppeteer 21"
+          }
+        ]
+      },
+      "motor": {
+        "moduleName": "Motor Disability Checks",
+        "category": "motor",
+        "wcagPrinciples": [
+          "Operable"
+        ],
+        "affectedUsers": "Users with motor impairments, switch access users, keyboard-only users, tremor/reduced dexterity users",
+        "total": 5,
+        "passed": 0,
+        "failed": 5,
+        "skipped": 0,
+        "score": 8,
+        "items": [
+          {
+            "test": "Skip navigation link",
+            "pass": false,
+            "score": 0,
+            "severity": "serious",
+            "wcag": "2.4.1",
+            "source": "rule-based",
+            "issue": "No \"Skip to main content\" link found — keyboard users must tab through entire navigation on every page",
+            "suggestion": "Add <a href=\"#main\" class=\"skip-link\">Skip to main content</a> as the first focusable element",
+            "firstFocusableElement": {
+              "idx": 0,
+              "tag": "BUTTON",
+              "text": "Scroll to top",
+              "tabindex": 0,
+              "type": "submit",
+              "href": null
+            }
+          },
+          {
+            "test": "Keyboard trap detection",
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "wcag": "2.1.2",
+            "source": "rule-based",
+            "focusableElementCount": 139,
+            "tabSequenceSample": [
+              {
+                "tag": "IFRAME",
+                "text": "",
+                "href": null
+              }
+            ],
+            "issue": "Keyboard trap detected — user cannot Tab away from an element",
+            "suggestion": "Ensure modals and widgets release focus correctly when closed"
+          },
+          {
+            "test": "Touch Target Size",
+            "wcag": "2.5.5",
+            "source": "rule-based",
+            "pass": false,
+            "score": 0,
+            "severity": "serious",
+            "smallTargetsFound": 20,
+            "items": [
+              {
+                "tag": "BUTTON",
+                "text": "Scroll to top",
+                "width": 32,
+                "height": 32,
+                "issue": "Touch target 32×32px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Република Северна Македонија\nМинистерств",
+                "width": 150,
+                "height": 34,
+                "issue": "Touch target 150×34px is below the 44×44px minimum"
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Menu toggler",
+                "width": 30,
+                "height": 24,
+                "issue": "Touch target 30×24px is below the 44×44px minimum"
+              },
+              {
+                "tag": "BUTTON",
+                "text": "MK",
+                "width": 41,
+                "height": 14,
+                "issue": "Touch target 41×14px is below the 44×44px minimum"
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Toggle search",
+                "width": 18,
+                "height": 18,
+                "issue": "Touch target 18×18px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Министерство",
+                "width": 94,
+                "height": 27,
+                "issue": "Touch target 94×27px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Министер",
+                "width": 343,
+                "height": 42,
+                "issue": "Touch target 343×42px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Заменик министер",
+                "width": 343,
+                "height": 42,
+                "issue": "Touch target 343×42px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Државен секретар",
+                "width": 343,
+                "height": 42,
+                "issue": "Touch target 343×42px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Интегритет",
+                "width": 343,
+                "height": 42,
+                "issue": "Touch target 343×42px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Јавни набавки",
+                "width": 343,
+                "height": 42,
+                "issue": "Touch target 343×42px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Огласи",
+                "width": 295,
+                "height": 42,
+                "issue": "Touch target 295×42px is below the 44×44px minimum"
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Expand button",
+                "width": 40,
+                "height": 42,
+                "issue": "Touch target 40×42px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Проекти",
+                "width": 343,
+                "height": 42,
+                "issue": "Touch target 343×42px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Превенција",
+                "width": 343,
+                "height": 42,
+                "issue": "Touch target 343×42px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Сектори",
+                "width": 343,
+                "height": 42,
+                "issue": "Touch target 343×42px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Органи во состав",
+                "width": 343,
+                "height": 42,
+                "issue": "Touch target 343×42px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Организација и систематизација",
+                "width": 343,
+                "height": 42,
+                "issue": "Touch target 343×42px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Органограм",
+                "width": 343,
+                "height": 42,
+                "issue": "Touch target 343×42px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Кодекс за административни службеници",
+                "width": 343,
+                "height": 42,
+                "issue": "Touch target 343×42px is below the 44×44px minimum"
+              }
+            ],
+            "issue": "20 interactive elements are smaller than the 44×44px minimum touch target size",
+            "suggestion": "Increase padding on small links and buttons so the clickable area is at least 44×44px"
+          },
+          {
+            "test": "Session Timeout Warning",
+            "wcag": "2.2.1",
+            "source": "rule-based",
+            "pass": false,
+            "score": 20,
+            "severity": "serious",
+            "hasSessionTimeout": true,
+            "hasWarning": false,
+            "hasExtendOption": false,
+            "metaRefresh": null,
+            "issue": "Session timeout detected but no warning dialog found — users are logged out without notice",
+            "suggestion": "Warn users at least 20 seconds before timeout with a dialog offering to extend the session"
+          },
+          {
+            "test": "Sticky Header Scroll Margin",
+            "wcag": "2.4.12",
+            "source": "rule-based",
+            "pass": false,
+            "score": 20,
+            "severity": null,
+            "headerHeight": 0,
+            "scrollPaddingTop": 0,
+            "issue": null,
+            "suggestion": "Add to CSS: html { scroll-padding-top: 10px; }"
+          }
+        ]
+      }
+    }
+  }
+}

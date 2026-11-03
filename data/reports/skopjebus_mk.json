@@ -1,0 +1,3328 @@
+{
+  "site": "https://skopjebus.mk/mk/",
+  "auditedAt": "2026-04-24T14:51:19.854Z",
+  "score": 54,
+  "grade": "F",
+  "wcagConformance": "Partial A",
+  "axeOnlyScore": 62,
+  "axeVsHybridDelta": -8,
+  "totalViolations": 44,
+  "axeCoreViolations": 8,
+  "aiOnlyViolations": 36,
+  "criticalViolations": 13,
+  "disabilityScores": {
+    "visual": 29,
+    "motor": 40,
+    "language": 88
+  },
+  "languageSummary": {
+    "albanianVersionFound": true,
+    "albanianScore": 75
+  },
+  "moduleHealth": {
+    "images": {
+      "valid": false,
+      "score": 6,
+      "skipped": 3,
+      "errored": false,
+      "errorMsg": null
+    },
+    "links": {
+      "valid": true,
+      "score": 83,
+      "skipped": 0,
+      "errored": false,
+      "errorMsg": null
+    },
+    "headings": {
+      "valid": true,
+      "score": 33,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "readingLevel": {
+      "valid": true,
+      "score": 90,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "tables": {
+      "valid": true,
+      "score": 100,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "pageTitle": {
+      "valid": true,
+      "score": 20,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "language": {
+      "valid": true,
+      "score": 88,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "visual": {
+      "valid": true,
+      "score": 29,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "motor": {
+      "valid": true,
+      "score": 40,
+      "skipped": 0,
+      "errored": false,
+      "errorMsg": null
+    }
+  },
+  "homepage": {
+    "url": "https://skopjebus.mk/mk/",
+    "isHomepage": true,
+    "timestamp": "2026-04-24T14:47:00.889Z",
+    "finalScore": 54,
+    "grade": "F",
+    "wcagConformance": "Partial A",
+    "scores": {
+      "axe": 62,
+      "images": 6,
+      "links": 83,
+      "headings": 33,
+      "readingLevel": 90,
+      "tables": 100,
+      "pageTitle": 20,
+      "language": 88,
+      "visual": 29,
+      "motor": 40
+    },
+    "axeOnlyScore": 62,
+    "axeVsHybridDelta": -8,
+    "axe": {
+      "violations": [
+        {
+          "id": "empty-heading",
+          "impact": "minor",
+          "tags": [
+            "cat.name-role-value",
+            "best-practice"
+          ],
+          "description": "Ensure headings have discernible text",
+          "help": "Headings should not be empty",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/empty-heading?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "has-visible-text",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "minor",
+                  "message": "Element does not have text that is visible to screen readers"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "minor",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "minor",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "minor",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "minor",
+              "html": "<h5 class=\"aux-modern-heading-primary\"></h5>",
+              "target": [
+                ".elementor-element-ad7597c > .elementor-widget-container > .aux-widget-modern-heading > .aux-widget-inner > h5"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "any": [
+                {
+                  "id": "has-visible-text",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "minor",
+                  "message": "Element does not have text that is visible to screen readers"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "minor",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "minor",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "minor",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "minor",
+              "html": "<h5 class=\"aux-modern-heading-primary\"></h5>",
+              "target": [
+                ".elementor-element-a4a5d77 > .elementor-widget-container > .aux-widget-modern-heading > .aux-widget-inner > h5"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          ]
+        },
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "tags": [
+            "cat.semantics",
+            "best-practice"
+          ],
+          "description": "Ensure the order of headings is semantically correct",
+          "help": "Heading levels should only increase by one",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/heading-order?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "heading-order",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Heading order invalid"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<h5 class=\"aux-modern-heading-primary\"></h5>",
+              "target": [
+                ".elementor-element-ad7597c > .elementor-widget-container > .aux-widget-modern-heading > .aux-widget-inner > h5"
+              ],
+              "failureSummary": "Fix any of the following:\n  Heading order invalid"
+            },
+            {
+              "any": [
+                {
+                  "id": "heading-order",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Heading order invalid"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<h5 class=\"aux-modern-heading-primary\"></h5>",
+              "target": [
+                ".elementor-element-a4a5d77 > .elementor-widget-container > .aux-widget-modern-heading > .aux-widget-inner > h5"
+              ],
+              "failureSummary": "Fix any of the following:\n  Heading order invalid"
+            }
+          ]
+        },
+        {
+          "id": "landmark-main-is-top-level",
+          "impact": "moderate",
+          "tags": [
+            "cat.semantics",
+            "best-practice"
+          ],
+          "description": "Ensure the main landmark is at top level",
+          "help": "Main landmark should not be contained in another landmark",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/landmark-main-is-top-level?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "landmark-is-top-level",
+                  "data": {
+                    "role": "main"
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "The main landmark is contained in another landmark."
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<div class=\"content\" role=\"main\">",
+              "target": [
+                ".content"
+              ],
+              "failureSummary": "Fix any of the following:\n  The main landmark is contained in another landmark."
+            }
+          ]
+        },
+        {
+          "id": "landmark-no-duplicate-main",
+          "impact": "moderate",
+          "tags": [
+            "cat.semantics",
+            "best-practice"
+          ],
+          "description": "Ensure the document has at most one main landmark",
+          "help": "Document should not have more than one main landmark",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/landmark-no-duplicate-main?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "page-no-duplicate-main",
+                  "data": null,
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"content\" role=\"main\">",
+                      "target": [
+                        ".content"
+                      ]
+                    }
+                  ],
+                  "impact": "moderate",
+                  "message": "Document has more than one main landmark"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<main id=\"main\" class=\"aux-main aux-territory  aux-single aux-page aux-full-container no-sidebar aux-sidebar-style-border aux-user-entry\">",
+              "target": [
+                "#main"
+              ],
+              "failureSummary": "Fix any of the following:\n  Document has more than one main landmark"
+            }
+          ]
+        },
+        {
+          "id": "landmark-unique",
+          "impact": "moderate",
+          "tags": [
+            "cat.semantics",
+            "best-practice"
+          ],
+          "description": "Ensure landmarks are unique",
+          "help": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/landmark-unique?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "landmark-is-unique",
+                  "data": {
+                    "role": "navigation",
+                    "accessibleText": null
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<nav id=\"master-menu-elementor-7e7021b\" class=\"menu-mk-footer-menu-1-container\">",
+                      "target": [
+                        "#master-menu-elementor-7e7021b"
+                      ]
+                    },
+                    {
+                      "html": "<nav id=\"master-menu-elementor-271b056\" class=\"menu-mk-footer-menu-2-container\">",
+                      "target": [
+                        "#master-menu-elementor-271b056"
+                      ]
+                    }
+                  ],
+                  "impact": "moderate",
+                  "message": "The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<nav class=\"eael-nav-menu-wrapper\" style=\"position: absolute; width: 800px; left: -183.917px;\">",
+              "target": [
+                ".eael-nav-menu-wrapper"
+              ],
+              "failureSummary": "Fix any of the following:\n  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+            },
+            {
+              "any": [
+                {
+                  "id": "landmark-is-unique",
+                  "data": {
+                    "role": "main",
+                    "accessibleText": null
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"content\" role=\"main\">",
+                      "target": [
+                        ".content"
+                      ]
+                    }
+                  ],
+                  "impact": "moderate",
+                  "message": "The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<main id=\"main\" class=\"aux-main aux-territory  aux-single aux-page aux-full-container no-sidebar aux-sidebar-style-border aux-user-entry\">",
+              "target": [
+                "#main"
+              ],
+              "failureSummary": "Fix any of the following:\n  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+            }
+          ]
+        },
+        {
+          "id": "meta-viewport",
+          "impact": "moderate",
+          "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag2aa",
+            "wcag144",
+            "EN-301-549",
+            "EN-9.1.4.4",
+            "ACT",
+            "RGAAv4",
+            "RGAA-10.4.2"
+          ],
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "help": "Zooming and scaling must not be disabled",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/meta-viewport?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "meta-viewport",
+                  "data": "user-scalable=no",
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "user-scalable=no on <meta> tag disables zooming on mobile devices"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<meta name=\"viewport\" content=\"initial-scale=1,user-scalable=no,width=device-width\">",
+              "target": [
+                "meta[name=\"viewport\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  user-scalable=no on <meta> tag disables zooming on mobile devices"
+            }
+          ]
+        },
+        {
+          "id": "page-has-heading-one",
+          "impact": "moderate",
+          "tags": [
+            "cat.semantics",
+            "best-practice"
+          ],
+          "description": "Ensure that the page, or at least one of its frames contains a level-one heading",
+          "help": "Page should contain a level-one heading",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/page-has-heading-one?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "page-has-heading-one",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Page must have a level-one heading"
+                }
+              ],
+              "none": [],
+              "impact": "moderate",
+              "html": "<html class=\"js audio canvas full...\" lang=\"mk\" locale=\"mk_MK\" style=\"\">",
+              "target": [
+                "html"
+              ],
+              "failureSummary": "Fix all of the following:\n  Page must have a level-one heading"
+            }
+          ]
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "cat.keyboard",
+            "best-practice",
+            "RGAAv4",
+            "RGAA-9.2.1"
+          ],
+          "description": "Ensure all page content is contained by landmarks",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/region?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<section id=\"offcart\" class=\"aux-offcanvas-menu aux-offcanvas-cart aux-pin-left\">",
+              "target": [
+                "#offcart"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ]
+        }
+      ],
+      "passCount": 31,
+      "incomplete": 1
+    },
+    "violationSummary": {
+      "critical": [
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text is a file name or internal identifier, not a descriptive explanation of the image content.",
+          "wcag": "1.1.1",
+          "suggestion": "Logo of JSP Skopje, featuring a red and gold shield emblem with a stone bridge, mountain, and fortress, next to the text 'ЈСП СКОПЈЕ NQP SHKUP'."
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text is a filename/ID and does not describe the visual content of the image.",
+          "wcag": "1.1.1",
+          "suggestion": "Logo for JSP Skopje: a red and gold shield depicting a stone bridge, fortress, and mountains, with text 'ЈСП СКОПЈЕ NQP SHKUP'."
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text is a filename-like placeholder that provides almost no descriptive information.",
+          "wcag": "1.1.1",
+          "suggestion": "Aerial panoramic view of Skopje, North Macedonia, at golden hour, featuring a river, diverse architecture, and residential areas extending to a forested mountain with a Millennium Cross and communication tower. Visible text includes 'EVN', 'T', 'HALKBANK'."
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text is a filename and does not describe the image content.",
+          "wcag": "1.1.1",
+          "suggestion": "An aerial view of a city with modern and classical buildings, bathed in warm light, extending towards a densely forested mountain under a clear sky."
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "Alt text is a filename/ID and not descriptive.",
+          "wcag": "1.1.1",
+          "suggestion": "Logo for JSP Skopje, a red and yellow shield featuring the Stone Bridge, Skopje Fortress, and a mountain. The logo includes text 'ЈСП СКОПЈЕ' and 'NQP SHKUP'."
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text is an internal filename/asset ID and not a descriptive text.",
+          "wcag": "1.1.1",
+          "suggestion": "Logo for JSP Skopje: a red and gold shield emblem depicting a stone bridge, mountain, and fortress, with the text 'ЈСП СКОПЈЕ' and 'NQP SHKUP'."
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text is a date and does not describe the link's destination or purpose out of context. This makes it impossible for screen reader users to understand where the link leads when navigating by links.",
+          "wcag": "2.4.4",
+          "suggestion": "ЈСП Скопје учествуваше на манифестацијата „Отворен ден“ во организација на АСУЦ „Боро Петрушевски“"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text is a date and does not describe the link's destination or purpose out of context. This makes it impossible for screen reader users to understand where the link leads when navigating by links.",
+          "wcag": "2.4.4",
+          "suggestion": "Соопштение за 38 – от „Меѓународен саем на книгата“Скопје, 22.04.2026 год"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text is a date and does not describe the link's destination or purpose out of context. This makes it impossible for screen reader users to understand where the link leads when navigating by links.",
+          "wcag": "2.4.4",
+          "suggestion": "Известување за жичницата „Милениумски крст“"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text is a date and does not describe the link's destination or purpose out of context. This makes it impossible for screen reader users to understand where the link leads when navigating by links.",
+          "wcag": "2.4.4",
+          "suggestion": "Известување за линијата 31"
+        },
+        {
+          "source": "headings",
+          "rule": "missing-h1",
+          "description": "Page has no h1 element — every page needs exactly one h1 as the main topic",
+          "wcag": "1.3.1 / 2.4.6",
+          "suggestion": "Add a single h1 that describes the main purpose of this page"
+        },
+        {
+          "source": "headings",
+          "rule": "semantic-quality",
+          "description": "The page is missing an h1 element, which is crucial for defining the main topic and overall structure.",
+          "wcag": "1.3.1 / 2.4.6",
+          "suggestion": null
+        },
+        {
+          "source": "visual",
+          "rule": "CSS outline:none on focus",
+          "description": "CSS removes focus outline globally — keyboard users have no visible focus indicator",
+          "wcag": "2.4.7",
+          "suggestion": "Remove outline:none from :focus selectors, or replace with a custom visible focus style"
+        }
+      ],
+      "serious": [
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text is too generic and lacks specific details about the diagram's content.",
+          "wcag": "1.1.1",
+          "suggestion": "Diagram showing five red-dotted location markers along a winding path, ascending from left to right."
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Generic link text 'ВИДИ ПОВЕЌЕ' (SEE MORE) does not describe the link's purpose or destination when read out of context. A screen reader user navigating by links would not know what information they are seeing more about.",
+          "wcag": "2.4.4",
+          "suggestion": "Rewrite the link text to be descriptive of its destination, e.g., 'Дознајте повеќе за билети' (Learn more about tickets) or 'Погледнете ги опциите за билети' (View ticket options)."
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Generic link text 'ВИДИ ПОВЕЌЕ' (SEE MORE) does not describe the link's purpose or destination when read out of context. This issue is compounded by the link being duplicated, making it even harder for screen reader users to distinguish its purpose.",
+          "wcag": "2.4.4",
+          "suggestion": "Rewrite the link text to be descriptive of its destination, e.g., 'Дознајте повеќе за билети' (Learn more about tickets) or 'Погледнете ги опциите за билети' (View ticket options). Also, ensure unique links have unique text."
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text is a date and does not describe the purpose or destination of the link when read out of context.",
+          "wcag": "2.4.4",
+          "suggestion": "Use the article title as the link text, e.g., 'Известување за линиите 31 и 163' or 'Прочитајте повеќе за Известување за линиите 31 и 163'."
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text is a date and does not describe the purpose or destination of the link when read out of context.",
+          "wcag": "2.4.4",
+          "suggestion": "Use the article title as the link text, e.g., 'Работно време за Велигденските празници' or 'Прочитајте повеќе за Работно време за Велигденските празници'."
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text is a date and does not describe the purpose or destination of the link when read out of context.",
+          "wcag": "2.4.4",
+          "suggestion": "Use the article title as the link text, e.g., 'Известување за недела (5.04.26)' or 'Прочитајте повеќе за Известување за недела (5.04.26)'."
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The link text 'април 3, 2026' (April 3, 2026) is a date and does not describe the purpose or destination of the link when read out of context. A screen reader user cycling through links would not understand what this link leads to.",
+          "wcag": "2.4.4",
+          "suggestion": "Известување за линијата 58 од април 3, 2026 (Notification for line 58 from April 3, 2026) or ensure the main article title is the primary link."
+        },
+        {
+          "source": "pageTitle",
+          "rule": "AI evaluation",
+          "description": "The title does not describe the specific topic or purpose of the page, instead using a generic tagline.",
+          "wcag": "2.4.2",
+          "suggestion": "Возен ред, билети и информации – ЈСП Скопје"
+        },
+        {
+          "source": "visual",
+          "rule": "Focus indicator visibility",
+          "description": "The focus indicator is a thin, dashed white outline that appears to be 1px thick, which does not meet the WCAG 2.4.11 requirement for a minimum 2px thickness.",
+          "wcag": "2.4.7 / 2.4.11",
+          "suggestion": "Increase the thickness of the focus indicator to at least 2px. Consider a solid outline or a more prominent visual change for better visibility."
+        },
+        {
+          "source": "visual",
+          "rule": "Zoom/Reflow at 200%",
+          "description": "See module details",
+          "wcag": "1.4.10",
+          "suggestion": "Ensure all header text, especially the logo and site title, is fully visible and reflows correctly at narrow viewports. Consider using smaller font sizes, wrapping text, or adjusting layout for the header section to prevent truncation."
+        },
+        {
+          "source": "visual",
+          "rule": "Text Spacing Override",
+          "description": "The text 'NQP SHKUP' below the logo is visibly clipped at the bottom.",
+          "wcag": "1.4.12",
+          "suggestion": "Ensure that text containers, especially those within the logo area and buttons, have sufficient height and padding to accommodate increased line-height, letter-spacing, and word-spacing without clipping. Avoid fixed heights on elements containing text or use `min-height` instead."
+        },
+        {
+          "source": "visual",
+          "rule": "Dark Mode Support",
+          "description": "The site does not support the 'prefers-color-scheme' media query, meaning it does not adapt its colors for dark mode.",
+          "wcag": "1.4.3",
+          "suggestion": null
+        },
+        {
+          "source": "motor",
+          "rule": "Skip navigation link",
+          "description": "No \"Skip to main content\" link found — keyboard users must tab through entire navigation on every page",
+          "wcag": "2.4.1",
+          "suggestion": "Add <a href=\"#main\" class=\"skip-link\">Skip to main content</a> as the first focusable element"
+        },
+        {
+          "source": "motor",
+          "rule": "Touch Target Size",
+          "description": "20 interactive elements are smaller than the 44×44px minimum touch target size",
+          "wcag": "2.5.5",
+          "suggestion": "Increase padding on small links and buttons so the clickable area is at least 44×44px"
+        },
+        {
+          "source": "motor",
+          "rule": "Session Timeout Warning",
+          "description": "Timeout warning exists but no option to extend the session",
+          "wcag": "2.2.1",
+          "suggestion": "Warn users at least 20 seconds before timeout with a dialog offering to extend the session"
+        }
+      ],
+      "moderate": [
+        {
+          "source": "axe-core",
+          "rule": "heading-order",
+          "description": "Ensure the order of headings is semantically correct",
+          "wcag": "",
+          "affectedElements": 2
+        },
+        {
+          "source": "axe-core",
+          "rule": "landmark-main-is-top-level",
+          "description": "Ensure the main landmark is at top level",
+          "wcag": "",
+          "affectedElements": 1
+        },
+        {
+          "source": "axe-core",
+          "rule": "landmark-no-duplicate-main",
+          "description": "Ensure the document has at most one main landmark",
+          "wcag": "",
+          "affectedElements": 1
+        },
+        {
+          "source": "axe-core",
+          "rule": "landmark-unique",
+          "description": "Ensure landmarks are unique",
+          "wcag": "",
+          "affectedElements": 2
+        },
+        {
+          "source": "axe-core",
+          "rule": "meta-viewport",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "wcag": "wcag2aa, wcag144",
+          "affectedElements": 1
+        },
+        {
+          "source": "axe-core",
+          "rule": "page-has-heading-one",
+          "description": "Ensure that the page, or at least one of its frames contains a level-one heading",
+          "wcag": "",
+          "affectedElements": 1
+        },
+        {
+          "source": "axe-core",
+          "rule": "region",
+          "description": "Ensure all page content is contained by landmarks",
+          "wcag": "",
+          "affectedElements": 1
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text is not unique enough on the page, making it difficult to distinguish from other links to the same category when navigating by links only.",
+          "wcag": "2.4.4",
+          "suggestion": "View all news and updates"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text is not unique enough on the page, making it difficult to distinguish from other links to the same category when navigating by links only.",
+          "wcag": "2.4.4",
+          "suggestion": "View all news and updates"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text is not unique enough on the page, making it difficult to distinguish from other links to the same category when navigating by links only.",
+          "wcag": "2.4.4",
+          "suggestion": "View all news and updates"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link opens in a new tab without warning the user.",
+          "wcag": "2.4.4",
+          "suggestion": "ЈСП Турс (отвора во нов прозорец)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link opens in a new tab without warning the user.",
+          "wcag": "2.4.4",
+          "suggestion": "City tour (opens new window)"
+        },
+        {
+          "source": "headings",
+          "rule": "skipped-level",
+          "description": "Heading jumps from h2 (\"СТАТИЧЕН ВОЗЕН РЕД\") to h5 (\"\") — levels should not skip",
+          "wcag": "1.3.1 / 2.4.6",
+          "suggestion": "Change h5 to h3 or add intermediate heading levels"
+        },
+        {
+          "source": "headings",
+          "rule": "skipped-level",
+          "description": "Heading jumps from h3 (\"НАДОПОЛНИ КАРТИЧКА\") to h5 (\"НАДОПОЛНИ КАРТИЧКА\") — levels should not skip",
+          "wcag": "1.3.1 / 2.4.6",
+          "suggestion": "Change h5 to h4 or add intermediate heading levels"
+        },
+        {
+          "source": "motor",
+          "rule": "Sticky Header Scroll Margin",
+          "description": "Sticky header is 600px but scroll-padding-top is only 0px",
+          "wcag": "2.4.12",
+          "suggestion": "Add to CSS: html { scroll-padding-top: 610px; }"
+        }
+      ],
+      "minor": [
+        {
+          "source": "axe-core",
+          "rule": "empty-heading",
+          "description": "Ensure headings have discernible text",
+          "wcag": "",
+          "affectedElements": 2
+        }
+      ],
+      "total": 44,
+      "axeCoreCount": 8,
+      "aiOnlyCount": 36
+    },
+    "moduleHealth": {
+      "images": {
+        "valid": false,
+        "score": 6,
+        "skipped": 3,
+        "errored": false,
+        "errorMsg": null
+      },
+      "links": {
+        "valid": true,
+        "score": 83,
+        "skipped": 0,
+        "errored": false,
+        "errorMsg": null
+      },
+      "headings": {
+        "valid": true,
+        "score": 33,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "readingLevel": {
+        "valid": true,
+        "score": 90,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "tables": {
+        "valid": true,
+        "score": 100,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "pageTitle": {
+        "valid": true,
+        "score": 20,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "language": {
+        "valid": true,
+        "score": 88,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "visual": {
+        "valid": true,
+        "score": 29,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "motor": {
+        "valid": true,
+        "score": 40,
+        "skipped": 0,
+        "errored": false,
+        "errorMsg": null
+      }
+    },
+    "modules": {
+      "images": {
+        "moduleName": "Image Alt Text Quality",
+        "wcag": "1.1.1",
+        "total": 10,
+        "evaluated": 7,
+        "skipped": 3,
+        "passed": 0,
+        "failed": 7,
+        "score": 6,
+        "items": [
+          {
+            "src": "https://skopjebus.mk/wp-content/uploads/2024/10/JSP-LOGO-RED-NEW_002.png",
+            "alt": "JSP-LOGO-RED-NEW_002",
+            "imageType": "logo",
+            "isDecorative": false,
+            "aiDescription": "Logo featuring a red and gold shield emblem on the left, depicting a stone bridge, a mountain, and a fortress. To the right, red text reads 'ЈСП СКОПЈЕ' on the top line and 'NQP SHKUP' on the bottom line.",
+            "visibleTextInImage": "ЈСП СКОПЈЕ\nNQP SHKUP",
+            "pass": false,
+            "score": 5,
+            "severity": "critical",
+            "issues": [
+              "The alt text is a file name or internal identifier, not a descriptive explanation of the image content.",
+              "It fails to describe the visual elements of the logo, such as the shield, bridge, mountain, and fortress.",
+              "It omits the visible text 'ЈСП СКОПЈЕ' and 'NQP SHKUP' which are crucial for understanding the logo's identity."
+            ],
+            "suggestion": "Logo of JSP Skopje, featuring a red and gold shield emblem with a stone bridge, mountain, and fortress, next to the text 'ЈСП СКОПЈЕ NQP SHKUP'.",
+            "reasoning": "The alt text is a file name that provides no descriptive information about the logo's visual content or embedded text, rendering it functionally useless for screen reader users.",
+            "isGenericPlaceholder": true,
+            "accuracyIssue": true,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "https://skopjebus.mk/wp-content/uploads/2024/10/JSP-LOGO-RED-NEW_002.png",
+            "alt": "JSP-LOGO-RED-NEW_002",
+            "imageType": "logo",
+            "isDecorative": false,
+            "aiDescription": "Logo for JSP Skopje featuring a red and gold shield with a stone bridge, a fortress, and mountains in the background. To the right, the text 'ЈСП СКОПЈЕ' and 'NQP SHKUP' is written in red.",
+            "visibleTextInImage": "ЈСП СКОПЈЕ\nNQP SHKUP",
+            "pass": false,
+            "score": 5,
+            "severity": "critical",
+            "issues": [
+              "The alt text is a filename/ID and does not describe the visual content of the image.",
+              "It omits all key visual details of the logo, such as the shield, bridge, fortress, and mountains.",
+              "It fails to include the visible text 'ЈСП СКОПЈЕ' and 'NQP SHKUP' from the image.",
+              "The alt text uses a generic term 'LOGO' without providing any specific descriptive detail."
+            ],
+            "suggestion": "Logo for JSP Skopje: a red and gold shield depicting a stone bridge, fortress, and mountains, with text 'ЈСП СКОПЈЕ NQP SHKUP'.",
+            "reasoning": "The alt text is a filename/ID, completely failing to describe the image content and omitting all crucial visual and textual information, making it inaccessible.",
+            "isGenericPlaceholder": true,
+            "accuracyIssue": true,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "https://skopjebus.mk/wp-content/plugins/sitepress-multilingual-cms/res/flags/mk.svg",
+            "alt": "",
+            "pass": null,
+            "score": null,
+            "skipped": true,
+            "reason": "Image could not be downloaded for analysis",
+            "severity": "warning"
+          },
+          {
+            "src": "https://skopjebus.mk/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.svg",
+            "alt": "",
+            "pass": null,
+            "score": null,
+            "skipped": true,
+            "reason": "Image could not be downloaded for analysis",
+            "severity": "warning"
+          },
+          {
+            "src": "https://skopjebus.mk/wp-content/plugins/sitepress-multilingual-cms/res/flags/sq.svg",
+            "alt": "",
+            "pass": null,
+            "score": null,
+            "skipped": true,
+            "reason": "Image could not be downloaded for analysis",
+            "severity": "warning"
+          },
+          {
+            "src": "https://skopjebus.mk/wp-content/uploads/2024/07/Skopje-from-above3.png",
+            "alt": "Skopje-from-above3",
+            "imageType": "photo",
+            "isDecorative": false,
+            "aiDescription": "Aerial panoramic view of the city of Skopje, North Macedonia, at golden hour. The city features a river with bridges, diverse architecture, and residential areas, extending towards the base of a large, forested mountain. On the mountain's peak, a prominent Millennium Cross and a communication tower are visible. Text visible on buildings includes 'EVN', 'T', and 'HALKBANK'.",
+            "visibleTextInImage": "EVN, T, HALKBANK",
+            "pass": false,
+            "score": 5,
+            "severity": "critical",
+            "issues": [
+              "The alt text is a filename-like placeholder that provides almost no descriptive information.",
+              "Fails to include key visual details such as the golden hour, river, bridges, diverse architecture, residential areas, forested mountain, Millennium Cross, and communication tower.",
+              "Does not include any visible text from the image ('EVN', 'T', 'HALKBANK').",
+              "Lacks specificity and is too short to be meaningful, failing to convey the image's content."
+            ],
+            "suggestion": "Aerial panoramic view of Skopje, North Macedonia, at golden hour, featuring a river, diverse architecture, and residential areas extending to a forested mountain with a Millennium Cross and communication tower. Visible text includes 'EVN', 'T', 'HALKBANK'.",
+            "reasoning": "The alt text is a filename-like placeholder that fails to describe the rich visual content and visible text of the image, making it inaccessible.",
+            "isGenericPlaceholder": true,
+            "accuracyIssue": false,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "https://skopjebus.mk/wp-content/uploads/2024/06/travel-route.png",
+            "alt": "travel-route",
+            "imageType": "diagram",
+            "isDecorative": false,
+            "aiDescription": "Five red-dotted location markers are positioned along a winding white path on a white background, generally ascending from left to right. Each marker is a white teardrop shape with a red dot at its top, connected by a dashed line to a smaller white dot on the path.",
+            "visibleTextInImage": null,
+            "pass": false,
+            "score": 15,
+            "severity": "serious",
+            "issues": [
+              "The alt text is too generic and lacks specific details about the diagram's content.",
+              "It fails to describe the number of markers, their appearance, the winding path, or its general direction."
+            ],
+            "suggestion": "Diagram showing five red-dotted location markers along a winding path, ascending from left to right.",
+            "reasoning": "The alt text is extremely brief and generic, failing to convey any specific visual details about the diagram's content.",
+            "isGenericPlaceholder": true,
+            "accuracyIssue": false,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "https://skopjebus.mk/wp-content/uploads/2026/03/Skopje-from-above3-350x600.png",
+            "alt": "Skopje-from-above3.png",
+            "imageType": "photo",
+            "isDecorative": false,
+            "aiDescription": "An aerial view of a city with a mix of modern and classical buildings, bathed in warm light, extending towards a large, densely forested mountain under a clear sky.",
+            "visibleTextInImage": null,
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issues": [
+              "The alt text is a filename and does not describe the image content.",
+              "It fails to convey any visual details of the image.",
+              "It is a generic placeholder and not specific or meaningful."
+            ],
+            "suggestion": "An aerial view of a city with modern and classical buildings, bathed in warm light, extending towards a densely forested mountain under a clear sky.",
+            "reasoning": "The alt text is a filename, providing no descriptive information about the image content, making it completely inaccessible and useless for screen reader users.",
+            "isGenericPlaceholder": true,
+            "accuracyIssue": true,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "https://skopjebus.mk/wp-content/uploads/2024/10/JSP-LOGO-RED-NEW_002.png",
+            "alt": "JSP-LOGO-RED-NEW_002",
+            "imageType": "logo",
+            "isDecorative": false,
+            "aiDescription": "Red and yellow shield-shaped logo featuring the Stone Bridge, Skopje Fortress, and a mountain, next to red text 'ЈСП СКОПЈЕ' on the first line and 'NQP SHKUP' on the second line.",
+            "visibleTextInImage": "ЈСП СКОПЈЕ NQP SHKUP",
+            "pass": false,
+            "score": 5,
+            "severity": "critical",
+            "issues": [
+              "Alt text is a filename/ID and not descriptive.",
+              "Fails to include any visible text from the image.",
+              "Fails to describe key visual details of the logo (e.g., shield shape, landmarks).",
+              "Alt text is generic and not specific, conveying no meaningful information."
+            ],
+            "suggestion": "Logo for JSP Skopje, a red and yellow shield featuring the Stone Bridge, Skopje Fortress, and a mountain. The logo includes text 'ЈСП СКОПЈЕ' and 'NQP SHKUP'.",
+            "reasoning": "The provided alt text is a filename/ID and fails to describe the image content, visible text, or key visual details, making it functionally useless for screen reader users.",
+            "isGenericPlaceholder": true,
+            "accuracyIssue": false,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "https://skopjebus.mk/wp-content/uploads/2024/10/JSP-LOGO-RED-NEW_002.png",
+            "alt": "JSP-LOGO-RED-NEW_002",
+            "imageType": "logo",
+            "isDecorative": false,
+            "aiDescription": "Logo for JSP Skopje, featuring a red and gold shield emblem on the left depicting a stone bridge, a mountain, and a fortress. To the right, the text \"ЈСП СКОПЈЕ\" is written in red in Cyrillic, followed by \"NQP SHKUP\" in red in Latin script.",
+            "visibleTextInImage": "ЈСП СКОПЈЕ\nNQP SHKUP",
+            "pass": false,
+            "score": 10,
+            "severity": "critical",
+            "issues": [
+              "The alt text is an internal filename/asset ID and not a descriptive text.",
+              "It fails to describe the visual content of the logo, such as the shield emblem, stone bridge, mountain, and fortress.",
+              "It fails to include the full visible text 'ЈСП СКОПЈЕ' and 'NQP SHKUP' from the image.",
+              "The alt text is not specific or meaningful, conveying almost no information about the image's content or purpose."
+            ],
+            "suggestion": "Logo for JSP Skopje: a red and gold shield emblem depicting a stone bridge, mountain, and fortress, with the text 'ЈСП СКОПЈЕ' and 'NQP SHKUP'.",
+            "reasoning": "The alt text is an internal filename that fails to describe the visual content or include the visible text, making it functionally useless for screen reader users.",
+            "isGenericPlaceholder": true,
+            "accuracyIssue": false,
+            "source": "ai-evaluation"
+          }
+        ]
+      },
+      "links": {
+        "moduleName": "Link Text Meaningfulness",
+        "wcag": "2.4.4",
+        "total": 68,
+        "evaluated": 68,
+        "skipped": 0,
+        "passed": 53,
+        "failed": 15,
+        "score": 83,
+        "items": [
+          {
+            "text": "ЈСП Скопје",
+            "href": "https://skopjebus.mk/mk/",
+            "ariaLabel": null,
+            "title": "ЈСП Скопје",
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ПОЧЕТНА",
+            "href": "https://skopjebus.mk/mk/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "ПОЧЕТНА",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ЗА НАС",
+            "href": "https://skopjebus.mk/mk/za-nas/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "ЗА НАС  \n\n\tИсторија\n\tСтруктура\n\tДокументи  \n\t\n\t\tАкти на претпријатието\n\t\tСистематизација\n\t\tПравилник за внатрешна организација\n\t\tСтатут на ЈСП Скопје\n\t\tФинансиски извештаи\n\t\tРевизорски Извештаи\n\t\n \n\tП",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Историја",
+            "href": "https://skopjebus.mk/mk/za-nas/istorija/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Историја",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Структура",
+            "href": "https://skopjebus.mk/mk/za-nas/struktura/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Структура",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Акти на претпријатието",
+            "href": "https://skopjebus.mk/mk/za-nas/dokumenti/akti-na-pretprijatieto/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Акти на претпријатието",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Систематизација",
+            "href": "https://skopjebus.mk/mk/za-nas/dokumenti/sistematizacija/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Систематизација",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Правилник за внатрешна организација",
+            "href": "https://skopjebus.mk/mk/za-nas/dokumenti/pravilnik-vrantreshna-org/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Правилник за внатрешна организација",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Статут на ЈСП Скопје",
+            "href": "https://skopjebus.mk/mk/za-nas/dokumenti/statut-jsp-skopje/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Статут на ЈСП Скопје",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Финансиски извештаи",
+            "href": "https://skopjebus.mk/mk/za-nas/dokumenti/finansiski-izveshtai/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Финансиски извештаи",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Ревизорски Извештаи",
+            "href": "https://skopjebus.mk/mk/za-nas/dokumenti/revizorski-izveshtai/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Ревизорски Извештаи",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Проекти",
+            "href": "https://skopjebus.mk/mk/za-nas/proekti/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Проекти",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Јавни набавки",
+            "href": "https://skopjebus.mk/mk/za-nas/javni-nabavki/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Јавни набавки",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Маркетинг",
+            "href": "https://skopjebus.mk/mk/za-nas/marketing/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Маркетинг",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Линии",
+            "href": "https://skopjebus.mk/mk/linii/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Линии",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Посебни услуги",
+            "href": "https://skopjebus.mk/mk/posebni-uslugi/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Посебни услуги",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Ценовник",
+            "href": "https://skopjebus.mk/mk/cenovnik/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Ценовник",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Продажни места",
+            "href": "https://skopjebus.mk/mk/prodazni-mesta/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Продажни места",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Барање за издавање на билети",
+            "href": "https://skopjebus.mk/mk/baranje-za-izdavanje-bileti/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Барање за издавање на билети",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ИЗВЕСТУВАЊА",
+            "href": "https://skopjebus.mk/mk/izvestuvanja/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "ИЗВЕСТУВАЊА",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "КОНТАКТИ",
+            "href": "https://skopjebus.mk/mk/kontakti/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "КОНТАКТИ",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "македонски",
+            "href": "https://skopjebus.mk/mk/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "македонски  \n\n\tEnglish\n\tAlbanian",
+            "isNavigation": true,
+            "hasImage": true,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Важно известување: Се воведува нова мобилна апликација SkopjeBus и нов начин на плаќање на билет преку бројот 185. Дознајте повеќе овде!",
+            "href": "https://skopjebus.mk/%D0%B2%D0%B0%D0%B6%D0%BD%D0%BE-%D0%B8%D0%B7%D0%B2%D0%B5%D1%81%D1%82%D1%83%D0%B2%D0%B0%D1%9A%D0%B5-%D0%B2%D0%BE%D0%B2%D0%B5%D0%B4%D1%83%D0%B2%D0%B0%D1%9A%D0%B5-%D0%BD%D0%B0-%D0%BD%D0%BE%D0%B2%D0%B0/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ВОЗЕН РЕД ПО СТАНИЦА",
+            "href": "https://skopjebus.mk/mk/app/lines",
+            "ariaLabel": null,
+            "title": null,
+            "context": "ВОЗЕН РЕД ПО СТАНИЦА\nСТАТИЧЕН ВОЗЕН РЕД\nНАДОПОЛНИ КАРТИЧКА\n\nОДБЕРИ ГО НАЈСООДВЕТНИОТ БИЛЕТ ЗА ТЕБЕ\n\nВИДИ ПОВЕЌЕ\nПОСЛЕДНИ ИЗВЕСТУВАЊА\nАПРИЛ\nЈСП Скопје учествуваше на манифестацијата „Отворен ден“ во ор",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "СТАТИЧЕН ВОЗЕН РЕД",
+            "href": "https://skopjebus.mk/mk/schedule",
+            "ariaLabel": null,
+            "title": null,
+            "context": "ВОЗЕН РЕД ПО СТАНИЦА\nСТАТИЧЕН ВОЗЕН РЕД\nНАДОПОЛНИ КАРТИЧКА\n\nОДБЕРИ ГО НАЈСООДВЕТНИОТ БИЛЕТ ЗА ТЕБЕ\n\nВИДИ ПОВЕЌЕ\nПОСЛЕДНИ ИЗВЕСТУВАЊА\nАПРИЛ\nЈСП Скопје учествуваше на манифестацијата „Отворен ден“ во ор",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "СТАТИЧЕН ВОЗЕН РЕД",
+            "href": "https://skopjebus.mk/mk/schedule",
+            "ariaLabel": null,
+            "title": null,
+            "context": "ВОЗЕН РЕД ПО СТАНИЦА\nСТАТИЧЕН ВОЗЕН РЕД\nНАДОПОЛНИ КАРТИЧКА\n\nОДБЕРИ ГО НАЈСООДВЕТНИОТ БИЛЕТ ЗА ТЕБЕ\n\nВИДИ ПОВЕЌЕ\nПОСЛЕДНИ ИЗВЕСТУВАЊА\nАПРИЛ\nЈСП Скопје учествуваше на манифестацијата „Отворен ден“ во ор",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": "minor",
+            "issue": "Duplicate link text and destination. While the text is descriptive, encountering the same link multiple times in a list can be redundant for screen reader users.",
+            "suggestion": "Ensure each unique link destination has unique and descriptive link text. If this is an intentional repetition, consider if it's necessary or if aria-hidden could be used for redundant instances.",
+            "additionalIssue": null
+          },
+          {
+            "text": "ВОЗЕН РЕД ПО СТАНИЦА",
+            "href": "https://skopjebus.mk/mk/app/lines/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "ВОЗЕН РЕД ПО СТАНИЦА\nСТАТИЧЕН ВОЗЕН РЕД\nНАДОПОЛНИ КАРТИЧКА\n\nОДБЕРИ ГО НАЈСООДВЕТНИОТ БИЛЕТ ЗА ТЕБЕ\n\nВИДИ ПОВЕЌЕ\nПОСЛЕДНИ ИЗВЕСТУВАЊА\nАПРИЛ\nЈСП Скопје учествуваше на манифестацијата „Отворен ден“ во ор",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": "minor",
+            "issue": "Duplicate link text and destination. While the text is descriptive, encountering the same link multiple times in a list can be redundant for screen reader users.",
+            "suggestion": "Ensure each unique link destination has unique and descriptive link text. If this is an intentional repetition, consider if it's necessary or if aria-hidden could be used for redundant instances.",
+            "additionalIssue": null
+          },
+          {
+            "text": "ВИДИ ПОВЕЌЕ",
+            "href": "https://skopjebus.mk/mk/app/cards/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "ВОЗЕН РЕД ПО СТАНИЦА\nСТАТИЧЕН ВОЗЕН РЕД\nНАДОПОЛНИ КАРТИЧКА\n\nОДБЕРИ ГО НАЈСООДВЕТНИОТ БИЛЕТ ЗА ТЕБЕ\n\nВИДИ ПОВЕЌЕ\nПОСЛЕДНИ ИЗВЕСТУВАЊА\nАПРИЛ\nЈСП Скопје учествуваше на манифестацијата „Отворен ден“ во ор",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 20,
+            "severity": "serious",
+            "issue": "Generic link text 'ВИДИ ПОВЕЌЕ' (SEE MORE) does not describe the link's purpose or destination when read out of context. A screen reader user navigating by links would not know what information they are seeing more about.",
+            "suggestion": "Rewrite the link text to be descriptive of its destination, e.g., 'Дознајте повеќе за билети' (Learn more about tickets) or 'Погледнете ги опциите за билети' (View ticket options).",
+            "additionalIssue": null
+          },
+          {
+            "text": "ВИДИ ПОВЕЌЕ",
+            "href": "https://skopjebus.mk/mk/app/cards/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "ВОЗЕН РЕД ПО СТАНИЦА\nСТАТИЧЕН ВОЗЕН РЕД\nНАДОПОЛНИ КАРТИЧКА\n\nОДБЕРИ ГО НАЈСООДВЕТНИОТ БИЛЕТ ЗА ТЕБЕ\n\nВИДИ ПОВЕЌЕ\nПОСЛЕДНИ ИЗВЕСТУВАЊА\nАПРИЛ\nЈСП Скопје учествуваше на манифестацијата „Отворен ден“ во ор",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 20,
+            "severity": "serious",
+            "issue": "Generic link text 'ВИДИ ПОВЕЌЕ' (SEE MORE) does not describe the link's purpose or destination when read out of context. This issue is compounded by the link being duplicated, making it even harder for screen reader users to distinguish its purpose.",
+            "suggestion": "Rewrite the link text to be descriptive of its destination, e.g., 'Дознајте повеќе за билети' (Learn more about tickets) or 'Погледнете ги опциите за билети' (View ticket options). Also, ensure unique links have unique text.",
+            "additionalIssue": null
+          },
+          {
+            "text": "ЈСП Скопје учествуваше на манифестацијата „Отворен ден“ во организација на АСУЦ „Боро Петрушевски“",
+            "href": "https://skopjebus.mk/mk/%d1%98%d1%81%d0%bf-%d1%81%d0%ba%d0%be%d0%bf%d1%98%d0%b5-%d1%83%d1%87%d0%b5%d1%81%d1%82%d0%b2%d1%83%d0%b2%d0%b0%d1%88%d0%b5-%d0%bd%d0%b0-%d0%bc%d0%b0%d0%bd%d0%b8%d1%84%d0%b5%d1%81%d1%82%d0%b0%d1%86/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "ЈСП Скопје учествуваше на манифестацијата „Отворен ден“ во организација на АСУЦ „Боро Петрушевски“\nаприл 22, 2026  Вести и новости",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "април 22, 2026",
+            "href": "https://skopjebus.mk/mk/%d1%98%d1%81%d0%bf-%d1%81%d0%ba%d0%be%d0%bf%d1%98%d0%b5-%d1%83%d1%87%d0%b5%d1%81%d1%82%d0%b2%d1%83%d0%b2%d0%b0%d1%88%d0%b5-%d0%bd%d0%b0-%d0%bc%d0%b0%d0%bd%d0%b8%d1%84%d0%b5%d1%81%d1%82%d0%b0%d1%86/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "ЈСП Скопје учествуваше на манифестацијата „Отворен ден“ во организација на АСУЦ „Боро Петрушевски“\nаприл 22, 2026  Вести и новости",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 10,
+            "severity": "critical",
+            "issue": "Link text is a date and does not describe the link's destination or purpose out of context. This makes it impossible for screen reader users to understand where the link leads when navigating by links.",
+            "suggestion": "ЈСП Скопје учествуваше на манифестацијата „Отворен ден“ во организација на АСУЦ „Боро Петрушевски“",
+            "additionalIssue": null
+          },
+          {
+            "text": "Вести и новости",
+            "href": "https://skopjebus.mk/mk/category/%d0%b2%d0%b5%d1%81%d1%82%d0%b8-%d0%b8-%d0%bd%d0%be%d0%b2%d0%be%d1%81%d1%82%d0%b8/",
+            "ariaLabel": null,
+            "title": "View all posts in Вести и новости",
+            "context": "ЈСП Скопје учествуваше на манифестацијата „Отворен ден“ во организација на АСУЦ „Боро Петрушевски“\nаприл 22, 2026  Вести и новости",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 50,
+            "severity": "moderate",
+            "issue": "Link text is not unique enough on the page, making it difficult to distinguish from other links to the same category when navigating by links only.",
+            "suggestion": "View all news and updates",
+            "additionalIssue": null
+          },
+          {
+            "text": "Соопштение за 38 – от „Меѓународен саем на книгата“Скопје, 22.04.2026 год",
+            "href": "https://skopjebus.mk/mk/%d1%81%d0%be%d0%be%d0%bf%d1%88%d1%82%d0%b5%d0%bd%d0%b8%d0%b5-%d0%b7%d0%b0-38-%d0%be%d1%82-%d0%bc%d0%b5%d1%93%d1%83%d0%bd%d0%b0%d1%80%d0%be%d0%b4%d0%b5%d0%bd-%d1%81%d0%b0%d0%b5%d0%bc-%d0%bd/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Соопштение за 38 – от „Меѓународен саем на книгата“Скопје, 22.04.2026 год\nаприл 22, 2026  Вести и новости",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "април 22, 2026",
+            "href": "https://skopjebus.mk/mk/%d1%81%d0%be%d0%be%d0%bf%d1%88%d1%82%d0%b5%d0%bd%d0%b8%d0%b5-%d0%b7%d0%b0-38-%d0%be%d1%82-%d0%bc%d0%b5%d1%93%d1%83%d0%bd%d0%b0%d1%80%d0%be%d0%b4%d0%b5%d0%bd-%d1%81%d0%b0%d0%b5%d0%bc-%d0%bd/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Соопштение за 38 – от „Меѓународен саем на книгата“Скопје, 22.04.2026 год\nаприл 22, 2026  Вести и новости",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 10,
+            "severity": "critical",
+            "issue": "Link text is a date and does not describe the link's destination or purpose out of context. This makes it impossible for screen reader users to understand where the link leads when navigating by links.",
+            "suggestion": "Соопштение за 38 – от „Меѓународен саем на книгата“Скопје, 22.04.2026 год",
+            "additionalIssue": null
+          },
+          {
+            "text": "Вести и новости",
+            "href": "https://skopjebus.mk/mk/category/%d0%b2%d0%b5%d1%81%d1%82%d0%b8-%d0%b8-%d0%bd%d0%be%d0%b2%d0%be%d1%81%d1%82%d0%b8/",
+            "ariaLabel": null,
+            "title": "View all posts in Вести и новости",
+            "context": "Соопштение за 38 – от „Меѓународен саем на книгата“Скопје, 22.04.2026 год\nаприл 22, 2026  Вести и новости",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 50,
+            "severity": "moderate",
+            "issue": "Link text is not unique enough on the page, making it difficult to distinguish from other links to the same category when navigating by links only.",
+            "suggestion": "View all news and updates",
+            "additionalIssue": null
+          },
+          {
+            "text": "Известување за жичницата „Милениумски крст“",
+            "href": "https://skopjebus.mk/mk/%d0%b8%d0%b7%d0%b2%d0%b5%d1%81%d1%82%d1%83%d0%b2%d0%b0%d1%9a%d0%b5-16/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Известување за жичницата „Милениумски крст“\nаприл 20, 2026  Вести и новости",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "април 20, 2026",
+            "href": "https://skopjebus.mk/mk/%d0%b8%d0%b7%d0%b2%d0%b5%d1%81%d1%82%d1%83%d0%b2%d0%b0%d1%9a%d0%b5-16/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Известување за жичницата „Милениумски крст“\nаприл 20, 2026  Вести и новости",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 10,
+            "severity": "critical",
+            "issue": "Link text is a date and does not describe the link's destination or purpose out of context. This makes it impossible for screen reader users to understand where the link leads when navigating by links.",
+            "suggestion": "Известување за жичницата „Милениумски крст“",
+            "additionalIssue": null
+          },
+          {
+            "text": "Вести и новости",
+            "href": "https://skopjebus.mk/mk/category/%d0%b2%d0%b5%d1%81%d1%82%d0%b8-%d0%b8-%d0%bd%d0%be%d0%b2%d0%be%d1%81%d1%82%d0%b8/",
+            "ariaLabel": null,
+            "title": "View all posts in Вести и новости",
+            "context": "Известување за жичницата „Милениумски крст“\nаприл 20, 2026  Вести и новости",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 50,
+            "severity": "moderate",
+            "issue": "Link text is not unique enough on the page, making it difficult to distinguish from other links to the same category when navigating by links only.",
+            "suggestion": "View all news and updates",
+            "additionalIssue": null
+          },
+          {
+            "text": "Известување за линијата 31",
+            "href": "https://skopjebus.mk/mk/%d0%b8%d0%b7%d0%b2%d0%b5%d1%81%d1%82%d1%83%d0%b2%d0%b0%d1%9a%d0%b5-%d0%b7%d0%b0-%d0%bb%d0%b8%d0%bd%d0%b8%d1%98%d0%b0%d1%82%d0%b0-31/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Известување за линијата 31\nаприл 19, 2026  Вести и новости",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "април 19, 2026",
+            "href": "https://skopjebus.mk/mk/%d0%b8%d0%b7%d0%b2%d0%b5%d1%81%d1%82%d1%83%d0%b2%d0%b0%d1%9a%d0%b5-%d0%b7%d0%b0-%d0%bb%d0%b8%d0%bd%d0%b8%d1%98%d0%b0%d1%82%d0%b0-31/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Известување за линијата 31\nаприл 19, 2026  Вести и новости",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 10,
+            "severity": "critical",
+            "issue": "Link text is a date and does not describe the link's destination or purpose out of context. This makes it impossible for screen reader users to understand where the link leads when navigating by links.",
+            "suggestion": "Известување за линијата 31",
+            "additionalIssue": null
+          },
+          {
+            "text": "Вести и новости",
+            "href": "https://skopjebus.mk/mk/category/%d0%b2%d0%b5%d1%81%d1%82%d0%b8-%d0%b8-%d0%bd%d0%be%d0%b2%d0%be%d1%81%d1%82%d0%b8/",
+            "ariaLabel": null,
+            "title": "View all posts in Вести и новости",
+            "context": "Известување за линијата 31\nаприл 19, 2026  Вести и новости",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Известување за линиите 31 и 163",
+            "href": "https://skopjebus.mk/mk/%d0%b8%d0%b7%d0%b2%d0%b5%d1%81%d1%82%d1%83%d0%b2%d0%b0%d1%9a%d0%b5-%d0%b7%d0%b0-%d0%bb%d0%b8%d0%bd%d0%b8%d0%b8%d1%82%d0%b5-31-%d0%b8-163/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Известување за линиите 31 и 163\nаприл 16, 2026  Вести и новости",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "април 16, 2026",
+            "href": "https://skopjebus.mk/mk/%d0%b8%d0%b7%d0%b2%d0%b5%d1%81%d1%82%d1%83%d0%b2%d0%b0%d1%9a%d0%b5-%d0%b7%d0%b0-%d0%bb%d0%b8%d0%bd%d0%b8%d0%b8%d1%82%d0%b5-31-%d0%b8-163/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Известување за линиите 31 и 163\nаприл 16, 2026  Вести и новости",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 10,
+            "severity": "serious",
+            "issue": "Link text is a date and does not describe the purpose or destination of the link when read out of context.",
+            "suggestion": "Use the article title as the link text, e.g., 'Известување за линиите 31 и 163' or 'Прочитајте повеќе за Известување за линиите 31 и 163'.",
+            "additionalIssue": null
+          },
+          {
+            "text": "Вести и новости",
+            "href": "https://skopjebus.mk/mk/category/%d0%b2%d0%b5%d1%81%d1%82%d0%b8-%d0%b8-%d0%bd%d0%be%d0%b2%d0%be%d1%81%d1%82%d0%b8/",
+            "ariaLabel": null,
+            "title": "View all posts in Вести и новости",
+            "context": "Известување за линиите 31 и 163\nаприл 16, 2026  Вести и новости",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Работно време за Велигденските празници",
+            "href": "https://skopjebus.mk/mk/%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%bd%d0%be-%d0%b2%d1%80%d0%b5%d0%bc%d0%b5-%d0%b7%d0%b0-%d0%b2%d0%b5%d0%bb%d0%b8%d0%b3%d0%b4%d0%b5%d0%bd%d1%81%d0%ba%d0%b8%d1%82%d0%b5-%d0%bf%d1%80%d0%b0%d0%b7%d0%bd/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Работно време за Велигденските празници\nаприл 9, 2026  Вести и новости",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "април 9, 2026",
+            "href": "https://skopjebus.mk/mk/%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%bd%d0%be-%d0%b2%d1%80%d0%b5%d0%bc%d0%b5-%d0%b7%d0%b0-%d0%b2%d0%b5%d0%bb%d0%b8%d0%b3%d0%b4%d0%b5%d0%bd%d1%81%d0%ba%d0%b8%d1%82%d0%b5-%d0%bf%d1%80%d0%b0%d0%b7%d0%bd/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Работно време за Велигденските празници\nаприл 9, 2026  Вести и новости",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 10,
+            "severity": "serious",
+            "issue": "Link text is a date and does not describe the purpose or destination of the link when read out of context.",
+            "suggestion": "Use the article title as the link text, e.g., 'Работно време за Велигденските празници' or 'Прочитајте повеќе за Работно време за Велигденските празници'.",
+            "additionalIssue": null
+          },
+          {
+            "text": "Вести и новости",
+            "href": "https://skopjebus.mk/mk/category/%d0%b2%d0%b5%d1%81%d1%82%d0%b8-%d0%b8-%d0%bd%d0%be%d0%b2%d0%be%d1%81%d1%82%d0%b8/",
+            "ariaLabel": null,
+            "title": "View all posts in Вести и новости",
+            "context": "Работно време за Велигденските празници\nаприл 9, 2026  Вести и новости",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Известување за недела (5.04.26)",
+            "href": "https://skopjebus.mk/mk/%d0%b8%d0%b7%d0%b2%d0%b5%d1%81%d1%82%d1%83%d0%b2%d0%b0%d1%9a%d0%b5-%d0%b7%d0%b0-%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d0%b0-5-04-26/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Известување за недела (5.04.26)\nаприл 4, 2026  Вести и новости",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "април 4, 2026",
+            "href": "https://skopjebus.mk/mk/%d0%b8%d0%b7%d0%b2%d0%b5%d1%81%d1%82%d1%83%d0%b2%d0%b0%d1%9a%d0%b5-%d0%b7%d0%b0-%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d0%b0-5-04-26/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Известување за недела (5.04.26)\nаприл 4, 2026  Вести и новости",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 10,
+            "severity": "serious",
+            "issue": "Link text is a date and does not describe the purpose or destination of the link when read out of context.",
+            "suggestion": "Use the article title as the link text, e.g., 'Известување за недела (5.04.26)' or 'Прочитајте повеќе за Известување за недела (5.04.26)'.",
+            "additionalIssue": null
+          },
+          {
+            "text": "Вести и новости",
+            "href": "https://skopjebus.mk/mk/category/%d0%b2%d0%b5%d1%81%d1%82%d0%b8-%d0%b8-%d0%bd%d0%be%d0%b2%d0%be%d1%81%d1%82%d0%b8/",
+            "ariaLabel": null,
+            "title": "View all posts in Вести и новости",
+            "context": "Известување за недела (5.04.26)\nаприл 4, 2026  Вести и новости",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Известување за линијата 58",
+            "href": "https://skopjebus.mk/mk/%d0%b8%d0%b7%d0%b2%d0%b5%d1%81%d1%82%d1%83%d0%b2%d0%b0%d1%9a%d0%b5-%d0%b7%d0%b0-%d0%bb%d0%b8%d0%bd%d0%b8%d1%98%d0%b0%d1%82%d0%b0-58/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Известување за линијата 58\nаприл 3, 2026  Вести и новости",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "април 3, 2026",
+            "href": "https://skopjebus.mk/mk/%d0%b8%d0%b7%d0%b2%d0%b5%d1%81%d1%82%d1%83%d0%b2%d0%b0%d1%9a%d0%b5-%d0%b7%d0%b0-%d0%bb%d0%b8%d0%bd%d0%b8%d1%98%d0%b0%d1%82%d0%b0-58/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Известување за линијата 58\nаприл 3, 2026  Вести и новости",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 20,
+            "severity": "serious",
+            "issue": "The link text 'април 3, 2026' (April 3, 2026) is a date and does not describe the purpose or destination of the link when read out of context. A screen reader user cycling through links would not understand what this link leads to.",
+            "suggestion": "Известување за линијата 58 од април 3, 2026 (Notification for line 58 from April 3, 2026) or ensure the main article title is the primary link.",
+            "additionalIssue": null
+          },
+          {
+            "text": "Вести и новости",
+            "href": "https://skopjebus.mk/mk/category/%d0%b2%d0%b5%d1%81%d1%82%d0%b8-%d0%b8-%d0%bd%d0%be%d0%b2%d0%be%d1%81%d1%82%d0%b8/",
+            "ariaLabel": null,
+            "title": "View all posts in Вести и новости",
+            "context": "Известување за линијата 58\nаприл 3, 2026  Вести и новости",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ВИДИ ГИ СИТЕ ИЗВЕСТУВАЊА",
+            "href": "https://skopjebus.mk/izvestuvanja/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "ВОЗЕН РЕД ПО СТАНИЦА\nСТАТИЧЕН ВОЗЕН РЕД\nНАДОПОЛНИ КАРТИЧКА\n\nОДБЕРИ ГО НАЈСООДВЕТНИОТ БИЛЕТ ЗА ТЕБЕ\n\nВИДИ ПОВЕЌЕ\nПОСЛЕДНИ ИЗВЕСТУВАЊА\nАПРИЛ\nЈСП Скопје учествуваше на манифестацијата „Отворен ден“ во ор",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ПЛАНЕР НА ПАТУВАЊЕ",
+            "href": "https://skopjebus.mk/mk/app/planner/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ПРЕЗЕМИ ЈА МОБИЛНАТА АПЛИКАЦИЈА ЗА ЈАВЕН ТРАНСПОРТ",
+            "href": "https://skopjebus.mk/go-mobile/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ЖИЧНИЦА",
+            "href": "https://skopjebus.mk/zhichnica/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": true,
+            "score": 85,
+            "severity": "minor",
+            "issue": null,
+            "suggestion": "ЖИЧНИЦА (отвора нов прозорец) (CABLE CAR (opens new window))",
+            "additionalIssue": "The link opens in a new tab/window without warning the user in the link text or with an icon/aria-label."
+          },
+          {
+            "text": "ЈСП Скопје",
+            "href": "https://skopjebus.mk/mk/",
+            "ariaLabel": null,
+            "title": "ЈСП Скопје",
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Кодекс на однесување",
+            "href": "https://skopjebus.mk/mk/kodeks-na-odnesuvanje/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Кодекс на однесување",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ЧПП",
+            "href": "https://skopjebus.mk/%D1%87%D0%BF%D0%BF/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "ЧПП",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": true,
+            "score": 85,
+            "severity": "minor",
+            "issue": null,
+            "suggestion": "ЧПП (отвора нов прозорец) (FAQ (opens new window))",
+            "additionalIssue": "The link opens in a new tab/window without warning the user in the link text or with an icon/aria-label."
+          },
+          {
+            "text": "ЈСП Турс",
+            "href": "http://jspturs.com.mk/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "ЈСП Турс",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": false,
+            "score": 70,
+            "severity": "moderate",
+            "issue": "Link opens in a new tab without warning the user.",
+            "suggestion": "ЈСП Турс (отвора во нов прозорец)",
+            "additionalIssue": "Link opens in a new tab without warning."
+          },
+          {
+            "text": "Жичница",
+            "href": "https://skopjebus.mk/mk/zhichnica/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Жичница",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "City tour",
+            "href": "https://skopjebus.mk/city-tour/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "City tour",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": false,
+            "score": 70,
+            "severity": "moderate",
+            "issue": "Link opens in a new tab without warning the user.",
+            "suggestion": "City tour (opens new window)",
+            "additionalIssue": "Link opens in a new tab without warning."
+          },
+          {
+            "text": "Контакт",
+            "href": "https://skopjebus.mk/kontakti/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Контакт",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Ценовник",
+            "href": "https://skopjebus.mk/tarifen-sistem/cenovnik/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Ценовник",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Општи услови",
+            "href": "https://skopjebus.mk/opsti-uslovi/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Општи услови",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Политика за приватност",
+            "href": "https://skopjebus.mk/politika-privatnost/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Политика за приватност",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Политика за колачиња",
+            "href": "https://skopjebus.mk/%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0-%D0%B7%D0%B0-%D0%BA%D0%BE%D0%BB%D0%B0%D1%87%D0%B8%D1%9A%D0%B0/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Политика за колачиња",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          }
+        ]
+      },
+      "headings": {
+        "moduleName": "Heading Structure Logic",
+        "wcag": "1.3.1 / 2.4.6",
+        "headingCount": 22,
+        "headingTree": [
+          {
+            "level": 3,
+            "text": "ЈСП Скопје"
+          },
+          {
+            "level": 2,
+            "text": "ВОЗЕН РЕД ПО СТАНИЦА"
+          },
+          {
+            "level": 2,
+            "text": "СТАТИЧЕН ВОЗЕН РЕД"
+          },
+          {
+            "level": 5,
+            "text": ""
+          },
+          {
+            "level": 3,
+            "text": "НАДОПОЛНИ КАРТИЧКА"
+          },
+          {
+            "level": 5,
+            "text": "НАДОПОЛНИ КАРТИЧКА"
+          },
+          {
+            "level": 5,
+            "text": ""
+          },
+          {
+            "level": 3,
+            "text": "ПОСЛЕДНИ ИЗВЕСТУВАЊА"
+          },
+          {
+            "level": 4,
+            "text": "ЈСП Скопје учествуваше на манифестацијата „Отворен ден“ во организација на АСУЦ „Боро Петрушевски“"
+          },
+          {
+            "level": 4,
+            "text": "Соопштение за 38 – от „Меѓународен саем на книгата“Скопје, 22.04.2026 год"
+          },
+          {
+            "level": 4,
+            "text": "Известување за жичницата „Милениумски крст“"
+          },
+          {
+            "level": 4,
+            "text": "Известување за линијата 31"
+          },
+          {
+            "level": 4,
+            "text": "Известување за линиите 31 и 163"
+          },
+          {
+            "level": 4,
+            "text": "Работно време за Велигденските празници"
+          },
+          {
+            "level": 4,
+            "text": "Известување за недела (5.04.26)"
+          },
+          {
+            "level": 4,
+            "text": "Известување за линијата 58"
+          },
+          {
+            "level": 2,
+            "text": "ПЛАНЕР НА ПАТУВАЊЕ"
+          },
+          {
+            "level": 2,
+            "text": "ПРЕЗЕМИ ЈА МОБИЛНАТА АПЛИКАЦИЈА ЗА ЈАВЕН ТРАНСПОРТ"
+          },
+          {
+            "level": 2,
+            "text": "ЖИЧНИЦА"
+          },
+          {
+            "level": 3,
+            "text": "ЈСП Скопје"
+          },
+          {
+            "level": 2,
+            "text": "Пријавете корупција"
+          },
+          {
+            "level": 2,
+            "text": "Изгубено/најдено"
+          }
+        ],
+        "total": 4,
+        "passed": 0,
+        "failed": 4,
+        "score": 33,
+        "items": [
+          {
+            "type": "missing-h1",
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issue": "Page has no h1 element — every page needs exactly one h1 as the main topic",
+            "suggestion": "Add a single h1 that describes the main purpose of this page"
+          },
+          {
+            "type": "skipped-level",
+            "pass": false,
+            "score": 50,
+            "severity": "moderate",
+            "issue": "Heading jumps from h2 (\"СТАТИЧЕН ВОЗЕН РЕД\") to h5 (\"\") — levels should not skip",
+            "suggestion": "Change h5 to h3 or add intermediate heading levels"
+          },
+          {
+            "type": "skipped-level",
+            "pass": false,
+            "score": 50,
+            "severity": "moderate",
+            "issue": "Heading jumps from h3 (\"НАДОПОЛНИ КАРТИЧКА\") to h5 (\"НАДОПОЛНИ КАРТИЧКА\") — levels should not skip",
+            "suggestion": "Change h5 to h4 or add intermediate heading levels"
+          },
+          {
+            "type": "semantic-quality",
+            "pass": false,
+            "score": 30,
+            "severity": "critical",
+            "issues": [
+              "The page is missing an h1 element, which is crucial for defining the main topic and overall structure.",
+              "The heading hierarchy is illogical and skips levels (e.g., h2 followed by h5, h3 followed by h5), making it difficult to understand the page structure.",
+              "Empty heading elements (h5: \"\") are present, providing no semantic value and confusing screen reader users.",
+              "The heading \"ЈСП Скопје\" is used as an h3 multiple times and is too generic to describe specific sections, especially when not serving as the main page title.",
+              "Headings at the same level (h3) do not have comparable importance or parallel structure.",
+              "The h5 elements are used incorrectly, often duplicating parent headings or being empty, indicating a misuse of heading levels."
+            ],
+            "missingSections": [
+              "The prominent \"Важно известување\" (Important announcement) section at the top of the page body text lacks a dedicated heading.",
+              "Content associated with the empty h5 headings likely needs proper, descriptive headings at the correct hierarchical level."
+            ],
+            "vagueHeadings": [
+              "ЈСП Скопје (as an h3)",
+              ""
+            ],
+            "suggestions": [
+              "Implement a single h1 element that clearly reflects the main topic of the page, such as \"ЈСП Скопје – Ваш верен сопатник\".",
+              "Correct the heading hierarchy to ensure no levels are skipped; headings should descend one level at a time (e.g., h2 followed by h3, not h5).",
+              "Remove all empty heading elements (h5: \"\") or populate them with descriptive text at the appropriate heading level.",
+              "Ensure all headings are descriptive and unique, avoiding generic or repetitive text like \"ЈСП Скопје\" unless it is the h1.",
+              "Re-evaluate the purpose of the h3: \"ЈСП Скопје\" headings and replace them with more specific section titles or remove them if redundant.",
+              "Add a descriptive heading (e.g., h2 or h3) for the \"Важно известување\" section at the top of the page.",
+              "Ensure headings at the same level have comparable importance and structure to provide a consistent navigation experience."
+            ],
+            "summary": "The page has critical heading semantic issues, including a missing h1, incorrect hierarchy, empty headings, and vague or repetitive section titles, severely impacting navigation and understanding for screen reader users."
+          }
+        ]
+      },
+      "readingLevel": {
+        "moduleName": "Reading Level & Plain Language",
+        "wcag": "3.1.5",
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "score": 90,
+        "severity": null,
+        "items": [
+          {
+            "estimatedReadingLevel": "lower-secondary",
+            "estimatedGradeLevel": "Grade 7-8",
+            "pass": true,
+            "overallScore": 90,
+            "severity": null,
+            "complexSentences": [],
+            "jargonFound": [],
+            "passiveVoiceExamples": [
+              "Се воведува нова мобилна апликација SkopjeBus и нов начин на плаќање на билет преку бројот 185."
+            ],
+            "positives": [
+              "The content uses direct and concise language, making it easy to understand.",
+              "Calls to action and navigation items are clearly labeled and straightforward.",
+              "The vocabulary is generally common and appropriate for a public service website."
+            ],
+            "improvements": [
+              "While not a major issue, some sentences using passive voice could be rephrased into active voice for even greater directness, for example, 'ЈСП Скопје воведува нова мобилна апликација...' (JSP Skopje introduces a new mobile application...).",
+              "Ensure that acronyms like 'ЈСП' are briefly explained or linked to an 'About Us' page for users unfamiliar with the organization."
+            ],
+            "summary": "The content is highly readable and uses plain language, making it accessible to a broad audience. It successfully meets the WCAG 3.1.5 recommendation for readability at a lower-secondary education level."
+          }
+        ]
+      },
+      "tables": {
+        "moduleName": "Table Header Quality",
+        "wcag": "1.3.1",
+        "total": 0,
+        "passed": 0,
+        "failed": 0,
+        "score": 100,
+        "note": "No tables found on this page",
+        "items": []
+      },
+      "pageTitle": {
+        "moduleName": "Page Title Quality",
+        "wcag": "2.4.2",
+        "currentTitle": "ЈСП Скопје – Ваш верен сопатник",
+        "total": 1,
+        "passed": 0,
+        "failed": 1,
+        "score": 20,
+        "items": [
+          {
+            "pass": false,
+            "score": 20,
+            "severity": "serious",
+            "issues": [
+              "The title does not describe the specific topic or purpose of the page, instead using a generic tagline.",
+              "The title does not accurately reflect the primary content and functions available on the homepage (e.g., timetables, ticket information).",
+              "The most unique information (the page's specific purpose) is not front-loaded in the title."
+            ],
+            "suggestion": "Возен ред, билети и информации – ЈСП Скопје",
+            "isTooGeneric": true,
+            "isFrontLoaded": false,
+            "includesSiteName": true,
+            "characterCount": 31,
+            "source": "ai-evaluation"
+          }
+        ]
+      },
+      "language": {
+        "moduleName": "Language Accessibility & Albanian Evaluation",
+        "wcag": "3.1.1 / 3.1.2",
+        "pageUrl": "https://skopjebus.mk/mk/",
+        "languagesOffered": {
+          "albanian": true,
+          "macedonian": true,
+          "english": false,
+          "albanianLinks": [
+            {
+              "text": "Albanian",
+              "href": "https://skopjebus.mk/sq/",
+              "hreflang": null,
+              "ariaLabel": "Switch to Albanian",
+              "source": "full-dom-scan",
+              "isHidden": true
+            }
+          ],
+          "macedonianLinks": [
+            {
+              "text": "",
+              "href": "https://skopjebus.mk/mk/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ЗА НАС",
+              "href": "https://skopjebus.mk/mk/za-nas/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Историја",
+              "href": "https://skopjebus.mk/mk/za-nas/istorija/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Структура",
+              "href": "https://skopjebus.mk/mk/za-nas/struktura/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Акти на претпријатието",
+              "href": "https://skopjebus.mk/mk/za-nas/dokumenti/akti-na-pretprijatieto/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Систематизација",
+              "href": "https://skopjebus.mk/mk/za-nas/dokumenti/sistematizacija/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Правилник за внатрешна организација",
+              "href": "https://skopjebus.mk/mk/za-nas/dokumenti/pravilnik-vrantreshna-org/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Статут на ЈСП Скопје",
+              "href": "https://skopjebus.mk/mk/za-nas/dokumenti/statut-jsp-skopje/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Финансиски извештаи",
+              "href": "https://skopjebus.mk/mk/za-nas/dokumenti/finansiski-izveshtai/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Ревизорски Извештаи",
+              "href": "https://skopjebus.mk/mk/za-nas/dokumenti/revizorski-izveshtai/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Проекти",
+              "href": "https://skopjebus.mk/mk/za-nas/proekti/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Јавни набавки",
+              "href": "https://skopjebus.mk/mk/za-nas/javni-nabavki/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Маркетинг",
+              "href": "https://skopjebus.mk/mk/za-nas/marketing/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Линии",
+              "href": "https://skopjebus.mk/mk/linii/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Посебни услуги",
+              "href": "https://skopjebus.mk/mk/posebni-uslugi/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Ценовник",
+              "href": "https://skopjebus.mk/mk/cenovnik/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Продажни места",
+              "href": "https://skopjebus.mk/mk/prodazni-mesta/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Барање за издавање на билети",
+              "href": "https://skopjebus.mk/mk/baranje-za-izdavanje-bileti/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "ИЗВЕСТУВАЊА",
+              "href": "https://skopjebus.mk/mk/izvestuvanja/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "КОНТАКТИ",
+              "href": "https://skopjebus.mk/mk/kontakti/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "",
+              "href": "https://skopjebus.mk/mk/app/login",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "English",
+              "href": "https://skopjebus.mk/en/",
+              "hreflang": null,
+              "ariaLabel": "Switch to English",
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Важно известување: Се воведува нова мобилна аплика",
+              "href": "https://skopjebus.mk/%D0%B2%D0%B0%D0%B6%D0%BD%D0%BE-%D0%B8%D0%B7%D0%B2%D0%B5%D1%81%D1%82%D1%83%D0%B2%D0%B0%D1%9A%D0%B5-%D0%B2%D0%BE%D0%B2%D0%B5%D0%B4%D1%83%D0%B2%D0%B0%D1%9A%D0%B5-%D0%BD%D0%B0-%D0%BD%D0%BE%D0%B2%D0%B0/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ВОЗЕН РЕД ПО СТАНИЦА",
+              "href": "https://skopjebus.mk/mk/app/lines",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "СТАТИЧЕН ВОЗЕН РЕД",
+              "href": "https://skopjebus.mk/mk/schedule",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ВОЗЕН РЕД ПО СТАНИЦА",
+              "href": "https://skopjebus.mk/mk/app/lines/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "ВИДИ ПОВЕЌЕ",
+              "href": "https://skopjebus.mk/mk/app/cards/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ЈСП Скопје учествуваше на манифестацијата „Отворен",
+              "href": "https://skopjebus.mk/mk/%d1%98%d1%81%d0%bf-%d1%81%d0%ba%d0%be%d0%bf%d1%98%d0%b5-%d1%83%d1%87%d0%b5%d1%81%d1%82%d0%b2%d1%83%d0%b2%d0%b0%d1%88%d0%b5-%d0%bd%d0%b0-%d0%bc%d0%b0%d0%bd%d0%b8%d1%84%d0%b5%d1%81%d1%82%d0%b0%d1%86/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Вести и новости",
+              "href": "https://skopjebus.mk/mk/category/%d0%b2%d0%b5%d1%81%d1%82%d0%b8-%d0%b8-%d0%bd%d0%be%d0%b2%d0%be%d1%81%d1%82%d0%b8/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Соопштение за 38 – от „Меѓународен саем на книгата",
+              "href": "https://skopjebus.mk/mk/%d1%81%d0%be%d0%be%d0%bf%d1%88%d1%82%d0%b5%d0%bd%d0%b8%d0%b5-%d0%b7%d0%b0-38-%d0%be%d1%82-%d0%bc%d0%b5%d1%93%d1%83%d0%bd%d0%b0%d1%80%d0%be%d0%b4%d0%b5%d0%bd-%d1%81%d0%b0%d0%b5%d0%bc-%d0%bd/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Известување за жичницата „Милениумски крст“",
+              "href": "https://skopjebus.mk/mk/%d0%b8%d0%b7%d0%b2%d0%b5%d1%81%d1%82%d1%83%d0%b2%d0%b0%d1%9a%d0%b5-16/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Известување за линијата 31",
+              "href": "https://skopjebus.mk/mk/%d0%b8%d0%b7%d0%b2%d0%b5%d1%81%d1%82%d1%83%d0%b2%d0%b0%d1%9a%d0%b5-%d0%b7%d0%b0-%d0%bb%d0%b8%d0%bd%d0%b8%d1%98%d0%b0%d1%82%d0%b0-31/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Известување за линиите 31 и 163",
+              "href": "https://skopjebus.mk/mk/%d0%b8%d0%b7%d0%b2%d0%b5%d1%81%d1%82%d1%83%d0%b2%d0%b0%d1%9a%d0%b5-%d0%b7%d0%b0-%d0%bb%d0%b8%d0%bd%d0%b8%d0%b8%d1%82%d0%b5-31-%d0%b8-163/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Работно време за Велигденските празници",
+              "href": "https://skopjebus.mk/mk/%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%bd%d0%be-%d0%b2%d1%80%d0%b5%d0%bc%d0%b5-%d0%b7%d0%b0-%d0%b2%d0%b5%d0%bb%d0%b8%d0%b3%d0%b4%d0%b5%d0%bd%d1%81%d0%ba%d0%b8%d1%82%d0%b5-%d0%bf%d1%80%d0%b0%d0%b7%d0%bd/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Известување за недела (5.04.26)",
+              "href": "https://skopjebus.mk/mk/%d0%b8%d0%b7%d0%b2%d0%b5%d1%81%d1%82%d1%83%d0%b2%d0%b0%d1%9a%d0%b5-%d0%b7%d0%b0-%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d0%b0-5-04-26/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Известување за линијата 58",
+              "href": "https://skopjebus.mk/mk/%d0%b8%d0%b7%d0%b2%d0%b5%d1%81%d1%82%d1%83%d0%b2%d0%b0%d1%9a%d0%b5-%d0%b7%d0%b0-%d0%bb%d0%b8%d0%bd%d0%b8%d1%98%d0%b0%d1%82%d0%b0-58/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ВИДИ ГИ СИТЕ ИЗВЕСТУВАЊА",
+              "href": "https://skopjebus.mk/izvestuvanja/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ПЛАНЕР НА ПАТУВАЊЕ",
+              "href": "https://skopjebus.mk/mk/app/planner/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ПРЕЗЕМИ ЈА МОБИЛНАТА АПЛИКАЦИЈА ЗА ЈАВЕН ТРАНСПОРТ",
+              "href": "https://skopjebus.mk/go-mobile/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ЖИЧНИЦА",
+              "href": "https://skopjebus.mk/zhichnica/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Кодекс на однесување",
+              "href": "https://skopjebus.mk/mk/kodeks-na-odnesuvanje/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ЧПП",
+              "href": "https://skopjebus.mk/%D1%87%D0%BF%D0%BF/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ЈСП Турс",
+              "href": "http://jspturs.com.mk/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Жичница",
+              "href": "https://skopjebus.mk/mk/zhichnica/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "City tour",
+              "href": "https://skopjebus.mk/city-tour/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Контакт",
+              "href": "https://skopjebus.mk/kontakti/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Ценовник",
+              "href": "https://skopjebus.mk/tarifen-sistem/cenovnik/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Општи услови",
+              "href": "https://skopjebus.mk/opsti-uslovi/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Политика за приватност",
+              "href": "https://skopjebus.mk/politika-privatnost/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Политика за колачиња",
+              "href": "https://skopjebus.mk/%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0-%D0%B7%D0%B0-%D0%BA%D0%BE%D0%BB%D0%B0%D1%87%D0%B8%D1%9A%D0%B0/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            }
+          ],
+          "englishLinks": [],
+          "detectionMethod": "full-dom-scan including hidden dropdowns, select elements, and clickable-div patterns"
+        },
+        "langAttributeCheck": {
+          "declared": "mk",
+          "detected": "Macedonian",
+          "matches": true,
+          "issue": null,
+          "pass": true,
+          "score": 100,
+          "severity": null,
+          "confidence": "high"
+        },
+        "inlineLangUsage": {
+          "found": true,
+          "count": 1,
+          "elements": [
+            {
+              "lang": "mk",
+              "tag": "html",
+              "text": "ЈСП Скопје\n\nВаш верен сопатник\n\nHamburger Toggle Menu\nВажно известување: Се воведува нова мобилна ап"
+            }
+          ],
+          "note": "Page uses inline lang attributes for mixed-language content — good practice"
+        },
+        "albanianVersion": {
+          "found": true,
+          "url": "https://skopjebus.mk/sq/",
+          "detectedVia": "full-dom-scan",
+          "wasHidden": true,
+          "langAttributeOnAlbanianPage": "sq",
+          "evaluation": {
+            "langAttributeCorrect": true,
+            "langAttributeFound": "sq",
+            "isActuallyAlbanian": true,
+            "detectedLanguage": "Albanian with untranslated English terms",
+            "hasMixedContent": true,
+            "mixedContentExamples": [
+              "Hamburger Toggle Menu",
+              "April",
+              "City Tour",
+              "Shopping Basket"
+            ],
+            "translationQuality": "good",
+            "translationScore": 85,
+            "qualityIssues": [
+              "Untranslated English terms (e.g., 'Hamburger Toggle Menu', 'April', 'City Tour', 'Shopping Basket') are present throughout the content."
+            ],
+            "completenessEstimate": "full",
+            "completenessScore": 90,
+            "missingAlbanianChars": false,
+            "technicalTermIssues": [],
+            "overallPass": false,
+            "overallScore": 75,
+            "severity": "serious",
+            "summary": "The Albanian version of the website content is generally well-translated and uses standard literary Albanian. However, several key interface elements and common terms remain in English, creating a mixed-language experience. While no Macedonian Cyrillic was found, the presence of untranslated English terms is a significant accessibility barrier.",
+            "recommendations": [
+              "Translate all remaining English terms into standard Albanian (e.g., 'Prill' for 'April', 'Menu me Zgjedhje' for 'Hamburger Toggle Menu', 'Turne Qyteti' for 'City Tour', 'Shportë Blerjesh' for 'Shopping Basket').",
+              "Conduct a thorough review of all pages to ensure no other English or Macedonian terms are left untranslated, ensuring full compliance with the Law on the Use of Languages."
+            ]
+          },
+          "overallPass": false,
+          "overallScore": 75,
+          "severity": "serious"
+        },
+        "total": 2,
+        "score": 88,
+        "passed": 2,
+        "failed": 0
+      },
+      "visual": {
+        "moduleName": "Visual Disability Checks",
+        "category": "visual",
+        "wcagPrinciples": [
+          "Perceivable",
+          "Operable"
+        ],
+        "affectedUsers": "Blind users, low-vision users, photosensitive users",
+        "total": 5,
+        "passed": 0,
+        "failed": 5,
+        "errored": 0,
+        "score": 29,
+        "items": [
+          {
+            "test": "CSS outline:none on focus",
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "wcag": "2.4.7",
+            "issue": "CSS removes focus outline globally — keyboard users have no visible focus indicator",
+            "detail": ".ditty-slider__next:focus, .ditty-slider__prev:focus { box-shadow: none; outline: none; }",
+            "suggestion": "Remove outline:none from :focus selectors, or replace with a custom visible focus style"
+          },
+          {
+            "focusVisibleInScreenshot": true,
+            "focusIndicatorDescription": "A thin, dashed white outline appeared around the red button in the top right corner.",
+            "meetsContrastRequirement": true,
+            "pass": false,
+            "score": 50,
+            "severity": "serious",
+            "issue": "The focus indicator is a thin, dashed white outline that appears to be 1px thick, which does not meet the WCAG 2.4.11 requirement for a minimum 2px thickness.",
+            "suggestion": "Increase the thickness of the focus indicator to at least 2px. Consider a solid outline or a more prominent visual change for better visibility.",
+            "test": "Focus indicator visibility",
+            "wcag": "2.4.7 / 2.4.11"
+          },
+          {
+            "pass": false,
+            "score": 65,
+            "severity": "serious",
+            "hasHorizontalScroll": false,
+            "textOverflowCount": 5,
+            "visualIssues": [
+              "Logo text 'ЈСП СКОПЈЕ NQP SHKUP' is cut off"
+            ],
+            "suggestion": "Ensure all header text, especially the logo and site title, is fully visible and reflows correctly at narrow viewports. Consider using smaller font sizes, wrapping text, or adjusting layout for the header section to prevent truncation.",
+            "test": "Zoom/Reflow at 200%",
+            "wcag": "1.4.10",
+            "overflowElements": [
+              {
+                "tag": "H3",
+                "text": "ЈСП Скопје",
+                "overflow": 126
+              },
+              {
+                "tag": "P",
+                "text": "Ваш верен сопатник",
+                "overflow": 129
+              },
+              {
+                "tag": "SPAN",
+                "text": "Hamburger Toggle Menu",
+                "overflow": 143
+              },
+              {
+                "tag": "H3",
+                "text": "ЈСП Скопје",
+                "overflow": 126
+              },
+              {
+                "tag": "P",
+                "text": "Ваш верен сопатник",
+                "overflow": 129
+              }
+            ]
+          },
+          {
+            "pass": false,
+            "score": 30,
+            "severity": "serious",
+            "contentClipped": true,
+            "layoutBroken": false,
+            "issues": [
+              "The text 'NQP SHKUP' below the logo is visibly clipped at the bottom.",
+              "The text 'Важно' within the red button is visibly clipped at the bottom.",
+              "Programmatic clipping detected for 'ЈСП Скопје' and 'Ваш верен сопатник' in the logo area, indicating insufficient space for text with increased spacing."
+            ],
+            "suggestion": "Ensure that text containers, especially those within the logo area and buttons, have sufficient height and padding to accommodate increased line-height, letter-spacing, and word-spacing without clipping. Avoid fixed heights on elements containing text or use `min-height` instead.",
+            "test": "Text Spacing Override",
+            "wcag": "1.4.12",
+            "clippedElementsFound": 5,
+            "clippedElements": [
+              {
+                "tag": "H3",
+                "text": "ЈСП Скопје"
+              },
+              {
+                "tag": "P",
+                "text": "Ваш верен сопатник"
+              },
+              {
+                "tag": "SPAN",
+                "text": "Hamburger Toggle Menu"
+              },
+              {
+                "tag": "H3",
+                "text": "ЈСП Скопје"
+              },
+              {
+                "tag": "P",
+                "text": "Ваш верен сопатник"
+              }
+            ]
+          },
+          {
+            "darkModeSupported": false,
+            "darkModeScore": 0,
+            "pass": false,
+            "score": 0,
+            "severity": "serious",
+            "issues": [
+              "The site does not support the 'prefers-color-scheme' media query, meaning it does not adapt its colors for dark mode.",
+              "The site displays a light/white background in the header and other UI elements, even when a dark mode preference might be active on the user's system."
+            ],
+            "suggestions": [
+              "Implement CSS rules using the '@media (prefers-color-scheme: dark)' query to provide a dark theme for users who prefer it.",
+              "Ensure all text, backgrounds, and UI elements have sufficient contrast in both light and dark themes."
+            ],
+            "test": "Dark Mode Support",
+            "wcag": "1.4.3",
+            "mediaQuerySupport": {
+              "hasDarkMode": false,
+              "hasReducedMotion": true,
+              "hasForcedColors": false
+            },
+            "note": "High contrast (forced-colors) skipped — not supported in Puppeteer 21"
+          }
+        ]
+      },
+      "motor": {
+        "moduleName": "Motor Disability Checks",
+        "category": "motor",
+        "wcagPrinciples": [
+          "Operable"
+        ],
+        "affectedUsers": "Users with motor impairments, switch access users, keyboard-only users, tremor/reduced dexterity users",
+        "total": 6,
+        "passed": 2,
+        "failed": 4,
+        "skipped": 0,
+        "score": 40,
+        "items": [
+          {
+            "test": "Skip navigation link",
+            "pass": false,
+            "score": 0,
+            "severity": "serious",
+            "wcag": "2.4.1",
+            "source": "rule-based",
+            "issue": "No \"Skip to main content\" link found — keyboard users must tab through entire navigation on every page",
+            "suggestion": "Add <a href=\"#main\" class=\"skip-link\">Skip to main content</a> as the first focusable element",
+            "firstFocusableElement": {
+              "idx": 0,
+              "tag": "A",
+              "text": "",
+              "tabindex": 0,
+              "type": null,
+              "href": "https://skopjebus.mk/mk/"
+            }
+          },
+          {
+            "test": "Keyboard trap detection",
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "wcag": "2.1.2",
+            "source": "rule-based",
+            "focusableElementCount": 47,
+            "tabSequenceSample": [
+              {
+                "tag": "A",
+                "text": "",
+                "href": "https://skopjebus.mk/mk/"
+              },
+              {
+                "tag": "A",
+                "text": "ЈСП Скопје",
+                "href": "https://skopjebus.mk/mk/"
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Hamburger Toggle Menu",
+                "href": null
+              },
+              {
+                "tag": "A",
+                "text": "Важно известување: Се воведува нова моби",
+                "href": "https://skopjebus.mk/%D0%B2%D0%B0%D0%B6%D0%BD%D0%BE-%D0%B8%D"
+              },
+              {
+                "tag": "A",
+                "text": "ВОЗЕН РЕД ПО СТАНИЦА",
+                "href": "https://skopjebus.mk/mk/app/lines"
+              },
+              {
+                "tag": "A",
+                "text": "СТАТИЧЕН ВОЗЕН РЕД",
+                "href": "https://skopjebus.mk/mk/schedule"
+              },
+              {
+                "tag": "A",
+                "text": "ВИДИ ПОВЕЌЕ",
+                "href": "https://skopjebus.mk/mk/app/cards/"
+              },
+              {
+                "tag": "A",
+                "text": "ЈСП Скопје учествуваше на манифестацијат",
+                "href": "https://skopjebus.mk/mk/%d1%98%d1%81%d0%bf-%d1%81%d0%ba%d0%b"
+              }
+            ],
+            "issue": null,
+            "suggestion": null
+          },
+          {
+            "test": "Focus order logic",
+            "source": "ai-evaluation",
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "wcag": "2.4.3",
+            "logicalOrder": true,
+            "issues": [],
+            "suggestion": null
+          },
+          {
+            "test": "Touch Target Size",
+            "wcag": "2.5.5",
+            "source": "rule-based",
+            "pass": false,
+            "score": 0,
+            "severity": "serious",
+            "smallTargetsFound": 20,
+            "items": [
+              {
+                "tag": "A",
+                "text": "ЈСП Скопје",
+                "width": 127,
+                "height": 28,
+                "issue": "Touch target 127×28px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Важно известување: Се воведува нова моби",
+                "width": 1093,
+                "height": 19,
+                "issue": "Touch target 1093×19px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "април 22, 2026",
+                "width": 72,
+                "height": 11,
+                "issue": "Touch target 72×11px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Вести и новости",
+                "width": 77,
+                "height": 15,
+                "issue": "Touch target 77×15px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Соопштение за 38 – от „Меѓународен саем ",
+                "width": 243,
+                "height": 32,
+                "issue": "Touch target 243×32px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "април 22, 2026",
+                "width": 72,
+                "height": 11,
+                "issue": "Touch target 72×11px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Вести и новости",
+                "width": 77,
+                "height": 15,
+                "issue": "Touch target 77×15px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Известување за жичницата „Милениумски кр",
+                "width": 245,
+                "height": 32,
+                "issue": "Touch target 245×32px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "април 20, 2026",
+                "width": 72,
+                "height": 11,
+                "issue": "Touch target 72×11px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Вести и новости",
+                "width": 77,
+                "height": 15,
+                "issue": "Touch target 77×15px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Известување за линијата 31",
+                "width": 161,
+                "height": 14,
+                "issue": "Touch target 161×14px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "април 19, 2026",
+                "width": 72,
+                "height": 11,
+                "issue": "Touch target 72×11px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Вести и новости",
+                "width": 77,
+                "height": 15,
+                "issue": "Touch target 77×15px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Известување за линиите 31 и 163",
+                "width": 191,
+                "height": 14,
+                "issue": "Touch target 191×14px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "април 16, 2026",
+                "width": 72,
+                "height": 11,
+                "issue": "Touch target 72×11px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Вести и новости",
+                "width": 77,
+                "height": 15,
+                "issue": "Touch target 77×15px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Работно време за Велигденските празници",
+                "width": 246,
+                "height": 14,
+                "issue": "Touch target 246×14px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "април 9, 2026",
+                "width": 66,
+                "height": 11,
+                "issue": "Touch target 66×11px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Вести и новости",
+                "width": 77,
+                "height": 15,
+                "issue": "Touch target 77×15px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Известување за недела (5.04.26)",
+                "width": 188,
+                "height": 14,
+                "issue": "Touch target 188×14px is below the 44×44px minimum"
+              }
+            ],
+            "issue": "20 interactive elements are smaller than the 44×44px minimum touch target size",
+            "suggestion": "Increase padding on small links and buttons so the clickable area is at least 44×44px"
+          },
+          {
+            "test": "Session Timeout Warning",
+            "wcag": "2.2.1",
+            "source": "rule-based",
+            "pass": false,
+            "score": 20,
+            "severity": "serious",
+            "hasSessionTimeout": true,
+            "hasWarning": true,
+            "hasExtendOption": false,
+            "metaRefresh": null,
+            "issue": "Timeout warning exists but no option to extend the session",
+            "suggestion": "Warn users at least 20 seconds before timeout with a dialog offering to extend the session"
+          },
+          {
+            "test": "Sticky Header Scroll Margin",
+            "wcag": "2.4.12",
+            "source": "rule-based",
+            "pass": false,
+            "score": 20,
+            "severity": "moderate",
+            "headerHeight": 600,
+            "scrollPaddingTop": 0,
+            "issue": "Sticky header is 600px but scroll-padding-top is only 0px",
+            "suggestion": "Add to CSS: html { scroll-padding-top: 610px; }"
+          }
+        ]
+      }
+    }
+  }
+}

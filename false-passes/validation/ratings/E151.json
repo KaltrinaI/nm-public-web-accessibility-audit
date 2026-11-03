@@ -1,0 +1,9 @@
+{
+  "item": "E151",
+  "kind": "image",
+  "note": "only content of video link; empty alt → link has no name",
+  "rater": "",
+  "role": "functional",
+  "updatedAt": "2026-10-13T19:03:42.349Z",
+  "verdict": "not_acceptable"
+}

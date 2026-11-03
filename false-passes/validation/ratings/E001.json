@@ -1,0 +1,9 @@
+{
+  "item": "E001",
+  "kind": "image",
+  "note": "header logo is only content of home link; empty alt → link has no name",
+  "rater": "KaltrinaIsmaili",
+  "role": "functional",
+  "updatedAt": "2026-10-13T21:48:15.690Z",
+  "verdict": "not_acceptable"
+}

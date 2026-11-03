@@ -1,0 +1,4960 @@
+{
+  "site": "https://av.gov.mk/",
+  "auditedAt": "2026-04-23T20:04:49.326Z",
+  "score": 29,
+  "grade": "F",
+  "wcagConformance": "Non-conformant",
+  "axeOnlyScore": 0,
+  "axeVsHybridDelta": 29,
+  "totalViolations": 56,
+  "axeCoreViolations": 9,
+  "aiOnlyViolations": 47,
+  "criticalViolations": 22,
+  "disabilityScores": {
+    "visual": 42,
+    "motor": 53,
+    "language": 28
+  },
+  "languageSummary": {
+    "albanianVersionFound": true,
+    "albanianScore": 35
+  },
+  "moduleHealth": {
+    "images": {
+      "valid": false,
+      "score": 0,
+      "skipped": 2,
+      "errored": false,
+      "errorMsg": null
+    },
+    "links": {
+      "valid": true,
+      "score": 78,
+      "skipped": 0,
+      "errored": false,
+      "errorMsg": null
+    },
+    "headings": {
+      "valid": true,
+      "score": 40,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "readingLevel": {
+      "valid": true,
+      "score": 88,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "tables": {
+      "valid": true,
+      "score": 0,
+      "skipped": 0,
+      "errored": false,
+      "errorMsg": null
+    },
+    "pageTitle": {
+      "valid": true,
+      "score": 15,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "language": {
+      "valid": true,
+      "score": 28,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "visual": {
+      "valid": true,
+      "score": 42,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "motor": {
+      "valid": true,
+      "score": 53,
+      "skipped": 0,
+      "errored": false,
+      "errorMsg": null
+    }
+  },
+  "homepage": {
+    "url": "https://av.gov.mk/",
+    "isHomepage": true,
+    "timestamp": "2026-04-23T20:01:19.887Z",
+    "finalScore": 29,
+    "grade": "F",
+    "wcagConformance": "Non-conformant",
+    "scores": {
+      "axe": 0,
+      "images": 0,
+      "links": 78,
+      "headings": 40,
+      "readingLevel": 88,
+      "tables": 0,
+      "pageTitle": 15,
+      "language": 28,
+      "visual": 42,
+      "motor": 53
+    },
+    "axeOnlyScore": 0,
+    "axeVsHybridDelta": 29,
+    "axe": {
+      "violations": [
+        {
+          "id": "aria-input-field-name",
+          "impact": "serious",
+          "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag412",
+            "TTv5",
+            "TT5.c",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "description": "Ensure every ARIA input field has an accessible name",
+          "help": "ARIA input fields must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/aria-input-field-name?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div class=\"carousel-inner\" role=\"listbox\" data-bind=\"foreach: filteredItems\" id=\"mainAnnouncementTable\"></div>",
+              "target": [
+                "#mainAnnouncementTable"
+              ],
+              "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          ]
+        },
+        {
+          "id": "aria-progressbar-name",
+          "impact": "serious",
+          "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag111",
+            "EN-301-549",
+            "EN-9.1.1.1",
+            "RGAAv4",
+            "RGAA-11.1.1"
+          ],
+          "description": "Ensure every ARIA progressbar node has an accessible name",
+          "help": "ARIA progressbar nodes must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/aria-progressbar-name?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<div id=\"cmscontent_CmsMain_ctl03_ctl00_personsProgressBar\" class=\"progress-bar\" role=\"progressbar\" aria-valuemin=\"0\" aria-valuemax=\"100\" style=\"width:71%;\"></div>",
+              "target": [
+                "#cmscontent_CmsMain_ctl03_ctl00_personsProgressBar"
+              ],
+              "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          ]
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag412",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-7.1.1"
+          ],
+          "description": "Ensure all ARIA attributes have valid values",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/aria-valid-attr-value?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "aria-valid-attr-value",
+                  "data": [
+                    "aria-controls=\"home\""
+                  ],
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Invalid ARIA attribute value: aria-controls=\"home\""
+                }
+              ],
+              "none": [],
+              "impact": "critical",
+              "html": "<a href=\"#profile\" aria-controls=\"home\" role=\"tab\" data-toggle=\"tab\">Огласи за активни мерки</a>",
+              "target": [
+                "a[href$=\"#profile\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"home\""
+            },
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "aria-valid-attr-value",
+                  "data": [
+                    "aria-controls=\"home\""
+                  ],
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Invalid ARIA attribute value: aria-controls=\"home\""
+                }
+              ],
+              "none": [],
+              "impact": "critical",
+              "html": "<a href=\"https://e-rabota.av.gov.mk/\" aria-controls=\"home\" role=\"tab\" data-toggle=\"tab\">Работно ангажирање</a>",
+              "target": [
+                ".col-sm-4.col-xs-12:nth-child(2) > .tabs > .nav-tabs.nav[role=\"tablist\"] > .active[role=\"presentation\"] > a[aria-controls=\"home\"][role=\"tab\"][data-toggle=\"tab\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"home\""
+            },
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "aria-valid-attr-value",
+                  "data": [
+                    "aria-controls=\"home\""
+                  ],
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Invalid ARIA attribute value: aria-controls=\"home\""
+                }
+              ],
+              "none": [],
+              "impact": "critical",
+              "html": "<a href=\"#messages\" aria-controls=\"home\" role=\"tab\" data-toggle=\"tab\">Настани</a>",
+              "target": [
+                "a[href$=\"#messages\"]"
+              ],
+              "failureSummary": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"home\""
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#ffffff",
+                    "bgColor": "#e58e3b",
+                    "contrastRatio": 2.54,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"box-footer-e-work\">\n                  <a href=\"https://e-rabota.av.gov.mk/\">\n                    <h2>Е-РАБОТА</h2>\n                  </a>\n                </div>",
+                      "target": [
+                        ".home-box-orange > .box-footer-e-work"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 2.54 (foreground color: #ffffff, background color: #e58e3b, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<h2>Е-РАБОТА</h2>",
+              "target": [
+                ".home-box-orange > .box-footer-e-work > a[href$=\"e-rabota.av.gov.mk/\"] > h2"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.54 (foreground color: #ffffff, background color: #e58e3b, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#ffffff",
+                    "bgColor": "#acb5b9",
+                    "contrastRatio": 2.08,
+                    "fontSize": "14.3pt (19px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"box-footer-e-work\">\n                  <a href=\"https://e-rabota.av.gov.mk/\">\n                    <h2>Е-РАБОТА</h2>\n                  </a>\n                </div>",
+                      "target": [
+                        ".home-box-blue > .box-footer-e-work"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 2.08 (foreground color: #ffffff, background color: #acb5b9, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<h2>Е-РАБОТА</h2>",
+              "target": [
+                ".home-box-blue > .box-footer-e-work > a[href$=\"e-rabota.av.gov.mk/\"] > h2"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.08 (foreground color: #ffffff, background color: #acb5b9, font size: 14.3pt (19px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#ffffff",
+                    "bgColor": "#e58e3b",
+                    "contrastRatio": 2.54,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "bold",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<a href=\"oglasi-za-aktivni-merki.nspx\" class=\"box-footer-e-work btn btn-default\">Прегледај ги сите огласи</a>",
+                      "target": [
+                        ".btn-default.box-footer-e-work[href=\"oglasi-za-aktivni-merki.nspx\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 2.54 (foreground color: #ffffff, background color: #e58e3b, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a href=\"oglasi-za-aktivni-merki.nspx\" class=\"box-footer-e-work btn btn-default\">Прегледај ги сите огласи</a>",
+              "target": [
+                ".btn-default.box-footer-e-work[href=\"oglasi-za-aktivni-merki.nspx\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.54 (foreground color: #ffffff, background color: #e58e3b, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#ffffff",
+                    "bgColor": "#e58e3b",
+                    "contrastRatio": 2.54,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "bold",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<a href=\"/rabotno-angaziranje-na-lica.nspx\" class=\"box-footer-e-work btn btn-default\">Дознај повеќе</a>",
+                      "target": [
+                        "#messages1 > .btn-default.box-footer-e-work.btn"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 2.54 (foreground color: #ffffff, background color: #e58e3b, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a href=\"/rabotno-angaziranje-na-lica.nspx\" class=\"box-footer-e-work btn btn-default\">Дознај повеќе</a>",
+              "target": [
+                "#messages1 > .btn-default.box-footer-e-work.btn"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.54 (foreground color: #ffffff, background color: #e58e3b, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#ffffff",
+                    "bgColor": "#e58e3b",
+                    "contrastRatio": 2.54,
+                    "fontSize": "10.5pt (14px)",
+                    "fontWeight": "bold",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<a href=\"nastani.nspx\" class=\"box-footer-e-work btn btn-default\">сите настани</a>",
+                      "target": [
+                        "a[href$=\"nastani.nspx\"]"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 2.54 (foreground color: #ffffff, background color: #e58e3b, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a href=\"nastani.nspx\" class=\"box-footer-e-work btn btn-default\">сите настани</a>",
+              "target": [
+                "a[href$=\"nastani.nspx\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.54 (foreground color: #ffffff, background color: #e58e3b, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#428bca",
+                    "bgColor": "#dfe5e9",
+                    "contrastRatio": 2.85,
+                    "fontSize": "9.8pt (13px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"pazar-na-trud-holder\">",
+                      "target": [
+                        ".pazar-na-trud-holder"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 2.85 (foreground color: #428bca, background color: #dfe5e9, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a href=\"https://e-rabota.av.gov.mk/PublicReports/PublicReportsOglasi.aspx\" _mce_href=\"https://e-rabota.av.gov.mk/PublicReports/PublicReportsOglasi.aspx\">Повеќе</a>",
+              "target": [
+                ".najava-naslovna > p:nth-child(2) > a"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #428bca, background color: #dfe5e9, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#428bca",
+                    "bgColor": "#dfe5e9",
+                    "contrastRatio": 2.85,
+                    "fontSize": "9.8pt (13px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"pazar-na-trud-holder\">",
+                      "target": [
+                        ".pazar-na-trud-holder"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 2.85 (foreground color: #428bca, background color: #dfe5e9, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a href=\"https://e-rabota.av.gov.mk/PublicReports/PublicReports.aspx\" _mce_href=\"https://e-rabota.av.gov.mk/PublicReports/PublicReports.aspx\">Повеќе</a>",
+              "target": [
+                "p:nth-child(4) > a"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #428bca, background color: #dfe5e9, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#428bca",
+                    "bgColor": "#dfe5e9",
+                    "contrastRatio": 2.85,
+                    "fontSize": "9.8pt (13px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<div class=\"pazar-na-trud-holder\">",
+                      "target": [
+                        ".pazar-na-trud-holder"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 2.85 (foreground color: #428bca, background color: #dfe5e9, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a href=\"content/Documents/Izvestaj_ APV 2024 godina_RSM_sumirani rezultati za web strana.pdf\" _mce_href=\"content/Documents/Izvestaj_ APV 2024 godina_RSM_sumirani rezultati za web strana.pdf\" target=\"_blank\" style=\"\">Повеќе</a>",
+              "target": [
+                "p:nth-child(2) > a[target=\"_blank\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #428bca, background color: #dfe5e9, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#888888",
+                    "bgColor": "#f5f5f5",
+                    "contrastRatio": 3.25,
+                    "fontSize": "11.3pt (15px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.25 (foreground color: #888888, background color: #f5f5f5, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<h2>Мапа на сајтот</h2>",
+              "target": [
+                "a[href$=\"mapa-na-sajtot.nspx\"] > h2"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.25 (foreground color: #888888, background color: #f5f5f5, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "tags": [
+            "cat.semantics",
+            "best-practice"
+          ],
+          "description": "Ensure the order of headings is semantically correct",
+          "help": "Heading levels should only increase by one",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/heading-order?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "heading-order",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Heading order invalid"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<h5>",
+              "target": [
+                "h5"
+              ],
+              "failureSummary": "Fix any of the following:\n  Heading order invalid"
+            }
+          ]
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "tags": [
+            "cat.text-alternatives",
+            "wcag2a",
+            "wcag111",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT7.a",
+            "TT7.b",
+            "EN-301-549",
+            "EN-9.1.1.1",
+            "ACT",
+            "RGAAv4",
+            "RGAA-1.1.1"
+          ],
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/image-alt?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "has-alt",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element does not have an alt attribute"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element has no title attribute"
+                },
+                {
+                  "id": "presentational-role",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "critical",
+              "html": "<img src=\"content/images/logo-agencija-severna.png\">",
+              "target": [
+                ".logo-holder > img"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            },
+            {
+              "any": [
+                {
+                  "id": "has-alt",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element does not have an alt attribute"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element has no title attribute"
+                },
+                {
+                  "id": "presentational-role",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "critical",
+              "html": "<img _mce_src=\"content/FER ANGAZMAN.jpg\" src=\"content/FER ANGAZMAN.jpg\">",
+              "target": [
+                "img[_mce_src$=\"FER ANGAZMAN.jpg\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            },
+            {
+              "any": [
+                {
+                  "id": "has-alt",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element does not have an alt attribute"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element has no title attribute"
+                },
+                {
+                  "id": "presentational-role",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "critical",
+              "html": "<img _mce_src=\"content/images/nastaniMKD.jpg\" src=\"content/images/nastaniMKD.jpg\" width=\"264\" height=\"155\" style=\"float: left;\" _mce_style=\"float: left;\">",
+              "target": [
+                "img[_mce_src$=\"nastaniMKD.jpg\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            },
+            {
+              "any": [
+                {
+                  "id": "has-alt",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element does not have an alt attribute"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element has no title attribute"
+                },
+                {
+                  "id": "presentational-role",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "critical",
+              "html": "<img src=\"../images/iocn-1.png\">",
+              "target": [
+                "img[src$=\"iocn-1.png\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            },
+            {
+              "any": [
+                {
+                  "id": "has-alt",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element does not have an alt attribute"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element has no title attribute"
+                },
+                {
+                  "id": "presentational-role",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "critical",
+              "html": "<img src=\"../images/iocn-2.png\">",
+              "target": [
+                "img[src$=\"iocn-2.png\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            },
+            {
+              "any": [
+                {
+                  "id": "has-alt",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element does not have an alt attribute"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element has no title attribute"
+                },
+                {
+                  "id": "presentational-role",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "critical",
+              "html": "<img src=\"../images/iocn-3.png\">",
+              "target": [
+                "img[src$=\"iocn-3.png\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            },
+            {
+              "any": [
+                {
+                  "id": "has-alt",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element does not have an alt attribute"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element has no title attribute"
+                },
+                {
+                  "id": "presentational-role",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "critical",
+              "html": "<img _mce_src=\"content/Слики/Picture OP.png\" src=\"content/Слики/Picture OP.png\" width=\"250\" height=\"286\" _mce_style=\"vertical-align: text-bottom;\" style=\"vertical-align: text-bottom;\">",
+              "target": [
+                "img[_mce_src$=\"Picture OP.png\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            },
+            {
+              "any": [
+                {
+                  "id": "has-alt",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element does not have an alt attribute"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element has no title attribute"
+                },
+                {
+                  "id": "presentational-role",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "critical",
+              "html": "<img src=\"/content/images/ISO.svg\">",
+              "target": [
+                "img[src$=\"ISO.svg\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            }
+          ]
+        },
+        {
+          "id": "landmark-one-main",
+          "impact": "moderate",
+          "tags": [
+            "cat.semantics",
+            "best-practice"
+          ],
+          "description": "Ensure the document has a main landmark",
+          "help": "Document should have one main landmark",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/landmark-one-main?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [],
+              "all": [
+                {
+                  "id": "page-has-main",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Document does not have a main landmark"
+                }
+              ],
+              "none": [],
+              "impact": "moderate",
+              "html": "<html lang=\"en\" style=\"overflow-x: hidden;\">",
+              "target": [
+                "html"
+              ],
+              "failureSummary": "Fix all of the following:\n  Document does not have a main landmark"
+            }
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/link-name?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "has-visible-text",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element does not have text that is visible to screen readers"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [
+                {
+                  "id": "focusable-no-name",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element is in tab order and does not have accessible text"
+                }
+              ],
+              "impact": "serious",
+              "html": "<a href=\"/content/Documents/ISO.pdf\" target=\"_blank\" class=\"iso-sertifikat\"><img src=\"/content/images/ISO.svg\"></a>",
+              "target": [
+                ".iso-sertifikat"
+              ],
+              "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          ]
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "cat.keyboard",
+            "best-practice",
+            "RGAAv4",
+            "RGAA-9.2.1"
+          ],
+          "description": "Ensure all page content is contained by landmarks",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/region?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<div class=\"header\">",
+              "target": [
+                ".header"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<div class=\"row\">",
+              "target": [
+                ".main-page > .smaller-container.container > .row:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<div class=\"col-xs-12 col-md-7\">",
+              "target": [
+                "#hiring > .col-md-7.col-xs-12"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<span class=\"pieValue\"><b id=\"pieVal\">69.47</b>%</span>",
+              "target": [
+                ".pieValue"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<div class=\"pieData\">\n                <span>Планирани средства </span>\n                <b>1.937.357.505,00</b>\n            </div>",
+              "target": [
+                ".pieData:nth-child(2)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<div class=\"pieData\">\n                <span>Реализирани средства</span>\n                <b>1.345.918.349,00</b>\n            </div>",
+              "target": [
+                ".pieData:nth-child(3)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<a href=\"javascript:__doPostBack('ctl00$ctl00$ctl00$cmscontent$CmsMain$ctl03$ctl00$ctl00','')\">Детали</a>",
+              "target": [
+                ".col-md-5.col-xs-12 > a:nth-child(2)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<a onclick=\"return showInformationModal(); ;\" href=\"javascript:__doPostBack('ctl00$ctl00$ctl00$cmscontent$CmsMain$ctl03$ctl00$ctl01','')\">Повеќе информации</a>",
+              "target": [
+                ".col-md-5.col-xs-12 > a:nth-child(3)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<ul class=\"nav nav-tabs\" role=\"tablist\">\n                  <li role=\"presentation\" class=\"active\"><a href=\"#profile\" aria-controls=\"home\" role=\"tab\" data-toggle=\"tab\">Огласи за активни мерки</a></li>\n                </ul>",
+              "target": [
+                ".col-sm-4.col-xs-12:nth-child(1) > .tabs > .nav-tabs.nav[role=\"tablist\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<a href=\"oglasi-za-aktivni-merki.nspx\" class=\"box-footer-e-work btn btn-default\">Прегледај ги сите огласи</a>",
+              "target": [
+                ".btn-default.box-footer-e-work[href=\"oglasi-za-aktivni-merki.nspx\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<ul class=\"nav nav-tabs\" role=\"tablist\">\n                  <li role=\"presentation\" class=\"active\"><a href=\"https://e-rabota.av.gov.mk/\" aria-controls=\"home\" role=\"tab\" data-toggle=\"tab\">Работно ангажирање</a></li>\n                </ul>",
+              "target": [
+                ".col-sm-4.col-xs-12:nth-child(2) > .tabs > .nav-tabs.nav[role=\"tablist\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<div style=\"text-align: right;\" _mce_style=\"text-align: right;\">",
+              "target": [
+                "div[_mce_style=\"text-align: right;\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<div class=\"tab-pane active\" id=\"messages1\">\n                    <a href=\"/rabotno-angaziranje-na-lica.nspx\" class=\"box-footer-e-work btn btn-default\">Дознај повеќе</a>\n                  </div>",
+              "target": [
+                "#messages1"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<div class=\"col-sm-4 col-xs-12\" style=\"padding-left: 10px;\">",
+              "target": [
+                ".col-sm-4.col-xs-12:nth-child(3)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<h1>Посебен фонд за инвалидни лица за  2026 Година</h1>",
+              "target": [
+                "#specialFundHeading > h1"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<tr>",
+              "target": [
+                "tr:nth-child(2)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<tr>",
+              "target": [
+                "tr:nth-child(3)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<tr>",
+              "target": [
+                "tr:nth-child(4)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<a href=\"/listspecialfund.nspx\" class=\"details\">Детали</a>",
+              "target": [
+                ".details"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<div class=\"col-sm-8 col-xs-12 p0\">",
+              "target": [
+                ".col-sm-8"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<div class=\"col-sm-4 col-xs-12\">",
+              "target": [
+                ".smaller-container.container > .col-sm-4.col-xs-12"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<div class=\"pre-foot\">",
+              "target": [
+                ".pre-foot"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<div class=\"container\">",
+              "target": [
+                "#ns-footer > .container"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<div class=\"col-xs-12 col-md-5\">\n              <p>©2015 Агенција за вработување на Република Северна Македонија</p>\n            </div>",
+              "target": [
+                ".container > .col-md-5.col-xs-12"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<a href=\"/content/Documents/ISO.pdf\" target=\"_blank\" class=\"iso-sertifikat\"><img src=\"/content/images/ISO.svg\"></a>",
+              "target": [
+                ".iso-sertifikat"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<img src=\"images/facebook.png\" alt=\"social network link\" class=\"fbImage\">",
+              "target": [
+                ".fbImage"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<div align=\"center hitcounter\" style=\"    display: inline-block;    padding: 0px 15px;\">Бројач на посети:</div>",
+              "target": [
+                "div[align=\"center hitcounter\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ]
+        }
+      ],
+      "passCount": 39,
+      "incomplete": 2
+    },
+    "violationSummary": {
+      "critical": [
+        {
+          "source": "axe-core",
+          "rule": "aria-valid-attr-value",
+          "description": "Ensure all ARIA attributes have valid values",
+          "wcag": "wcag2a, wcag412",
+          "affectedElements": 3
+        },
+        {
+          "source": "axe-core",
+          "rule": "image-alt",
+          "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+          "wcag": "wcag2a, wcag111",
+          "affectedElements": 8
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "alt attribute is completely missing from <img> tag",
+          "wcag": "1.1.1",
+          "suggestion": "Add alt=\"\" for decorative images, or a meaningful description for informative images"
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "alt attribute is completely missing from <img> tag",
+          "wcag": "1.1.1",
+          "suggestion": "Add alt=\"\" for decorative images, or a meaningful description for informative images"
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "alt attribute is completely missing from <img> tag",
+          "wcag": "1.1.1",
+          "suggestion": "Add alt=\"\" for decorative images, or a meaningful description for informative images"
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "alt attribute is completely missing from <img> tag",
+          "wcag": "1.1.1",
+          "suggestion": "Add alt=\"\" for decorative images, or a meaningful description for informative images"
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "alt attribute is completely missing from <img> tag",
+          "wcag": "1.1.1",
+          "suggestion": "Add alt=\"\" for decorative images, or a meaningful description for informative images"
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "alt attribute is completely missing from <img> tag",
+          "wcag": "1.1.1",
+          "suggestion": "Add alt=\"\" for decorative images, or a meaningful description for informative images"
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "alt attribute is completely missing from <img> tag",
+          "wcag": "1.1.1",
+          "suggestion": "Add alt=\"\" for decorative images, or a meaningful description for informative images"
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "alt attribute is completely missing from <img> tag",
+          "wcag": "1.1.1",
+          "suggestion": "Add alt=\"\" for decorative images, or a meaningful description for informative images"
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "alt attribute is completely missing from <img> tag",
+          "wcag": "1.1.1",
+          "suggestion": "Add alt=\"\" for decorative images, or a meaningful description for informative images"
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text is completely inaccurate; it describes a social network link, but the image content is a blank white image.",
+          "wcag": "1.1.1",
+          "suggestion": "Link to our social media profile"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Generic link text 'Previous' is ambiguous and does not describe the link's purpose or destination when read out of context. It's likely part of a carousel, but this is not conveyed.",
+          "wcag": "2.4.4",
+          "suggestion": "Previous item (or 'Previous slide' with visually hidden text for screen readers like 'Previous item in carousel of announcements')"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Generic link text 'Next' is ambiguous and does not describe the link's purpose or destination when read out of context. It's likely part of a carousel, but this is not conveyed.",
+          "wcag": "2.4.4",
+          "suggestion": "Next item (or 'Next slide' with visually hidden text for screen readers like 'Next item in carousel of announcements')"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Generic link text 'Детали' (Details) does not describe the link's purpose or destination when read out of context.",
+          "wcag": "2.4.4",
+          "suggestion": "Детали за специјалниот фонд"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Generic link text 'Повеќе' (More) does not describe the link's purpose or destination when read out of context.",
+          "wcag": "2.4.4",
+          "suggestion": "Повеќе огласи"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Generic link text 'Повеќе' (More) does not describe the link's purpose or destination when read out of context. It is also not unique, making it impossible to distinguish from other 'Повеќе' links on the same page.",
+          "wcag": "2.4.4",
+          "suggestion": "Повеќе јавни извештаи"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Generic link text 'Повеќе' (More) does not describe the link's purpose or destination when read out of context. It is also not unique.",
+          "wcag": "2.4.4",
+          "suggestion": "Извештај АПВ 2024 година (се отвора во нов прозорец)"
+        },
+        {
+          "source": "headings",
+          "rule": "semantic-quality",
+          "description": "Multiple h1 elements are used, which breaks the document outline and indicates a lack of a single main topic for the page.",
+          "wcag": "1.3.1 / 2.4.6",
+          "suggestion": null
+        },
+        {
+          "source": "tables",
+          "rule": "AI evaluation",
+          "description": "Table has no <th> header elements — screen readers cannot associate data cells with their meaning",
+          "wcag": "1.3.1",
+          "suggestion": "Add <th scope=\"col\"> for column headers and <th scope=\"row\"> for row headers"
+        },
+        {
+          "source": "visual",
+          "rule": "CSS outline:none on focus",
+          "description": "CSS removes focus outline globally — keyboard users have no visible focus indicator",
+          "wcag": "2.4.7",
+          "suggestion": "Remove outline:none from :focus selectors, or replace with a custom visible focus style"
+        },
+        {
+          "source": "visual",
+          "rule": "Zoom/Reflow at 200%",
+          "description": "See module details",
+          "wcag": "1.4.10",
+          "suggestion": "Ensure content reflows vertically at 320px viewport width without requiring horizontal scrolling. Implement responsive design techniques, such as using flexible units and media queries, to prevent text and interactive elements from overflowing. Specifically address the reported overflows for 'Toggle navigation', 'Previous', and 'Next' elements to ensure all content and functionality are accessible."
+        }
+      ],
+      "serious": [
+        {
+          "source": "axe-core",
+          "rule": "aria-input-field-name",
+          "description": "Ensure every ARIA input field has an accessible name",
+          "wcag": "wcag2a, wcag412",
+          "affectedElements": 1
+        },
+        {
+          "source": "axe-core",
+          "rule": "aria-progressbar-name",
+          "description": "Ensure every ARIA progressbar node has an accessible name",
+          "wcag": "wcag2a, wcag111",
+          "affectedElements": 1
+        },
+        {
+          "source": "axe-core",
+          "rule": "color-contrast",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "wcag": "wcag2aa, wcag143",
+          "affectedElements": 9
+        },
+        {
+          "source": "axe-core",
+          "rule": "link-name",
+          "description": "Ensure links have discernible text",
+          "wcag": "wcag2a, wcag244, wcag412",
+          "affectedElements": 1
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text \"MK\" is an abbreviation and does not clearly describe its purpose or destination (likely a language switch to Macedonian). When read out of context, it is not understandable.",
+          "wcag": "2.4.4",
+          "suggestion": "Македонски (MK)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text \"AL\" is an abbreviation and does not clearly describe its purpose or destination (likely a language switch to Albanian). When read out of context, it is not understandable.",
+          "wcag": "2.4.4",
+          "suggestion": "Shqip (AL)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text \"EN\" is an abbreviation and does not clearly describe its purpose or destination (likely a language switch to English). When read out of context, it is not understandable.",
+          "wcag": "2.4.4",
+          "suggestion": "English (EN)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text \"Мени\" (Menu) is misleading as it links to the homepage (`pocetna.nspx`) instead of a menu or sitemap. This creates confusion about the link's purpose.",
+          "wcag": "2.4.4",
+          "suggestion": "If it's a home link: \"Почетна\" or \"Насловна\". If it's a menu toggle, it should be a button. If it links to a menu page, \"Sitemap\" or \"Full Menu\"."
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The link text \"Набавки\" (Procurements) is too general and not sufficiently distinct from \"Јавни набавки\" (Public Procurements) when both are present, making it difficult for users to differentiate their destinations without additional context.",
+          "wcag": "2.4.4",
+          "suggestion": "Specify the type of procurements, e.g., \"Општи набавки\" (General Procurements) or \"Внатрешни набавки\" (Internal Procurements), or clarify its scope relative to \"Јавни набавки\"."
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The link text \"ИНФО\" (INFO) is too vague and does not clearly communicate the specific destination or purpose of the link when read out of context.",
+          "wcag": "2.4.4",
+          "suggestion": "Specify the type of information, e.g., \"Контакт информации\" (Contact Information), \"Општи информации\" (General Information), \"За нас\" (About Us), or \"Вести и ажурирања\" (News and Updates)."
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text is misleading as it implies general active employment measures, but the link destination is specifically for announcements for employers. The line breaks in the text are also not ideal.",
+          "wcag": "2.4.4",
+          "suggestion": "ОГЛАСИ ЗА РАБОТОДАВАЧИ (Announcements for Employers) or АКТИВНИ МЕРКИ ЗА ВРАБОТУВАЊЕ ЗА РАБОТОДАВАЧИ (Active Employment Measures for Employers)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text suggests a page or list of 'Announcements for Active Measures', but the link is an anchor to a section named '#profile' on the current page. This mismatch is confusing and misleading.",
+          "wcag": "2.4.4",
+          "suggestion": "Скокни до активни мерки (Jump to Active Measures) or Преглед на активни мерки (Overview of Active Measures)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Generic link text 'ДОЗНАЈ ПОВЕЌЕ' (Learn More) does not describe the link's purpose or destination when read out of context.",
+          "wcag": "2.4.4",
+          "suggestion": "ДОЗНАЈ ПОВЕЌЕ за работно ангажирање на лица"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "See module details",
+          "wcag": "2.4.4",
+          "suggestion": "ВЛАДА НА РЕПУБЛИКА СЕВЕРНА МАКЕДОНИЈА (се отвора во нов прозорец)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "See module details",
+          "wcag": "2.4.4",
+          "suggestion": "МИНИСТЕРСТВО ЗА ЕКОНОМИЈА И ТРУД (се отвора во нов прозорец)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text is a URL, which is not descriptive of the content or purpose when read out of context. It does not clearly communicate what information or service the user will find.",
+          "wcag": "2.4.4",
+          "suggestion": "Government Services Portal (opens in new tab)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The link text \"ЛИНКОВИ\" (LINKS) is too generic and does not describe the purpose or destination of the link when read out of context. It only indicates that the destination is a collection of links, but not what those links are about.",
+          "wcag": "2.4.4",
+          "suggestion": "Consider using more descriptive text that indicates the type or purpose of the links on the destination page, such as \"Важни Линкови\" (Important Links), \"Корисни Линкови\" (Useful Links), or \"Брзи Линкови\" (Quick Links), depending on the content."
+        },
+        {
+          "source": "pageTitle",
+          "rule": "AI evaluation",
+          "description": "The title is too generic ('Почетна' / 'Home').",
+          "wcag": "2.4.2",
+          "suggestion": "За Барателите на Работа – Агенција за Вработување"
+        },
+        {
+          "source": "motor",
+          "rule": "Skip navigation link",
+          "description": "No \"Skip to main content\" link found — keyboard users must tab through entire navigation on every page",
+          "wcag": "2.4.1",
+          "suggestion": "Add <a href=\"#main\" class=\"skip-link\">Skip to main content</a> as the first focusable element"
+        },
+        {
+          "source": "motor",
+          "rule": "Touch Target Size",
+          "description": "20 interactive elements are smaller than the 44×44px minimum touch target size",
+          "wcag": "2.5.5",
+          "suggestion": "Increase padding on small links and buttons so the clickable area is at least 44×44px"
+        }
+      ],
+      "moderate": [
+        {
+          "source": "axe-core",
+          "rule": "heading-order",
+          "description": "Ensure the order of headings is semantically correct",
+          "wcag": "",
+          "affectedElements": 1
+        },
+        {
+          "source": "axe-core",
+          "rule": "landmark-one-main",
+          "description": "Ensure the document has a main landmark",
+          "wcag": "",
+          "affectedElements": 1
+        },
+        {
+          "source": "axe-core",
+          "rule": "region",
+          "description": "Ensure all page content is contained by landmarks",
+          "wcag": "",
+          "affectedElements": 27
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "The link text 'ОТВОРЕН БАЛКАН' (Open Balkan) is not sufficiently unique or descriptive when presented alongside 'Отворен Балкан - Северна Македонија, Србија и Албанија'. A screen reader user cycling through links might not understand the distinction or specific purpose of this more general link compared to the more specific one.",
+          "wcag": "2.4.4",
+          "suggestion": "Отворен Балкан - Општи информации (Open Balkan - General Information) or За иницијативата Отворен Балкан (About the Open Balkan Initiative)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link opens in a new tab and is a PDF document, but the link text does not provide any warning to the user.",
+          "wcag": "2.4.4",
+          "suggestion": "ПРИКАЗ НА РЕАЛИЗИРАНИ АКТИВНИ ПРОГРАМИ И МЕРКИ ЗА ВРАБОТУВАЊЕ ЗА 2022 ГОДИНА (отвора нов прозорец, PDF)"
+        },
+        {
+          "source": "headings",
+          "rule": "multiple-h1",
+          "description": "Page has 6 h1 elements — there should be exactly one",
+          "wcag": "1.3.1 / 2.4.6",
+          "suggestion": "Keep one h1 for the primary page title, convert others to h2"
+        },
+        {
+          "source": "headings",
+          "rule": "skipped-level",
+          "description": "Heading jumps from h1 (\"ПРИКАЗ НА РЕАЛИЗИРАНИ АКТИВНИ ПРОГРАМИ И МЕРКИ ЗА ВРАБОТУВАЊЕ ЗА 2022 ГОДИНА\") to h4 (\"Детали\") — levels should not skip",
+          "wcag": "1.3.1 / 2.4.6",
+          "suggestion": "Change h4 to h2 or add intermediate heading levels"
+        },
+        {
+          "source": "headings",
+          "rule": "skipped-level",
+          "description": "Heading jumps from h1 (\"ПОВАЖНИ ЛИНКОВИ\") to h5 (\"ВЛАДА НА РЕПУБЛИКА СЕВЕРНА МАКЕДОНИЈА\n \nМИНИСТЕРСТВО ЗА ЕКОНОМИЈА И ТРУД\n \nUSLUGI.GOV.MK \nOBSERVATORY ON EMPLOYMENT IN THE WESTERN BALKANS\n \nЗАНИМАЊА\") — levels should not skip",
+          "wcag": "1.3.1 / 2.4.6",
+          "suggestion": "Change h5 to h2 or add intermediate heading levels"
+        },
+        {
+          "source": "visual",
+          "rule": "Text Spacing Override",
+          "description": "Text labels 'Previous' and 'Next' are programmatically detected as clipped, indicating content loss when text spacing is applied.",
+          "wcag": "1.4.12",
+          "suggestion": "Ensure that containers for elements like 'Previous' and 'Next' are flexible enough to accommodate increased text spacing without clipping, either by allowing text to wrap or by dynamically adjusting container dimensions."
+        },
+        {
+          "source": "visual",
+          "rule": "Dark Mode Support",
+          "description": "The site does not adapt its colors for dark mode, displaying a light theme despite the user's system preference for dark mode.",
+          "wcag": "1.4.3",
+          "suggestion": null
+        }
+      ],
+      "minor": [
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "While descriptive, this link leads to the same root destination (e-rabota.av.gov.mk) as another link ('Е-РАБОТА') with different text. This can be confusing for users navigating by links, as they might expect different content.",
+          "wcag": "2.4.4",
+          "suggestion": "Е-РАБОТА (for consistency), or if it's meant to highlight a specific aspect of the portal, then Е-РАБОТА: Работно ангажирање (E-Work: Employment Engagement)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "See module details",
+          "wcag": "2.4.4",
+          "suggestion": "Observatory on Employment in the Western Balkans (opens in new tab)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "See module details",
+          "wcag": "2.4.4",
+          "suggestion": "Занимања (отвора во нов таб)"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "See module details",
+          "wcag": "2.4.4",
+          "suggestion": "Оперативен план (отвора во нов таб)"
+        }
+      ],
+      "total": 56,
+      "axeCoreCount": 9,
+      "aiOnlyCount": 47
+    },
+    "moduleHealth": {
+      "images": {
+        "valid": false,
+        "score": 0,
+        "skipped": 2,
+        "errored": false,
+        "errorMsg": null
+      },
+      "links": {
+        "valid": true,
+        "score": 78,
+        "skipped": 0,
+        "errored": false,
+        "errorMsg": null
+      },
+      "headings": {
+        "valid": true,
+        "score": 40,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "readingLevel": {
+        "valid": true,
+        "score": 88,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "tables": {
+        "valid": true,
+        "score": 0,
+        "skipped": 0,
+        "errored": false,
+        "errorMsg": null
+      },
+      "pageTitle": {
+        "valid": true,
+        "score": 15,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "language": {
+        "valid": true,
+        "score": 28,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "visual": {
+        "valid": true,
+        "score": 42,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "motor": {
+        "valid": true,
+        "score": 53,
+        "skipped": 0,
+        "errored": false,
+        "errorMsg": null
+      }
+    },
+    "modules": {
+      "images": {
+        "moduleName": "Image Alt Text Quality",
+        "wcag": "1.1.1",
+        "total": 12,
+        "evaluated": 10,
+        "skipped": 2,
+        "passed": 0,
+        "failed": 10,
+        "score": 0,
+        "items": [
+          {
+            "src": "content/images/logo-agencija-severna.png",
+            "alt": null,
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issue": "alt attribute is completely missing from <img> tag",
+            "suggestion": "Add alt=\"\" for decorative images, or a meaningful description for informative images",
+            "aiDescription": null,
+            "source": "rule-based"
+          },
+          {
+            "src": "../images/modal-ppl-icon.svg",
+            "alt": null,
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issue": "alt attribute is completely missing from <img> tag",
+            "suggestion": "Add alt=\"\" for decorative images, or a meaningful description for informative images",
+            "aiDescription": null,
+            "source": "rule-based"
+          },
+          {
+            "src": "images/arrow-link-right.png",
+            "skipped": true,
+            "reason": "Tracking pixel or tiny icon (<10px)"
+          },
+          {
+            "src": "images/arrow-link.png",
+            "skipped": true,
+            "reason": "Tracking pixel or tiny icon (<10px)"
+          },
+          {
+            "src": "content/FER ANGAZMAN.jpg",
+            "alt": null,
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issue": "alt attribute is completely missing from <img> tag",
+            "suggestion": "Add alt=\"\" for decorative images, or a meaningful description for informative images",
+            "aiDescription": null,
+            "source": "rule-based"
+          },
+          {
+            "src": "content/images/nastaniMKD.jpg",
+            "alt": null,
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issue": "alt attribute is completely missing from <img> tag",
+            "suggestion": "Add alt=\"\" for decorative images, or a meaningful description for informative images",
+            "aiDescription": null,
+            "source": "rule-based"
+          },
+          {
+            "src": "../images/iocn-1.png",
+            "alt": null,
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issue": "alt attribute is completely missing from <img> tag",
+            "suggestion": "Add alt=\"\" for decorative images, or a meaningful description for informative images",
+            "aiDescription": null,
+            "source": "rule-based"
+          },
+          {
+            "src": "../images/iocn-2.png",
+            "alt": null,
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issue": "alt attribute is completely missing from <img> tag",
+            "suggestion": "Add alt=\"\" for decorative images, or a meaningful description for informative images",
+            "aiDescription": null,
+            "source": "rule-based"
+          },
+          {
+            "src": "../images/iocn-3.png",
+            "alt": null,
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issue": "alt attribute is completely missing from <img> tag",
+            "suggestion": "Add alt=\"\" for decorative images, or a meaningful description for informative images",
+            "aiDescription": null,
+            "source": "rule-based"
+          },
+          {
+            "src": "content/Слики/Picture OP.png",
+            "alt": null,
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issue": "alt attribute is completely missing from <img> tag",
+            "suggestion": "Add alt=\"\" for decorative images, or a meaningful description for informative images",
+            "aiDescription": null,
+            "source": "rule-based"
+          },
+          {
+            "src": "/content/images/ISO.svg",
+            "alt": null,
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issue": "alt attribute is completely missing from <img> tag",
+            "suggestion": "Add alt=\"\" for decorative images, or a meaningful description for informative images",
+            "aiDescription": null,
+            "source": "rule-based"
+          },
+          {
+            "src": "images/facebook.png",
+            "alt": "social network link",
+            "imageType": "other",
+            "isDecorative": true,
+            "aiDescription": "A blank white image.",
+            "visibleTextInImage": null,
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issues": [
+              "The alt text is completely inaccurate; it describes a social network link, but the image content is a blank white image.",
+              "The alt text fails to describe the visual content of the image, which is a blank white image."
+            ],
+            "suggestion": "Link to our social media profile",
+            "reasoning": "The alt text is completely inaccurate as it describes a social network link while the image content is a blank white image, failing to convey any visual information.",
+            "isGenericPlaceholder": false,
+            "accuracyIssue": true,
+            "source": "ai-evaluation"
+          }
+        ]
+      },
+      "links": {
+        "moduleName": "Link Text Meaningfulness",
+        "wcag": "2.4.4",
+        "total": 81,
+        "evaluated": 81,
+        "skipped": 0,
+        "passed": 56,
+        "failed": 25,
+        "score": 78,
+        "items": [
+          {
+            "text": "MK",
+            "href": "https://av.gov.mk/pocetna.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 10,
+            "severity": "serious",
+            "issue": "Link text \"MK\" is an abbreviation and does not clearly describe its purpose or destination (likely a language switch to Macedonian). When read out of context, it is not understandable.",
+            "suggestion": "Македонски (MK)",
+            "additionalIssue": null
+          },
+          {
+            "text": "AL",
+            "href": "https://av.gov.mk/shtepi.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 10,
+            "severity": "serious",
+            "issue": "Link text \"AL\" is an abbreviation and does not clearly describe its purpose or destination (likely a language switch to Albanian). When read out of context, it is not understandable.",
+            "suggestion": "Shqip (AL)",
+            "additionalIssue": null
+          },
+          {
+            "text": "EN",
+            "href": "https://av.gov.mk/home.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 10,
+            "severity": "serious",
+            "issue": "Link text \"EN\" is an abbreviation and does not clearly describe its purpose or destination (likely a language switch to English). When read out of context, it is not understandable.",
+            "suggestion": "English (EN)",
+            "additionalIssue": null
+          },
+          {
+            "text": "Мени",
+            "href": "https://av.gov.mk/pocetna.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 30,
+            "severity": "serious",
+            "issue": "Link text \"Мени\" (Menu) is misleading as it links to the homepage (`pocetna.nspx`) instead of a menu or sitemap. This creates confusion about the link's purpose.",
+            "suggestion": "If it's a home link: \"Почетна\" or \"Насловна\". If it's a menu toggle, it should be a button. If it links to a menu page, \"Sitemap\" or \"Full Menu\".",
+            "additionalIssue": null
+          },
+          {
+            "text": "НАСЛОВНА",
+            "href": "https://av.gov.mk/pocetna.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "НАСЛОВНА",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ЗА НАС",
+            "href": "https://av.gov.mk/za-nas.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "ЗА НАС",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "АВРСМ денес",
+            "href": "https://av.gov.mk/avrm-denes.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "АВРСМ денес",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Историјат",
+            "href": "https://av.gov.mk/istorijat.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Историјат",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Информации од јавен карактер",
+            "href": "https://av.gov.mk/pristap-do-informacii-od-javen-karakter.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Информации од јавен карактер",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Заштита на лични податоци",
+            "href": "https://av.gov.mk/zashtita-na-licni-podatoci.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Заштита на лични податоци",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Заштитено внатрешно пријавување во АВРСМ",
+            "href": "https://av.gov.mk/zashtiteno-vnatreshno-prijavuvanje-vo-avrsm.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Заштитено внатрешно пријавување во АВРСМ",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Евиденции од надлежност на АВРСМ",
+            "href": "https://av.gov.mk/evidencii-od-nadleznost-na-avrm.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Евиденции од надлежност на АВРСМ",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Контакти",
+            "href": "https://av.gov.mk/kontakti.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Контакти",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ДОКУМЕНТИ",
+            "href": "https://av.gov.mk/dokumenti.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "ДОКУМЕНТИ",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 85,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Закони",
+            "href": "https://av.gov.mk/zakoni.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Закони",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Правилници",
+            "href": "https://av.gov.mk/pravilnici.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Правилници",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Стратешки план",
+            "href": "https://av.gov.mk/strateshki-plan.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Стратешки план",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Програма на АВРСМ",
+            "href": "https://av.gov.mk/programa-na-avrm.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Програма на АВРСМ",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Годишни извештаи",
+            "href": "https://av.gov.mk/godishni-izveshtai.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Годишни извештаи",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Оперативен план",
+            "href": "https://av.gov.mk/operativen-plan.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Оперативен план",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Публикации",
+            "href": "https://av.gov.mk/publikacii.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Публикации",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Ревизорски извештаи",
+            "href": "https://av.gov.mk/revizorski-izveshtai.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Ревизорски извештаи",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Јавни набавки",
+            "href": "https://av.gov.mk/javni-nabavki.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Јавни набавки",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Набавки",
+            "href": "https://av.gov.mk/nabavki.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Набавки",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 40,
+            "severity": "serious",
+            "issue": "The link text \"Набавки\" (Procurements) is too general and not sufficiently distinct from \"Јавни набавки\" (Public Procurements) when both are present, making it difficult for users to differentiate their destinations without additional context.",
+            "suggestion": "Specify the type of procurements, e.g., \"Општи набавки\" (General Procurements) or \"Внатрешни набавки\" (Internal Procurements), or clarify its scope relative to \"Јавни набавки\".",
+            "additionalIssue": null
+          },
+          {
+            "text": "Статут",
+            "href": "https://av.gov.mk/statut.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Статут",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Кодекс за административни службеници",
+            "href": "https://av.gov.mk/kodeks-za-administrativni-sluzbenici.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Кодекс за административни службеници",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Буџет на АВРСМ",
+            "href": "https://av.gov.mk/budzet-na-avrm.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Буџет на АВРСМ",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Колективен договор",
+            "href": "https://av.gov.mk/kolektiven-dogovor.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Колективен договор",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ОБРАСЦИ",
+            "href": "https://av.gov.mk/obrasci.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "ОБРАСЦИ",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ИНФО",
+            "href": "https://av.gov.mk/info.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "ИНФО",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 30,
+            "severity": "serious",
+            "issue": "The link text \"ИНФО\" (INFO) is too vague and does not clearly communicate the specific destination or purpose of the link when read out of context.",
+            "suggestion": "Specify the type of information, e.g., \"Контакт информации\" (Contact Information), \"Општи информации\" (General Information), \"За нас\" (About Us), or \"Вести и ажурирања\" (News and Updates).",
+            "additionalIssue": null
+          },
+          {
+            "text": "Информации од АВРСМ",
+            "href": "https://av.gov.mk/informacii-od-avrm.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Информации од АВРСМ",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Вработувања во АВРСМ",
+            "href": "https://av.gov.mk/vrabotuvanje-vo-avrm.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Вработувања во АВРСМ",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ПРОЕКТИ",
+            "href": "https://av.gov.mk/proekti.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "ПРОЕКТИ",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Гаранција за млади",
+            "href": "https://av.gov.mk/garancija-za-mladi.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Гаранција за млади",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Активација на ранливи групи на пазарот на трудот",
+            "href": "https://av.gov.mk/labour-market-activation-of-vulnerable-groups.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Активација на ранливи групи на пазарот на трудот",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "IPA 2007-2013",
+            "href": "https://av.gov.mk/ipa-2007-2013.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "IPA 2007-2013",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "НОВОСТИ",
+            "href": "https://av.gov.mk/nastani-avrm.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "НОВОСТИ",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Промотивни активности",
+            "href": "https://av.gov.mk/promotivni-aktivnosti.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Промотивни активности",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ОТВОРЕН БАЛКАН",
+            "href": "https://av.gov.mk/otvoren-balkan.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "ОТВОРЕН БАЛКАН",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 60,
+            "severity": "moderate",
+            "issue": "The link text 'ОТВОРЕН БАЛКАН' (Open Balkan) is not sufficiently unique or descriptive when presented alongside 'Отворен Балкан - Северна Македонија, Србија и Албанија'. A screen reader user cycling through links might not understand the distinction or specific purpose of this more general link compared to the more specific one.",
+            "suggestion": "Отворен Балкан - Општи информации (Open Balkan - General Information) or За иницијативата Отворен Балкан (About the Open Balkan Initiative)",
+            "additionalIssue": null
+          },
+          {
+            "text": "Отворен Балкан - Северна Македонија, Србија и Албанија",
+            "href": "https://av.gov.mk/otvoren-balkan-severna-makedonija-srbija-i-albanija.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Отворен Балкан - Северна Македонија, Србија и Албанија",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "КОНТАКТ",
+            "href": "https://av.gov.mk/kontakt.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "КОНТАКТ",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "9737\n\nСЛОБОДНИ РАБОТНИ МЕСТА",
+            "href": "https://e-rabota.av.gov.mk/OglasSearch.aspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "9737\n\nСЛОБОДНИ РАБОТНИ МЕСТА",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ПРЕБАРАЈ\nСЛОБОДНИ РАБОТНИ МЕСТА",
+            "href": "https://e-rabota.av.gov.mk/OglasSearch.aspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ВОВЕДУВАЊЕ ВО ЕВИДЕНЦИЈА",
+            "href": "https://av.gov.mk/voveduvanje-vo-evidencija.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ПРОГРАМИ ЗА ВРАБОТУВАЊЕ",
+            "href": "https://av.gov.mk/programi-za-vrabotuvanje.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ПАРИЧЕН НАДОМЕСТОК",
+            "href": "https://av.gov.mk/paricen-nadomestok.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ОГЛАСИ\n\nЗА АКТИВНИ МЕРКИ ЗА ВРАБОТУВАЊЕ",
+            "href": "https://av.gov.mk/oglasi-za-aktivni-merki.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Е-РАБОТА",
+            "href": "https://e-rabota.av.gov.mk/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ПРИКАЗ НА АКТИВНИ\nБАРАТЕЛИ НА РАБОТА",
+            "href": "https://e-rabota.av.gov.mk/PublicReports/PublicReportsNevraboteni.aspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ПРИЈАВУВАЊЕ И ОДЈАВУВАЊЕ НА РАБОТЕН ОДНОС",
+            "href": "https://av.gov.mk/prijavuvanje-odjavuvanje-na-raboten-odnos.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ПОСРЕДУВАЊЕ ПРИ ВРАБОТУВАЊЕ",
+            "href": "https://av.gov.mk/posreduvanje-pri-vrabotuvanje.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ПРОГРАМИ И МЕРКИ ЗА ПОТТИКНУВАЊЕ НА ВРАБОТУВАЊЕ",
+            "href": "https://av.gov.mk/programi-i-merki-za-pottiknuvanje-na-vrabotuvanje.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ОГЛАСИ\n\nЗА АКТИВНИ МЕРКИ ЗА ВРАБОТУВАЊЕ",
+            "href": "https://av.gov.mk/oglasi-za-rabotodavaci.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 50,
+            "severity": "serious",
+            "issue": "Link text is misleading as it implies general active employment measures, but the link destination is specifically for announcements for employers. The line breaks in the text are also not ideal.",
+            "suggestion": "ОГЛАСИ ЗА РАБОТОДАВАЧИ (Announcements for Employers) or АКТИВНИ МЕРКИ ЗА ВРАБОТУВАЊЕ ЗА РАБОТОДАВАЧИ (Active Employment Measures for Employers)",
+            "additionalIssue": null
+          },
+          {
+            "text": "Е-РАБОТА",
+            "href": "https://e-rabota.av.gov.mk/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ПРИКАЗ НА РЕАЛИЗИРАНИ АКТИВНИ ПРОГРАМИ И МЕРКИ ЗА ВРАБОТУВАЊЕ ЗА 2022 ГОДИНА",
+            "href": "https://av.gov.mk/content/pdf/FINALEN%20OP%202022.pdf",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": false,
+            "score": 70,
+            "severity": "moderate",
+            "issue": "Link opens in a new tab and is a PDF document, but the link text does not provide any warning to the user.",
+            "suggestion": "ПРИКАЗ НА РЕАЛИЗИРАНИ АКТИВНИ ПРОГРАМИ И МЕРКИ ЗА ВРАБОТУВАЊЕ ЗА 2022 ГОДИНА (отвора нов прозорец, PDF)",
+            "additionalIssue": "Opens in new tab without warning; links to PDF without indication."
+          },
+          {
+            "text": "ОГЛАСИ ЗА АКТИВНИ МЕРКИ",
+            "href": "https://av.gov.mk/#profile",
+            "ariaLabel": null,
+            "title": null,
+            "context": "ОГЛАСИ ЗА АКТИВНИ МЕРКИ",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 40,
+            "severity": "serious",
+            "issue": "Link text suggests a page or list of 'Announcements for Active Measures', but the link is an anchor to a section named '#profile' on the current page. This mismatch is confusing and misleading.",
+            "suggestion": "Скокни до активни мерки (Jump to Active Measures) or Преглед на активни мерки (Overview of Active Measures)",
+            "additionalIssue": null
+          },
+          {
+            "text": "Previous",
+            "href": "https://av.gov.mk/#carousel-example-generic3",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": true,
+            "openNewTab": false,
+            "pass": false,
+            "score": 20,
+            "severity": "critical",
+            "issue": "Generic link text 'Previous' is ambiguous and does not describe the link's purpose or destination when read out of context. It's likely part of a carousel, but this is not conveyed.",
+            "suggestion": "Previous item (or 'Previous slide' with visually hidden text for screen readers like 'Previous item in carousel of announcements')",
+            "additionalIssue": null
+          },
+          {
+            "text": "Next",
+            "href": "https://av.gov.mk/#carousel-example-generic3",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": true,
+            "openNewTab": false,
+            "pass": false,
+            "score": 20,
+            "severity": "critical",
+            "issue": "Generic link text 'Next' is ambiguous and does not describe the link's purpose or destination when read out of context. It's likely part of a carousel, but this is not conveyed.",
+            "suggestion": "Next item (or 'Next slide' with visually hidden text for screen readers like 'Next item in carousel of announcements')",
+            "additionalIssue": null
+          },
+          {
+            "text": "ПРЕГЛЕДАЈ ГИ СИТЕ ОГЛАСИ",
+            "href": "https://av.gov.mk/oglasi-za-aktivni-merki.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "РАБОТНО АНГАЖИРАЊЕ",
+            "href": "https://e-rabota.av.gov.mk/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "РАБОТНО АНГАЖИРАЊЕ",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 85,
+            "severity": "minor",
+            "issue": "While descriptive, this link leads to the same root destination (e-rabota.av.gov.mk) as another link ('Е-РАБОТА') with different text. This can be confusing for users navigating by links, as they might expect different content.",
+            "suggestion": "Е-РАБОТА (for consistency), or if it's meant to highlight a specific aspect of the portal, then Е-РАБОТА: Работно ангажирање (E-Work: Employment Engagement)",
+            "additionalIssue": null
+          },
+          {
+            "text": "ДОЗНАЈ ПОВЕЌЕ",
+            "href": "https://av.gov.mk/rabotno-angaziranje-na-lica.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 20,
+            "severity": "serious",
+            "issue": "Generic link text 'ДОЗНАЈ ПОВЕЌЕ' (Learn More) does not describe the link's purpose or destination when read out of context.",
+            "suggestion": "ДОЗНАЈ ПОВЕЌЕ за работно ангажирање на лица",
+            "additionalIssue": null
+          },
+          {
+            "text": "НАСТАНИ",
+            "href": "https://av.gov.mk/#messages",
+            "ariaLabel": null,
+            "title": null,
+            "context": "НАСТАНИ",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 85,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "СИТЕ НАСТАНИ",
+            "href": "https://av.gov.mk/nastani.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Детали",
+            "href": "https://av.gov.mk/listspecialfund.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 10,
+            "severity": "critical",
+            "issue": "Generic link text 'Детали' (Details) does not describe the link's purpose or destination when read out of context.",
+            "suggestion": "Детали за специјалниот фонд",
+            "additionalIssue": null
+          },
+          {
+            "text": "СТАТИСТИЧКИ ПРЕГЛЕДИ",
+            "href": "https://av.gov.mk/statisticki-podatoci.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Повеќе",
+            "href": "https://e-rabota.av.gov.mk/PublicReports/PublicReportsOglasi.aspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Повеќе",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 10,
+            "severity": "critical",
+            "issue": "Generic link text 'Повеќе' (More) does not describe the link's purpose or destination when read out of context.",
+            "suggestion": "Повеќе огласи",
+            "additionalIssue": null
+          },
+          {
+            "text": "Повеќе",
+            "href": "https://e-rabota.av.gov.mk/PublicReports/PublicReports.aspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Повеќе",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 5,
+            "severity": "critical",
+            "issue": "Generic link text 'Повеќе' (More) does not describe the link's purpose or destination when read out of context. It is also not unique, making it impossible to distinguish from other 'Повеќе' links on the same page.",
+            "suggestion": "Повеќе јавни извештаи",
+            "additionalIssue": null
+          },
+          {
+            "text": "Повеќе",
+            "href": "https://av.gov.mk/content/Documents/Izvestaj_%20APV%202024%20godina_RSM_sumirani%20rezultati%20za%20web%20strana.pdf",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Повеќе",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "issue": "Generic link text 'Повеќе' (More) does not describe the link's purpose or destination when read out of context. It is also not unique.",
+            "suggestion": "Извештај АПВ 2024 година (се отвора во нов прозорец)",
+            "additionalIssue": "Link opens in a new tab without warning the user."
+          },
+          {
+            "text": "ВЛАДА НА РЕПУБЛИКА СЕВЕРНА МАКЕДОНИЈА",
+            "href": "https://vlada.mk/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": false,
+            "score": 60,
+            "severity": "serious",
+            "issue": null,
+            "suggestion": "ВЛАДА НА РЕПУБЛИКА СЕВЕРНА МАКЕДОНИЈА (се отвора во нов прозорец)",
+            "additionalIssue": "Link opens in a new tab without warning the user."
+          },
+          {
+            "text": "МИНИСТЕРСТВО ЗА ЕКОНОМИЈА И ТРУД",
+            "href": "https://www.economy.gov.mk/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": false,
+            "score": 60,
+            "severity": "serious",
+            "issue": null,
+            "suggestion": "МИНИСТЕРСТВО ЗА ЕКОНОМИЈА И ТРУД (се отвора во нов прозорец)",
+            "additionalIssue": "Link opens in a new tab without warning the user."
+          },
+          {
+            "text": "USLUGI.GOV.MK",
+            "href": "http://uslugi.gov.mk/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": false,
+            "score": 30,
+            "severity": "serious",
+            "issue": "Link text is a URL, which is not descriptive of the content or purpose when read out of context. It does not clearly communicate what information or service the user will find.",
+            "suggestion": "Government Services Portal (opens in new tab)",
+            "additionalIssue": "Link opens in a new tab without warning the user."
+          },
+          {
+            "text": "OBSERVATORY ON EMPLOYMENT IN THE WESTERN BALKANS",
+            "href": "https://www.esap.online/observatory/home",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": false,
+            "score": 80,
+            "severity": "minor",
+            "issue": null,
+            "suggestion": "Observatory on Employment in the Western Balkans (opens in new tab)",
+            "additionalIssue": "Link opens in a new tab without warning the user."
+          },
+          {
+            "text": "ЗАНИМАЊА",
+            "href": "https://zanimanja.mk/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": false,
+            "score": 75,
+            "severity": "minor",
+            "issue": null,
+            "suggestion": "Занимања (отвора во нов таб)",
+            "additionalIssue": "Link opens in a new tab without warning the user."
+          },
+          {
+            "text": "Оперативен план",
+            "href": "https://av.gov.mk/content/%D0%9E%D0%9F/%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%B5%D0%BD%20%D0%BF%D0%BB%D0%B0%D0%BD%20%D0%B7%D0%B0%20%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%B8%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%20%D0%B8%20%D0%BC%D0%B5%D1%80%D0%BA%D0%B8%20%D0%B7%D0%B0%20%D0%B2%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%83%D0%B2%D0%B0%D1%9A%D0%B5%20%D0%B8%20%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8%20%D0%BD%D0%B0%20%D0%BF%D0%B0%D0%B7%D0%B0%D1%80%D0%BE%D1%82%20%D0%BD%D0%B0%20%D1%82%D1%80%D1%83%D0%B4%D0%BE%D1%82%20%D0%B7%D0%B0%202025%20%D0%B3%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0.pdf",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Оперативен план",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": true,
+            "pass": false,
+            "score": 75,
+            "severity": "minor",
+            "issue": null,
+            "suggestion": "Оперативен план (отвора во нов таб)",
+            "additionalIssue": "Link opens in a new tab without warning the user."
+          },
+          {
+            "text": "МАПА НА САЈТОТ",
+            "href": "https://av.gov.mk/mapa-na-sajtot.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ЗА БАРАТЕЛИ НА РАБОТА",
+            "href": "https://av.gov.mk/voveduvanje-vo-evidencija.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "ЗА БАРАТЕЛИ НА РАБОТА",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ЗА РАБОТОДАВАЧИ",
+            "href": "https://av.gov.mk/prijavuvanje-odjavuvanje-na-raboten-odnos.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "ЗА РАБОТОДАВАЧИ",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "СОСТОЈБА НА ПАЗАРОТ НА ТРУДОТ",
+            "href": "https://av.gov.mk/statisticki-podatoci.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "СОСТОЈБА НА ПАЗАРОТ НА ТРУДОТ",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ОГЛАСИ",
+            "href": "https://av.gov.mk/oglasi.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "ОГЛАСИ",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "УПАТСТВО ЗА КОРИСТЕЊЕ НА Е-РАБОТА",
+            "href": "https://av.gov.mk/content/Documents/AVRM_Upatstvo_e_Rabota.pdf",
+            "ariaLabel": null,
+            "title": null,
+            "context": "УПАТСТВО ЗА КОРИСТЕЊЕ НА Е-РАБОТА",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "ЛИНКОВИ",
+            "href": "https://av.gov.mk/linkovi-main-menu.nspx",
+            "ariaLabel": null,
+            "title": null,
+            "context": "ЛИНКОВИ",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 15,
+            "severity": "serious",
+            "issue": "The link text \"ЛИНКОВИ\" (LINKS) is too generic and does not describe the purpose or destination of the link when read out of context. It only indicates that the destination is a collection of links, but not what those links are about.",
+            "suggestion": "Consider using more descriptive text that indicates the type or purpose of the links on the destination page, such as \"Важни Линкови\" (Important Links), \"Корисни Линкови\" (Useful Links), or \"Брзи Линкови\" (Quick Links), depending on the content.",
+            "additionalIssue": null
+          }
+        ]
+      },
+      "headings": {
+        "moduleName": "Heading Structure Logic",
+        "wcag": "1.3.1 / 2.4.6",
+        "headingCount": 15,
+        "headingTree": [
+          {
+            "level": 1,
+            "text": "ЗА БАРАТЕЛИТЕ\nНА РАБОТА"
+          },
+          {
+            "level": 2,
+            "text": "ОГЛАСИ"
+          },
+          {
+            "level": 2,
+            "text": "Е-РАБОТА"
+          },
+          {
+            "level": 1,
+            "text": "ЗА\nРАБОТОДАВАЧИТЕ"
+          },
+          {
+            "level": 2,
+            "text": "ОГЛАСИ"
+          },
+          {
+            "level": 2,
+            "text": "Е-РАБОТА"
+          },
+          {
+            "level": 1,
+            "text": "ПРИКАЗ НА РЕАЛИЗИРАНИ АКТИВНИ ПРОГРАМИ И МЕРКИ ЗА ВРАБОТУВАЊЕ ЗА 2022 ГОДИНА"
+          },
+          {
+            "level": 4,
+            "text": "Детали"
+          },
+          {
+            "level": 1,
+            "text": "ПОСЕБЕН ФОНД ЗА ИНВАЛИДНИ ЛИЦА ЗА 2026 ГОДИНА"
+          },
+          {
+            "level": 1,
+            "text": "ПАЗАР НА ТРУД"
+          },
+          {
+            "level": 2,
+            "text": "СТАТИСТИЧКИ ПРЕГЛЕДИ"
+          },
+          {
+            "level": 1,
+            "text": "ПОВАЖНИ ЛИНКОВИ"
+          },
+          {
+            "level": 5,
+            "text": "ВЛАДА НА РЕПУБЛИКА СЕВЕРНА МАКЕДОНИЈА\n \nМИНИСТЕРСТВО ЗА ЕКОНОМИЈА И ТРУД\n \nUSLUGI.GOV.MK \nOBSERVATORY ON EMPLOYMENT IN THE WESTERN BALKANS\n \nЗАНИМАЊА"
+          },
+          {
+            "level": 2,
+            "text": "ОПЕРАТИВЕН ПЛАН 2025"
+          },
+          {
+            "level": 2,
+            "text": "МАПА НА САЈТОТ"
+          }
+        ],
+        "total": 4,
+        "passed": 0,
+        "failed": 4,
+        "score": 40,
+        "items": [
+          {
+            "type": "multiple-h1",
+            "pass": false,
+            "score": 40,
+            "severity": "moderate",
+            "issue": "Page has 6 h1 elements — there should be exactly one",
+            "h1Texts": [
+              "ЗА БАРАТЕЛИТЕ\nНА РАБОТА",
+              "ЗА\nРАБОТОДАВАЧИТЕ",
+              "ПРИКАЗ НА РЕАЛИЗИРАНИ АКТИВНИ ПРОГРАМИ И МЕРКИ ЗА ВРАБОТУВАЊЕ ЗА 2022 ГОДИНА",
+              "ПОСЕБЕН ФОНД ЗА ИНВАЛИДНИ ЛИЦА ЗА 2026 ГОДИНА",
+              "ПАЗАР НА ТРУД",
+              "ПОВАЖНИ ЛИНКОВИ"
+            ],
+            "suggestion": "Keep one h1 for the primary page title, convert others to h2"
+          },
+          {
+            "type": "skipped-level",
+            "pass": false,
+            "score": 50,
+            "severity": "moderate",
+            "issue": "Heading jumps from h1 (\"ПРИКАЗ НА РЕАЛИЗИРАНИ АКТИВНИ ПРОГРАМИ И МЕРКИ ЗА ВРАБОТУВАЊЕ ЗА 2022 ГОДИНА\") to h4 (\"Детали\") — levels should not skip",
+            "suggestion": "Change h4 to h2 or add intermediate heading levels"
+          },
+          {
+            "type": "skipped-level",
+            "pass": false,
+            "score": 50,
+            "severity": "moderate",
+            "issue": "Heading jumps from h1 (\"ПОВАЖНИ ЛИНКОВИ\") to h5 (\"ВЛАДА НА РЕПУБЛИКА СЕВЕРНА МАКЕДОНИЈА\n \nМИНИСТЕРСТВО ЗА ЕКОНОМИЈА И ТРУД\n \nUSLUGI.GOV.MK \nOBSERVATORY ON EMPLOYMENT IN THE WESTERN BALKANS\n \nЗАНИМАЊА\") — levels should not skip",
+            "suggestion": "Change h5 to h2 or add intermediate heading levels"
+          },
+          {
+            "type": "semantic-quality",
+            "pass": false,
+            "score": 20,
+            "severity": "critical",
+            "issues": [
+              "Multiple h1 elements are used, which breaks the document outline and indicates a lack of a single main topic for the page.",
+              "Heading levels are skipped (e.g., h1 followed by h4, h1 followed by h5), creating an illogical hierarchy.",
+              "The h5 element is misused to contain a list of links rather than serving as a heading.",
+              "Headings at the same level (h1s) do not have comparable importance, treating major sections and specific reports as equally primary.",
+              "Several headings are too generic and do not adequately describe the content of their sections."
+            ],
+            "missingSections": [
+              "Sub-sections under 'ЗА БАРАТЕЛИТЕ НА РАБОТА' such as 'ВОВЕДУВАЊЕ ВО ЕВИДЕНЦИЈА', 'ПРОГРАМИ ЗА ВРАБОТУВАЊЕ', and 'ПАРИЧЕН НАДОМЕСТОК' could benefit from h3 headings if they represent distinct content areas.",
+              "Sub-sections under 'ЗА РАБОТОДАВАЧИТЕ' like 'ПРИКАЗ НА АКТИВНИ БАРАТЕЛИ НА РАБОТА', 'ПРИЈАВУВАЊЕ И ОДЈАВУВАЊЕ НА РАБОТЕН ОДНОС', and 'ПОСРЕДУВАЊЕ ПРИ ВРАБОТУВАЊЕ' may require h3 headings."
+            ],
+            "vagueHeadings": [
+              "ОГЛАСИ",
+              "Е-РАБОТА",
+              "Детали"
+            ],
+            "suggestions": [],
+            "summary": null
+          }
+        ]
+      },
+      "readingLevel": {
+        "moduleName": "Reading Level & Plain Language",
+        "wcag": "3.1.5",
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "score": 88,
+        "severity": "null",
+        "items": [
+          {
+            "estimatedReadingLevel": "lower-secondary",
+            "estimatedGradeLevel": "Grade 8",
+            "pass": true,
+            "overallScore": 88,
+            "severity": "null",
+            "complexSentences": [],
+            "jargonFound": [
+              "активни мерки за вработување",
+              "паричен надоместок",
+              "посредување при вработување",
+              "оперативен план"
+            ],
+            "passiveVoiceExamples": [
+              "Планиран опфат на лица",
+              "Реализиран опфат на лица",
+              "ИСКОРИСТЕН ДЕЛ ОД БУЏЕТОТ"
+            ],
+            "positives": [
+              "Content is primarily presented in clear, concise headings and list items, making it easy to scan and digest.",
+              "Statistical data is clearly displayed with numerical values and percentages, enhancing comprehension.",
+              "The language used is direct and avoids overly complex sentence structures, promoting straightforward understanding."
+            ],
+            "improvements": [
+              "Consider providing a glossary or brief explanations for domain-specific terms such as 'активни мерки за вработување' to assist users less familiar with employment agency terminology."
+            ],
+            "summary": "The content is highly scannable, consisting mainly of navigation and statistical summaries, and uses direct language. It meets the lower-secondary education level requirement for a native Macedonian speaker, making it generally accessible."
+          }
+        ]
+      },
+      "tables": {
+        "moduleName": "Table Header Quality",
+        "wcag": "1.3.1",
+        "total": 1,
+        "passed": 0,
+        "failed": 1,
+        "skipped": 0,
+        "score": 0,
+        "items": [
+          {
+            "caption": null,
+            "headerCount": 0,
+            "rowCount": 4,
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "source": "rule-based",
+            "issue": "Table has no <th> header elements — screen readers cannot associate data cells with their meaning",
+            "suggestion": "Add <th scope=\"col\"> for column headers and <th scope=\"row\"> for row headers",
+            "sampleData": [
+              "Година",
+              "2026",
+              "",
+              "БУЏЕТ (ДЕНАРИ)\n0,00",
+              "",
+              "ИСКОРИСТЕН ДЕЛ ОД БУЏЕТОТ\n41.303.728,00"
+            ]
+          }
+        ]
+      },
+      "pageTitle": {
+        "moduleName": "Page Title Quality",
+        "wcag": "2.4.2",
+        "currentTitle": "Почетна",
+        "total": 1,
+        "passed": 0,
+        "failed": 1,
+        "score": 15,
+        "items": [
+          {
+            "pass": false,
+            "score": 15,
+            "severity": "serious",
+            "issues": [
+              "The title is too generic ('Почетна' / 'Home').",
+              "The title does not describe the specific purpose or content of the page.",
+              "The title does not identify the website or organisation."
+            ],
+            "suggestion": "За Барателите на Работа – Агенција за Вработување",
+            "isTooGeneric": true,
+            "isFrontLoaded": false,
+            "includesSiteName": false,
+            "characterCount": 7,
+            "source": "ai-evaluation"
+          }
+        ]
+      },
+      "language": {
+        "moduleName": "Language Accessibility & Albanian Evaluation",
+        "wcag": "3.1.1 / 3.1.2",
+        "pageUrl": "https://av.gov.mk/",
+        "languagesOffered": {
+          "albanian": true,
+          "macedonian": true,
+          "english": false,
+          "albanianLinks": [
+            {
+              "text": "AL",
+              "href": "https://av.gov.mk/shtepi.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            }
+          ],
+          "macedonianLinks": [
+            {
+              "text": "MK",
+              "href": "https://av.gov.mk/pocetna.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "EN",
+              "href": "https://av.gov.mk/home.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ЗА НАС",
+              "href": "https://av.gov.mk/za-nas.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "АВРСМ денес",
+              "href": "https://av.gov.mk/avrm-denes.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Историјат",
+              "href": "https://av.gov.mk/istorijat.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Информации од јавен карактер",
+              "href": "https://av.gov.mk/pristap-do-informacii-od-javen-karakter.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Заштита на лични податоци",
+              "href": "https://av.gov.mk/zashtita-na-licni-podatoci.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Заштитено внатрешно пријавување во АВРСМ",
+              "href": "https://av.gov.mk/zashtiteno-vnatreshno-prijavuvanje-vo-avrsm.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Евиденции од надлежност на АВРСМ",
+              "href": "https://av.gov.mk/evidencii-od-nadleznost-na-avrm.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Контакти",
+              "href": "https://av.gov.mk/kontakti.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "ДОКУМЕНТИ",
+              "href": "https://av.gov.mk/dokumenti.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Закони",
+              "href": "https://av.gov.mk/zakoni.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Правилници",
+              "href": "https://av.gov.mk/pravilnici.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Стратешки план",
+              "href": "https://av.gov.mk/strateshki-plan.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Програма на АВРСМ",
+              "href": "https://av.gov.mk/programa-na-avrm.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Годишни извештаи",
+              "href": "https://av.gov.mk/godishni-izveshtai.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Оперативен план",
+              "href": "https://av.gov.mk/operativen-plan.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Публикации",
+              "href": "https://av.gov.mk/publikacii.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Ревизорски извештаи",
+              "href": "https://av.gov.mk/revizorski-izveshtai.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Јавни набавки",
+              "href": "https://av.gov.mk/javni-nabavki.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Набавки",
+              "href": "https://av.gov.mk/nabavki.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Статут",
+              "href": "https://av.gov.mk/statut.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Кодекс за административни службеници",
+              "href": "https://av.gov.mk/kodeks-za-administrativni-sluzbenici.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Буџет на АВРСМ",
+              "href": "https://av.gov.mk/budzet-na-avrm.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Колективен договор",
+              "href": "https://av.gov.mk/kolektiven-dogovor.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "ОБРАСЦИ",
+              "href": "https://av.gov.mk/obrasci.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ИНФО",
+              "href": "https://av.gov.mk/info.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Информации од АВРСМ",
+              "href": "https://av.gov.mk/informacii-od-avrm.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Вработувања во АВРСМ",
+              "href": "https://av.gov.mk/vrabotuvanje-vo-avrm.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "ПРОЕКТИ",
+              "href": "https://av.gov.mk/proekti.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Гаранција за млади",
+              "href": "https://av.gov.mk/garancija-za-mladi.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Активација на ранливи групи на пазарот на трудот",
+              "href": "https://av.gov.mk/labour-market-activation-of-vulnerable-groups.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "IPA 2007-2013",
+              "href": "https://av.gov.mk/ipa-2007-2013.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "НОВОСТИ",
+              "href": "https://av.gov.mk/nastani-avrm.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Промотивни активности",
+              "href": "https://av.gov.mk/promotivni-aktivnosti.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "ОТВОРЕН БАЛКАН",
+              "href": "https://av.gov.mk/otvoren-balkan.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Отворен Балкан - Северна Македонија, Србија и Алба",
+              "href": "https://av.gov.mk/otvoren-balkan-severna-makedonija-srbija-i-albanija.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "КОНТАКТ",
+              "href": "https://av.gov.mk/kontakt.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "9737\n\nСЛОБОДНИ РАБОТНИ МЕСТА",
+              "href": "https://e-rabota.av.gov.mk/OglasSearch.aspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ВОВЕДУВАЊЕ ВО ЕВИДЕНЦИЈА",
+              "href": "https://av.gov.mk/voveduvanje-vo-evidencija.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ПРОГРАМИ ЗА ВРАБОТУВАЊЕ",
+              "href": "https://av.gov.mk/programi-za-vrabotuvanje.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ПАРИЧЕН НАДОМЕСТОК",
+              "href": "https://av.gov.mk/paricen-nadomestok.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ОГЛАСИ\n\nЗА АКТИВНИ МЕРКИ ЗА ВРАБОТУВАЊЕ",
+              "href": "https://av.gov.mk/oglasi-za-aktivni-merki.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Е-РАБОТА",
+              "href": "https://e-rabota.av.gov.mk/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ПРИКАЗ НА АКТИВНИ\nБАРАТЕЛИ НА РАБОТА",
+              "href": "https://e-rabota.av.gov.mk/PublicReports/PublicReportsNevraboteni.aspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ПРИЈАВУВАЊЕ И ОДЈАВУВАЊЕ НА РАБОТЕН ОДНОС",
+              "href": "https://av.gov.mk/prijavuvanje-odjavuvanje-na-raboten-odnos.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ПОСРЕДУВАЊЕ ПРИ ВРАБОТУВАЊЕ",
+              "href": "https://av.gov.mk/posreduvanje-pri-vrabotuvanje.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ПРОГРАМИ И МЕРКИ ЗА ПОТТИКНУВАЊЕ НА ВРАБОТУВАЊЕ",
+              "href": "https://av.gov.mk/programi-i-merki-za-pottiknuvanje-na-vrabotuvanje.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ОГЛАСИ\n\nЗА АКТИВНИ МЕРКИ ЗА ВРАБОТУВАЊЕ",
+              "href": "https://av.gov.mk/oglasi-za-rabotodavaci.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ПРИКАЗ НА РЕАЛИЗИРАНИ АКТИВНИ ПРОГРАМИ И МЕРКИ ЗА ",
+              "href": "https://av.gov.mk/content/pdf/FINALEN%20OP%202022.pdf",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ОГЛАСИ ЗА АКТИВНИ МЕРКИ",
+              "href": "https://av.gov.mk/#profile",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Previous",
+              "href": "https://av.gov.mk/#carousel-example-generic3",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ДОЗНАЈ ПОВЕЌЕ",
+              "href": "https://av.gov.mk/rabotno-angaziranje-na-lica.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "НАСТАНИ",
+              "href": "https://av.gov.mk/#messages",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "СИТЕ НАСТАНИ",
+              "href": "https://av.gov.mk/nastani.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Детали",
+              "href": "https://av.gov.mk/listspecialfund.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "СТАТИСТИЧКИ ПРЕГЛЕДИ",
+              "href": "https://av.gov.mk/statisticki-podatoci.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Повеќе",
+              "href": "https://e-rabota.av.gov.mk/PublicReports/PublicReportsOglasi.aspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Повеќе",
+              "href": "https://e-rabota.av.gov.mk/PublicReports/PublicReports.aspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Повеќе",
+              "href": "https://av.gov.mk/content/Documents/Izvestaj_%20APV%202024%20godina_RSM_sumirani%20rezultati%20za%20web%20strana.pdf",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ВЛАДА НА РЕПУБЛИКА СЕВЕРНА МАКЕДОНИЈА",
+              "href": "https://vlada.mk/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "МИНИСТЕРСТВО ЗА ЕКОНОМИЈА И ТРУД",
+              "href": "https://www.economy.gov.mk/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "USLUGI.GOV.MK",
+              "href": "http://uslugi.gov.mk/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ЗАНИМАЊА",
+              "href": "https://zanimanja.mk/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Оперативен план",
+              "href": "https://av.gov.mk/content/%D0%9E%D0%9F/%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%B5%D0%BD%20%D0%BF%D0%BB%D0%B0%D0%BD%20%D0%B7%D0%B0%20%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%B8%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%20%D0%B8%20%D0%BC%D0%B5%D1%80%D0%BA%D0%B8%20%D0%B7%D0%B0%20%D0%B2%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%83%D0%B2%D0%B0%D1%9A%D0%B5%20%D0%B8%20%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8%20%D0%BD%D0%B0%20%D0%BF%D0%B0%D0%B7%D0%B0%D1%80%D0%BE%D1%82%20%D0%BD%D0%B0%20%D1%82%D1%80%D1%83%D0%B4%D0%BE%D1%82%20%D0%B7%D0%B0%202025%20%D0%B3%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0.pdf",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "МАПА НА САЈТОТ",
+              "href": "https://av.gov.mk/mapa-na-sajtot.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ОГЛАСИ",
+              "href": "https://av.gov.mk/oglasi.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "УПАТСТВО ЗА КОРИСТЕЊЕ НА Е-РАБОТА",
+              "href": "https://av.gov.mk/content/Documents/AVRM_Upatstvo_e_Rabota.pdf",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "ЛИНКОВИ",
+              "href": "https://av.gov.mk/linkovi-main-menu.nspx",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "",
+              "href": "https://av.gov.mk/content/Documents/ISO.pdf",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            }
+          ],
+          "englishLinks": [],
+          "detectionMethod": "full-dom-scan including hidden dropdowns, select elements, and clickable-div patterns"
+        },
+        "langAttributeCheck": {
+          "declared": "en",
+          "detected": "Macedonian",
+          "matches": false,
+          "issue": "The declared lang attribute 'en' does not match the primary content language, which is Macedonian.",
+          "pass": false,
+          "score": 20,
+          "severity": "serious",
+          "confidence": "high"
+        },
+        "inlineLangUsage": {
+          "found": true,
+          "count": 1,
+          "elements": [
+            {
+              "lang": "en",
+              "tag": "html",
+              "text": "ПРЕБАРУВАЈ\nMK | AL | EN\nНАСЛОВНА\nЗА НАС\nДОКУМЕНТИ\nОБРАСЦИ\nИНФО\nПРОЕКТИ\nНОВОСТИ\nОТВОРЕН БАЛКАН\nКОНТАК"
+            }
+          ],
+          "note": "Page uses inline lang attributes for mixed-language content — good practice"
+        },
+        "albanianVersion": {
+          "found": true,
+          "url": "https://av.gov.mk/shtepi.nspx",
+          "detectedVia": "full-dom-scan",
+          "wasHidden": false,
+          "langAttributeOnAlbanianPage": "en",
+          "evaluation": {
+            "langAttributeCorrect": false,
+            "langAttributeFound": "en",
+            "isActuallyAlbanian": true,
+            "detectedLanguage": "Mixed Albanian and Macedonian",
+            "hasMixedContent": true,
+            "mixedContentExamples": [
+              "ПРИКАЗ НА РЕАЛИЗИРАНИ АКТИВНИ ПРОГРАМИ И МЕРКИ ЗА ВРАБОТУВАЊЕ ЗА 2022 ГОДИНА"
+            ],
+            "translationQuality": "poor",
+            "translationScore": 40,
+            "qualityIssues": [
+              "Calques from Macedonian (e.g., 'Përfshirja e realizuar', 'me gjendje të datës', 'Mjetet e realizuara', 'Përqindja e shfrytëzuar', 'Regjistrimi në evidencë')",
+              "Typographical errors (e.g., 'MARDHËNIA' instead of 'MARRËDHËNIA', 'TE GJITHA' instead of 'TË GJITHA', 'TE PUNES' instead of 'TË PUNËS')",
+              "Inconsistent use of Cyrillic 'Т' instead of Latin 'T' in 'VENDE ТË LIRA PUNE'",
+              "Unnatural phrasing (e.g., 'Anketë për nevojë të aftësive', 'Kompensimi me para')",
+              "Potentially misleading or out-of-context phrase ('ASKUND SI NË SHTËPI' in Important Links section)"
+            ],
+            "completenessEstimate": "partial",
+            "completenessScore": 60,
+            "missingAlbanianChars": false,
+            "technicalTermIssues": [
+              "The entire block 'ПРИКАЗ НА РЕАЛИЗИРАНИ АКТИВНИ ПРОГРАМИ И МЕРКИ ЗА ВРАБОТУВАЊЕ ЗА 2022 ГОДИНА' is untranslated, containing technical terms related to employment programs."
+            ],
+            "overallPass": false,
+            "overallScore": 35,
+            "severity": "critical",
+            "summary": "The Albanian version of this government website exhibits critical accessibility and language quality issues. The HTML lang attribute is incorrectly set to 'en', and a substantial section of the page remains untranslated in Macedonian Cyrillic. The translated Albanian content frequently suffers from poor quality, including numerous calques from Macedonian, typographical errors, and unnatural phrasing.",
+            "recommendations": [
+              "Correct the HTML 'lang' attribute to 'sq' for the Albanian version of the page to ensure proper language identification for assistive technologies.",
+              "Translate all remaining Macedonian content into high-quality standard Albanian to comply with legal requirements and improve accessibility.",
+              "Conduct a thorough linguistic review of all Albanian text to identify and correct calques, grammatical errors, and unnatural phrasing, ensuring fluency and adherence to standard literary Albanian.",
+              "Implement a quality assurance process to prevent typographical errors and ensure consistent character usage (e.g., Latin 'T' instead of Cyrillic 'Т')."
+            ]
+          },
+          "overallPass": false,
+          "overallScore": 35,
+          "severity": "critical"
+        },
+        "total": 2,
+        "score": 28,
+        "passed": 0,
+        "failed": 2
+      },
+      "visual": {
+        "moduleName": "Visual Disability Checks",
+        "category": "visual",
+        "wcagPrinciples": [
+          "Perceivable",
+          "Operable"
+        ],
+        "affectedUsers": "Blind users, low-vision users, photosensitive users",
+        "total": 5,
+        "passed": 1,
+        "failed": 4,
+        "errored": 0,
+        "score": 42,
+        "items": [
+          {
+            "test": "CSS outline:none on focus",
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "wcag": "2.4.7",
+            "issue": "CSS removes focus outline globally — keyboard users have no visible focus indicator",
+            "detail": ".form-control:focus { border-color: rgb(102, 175, 233); outline: 0px; box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px inset, rgba(102, 175, 233, 0.6) 0px 0px 8px; }",
+            "suggestion": "Remove outline:none from :focus selectors, or replace with a custom visible focus style"
+          },
+          {
+            "focusVisibleInScreenshot": true,
+            "focusIndicatorDescription": "A solid blue outline appears around the input field labeled 'ПРЕБАРУВАЈ ТЕРМИН'.",
+            "meetsContrastRequirement": true,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "test": "Focus indicator visibility",
+            "wcag": "2.4.7 / 2.4.11"
+          },
+          {
+            "pass": false,
+            "score": 10,
+            "severity": "critical",
+            "hasHorizontalScroll": true,
+            "textOverflowCount": 5,
+            "visualIssues": [
+              "Horizontal scroll is present",
+              "Text overflows are reported for 'Toggle navigation', 'Previous', and 'Next' elements, indicating potential clipping or layout issues for interactive components",
+              "Image content (woman's face) is cut off on the right side"
+            ],
+            "suggestion": "Ensure content reflows vertically at 320px viewport width without requiring horizontal scrolling. Implement responsive design techniques, such as using flexible units and media queries, to prevent text and interactive elements from overflowing. Specifically address the reported overflows for 'Toggle navigation', 'Previous', and 'Next' elements to ensure all content and functionality are accessible.",
+            "test": "Zoom/Reflow at 200%",
+            "wcag": "1.4.10",
+            "overflowElements": [
+              {
+                "tag": "SPAN",
+                "text": "Toggle navigation",
+                "overflow": 58
+              },
+              {
+                "tag": "SPAN",
+                "text": "Previous",
+                "overflow": 46
+              },
+              {
+                "tag": "SPAN",
+                "text": "Next",
+                "overflow": 25
+              },
+              {
+                "tag": "P",
+                "text": "",
+                "overflow": 9
+              },
+              {
+                "tag": "P",
+                "text": "\n",
+                "overflow": 30
+              }
+            ]
+          },
+          {
+            "pass": false,
+            "score": 75,
+            "severity": "moderate",
+            "contentClipped": true,
+            "layoutBroken": false,
+            "issues": [
+              "Text labels 'Previous' and 'Next' are programmatically detected as clipped, indicating content loss when text spacing is applied."
+            ],
+            "suggestion": "Ensure that containers for elements like 'Previous' and 'Next' are flexible enough to accommodate increased text spacing without clipping, either by allowing text to wrap or by dynamically adjusting container dimensions.",
+            "test": "Text Spacing Override",
+            "wcag": "1.4.12",
+            "clippedElementsFound": 2,
+            "clippedElements": [
+              {
+                "tag": "SPAN",
+                "text": "Previous"
+              },
+              {
+                "tag": "SPAN",
+                "text": "Next"
+              }
+            ]
+          },
+          {
+            "darkModeSupported": false,
+            "darkModeScore": 0,
+            "pass": false,
+            "score": 25,
+            "severity": "moderate",
+            "issues": [
+              "The site does not adapt its colors for dark mode, displaying a light theme despite the user's system preference for dark mode.",
+              "The stylesheet does not support the `prefers-color-scheme` media query, indicating a lack of dark mode implementation."
+            ],
+            "suggestions": [
+              "Implement a dark mode theme using the `prefers-color-scheme: dark` media query to respect user preferences.",
+              "Ensure that the dark mode theme provides sufficient contrast ratios for all text and UI elements to maintain readability and accessibility."
+            ],
+            "test": "Dark Mode Support",
+            "wcag": "1.4.3",
+            "mediaQuerySupport": {
+              "hasDarkMode": false,
+              "hasReducedMotion": false,
+              "hasForcedColors": false
+            },
+            "note": "High contrast (forced-colors) skipped — not supported in Puppeteer 21"
+          }
+        ]
+      },
+      "motor": {
+        "moduleName": "Motor Disability Checks",
+        "category": "motor",
+        "wcagPrinciples": [
+          "Operable"
+        ],
+        "affectedUsers": "Users with motor impairments, switch access users, keyboard-only users, tremor/reduced dexterity users",
+        "total": 6,
+        "passed": 3,
+        "failed": 3,
+        "skipped": 0,
+        "score": 53,
+        "items": [
+          {
+            "test": "Skip navigation link",
+            "pass": false,
+            "score": 0,
+            "severity": "serious",
+            "wcag": "2.4.1",
+            "source": "rule-based",
+            "issue": "No \"Skip to main content\" link found — keyboard users must tab through entire navigation on every page",
+            "suggestion": "Add <a href=\"#main\" class=\"skip-link\">Skip to main content</a> as the first focusable element",
+            "firstFocusableElement": {
+              "idx": 0,
+              "tag": "INPUT",
+              "text": "ПРЕБАРУВАЈ ТЕРМИН",
+              "tabindex": 0,
+              "type": "text",
+              "href": null
+            }
+          },
+          {
+            "test": "Keyboard trap detection",
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "wcag": "2.1.2",
+            "source": "rule-based",
+            "focusableElementCount": 58,
+            "tabSequenceSample": [
+              {
+                "tag": "INPUT",
+                "text": "",
+                "href": null
+              },
+              {
+                "tag": "A",
+                "text": "MK",
+                "href": "https://av.gov.mk/pocetna.nspx"
+              },
+              {
+                "tag": "A",
+                "text": "AL",
+                "href": "https://av.gov.mk/shtepi.nspx"
+              },
+              {
+                "tag": "A",
+                "text": "EN",
+                "href": "https://av.gov.mk/home.nspx"
+              },
+              {
+                "tag": "A",
+                "text": "НАСЛОВНА",
+                "href": "https://av.gov.mk/pocetna.nspx"
+              },
+              {
+                "tag": "A",
+                "text": "ЗА НАС",
+                "href": "https://av.gov.mk/za-nas.nspx"
+              },
+              {
+                "tag": "A",
+                "text": "АВРСМ денес",
+                "href": "https://av.gov.mk/avrm-denes.nspx"
+              },
+              {
+                "tag": "A",
+                "text": "Историјат",
+                "href": "https://av.gov.mk/istorijat.nspx"
+              }
+            ],
+            "issue": null,
+            "suggestion": null
+          },
+          {
+            "test": "Focus order logic",
+            "source": "ai-evaluation",
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "wcag": "2.4.3",
+            "logicalOrder": true,
+            "issues": [],
+            "suggestion": null
+          },
+          {
+            "test": "Touch Target Size",
+            "wcag": "2.5.5",
+            "source": "rule-based",
+            "pass": false,
+            "score": 0,
+            "severity": "serious",
+            "smallTargetsFound": 20,
+            "items": [
+              {
+                "tag": "A",
+                "text": "MK",
+                "width": 18,
+                "height": 17,
+                "issue": "Touch target 18×17px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "AL",
+                "width": 17,
+                "height": 17,
+                "issue": "Touch target 17×17px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "EN",
+                "width": 16,
+                "height": 17,
+                "issue": "Touch target 16×17px is below the 44×44px minimum"
+              },
+              {
+                "tag": "BUTTON",
+                "text": "Toggle navigation",
+                "width": 42,
+                "height": 32,
+                "issue": "Touch target 42×32px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "ПРЕБАРАЈ\nСЛОБОДНИ РАБОТНИ МЕСТА",
+                "width": 179,
+                "height": 29,
+                "issue": "Touch target 179×29px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "ВОВЕДУВАЊЕ ВО ЕВИДЕНЦИЈА",
+                "width": 221,
+                "height": 26,
+                "issue": "Touch target 221×26px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "ПРОГРАМИ ЗА ВРАБОТУВАЊЕ",
+                "width": 221,
+                "height": 26,
+                "issue": "Touch target 221×26px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "ПАРИЧЕН НАДОМЕСТОК",
+                "width": 221,
+                "height": 26,
+                "issue": "Touch target 221×26px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Е-РАБОТА",
+                "width": 203,
+                "height": 21,
+                "issue": "Touch target 203×21px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "ПОСРЕДУВАЊЕ ПРИ ВРАБОТУВАЊЕ",
+                "width": 221,
+                "height": 26,
+                "issue": "Touch target 221×26px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Е-РАБОТА",
+                "width": 203,
+                "height": 21,
+                "issue": "Touch target 203×21px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Детали",
+                "width": 65,
+                "height": 19,
+                "issue": "Touch target 65×19px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Повеќе информации",
+                "width": 120,
+                "height": 37,
+                "issue": "Touch target 120×37px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "ПРЕГЛЕДАЈ ГИ СИТЕ ОГЛАСИ",
+                "width": 310,
+                "height": 40,
+                "issue": "Touch target 310×40px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "ДОЗНАЈ ПОВЕЌЕ",
+                "width": 310,
+                "height": 40,
+                "issue": "Touch target 310×40px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "СИТЕ НАСТАНИ",
+                "width": 310,
+                "height": 40,
+                "issue": "Touch target 310×40px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Детали",
+                "width": 59,
+                "height": 19,
+                "issue": "Touch target 59×19px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Повеќе",
+                "width": 41,
+                "height": 17,
+                "issue": "Touch target 41×17px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Повеќе",
+                "width": 41,
+                "height": 17,
+                "issue": "Touch target 41×17px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Повеќе",
+                "width": 41,
+                "height": 17,
+                "issue": "Touch target 41×17px is below the 44×44px minimum"
+              }
+            ],
+            "issue": "20 interactive elements are smaller than the 44×44px minimum touch target size",
+            "suggestion": "Increase padding on small links and buttons so the clickable area is at least 44×44px"
+          },
+          {
+            "test": "Session Timeout Warning",
+            "wcag": "2.2.1",
+            "source": "rule-based",
+            "pass": true,
+            "score": 100,
+            "note": "No session timeout detected on this page"
+          },
+          {
+            "test": "Sticky Header Scroll Margin",
+            "wcag": "2.4.12",
+            "source": "rule-based",
+            "pass": false,
+            "score": 20,
+            "severity": null,
+            "headerHeight": 0,
+            "scrollPaddingTop": 0,
+            "issue": null,
+            "suggestion": "Add to CSS: html { scroll-padding-top: 10px; }"
+          }
+        ]
+      }
+    }
+  }
+}

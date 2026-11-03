@@ -1,0 +1,9 @@
+{
+  "item": "E158",
+  "kind": "image",
+  "note": "news thumbnail is only content of link; empty alt; headline is a separate link",
+  "rater": "",
+  "role": "functional",
+  "updatedAt": "2026-10-13T19:23:19.615Z",
+  "verdict": "not_acceptable"
+}

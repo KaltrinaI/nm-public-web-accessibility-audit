@@ -1,0 +1,36 @@
+site,cat,hybrid,axe,axe_viol,axe_pass,title_ai,title_fail,head_score
+av_gov_mk,Central gov.,29,0,9,39,15,1,40
+cair_gov_mk,Municipality,31,0,5,36,40,1,8
+finance_gov_mk,Central gov.,33,0,4,49,35,1,25
+gostivari_gov_mk,Municipality,37,0,5,46,25,1,38
+gradsko_gov_mk,Municipality,24,0,8,39,60,1,10
+investnorthmacedonia_gov_mk,Central gov.,36,9,6,39,30,1,41
+iust_edu_mk,University,33,0,6,46,55,1,31
+karpos_gov_mk,Municipality,29,0,8,45,60,1,25
+mfa_gov_mk,Central gov.,44,0,3,42,60,1,35
+mon_gov_mk,Central gov.,39,0,4,42,50,1,
+mtc_gov_mk,Central gov.,41,0,4,42,40,1,35
+mtsp_gov_mk,Central gov.,36,0,5,49,50,1,25
+ohrid_gov_mk,Municipality,24,0,6,42,25,1,45
+saraj_gov_mk,Municipality,32,0,13,44,35,1,33
+skopje_gov_mk,Municipality,33,0,9,40,40,1,35
+skopjebus_mk,Transport,54,62,8,31,20,1,33
+stip_gov_mk,Municipality,30,0,12,50,55,1,37
+studenicani_gov_mk,Municipality,52,22,5,27,40,1,48
+tetovatransport_mk,Transport,36,0,8,45,50,1,22
+tetovo_gov_mk,Municipality,39,0,6,32,50,1,41
+ukim_edu_mk,University,33,0,8,39,40,1,28
+uklo_edu_mk,University,35,0,7,46,15,1,47
+unite_edu_mk,University,39,0,8,41,70,1,43
+vlada_mk,Central gov.,33,0,5,49,60,1,
+www_bitola_gov_mk,Municipality,28,0,6,48,45,1,47
+www_centar_gov_mk,Municipality,32,0,7,39,40,1,25
+www_economy_gov_mk,Central gov.,43,0,3,42,50,1,35
+www_haracina_gov_mk,Municipality,40,0,6,35,65,0,38
+www_moepp_gov_mk,Central gov.,39,0,3,42,50,1,30
+www_nbrm_mk,Central gov.,23,0,8,33,25,1,15
+www_seeu_edu_mk,University,39,0,7,41,35,1,10
+www_struga_gov_mk,Municipality,27,0,10,46,75,1,15
+www_ugd_edu_mk,University,35,0,8,42,40,1,15
+zdravstvo_gov_mk,Central gov.,40,,0,0,40,1,35
+zhelina_gov_mk,Municipality,31,0,5,41,50,1,28

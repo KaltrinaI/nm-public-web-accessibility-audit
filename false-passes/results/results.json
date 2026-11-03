@@ -1,0 +1,426 @@
+{
+ "img_total": 1320,
+ "img_altclass": {
+  "missing": 138,
+  "text": 754,
+  "empty": 428
+ },
+ "img_axe_fail": 161,
+ "img_missing_axe_flagged": 91,
+ "img_axe_passed_with_alt": 1112,
+ "img_F30": 136,
+ "img_F30_pct": 12.2,
+ "img_F30_ci": [
+  10.4,
+  14.3
+ ],
+ "img_F30_by_rule": {
+  "F30-placeholder": 62,
+  "F30-filename": 74
+ },
+ "img_F30_sites": 20,
+ "img_F30_ai_eval": 118,
+ "img_F30_ai_fail": 118,
+ "img_F30_ai_recall": 100.0,
+ "img_F30_ai_ci": [
+  96.9,
+  100.0
+ ],
+ "img_F30_ai_missed": [],
+ "img_F30_not_ai": [
+  [
+   "finance_gov_mk",
+   "Main Logo",
+   null
+  ],
+  [
+   "finance_gov_mk",
+   "Logo White",
+   null
+  ],
+  [
+   "investnorthmacedonia_gov_mk",
+   "euro-pro-transparenc",
+   null
+  ],
+  [
+   "mfa_gov_mk",
+   "Main Logo",
+   null
+  ],
+  [
+   "mfa_gov_mk",
+   "Logo White",
+   null
+  ],
+  [
+   "mtsp_gov_mk",
+   "Main Logo",
+   null
+  ],
+  [
+   "mtsp_gov_mk",
+   "Logo White",
+   null
+  ],
+  [
+   "ukim_edu_mk",
+   "Слика 3",
+   null
+  ],
+  [
+   "ukim_edu_mk",
+   "Logo",
+   null
+  ],
+  [
+   "vlada_mk",
+   "Main Logo",
+   null
+  ],
+  [
+   "vlada_mk",
+   "Logo White",
+   null
+  ],
+  [
+   "www_bitola_gov_mk",
+   "IVK_4287",
+   null
+  ],
+  [
+   "www_bitola_gov_mk",
+   "IVK_4225",
+   null
+  ],
+  [
+   "www_moepp_gov_mk",
+   "Main Logo",
+   null
+  ],
+  [
+   "www_moepp_gov_mk",
+   "Logo White",
+   null
+  ],
+  [
+   "zdravstvo_gov_mk",
+   "Main Logo",
+   null
+  ],
+  [
+   "zdravstvo_gov_mk",
+   "Counter Backgorund",
+   null
+  ],
+  [
+   "zdravstvo_gov_mk",
+   "Logo White",
+   null
+  ]
+ ],
+ "img_empty_passed": 390,
+ "img_empty_ai_eval": 319,
+ "img_empty_ai_fail": 317,
+ "img_empty_ai_fail_types": {
+  "banner": 65,
+  "photo": 114,
+  "logo": 63,
+  "icon": 35,
+  "chart": 5,
+  "screenshot": 5,
+  "other": 19,
+  "illustration": 2,
+  "diagram": 8,
+  "graphic": 1
+ },
+ "img_text_norule_ai_eval": 481,
+ "img_text_norule_ai_fail": 479,
+ "img_passed_ai_eval": 918,
+ "img_passed_ai_fail": 914,
+ "img_skipped": 225,
+ "img_G": 280,
+ "img_G_table": [
+  97,
+  0,
+  165,
+  18
+ ],
+ "img_G_axe_recall": 34.6,
+ "img_G_hyb_recall": 93.6,
+ "img_G_mcnemar_p": 4.276423536147513e-50,
+ "lnk_total": 6187,
+ "lnk_empty_text": 0,
+ "lnk_axe_passed": 6187,
+ "lnk_F84": 442,
+ "lnk_F84_pct": 7.1,
+ "lnk_F84_ci": [
+  6.5,
+  7.8
+ ],
+ "lnk_F84_by_rule": {
+  "F84-generic": 199,
+  "F84-template": 229,
+  "F84-symbol": 14
+ },
+ "lnk_F84_sites": 26,
+ "lnk_F84_ai_eval": 442,
+ "lnk_F84_ai_fail": 442,
+ "lnk_F84_ai_recall": 100.0,
+ "lnk_F84_ai_ci": [
+  99.2,
+  100.0
+ ],
+ "lnk_F84_ai_missed": [],
+ "lnk_F84_texts": [
+  [
+   "open link here",
+   229
+  ],
+  [
+   "прочитај повеќе",
+   57
+  ],
+  [
+   "lexo më tepër",
+   31
+  ],
+  [
+   "kliko për më tepër",
+   20
+  ],
+  [
+   "lexo më shumë",
+   19
+  ],
+  [
+   "повеќе",
+   17
+  ],
+  [
+   "+",
+   13
+  ],
+  [
+   "view details",
+   12
+  ],
+  [
+   "дознај повеќе",
+   9
+  ],
+  [
+   "прочитајте повеќе",
+   9
+  ],
+  [
+   "види ги сите",
+   6
+  ],
+  [
+   "види повеќе",
+   6
+  ],
+  [
+   "прочитај повеќе >>",
+   4
+  ],
+  [
+   "прочитај повеќе..",
+   4
+  ],
+  [
+   "more",
+   3
+  ],
+  [
+   "повеќе информации",
+   1
+  ],
+  [
+   "më tepër>",
+   1
+  ],
+  [
+   "|",
+   1
+  ]
+ ],
+ "lnk_F84_multi_dest_groups": 34,
+ "lnk_passed_ai_eval": 6157,
+ "lnk_passed_ai_fail": 2014,
+ "lnk_norule_ai_eval": 5715,
+ "lnk_norule_ai_fail": 1572,
+ "lnk_norule_ai_fail_top": [
+  [
+   "Facebook",
+   22
+  ],
+  [
+   "Контакт",
+   19
+  ],
+  [
+   "Instagram",
+   11
+  ],
+  [
+   "Besar Huseini",
+   11
+  ],
+  [
+   "Youtube",
+   10
+  ],
+  [
+   "2022 година",
+   10
+  ],
+  [
+   "2023 година",
+   10
+  ],
+  [
+   "2024 година",
+   10
+  ],
+  [
+   "2025 година",
+   10
+  ],
+  [
+   "2026 година",
+   10
+  ],
+  [
+   "https://uslugi.gov.mk/",
+   9
+  ],
+  [
+   "https://data.gov.mk/",
+   9
+  ],
+  [
+   "Министерство за транспорт",
+   9
+  ],
+  [
+   "2025",
+   9
+  ],
+  [
+   "2024",
+   9
+  ],
+  [
+   "2023",
+   9
+  ],
+  [
+   "2022",
+   9
+  ],
+  [
+   "2021",
+   9
+  ],
+  [
+   "2020",
+   9
+  ],
+  [
+   "2017",
+   9
+  ],
+  [
+   "EN",
+   8
+  ],
+  [
+   "2020 година",
+   8
+  ],
+  [
+   "2021 година",
+   8
+  ],
+  [
+   "Lajmërim",
+   8
+  ],
+  [
+   "Formularët",
+   8
+  ],
+  [
+   "2019",
+   8
+  ],
+  [
+   "2018",
+   8
+  ],
+  [
+   "2016",
+   8
+  ],
+  [
+   "2015",
+   8
+  ],
+  [
+   "Министерство",
+   7
+  ],
+  [
+   "Проекти",
+   7
+  ],
+  [
+   "Njoftim",
+   7
+  ],
+  [
+   "2026",
+   7
+  ],
+  [
+   "2018 година",
+   6
+  ],
+  [
+   "2019 година",
+   6
+  ],
+  [
+   "vladimir",
+   6
+  ],
+  [
+   "Këshilli i komunës",
+   6
+  ],
+  [
+   "2014",
+   6
+  ],
+  [
+   "2013",
+   6
+  ],
+  [
+   "Mastodon",
+   6
+  ]
+ ],
+ "sites_with_fp": 27,
+ "site_fp_rate_median": 7.9,
+ "site_fp_rate_range": [
+  0.0,
+  24.2
+ ],
+ "site_fp_rate_mean": 9.1,
+ "title_axe_fail": 0,
+ "title_ai_failed_sites": 34,
+ "axe_zero_sites": 31
+}

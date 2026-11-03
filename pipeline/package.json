@@ -1,0 +1,20 @@
+{
+  "name": "accessibility-audit",
+  "version": "1.0.0",
+  "description": "AI-powered web accessibility audit — Google Gemini (free) edition",
+  "main": "index.js",
+  "scripts": {
+    "audit": "node index.js",
+    "test-basic": "node test-basic.js",
+    "test-ai": "node test-ai.js",
+    "test-page": "node test-one-page.js",
+    "serve": "npx serve ."
+  },
+  "dependencies": {
+    "@axe-core/puppeteer": "^4.9.0",
+    "@google/generative-ai": "^0.15.0",
+    "axios": "^1.6.0",
+    "fs-extra": "^11.0.0",
+    "puppeteer": "^24.40.0"
+  }
+}

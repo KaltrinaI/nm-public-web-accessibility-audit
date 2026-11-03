@@ -1,0 +1,2426 @@
+{
+  "site": "https://studenicani.gov.mk/",
+  "auditedAt": "2026-04-24T11:33:07.200Z",
+  "score": 52,
+  "grade": "F",
+  "wcagConformance": "Partial A",
+  "axeOnlyScore": 22,
+  "axeVsHybridDelta": 30,
+  "totalViolations": 27,
+  "axeCoreViolations": 5,
+  "aiOnlyViolations": 22,
+  "criticalViolations": 4,
+  "disabilityScores": {
+    "visual": 63,
+    "motor": 24,
+    "language": 98
+  },
+  "languageSummary": {
+    "albanianVersionFound": true,
+    "albanianScore": 95
+  },
+  "moduleHealth": {
+    "images": {
+      "valid": false,
+      "score": 25,
+      "skipped": 2,
+      "errored": false,
+      "errorMsg": null
+    },
+    "links": {
+      "valid": true,
+      "score": 81,
+      "skipped": 0,
+      "errored": false,
+      "errorMsg": null
+    },
+    "headings": {
+      "valid": true,
+      "score": 48,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "readingLevel": {
+      "valid": true,
+      "score": 85,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "tables": {
+      "valid": true,
+      "score": 100,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "pageTitle": {
+      "valid": true,
+      "score": 40,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "language": {
+      "valid": true,
+      "score": 98,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "visual": {
+      "valid": true,
+      "score": 63,
+      "skipped": false,
+      "errored": false,
+      "errorMsg": null
+    },
+    "motor": {
+      "valid": true,
+      "score": 24,
+      "skipped": 0,
+      "errored": false,
+      "errorMsg": null
+    }
+  },
+  "homepage": {
+    "url": "https://studenicani.gov.mk/",
+    "isHomepage": true,
+    "timestamp": "2026-04-24T11:29:48.887Z",
+    "finalScore": 52,
+    "grade": "F",
+    "wcagConformance": "Partial A",
+    "scores": {
+      "axe": 22,
+      "images": 25,
+      "links": 81,
+      "headings": 48,
+      "readingLevel": 85,
+      "tables": 100,
+      "pageTitle": 40,
+      "language": 98,
+      "visual": 63,
+      "motor": 24
+    },
+    "axeOnlyScore": 22,
+    "axeVsHybridDelta": 30,
+    "axe": {
+      "violations": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-11.9.1"
+          ],
+          "description": "Ensure buttons have discernible text",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/button-name?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "button-has-visible-text",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element does not have inner text that is visible to screen readers"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element has no title attribute"
+                },
+                {
+                  "id": "implicit-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element does not have an implicit (wrapped) <label>"
+                },
+                {
+                  "id": "explicit-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element does not have an explicit <label>"
+                },
+                {
+                  "id": "presentational-role",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "critical",
+                  "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "critical",
+              "html": "<button class=\"text-slate-600 hover:text-slate-900 p-2\">",
+              "target": [
+                "button"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#dc2626",
+                    "bgColor": "#f1f5f9",
+                    "contrastRatio": 4.4,
+                    "fontSize": "15.0pt (20px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<section class=\"bg-slate-100 py-20\">",
+                      "target": [
+                        ".bg-slate-100"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 4.4 (foreground color: #dc2626, background color: #f1f5f9, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<h3 class=\"text-xl text-red-600 font-medium mb-6\">z. Ejup Abazi</h3>",
+              "target": [
+                ".mb-6.text-xl.text-red-600"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #dc2626, background color: #f1f5f9, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#64748b",
+                    "bgColor": "#0f172a",
+                    "contrastRatio": 3.75,
+                    "fontSize": "9.0pt (12px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<footer class=\"bg-slate-900 text-white\">",
+                      "target": [
+                        "footer"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.75 (foreground color: #64748b, background color: #0f172a, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<a class=\"flex items-center gap-1 text-slate-500 hover:text-white transition-colors text-xs\" href=\"#/admin/login\" data-discover=\"true\">",
+              "target": [
+                "a[href$=\"#/admin/login\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.75 (foreground color: #64748b, background color: #0f172a, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "tags": [
+            "cat.semantics",
+            "best-practice"
+          ],
+          "description": "Ensure the order of headings is semantically correct",
+          "help": "Heading levels should only increase by one",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/heading-order?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "heading-order",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Heading order invalid"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<h3 class=\"text-xl font-bold text-slate-900 mb-2\">Administrata</h3>",
+              "target": [
+                ".p-8.shadow-lg.hover\\:-translate-y-1:nth-child(1) > .mb-2.text-xl.font-bold"
+              ],
+              "failureSummary": "Fix any of the following:\n  Heading order invalid"
+            }
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag244",
+            "wcag412",
+            "section508",
+            "section508.22.a",
+            "TTv5",
+            "TT6.a",
+            "EN-301-549",
+            "EN-9.2.4.4",
+            "EN-9.4.1.2",
+            "ACT",
+            "RGAAv4",
+            "RGAA-6.2.1"
+          ],
+          "description": "Ensure links have discernible text",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/link-name?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "has-visible-text",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element does not have text that is visible to screen readers"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [
+                {
+                  "id": "focusable-no-name",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element is in tab order and does not have accessible text"
+                }
+              ],
+              "impact": "serious",
+              "html": "<a href=\"#\" class=\"hover:text-white transition-colors\">",
+              "target": [
+                ".gap-3.flex > .hover\\:text-white.transition-colors[href=\"#\"]:nth-child(1)"
+              ],
+              "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "any": [
+                {
+                  "id": "has-visible-text",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element does not have text that is visible to screen readers"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [
+                {
+                  "id": "focusable-no-name",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element is in tab order and does not have accessible text"
+                }
+              ],
+              "impact": "serious",
+              "html": "<a href=\"#\" class=\"hover:text-white transition-colors\">",
+              "target": [
+                ".gap-3.flex > .hover\\:text-white.transition-colors[href=\"#\"]:nth-child(2)"
+              ],
+              "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "any": [
+                {
+                  "id": "has-visible-text",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element does not have text that is visible to screen readers"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [
+                {
+                  "id": "focusable-no-name",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element is in tab order and does not have accessible text"
+                }
+              ],
+              "impact": "serious",
+              "html": "<a href=\"#\" class=\"hover:text-white transition-colors\">",
+              "target": [
+                ".gap-3.flex > .hover\\:text-white.transition-colors[href=\"#\"]:nth-child(3)"
+              ],
+              "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "any": [
+                {
+                  "id": "has-visible-text",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element does not have text that is visible to screen readers"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [
+                {
+                  "id": "focusable-no-name",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element is in tab order and does not have accessible text"
+                }
+              ],
+              "impact": "serious",
+              "html": "<a href=\"#\" class=\"bg-slate-800 p-2 rounded-full hover:bg-red-700 hover:text-white transition-colors\">",
+              "target": [
+                ".bg-slate-800.p-2.hover\\:bg-red-700:nth-child(1)"
+              ],
+              "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "any": [
+                {
+                  "id": "has-visible-text",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element does not have text that is visible to screen readers"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [
+                {
+                  "id": "focusable-no-name",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element is in tab order and does not have accessible text"
+                }
+              ],
+              "impact": "serious",
+              "html": "<a href=\"#\" class=\"bg-slate-800 p-2 rounded-full hover:bg-red-700 hover:text-white transition-colors\">",
+              "target": [
+                ".bg-slate-800.p-2.hover\\:bg-red-700:nth-child(2)"
+              ],
+              "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "any": [
+                {
+                  "id": "has-visible-text",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element does not have text that is visible to screen readers"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                }
+              ],
+              "all": [],
+              "none": [
+                {
+                  "id": "focusable-no-name",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element is in tab order and does not have accessible text"
+                }
+              ],
+              "impact": "serious",
+              "html": "<a href=\"#\" class=\"bg-slate-800 p-2 rounded-full hover:bg-red-700 hover:text-white transition-colors\">",
+              "target": [
+                ".bg-slate-800.p-2.hover\\:bg-red-700:nth-child(3)"
+              ],
+              "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          ]
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "tags": [
+            "cat.keyboard",
+            "best-practice",
+            "RGAAv4",
+            "RGAA-9.2.1"
+          ],
+          "description": "Ensure all page content is contained by landmarks",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/region?application=axe-puppeteer",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<div class=\"flex gap-4\">",
+              "target": [
+                ".justify-between.max-w-7xl.mx-auto > .gap-4.flex"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            },
+            {
+              "any": [
+                {
+                  "id": "region",
+                  "data": {
+                    "isIframe": false
+                  },
+                  "relatedNodes": [],
+                  "impact": "moderate",
+                  "message": "Some page content is not contained by landmarks"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "moderate",
+              "html": "<span>Njoftim për qytetarët mbi analizat e ujit në territorin e komunës</span>",
+              "target": [
+                ".bg-blue-600 > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+            }
+          ]
+        }
+      ],
+      "passCount": 27,
+      "incomplete": 1
+    },
+    "violationSummary": {
+      "critical": [
+        {
+          "source": "axe-core",
+          "rule": "button-name",
+          "description": "Ensure buttons have discernible text",
+          "wcag": "wcag2a, wcag412",
+          "affectedElements": 1
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text 'INFRASTRUKTURË' (Infrastructure) is highly misleading as it points to a news article about a blood donation event. It also shares the same destination as another link with a completely different, accurate title, causing significant confusion for screen reader users.",
+          "wcag": "2.4.4",
+          "suggestion": "Kryqi i Kuq i Republikës së Maqedonisë së Veriut organizon Aksionin e Dhurimit të Gjakut"
+        },
+        {
+          "source": "headings",
+          "rule": "semantic-quality",
+          "description": "The heading hierarchy skips from h1 directly to h3, violating the logical nesting order (WCAG 2.4.6, 1.3.1 Info and Relationships).",
+          "wcag": "1.3.1 / 2.4.6",
+          "suggestion": null
+        },
+        {
+          "source": "motor",
+          "rule": "Keyboard trap detection",
+          "description": "Keyboard trap detected — user cannot Tab away from an element",
+          "wcag": "2.1.2",
+          "suggestion": "Ensure modals and widgets release focus correctly when closed"
+        }
+      ],
+      "serious": [
+        {
+          "source": "axe-core",
+          "rule": "color-contrast",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "wcag": "wcag2aa, wcag143",
+          "affectedElements": 2
+        },
+        {
+          "source": "axe-core",
+          "rule": "link-name",
+          "description": "Ensure links have discernible text",
+          "wcag": "wcag2a, wcag244, wcag412",
+          "affectedElements": 6
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text lacks specific visual details, failing to describe the key elements of the landscape such as the houses, terrain, or agricultural features.",
+          "wcag": "1.1.1",
+          "suggestion": "Aerial view of Studeniçan, a town with numerous red-roofed houses nestled in a valley surrounded by green hills, with agricultural fields and a main road winding through."
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text is severely incomplete, omitting crucial details such as the date, time, and location of the blood donation drive.",
+          "wcag": "1.1.1",
+          "suggestion": "Poster: Red Cross of North Macedonia blood donation drive on April 14, 2026, from 9 AM to 1 PM, at Studenican Municipality meeting hall. Slogan: 'The only thing that cannot be bought is life!' Website: WWW.REDCROSS.ORG.MK."
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text describes the *topic* of a notification rather than the *visual content* of the banner.",
+          "wcag": "1.1.1",
+          "suggestion": "NJOFTIM"
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text describes the event and its participants (names, school) rather than the visual content of the image itself.",
+          "wcag": "1.1.1",
+          "suggestion": "A diverse group of young people, some wearing headscarves, planting trees in a grassy field with a large blossoming tree and hills in the background, celebrating Ecology Day."
+        },
+        {
+          "source": "images",
+          "rule": "AI evaluation",
+          "description": "The alt text does not describe the visual content of the image, focusing only on a name.",
+          "wcag": "1.1.1",
+          "suggestion": "Ejup Abazi, a smiling man in a dark suit, sits at a desk with a plaque reading 'ОПШТИНА СТУДЕНИЧАНИ KOMUNA E STUDENIÇANIT'. Behind him are flags of Turkey, North Macedonia, Albania, USA, EU, and NATO."
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Generic link text 'Mëso më shumë' (Learn more) is not descriptive out of context and does not clearly indicate the destination or purpose. It is also likely not unique on the page.",
+          "wcag": "2.4.4",
+          "suggestion": "Mëso më shumë rreth nesh"
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Generic link text ('Read more') is not descriptive out of context and is not unique, making it difficult for screen reader users to understand its purpose or destination.",
+          "wcag": "2.4.4",
+          "suggestion": "Replace with the actual title of the news article, e.g., 'Titulli i lajmit' (The news title) or 'Lexo më shumë për [Titulli i la lajmit]'."
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text is a general category ('Announcements') but links to a specific news article. This is misleading and does not clearly communicate the destination. Also, using all caps can reduce readability.",
+          "wcag": "2.4.4",
+          "suggestion": "Use the specific title of the news article it links to: 'Njoftim për qytetarët mbi analizat e ujit në territorin e komunës'."
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Generic link text ('Read more') is not descriptive out of context and is not unique, making it difficult for screen reader users to understand its purpose or destination. This link points to the same content as the previous descriptive link.",
+          "wcag": "2.4.4",
+          "suggestion": "Replace with the actual title of the news article: 'Njoftim për qytetarët mbi analizat e ujit në territorin e komunës'."
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text is a general category ('Environment') but links to a specific news article. This is misleading and does not clearly communicate the destination. Also, using all caps can reduce readability.",
+          "wcag": "2.4.4",
+          "suggestion": "Use the specific title of the news article it links to: 'Ejup Abazi: Bashkë me nxënësit e SH.F. “Naim Frashëri” shënojmë Ditën e Ekologjisë me mbjelljen e drunjve të rinj'."
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Generic link text ('Read more') is not descriptive out of context and is not unique, making it difficult for screen reader users to understand its purpose or destination. This link points to the same content as the previous descriptive link.",
+          "wcag": "2.4.4",
+          "suggestion": "Replace with the actual title of the news article: 'Ejup Abazi: Bashkë me nxënësit e SH.F. “Naim Frashëri” shënojmë Ditën e Ekologjisë me mbjelljen e drunjve të rinj'."
+        },
+        {
+          "source": "links",
+          "rule": "AI evaluation",
+          "description": "Link text 'Admin' is too generic and does not clearly describe the link's purpose or destination, especially out of context. It leads to an admin login page.",
+          "wcag": "2.4.4",
+          "suggestion": "Admin Login"
+        },
+        {
+          "source": "pageTitle",
+          "rule": "AI evaluation",
+          "description": "Title is too generic, it is just the site name for what appears to be the homepage.",
+          "wcag": "2.4.2",
+          "suggestion": "Mirësevini — Komuna e Studeniçanit"
+        },
+        {
+          "source": "visual",
+          "rule": "Text Spacing Override",
+          "description": "Text in H3 elements is programmatically detected as clipped, leading to loss of content when text spacing overrides are applied.",
+          "wcag": "1.4.12",
+          "suggestion": "Ensure that text within H3 elements, and other content, can expand vertically without clipping when text spacing properties (line-height, letter-spacing, word-spacing, paragraph margin) are applied. This may require adjusting element heights, using flexible box models, or ensuring sufficient padding."
+        },
+        {
+          "source": "visual",
+          "rule": "Dark Mode Support",
+          "description": "The website does not support the 'prefers-color-scheme: dark' media query, as indicated by 'prefers-color-scheme supported: false'. This means it does not adapt its colors for users who prefer dark mode.",
+          "wcag": "1.4.3",
+          "suggestion": null
+        },
+        {
+          "source": "motor",
+          "rule": "Skip navigation link",
+          "description": "No \"Skip to main content\" link found — keyboard users must tab through entire navigation on every page",
+          "wcag": "2.4.1",
+          "suggestion": "Add <a href=\"#main\" class=\"skip-link\">Skip to main content</a> as the first focusable element"
+        },
+        {
+          "source": "motor",
+          "rule": "Touch Target Size",
+          "description": "20 interactive elements are smaller than the 44×44px minimum touch target size",
+          "wcag": "2.5.5",
+          "suggestion": "Increase padding on small links and buttons so the clickable area is at least 44×44px"
+        }
+      ],
+      "moderate": [
+        {
+          "source": "axe-core",
+          "rule": "heading-order",
+          "description": "Ensure the order of headings is semantically correct",
+          "wcag": "",
+          "affectedElements": 1
+        },
+        {
+          "source": "axe-core",
+          "rule": "region",
+          "description": "Ensure all page content is contained by landmarks",
+          "wcag": "",
+          "affectedElements": 2
+        },
+        {
+          "source": "headings",
+          "rule": "skipped-level",
+          "description": "Heading jumps from h1 (\"Mirësevini në Komunën e Studeniçanit\") to h3 (\"Administrata\") — levels should not skip",
+          "wcag": "1.3.1 / 2.4.6",
+          "suggestion": "Change h3 to h2 or add intermediate heading levels"
+        },
+        {
+          "source": "motor",
+          "rule": "Sticky Header Scroll Margin",
+          "description": "Sticky header is 80px but scroll-padding-top is only 0px",
+          "wcag": "2.4.12",
+          "suggestion": "Add to CSS: html { scroll-padding-top: 90px; }"
+        }
+      ],
+      "minor": [],
+      "total": 27,
+      "axeCoreCount": 5,
+      "aiOnlyCount": 22
+    },
+    "moduleHealth": {
+      "images": {
+        "valid": false,
+        "score": 25,
+        "skipped": 2,
+        "errored": false,
+        "errorMsg": null
+      },
+      "links": {
+        "valid": true,
+        "score": 81,
+        "skipped": 0,
+        "errored": false,
+        "errorMsg": null
+      },
+      "headings": {
+        "valid": true,
+        "score": 48,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "readingLevel": {
+        "valid": true,
+        "score": 85,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "tables": {
+        "valid": true,
+        "score": 100,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "pageTitle": {
+        "valid": true,
+        "score": 40,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "language": {
+        "valid": true,
+        "score": 98,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "visual": {
+        "valid": true,
+        "score": 63,
+        "skipped": false,
+        "errored": false,
+        "errorMsg": null
+      },
+      "motor": {
+        "valid": true,
+        "score": 24,
+        "skipped": 0,
+        "errored": false,
+        "errorMsg": null
+      }
+    },
+    "modules": {
+      "images": {
+        "moduleName": "Image Alt Text Quality",
+        "wcag": "1.1.1",
+        "total": 7,
+        "evaluated": 5,
+        "skipped": 2,
+        "passed": 0,
+        "failed": 5,
+        "score": 25,
+        "items": [
+          {
+            "src": "/images/studenicani-logo.svg",
+            "alt": "Komuna e Studeniçanit Logo",
+            "pass": null,
+            "score": null,
+            "skipped": true,
+            "reason": "Image could not be downloaded for analysis",
+            "severity": "warning"
+          },
+          {
+            "src": "https://firebasestorage.googleapis.com/v0/b/komuna-e-studenicanit-web.firebasestorage.app/o/settings%2Fhero_1773392572831_studenicanilandscapeeeeee.jpg?alt=media&token=edfdf425-7f91-4322-973f-c2ffcf50fd6e",
+            "alt": "Studeniçan Landscape",
+            "imageType": "photo",
+            "isDecorative": false,
+            "aiDescription": "An aerial view of a sprawling town or village with numerous red-roofed houses, nestled in a valley surrounded by green hills and distant mountains under a cloudy sky. Agricultural fields, some with greenhouses, are interspersed among the residential areas, and a main road winds through the settlement.",
+            "visibleTextInImage": null,
+            "pass": false,
+            "score": 20,
+            "severity": "serious",
+            "issues": [
+              "The alt text lacks specific visual details, failing to describe the key elements of the landscape such as the houses, terrain, or agricultural features.",
+              "It is incomplete, omitting crucial information a sighted user would notice.",
+              "While not a completely generic placeholder, 'Landscape' is a very broad term that provides minimal visual context."
+            ],
+            "suggestion": "Aerial view of Studeniçan, a town with numerous red-roofed houses nestled in a valley surrounded by green hills, with agricultural fields and a main road winding through.",
+            "reasoning": "The alt text identifies the subject by name but provides almost no visual description, making it largely unhelpful for users who cannot see the image.",
+            "isGenericPlaceholder": false,
+            "accuracyIssue": false,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "https://firebasestorage.googleapis.com/v0/b/komuna-e-studenicanit-web.firebasestorage.app/o/lajmet%2Fkryesore%2F1775377433622_1000083525.jpg?alt=media&token=b48bdcde-9cc5-4d65-b5dc-c2e4a4e40249",
+            "alt": "Kryqi i Kuq i Republikës së Maqedonisë së Veriut organizon Aksionin e Dhurimit të Gjakut",
+            "imageType": "banner",
+            "isDecorative": false,
+            "aiDescription": "Poster for a blood donation drive by the Red Cross of North Macedonia. It announces a blood donation action on April 14, 2026, from 9 AM to 1 PM, at the meeting hall of Studenican Municipality. The poster features the Red Cross logo, a stylized blood drop, and the slogan 'The only thing that cannot be bought is life!' along with a QR code and website.",
+            "visibleTextInImage": "Црвен крст на Република Северна Македонија Kryqi i Kuq i Republikës së Maqedonisë së Veriut AKSION I DHURIMIT TË GJAKUT Më 14.04.2026 në sala e mbledhjeve Komuna e Studenicanit nga 9 në 13 Informacion Sillni me vete dokumentin tuaj të identifikimit. E vetmja gjë, që nuk mund të blihet, është jeta! #BashkohuniMeNe WWW.REDCROSS.ORG.MK",
+            "pass": false,
+            "score": 45,
+            "severity": "serious",
+            "issues": [
+              "The alt text is severely incomplete, omitting crucial details such as the date, time, and location of the blood donation drive.",
+              "The alt text fails to include the important slogan and website information prominently displayed in the banner."
+            ],
+            "suggestion": "Poster: Red Cross of North Macedonia blood donation drive on April 14, 2026, from 9 AM to 1 PM, at Studenican Municipality meeting hall. Slogan: 'The only thing that cannot be bought is life!' Website: WWW.REDCROSS.ORG.MK.",
+            "reasoning": "The alt text is severely incomplete, failing to convey crucial details like the date, time, location, and slogan of the blood donation drive, which are prominently displayed in the banner.",
+            "isGenericPlaceholder": false,
+            "accuracyIssue": false,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "https://firebasestorage.googleapis.com/v0/b/komuna-e-studenicanit-web.firebasestorage.app/o/lajmet%2Fkryesore%2F1774807458716_NJOFTIM-01.png?alt=media&token=c4b4a32b-9b0c-43c0-bed7-166c213c4992",
+            "alt": "Njoftim për qytetarët mbi analizat e ujit në territorin e komunës",
+            "imageType": "banner",
+            "isDecorative": false,
+            "aiDescription": "The word \"NJOFTIM\" in large, white, sans-serif capital letters centered on a solid red background.",
+            "visibleTextInImage": "NJOFTIM",
+            "pass": false,
+            "score": 15,
+            "severity": "serious",
+            "issues": [
+              "The alt text describes the *topic* of a notification rather than the *visual content* of the banner.",
+              "It omits key visual details of the banner, such as the red background and white text.",
+              "The alt text is excessively long for a simple banner displaying a single word.",
+              "It provides information that is likely redundant with surrounding page content and should be conveyed elsewhere (e.g., link text or heading)."
+            ],
+            "suggestion": "NJOFTIM",
+            "reasoning": "The alt text inaccurately describes the image's visual content, providing extraneous information about a notification's topic instead of the banner's appearance, making it misleading and overly verbose.",
+            "isGenericPlaceholder": false,
+            "accuracyIssue": true,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "https://firebasestorage.googleapis.com/v0/b/komuna-e-studenicanit-web.firebasestorage.app/o/lajmet%2Fkryesore%2F1774520152282_657512485_961852513024979_1190282337980263769_n.jpg?alt=media&token=3d23df63-d792-4d01-bf50-70c5a9df878b",
+            "alt": "Ejup Abazi: Bashkë me nxënësit e SH.F. “Naim Frashëri” shënojmë Ditën e Ekologjisë me mbjelljen e drunjve të rinj",
+            "imageType": "photo",
+            "isDecorative": false,
+            "aiDescription": "A diverse group of young people, some wearing headscarves and gloves, are scattered across a grassy field, some bending down to plant or clean. A large tree with white blossoms stands in the middle, with bare trees and hills in the background under a cloudy sky.",
+            "visibleTextInImage": null,
+            "pass": false,
+            "score": 30,
+            "severity": "serious",
+            "issues": [
+              "The alt text describes the event and its participants (names, school) rather than the visual content of the image itself.",
+              "It omits key visual details such as the diverse group of young people, their attire, the specific setting (grassy field, blossoming tree, hills), and the overall composition.",
+              "The alt text is too long for a concise visual description, functioning more as a caption."
+            ],
+            "suggestion": "A diverse group of young people, some wearing headscarves, planting trees in a grassy field with a large blossoming tree and hills in the background, celebrating Ecology Day.",
+            "reasoning": "The alt text fails to accurately describe the visual content of the image, instead providing external event details and omitting crucial visual information.",
+            "isGenericPlaceholder": false,
+            "accuracyIssue": true,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "https://firebasestorage.googleapis.com/v0/b/komuna-e-studenicanit-web.firebasestorage.app/o/settings%2Fmayor_1773340646407_kryetari_new.jpg?alt=media&token=6e53668c-6de2-4cfa-a33a-7ac423b1e57e",
+            "alt": "z. Ejup Abazi",
+            "imageType": "photo",
+            "isDecorative": false,
+            "aiDescription": "A smiling man in a dark suit and patterned tie sits at a wooden desk in an office. On the desk is a plaque reading 'ОПШТИНА СТУДЕНИЧАНИ KOMUNA E STUDENIÇANIT'. Behind him are flags of Turkey, North Macedonia, Albania, USA, EU, and NATO, along with a bust of a historical figure and a bookshelf.",
+            "visibleTextInImage": "ОПШТИНА СТУДЕНИЧАНИ KOMUNA E STUDENIÇANIT",
+            "pass": false,
+            "score": 15,
+            "severity": "serious",
+            "issues": [
+              "The alt text does not describe the visual content of the image, focusing only on a name.",
+              "The alt text fails to include the visible text from the image: 'ОПШТИНА СТУДЕНИЧАНИ KOMUNA E STUDENIÇANIT'.",
+              "The alt text omits key visual details such as the man's appearance, the office setting, the desk, and the prominent flags in the background."
+            ],
+            "suggestion": "Ejup Abazi, a smiling man in a dark suit, sits at a desk with a plaque reading 'ОПШТИНА СТУДЕНИЧАНИ KOMUNA E STUDENIÇANIT'. Behind him are flags of Turkey, North Macedonia, Albania, USA, EU, and NATO.",
+            "reasoning": "The alt text provides only a name, completely failing to describe the visual content, visible text, or key details of the image, making it largely uninformative for screen reader users.",
+            "isGenericPlaceholder": false,
+            "accuracyIssue": true,
+            "source": "ai-evaluation"
+          },
+          {
+            "src": "/images/studenicani-logo-footer.svg",
+            "alt": "Komuna e Studeniçanit Logo",
+            "pass": null,
+            "score": null,
+            "skipped": true,
+            "reason": "Image could not be downloaded for analysis",
+            "severity": "warning"
+          }
+        ]
+      },
+      "links": {
+        "moduleName": "Link Text Meaningfulness",
+        "wcag": "2.4.4",
+        "total": 38,
+        "evaluated": 38,
+        "skipped": 0,
+        "passed": 30,
+        "failed": 8,
+        "score": 81,
+        "items": [
+          {
+            "text": "Ballina",
+            "href": "https://studenicani.gov.mk/#/",
+            "ariaLabel": null,
+            "title": null,
+            "context": "BallinaLajmeNjoftimeKryetariKëshilliThirrjet PublikeKonkurseBuxhetiSubvencionetRreth Nesh",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Lajme",
+            "href": "https://studenicani.gov.mk/#/lajme",
+            "ariaLabel": null,
+            "title": null,
+            "context": "BallinaLajmeNjoftimeKryetariKëshilliThirrjet PublikeKonkurseBuxhetiSubvencionetRreth Nesh",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Njoftime",
+            "href": "https://studenicani.gov.mk/#/njoftime",
+            "ariaLabel": null,
+            "title": null,
+            "context": "BallinaLajmeNjoftimeKryetariKëshilliThirrjet PublikeKonkurseBuxhetiSubvencionetRreth Nesh",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Kryetari",
+            "href": "https://studenicani.gov.mk/#/kryetari",
+            "ariaLabel": null,
+            "title": null,
+            "context": "BallinaLajmeNjoftimeKryetariKëshilliThirrjet PublikeKonkurseBuxhetiSubvencionetRreth Nesh",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Këshilli",
+            "href": "https://studenicani.gov.mk/#/keshilli",
+            "ariaLabel": null,
+            "title": null,
+            "context": "BallinaLajmeNjoftimeKryetariKëshilliThirrjet PublikeKonkurseBuxhetiSubvencionetRreth Nesh",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Thirrjet Publike",
+            "href": "https://studenicani.gov.mk/#/thirrjet-publike",
+            "ariaLabel": null,
+            "title": null,
+            "context": "BallinaLajmeNjoftimeKryetariKëshilliThirrjet PublikeKonkurseBuxhetiSubvencionetRreth Nesh",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Konkurse",
+            "href": "https://studenicani.gov.mk/#/konkurse",
+            "ariaLabel": null,
+            "title": null,
+            "context": "BallinaLajmeNjoftimeKryetariKëshilliThirrjet PublikeKonkurseBuxhetiSubvencionetRreth Nesh",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Buxheti",
+            "href": "https://studenicani.gov.mk/#/buxheti",
+            "ariaLabel": null,
+            "title": null,
+            "context": "BallinaLajmeNjoftimeKryetariKëshilliThirrjet PublikeKonkurseBuxhetiSubvencionetRreth Nesh",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Subvencionet",
+            "href": "https://studenicani.gov.mk/#/subvencionet",
+            "ariaLabel": null,
+            "title": null,
+            "context": "BallinaLajmeNjoftimeKryetariKëshilliThirrjet PublikeKonkurseBuxhetiSubvencionetRreth Nesh",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Rreth Nesh",
+            "href": "https://studenicani.gov.mk/#/rreth-nesh",
+            "ariaLabel": null,
+            "title": null,
+            "context": "BallinaLajmeNjoftimeKryetariKëshilliThirrjet PublikeKonkurseBuxhetiSubvencionetRreth Nesh",
+            "isNavigation": true,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Njoftim për qytetarët mbi analizat e ujit në territorin e komunës",
+            "href": "https://studenicani.gov.mk/#/lajme/rod51f3nfUDEbb48NPzf",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Shërbimet Online",
+            "href": "https://studenicani.gov.mk/#/sherbimet",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Mëso më shumë",
+            "href": "https://studenicani.gov.mk/#/rreth-nesh",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 20,
+            "severity": "serious",
+            "issue": "Generic link text 'Mëso më shumë' (Learn more) is not descriptive out of context and does not clearly indicate the destination or purpose. It is also likely not unique on the page.",
+            "suggestion": "Mëso më shumë rreth nesh",
+            "additionalIssue": null
+          },
+          {
+            "text": "Thirrjet Publike",
+            "href": "https://studenicani.gov.mk/#/thirrjet-publike",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Konkurse",
+            "href": "https://studenicani.gov.mk/#/konkurse",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Buxheti",
+            "href": "https://studenicani.gov.mk/#/buxheti",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Subvencionet",
+            "href": "https://studenicani.gov.mk/#/subvencionet",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 95,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Shiko të gjitha lajmet",
+            "href": "https://studenicani.gov.mk/#/lajme",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 90,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "INFRASTRUKTURË",
+            "href": "https://studenicani.gov.mk/#/lajme/QubyQcUq6b4xP9M2WV20",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": true,
+            "openNewTab": false,
+            "pass": false,
+            "score": 5,
+            "severity": "critical",
+            "issue": "Link text 'INFRASTRUKTURË' (Infrastructure) is highly misleading as it points to a news article about a blood donation event. It also shares the same destination as another link with a completely different, accurate title, causing significant confusion for screen reader users.",
+            "suggestion": "Kryqi i Kuq i Republikës së Maqedonisë së Veriut organizon Aksionin e Dhurimit të Gjakut",
+            "additionalIssue": null
+          },
+          {
+            "text": "Kryqi i Kuq i Republikës së Maqedonisë së Veriut organizon Aksionin e Dhurimit të Gjakut",
+            "href": "https://studenicani.gov.mk/#/lajme/QubyQcUq6b4xP9M2WV20",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Lexo më shumë",
+            "href": "https://studenicani.gov.mk/#/lajme/QubyQcUq6b4xP9M2WV20",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 20,
+            "severity": "serious",
+            "issue": "Generic link text ('Read more') is not descriptive out of context and is not unique, making it difficult for screen reader users to understand its purpose or destination.",
+            "suggestion": "Replace with the actual title of the news article, e.g., 'Titulli i lajmit' (The news title) or 'Lexo më shumë për [Titulli i la lajmit]'.",
+            "additionalIssue": null
+          },
+          {
+            "text": "NJOFTIME",
+            "href": "https://studenicani.gov.mk/#/lajme/rod51f3nfUDEbb48NPzf",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": true,
+            "openNewTab": false,
+            "pass": false,
+            "score": 30,
+            "severity": "serious",
+            "issue": "Link text is a general category ('Announcements') but links to a specific news article. This is misleading and does not clearly communicate the destination. Also, using all caps can reduce readability.",
+            "suggestion": "Use the specific title of the news article it links to: 'Njoftim për qytetarët mbi analizat e ujit në territorin e komunës'.",
+            "additionalIssue": null
+          },
+          {
+            "text": "Njoftim për qytetarët mbi analizat e ujit në territorin e komunës",
+            "href": "https://studenicani.gov.mk/#/lajme/rod51f3nfUDEbb48NPzf",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Lexo më shumë",
+            "href": "https://studenicani.gov.mk/#/lajme/rod51f3nfUDEbb48NPzf",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 20,
+            "severity": "serious",
+            "issue": "Generic link text ('Read more') is not descriptive out of context and is not unique, making it difficult for screen reader users to understand its purpose or destination. This link points to the same content as the previous descriptive link.",
+            "suggestion": "Replace with the actual title of the news article: 'Njoftim për qytetarët mbi analizat e ujit në territorin e komunës'.",
+            "additionalIssue": null
+          },
+          {
+            "text": "MJEDIS",
+            "href": "https://studenicani.gov.mk/#/lajme/lDA0syioYDBQ1MlWj776",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": true,
+            "openNewTab": false,
+            "pass": false,
+            "score": 30,
+            "severity": "serious",
+            "issue": "Link text is a general category ('Environment') but links to a specific news article. This is misleading and does not clearly communicate the destination. Also, using all caps can reduce readability.",
+            "suggestion": "Use the specific title of the news article it links to: 'Ejup Abazi: Bashkë me nxënësit e SH.F. “Naim Frashëri” shënojmë Ditën e Ekologjisë me mbjelljen e drunjve të rinj'.",
+            "additionalIssue": null
+          },
+          {
+            "text": "Ejup Abazi: Bashkë me nxënësit e SH.F. “Naim Frashëri” shënojmë Ditën e Ekologjisë me mbjelljen e drunjve të rinj",
+            "href": "https://studenicani.gov.mk/#/lajme/lDA0syioYDBQ1MlWj776",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Lexo më shumë",
+            "href": "https://studenicani.gov.mk/#/lajme/lDA0syioYDBQ1MlWj776",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 20,
+            "severity": "serious",
+            "issue": "Generic link text ('Read more') is not descriptive out of context and is not unique, making it difficult for screen reader users to understand its purpose or destination. This link points to the same content as the previous descriptive link.",
+            "suggestion": "Replace with the actual title of the news article: 'Ejup Abazi: Bashkë me nxënësit e SH.F. “Naim Frashëri” shënojmë Ditën e Ekologjisë me mbjelljen e drunjve të rinj'.",
+            "additionalIssue": null
+          },
+          {
+            "text": "Shiko të gjitha lajmet",
+            "href": "https://studenicani.gov.mk/#/lajme",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Lexo Biografinë",
+            "href": "https://studenicani.gov.mk/#/kryetari",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Njoftime për Qytetarët",
+            "href": "https://studenicani.gov.mk/#/njoftime",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Njoftime për Qytetarët",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Lajmet e fundit",
+            "href": "https://studenicani.gov.mk/#/lajme",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Lajmet e fundit",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Kryetari i Komunës",
+            "href": "https://studenicani.gov.mk/#/kryetari",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Kryetari i Komunës",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Këshilli i Komunës",
+            "href": "https://studenicani.gov.mk/#/keshilli",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Këshilli i Komunës",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Shërbimet administrative",
+            "href": "https://studenicani.gov.mk/#/sherbimet",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Shërbimet administrative",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Historia e Komunës",
+            "href": "https://studenicani.gov.mk/#/rreth-nesh",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Historia e Komunës",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Prokurimet Publike",
+            "href": "https://studenicani.gov.mk/#",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Prokurimet Publike",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Raporto Problemet",
+            "href": "https://studenicani.gov.mk/#",
+            "ariaLabel": null,
+            "title": null,
+            "context": "Raporto Problemet",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "additionalIssue": null
+          },
+          {
+            "text": "Admin",
+            "href": "https://studenicani.gov.mk/#/admin/login",
+            "ariaLabel": null,
+            "title": null,
+            "context": "",
+            "isNavigation": false,
+            "hasImage": false,
+            "openNewTab": false,
+            "pass": false,
+            "score": 30,
+            "severity": "serious",
+            "issue": "Link text 'Admin' is too generic and does not clearly describe the link's purpose or destination, especially out of context. It leads to an admin login page.",
+            "suggestion": "Admin Login",
+            "additionalIssue": null
+          }
+        ]
+      },
+      "headings": {
+        "moduleName": "Heading Structure Logic",
+        "wcag": "1.3.1 / 2.4.6",
+        "headingCount": 16,
+        "headingTree": [
+          {
+            "level": 1,
+            "text": "Mirësevini në Komunën e Studeniçanit"
+          },
+          {
+            "level": 3,
+            "text": "Administrata"
+          },
+          {
+            "level": 3,
+            "text": "E-Shërbimet"
+          },
+          {
+            "level": 3,
+            "text": "Zhvillimi"
+          },
+          {
+            "level": 3,
+            "text": "Thirrjet Publike"
+          },
+          {
+            "level": 3,
+            "text": "Konkurse"
+          },
+          {
+            "level": 3,
+            "text": "Buxheti"
+          },
+          {
+            "level": 3,
+            "text": "Subvencionet"
+          },
+          {
+            "level": 2,
+            "text": "Lajmet e Fundit"
+          },
+          {
+            "level": 3,
+            "text": "Kryqi i Kuq i Republikës së Maqedonisë së Veriut organizon Aksionin e Dhurimit të Gjakut"
+          },
+          {
+            "level": 3,
+            "text": "Njoftim për qytetarët mbi analizat e ujit në territorin e komunës"
+          },
+          {
+            "level": 3,
+            "text": "Ejup Abazi: Bashkë me nxënësit e SH.F. “Naim Frashëri” shënojmë Ditën e Ekologjisë me mbjelljen e drunjve të rinj"
+          },
+          {
+            "level": 2,
+            "text": "Kryetari i Komunës"
+          },
+          {
+            "level": 3,
+            "text": "z. Ejup Abazi"
+          },
+          {
+            "level": 3,
+            "text": "Linqe të Shpejta"
+          },
+          {
+            "level": 3,
+            "text": "Na Kontaktoni"
+          }
+        ],
+        "total": 2,
+        "passed": 0,
+        "failed": 2,
+        "score": 48,
+        "items": [
+          {
+            "type": "skipped-level",
+            "pass": false,
+            "score": 50,
+            "severity": "moderate",
+            "issue": "Heading jumps from h1 (\"Mirësevini në Komunën e Studeniçanit\") to h3 (\"Administrata\") — levels should not skip",
+            "suggestion": "Change h3 to h2 or add intermediate heading levels"
+          },
+          {
+            "type": "semantic-quality",
+            "pass": false,
+            "score": 45,
+            "severity": "critical",
+            "issues": [
+              "The heading hierarchy skips from h1 directly to h3, violating the logical nesting order (WCAG 2.4.6, 1.3.1 Info and Relationships).",
+              "The 'Linqe të Shpejta' (Quick Links) and 'Na Kontaktoni' (Contact Us) headings are nested as h3s under 'Kryetari i Komunës' (Mayor of the Municipality), but their content"
+            ],
+            "missingSections": [],
+            "vagueHeadings": [],
+            "suggestions": [],
+            "summary": null
+          }
+        ]
+      },
+      "readingLevel": {
+        "moduleName": "Reading Level & Plain Language",
+        "wcag": "3.1.5",
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "score": 85,
+        "severity": "minor",
+        "items": [
+          {
+            "estimatedReadingLevel": "lower-secondary",
+            "estimatedGradeLevel": "Grade 8-9",
+            "pass": true,
+            "overallScore": 85,
+            "severity": "minor",
+            "complexSentences": [
+              "Të nderuar bashkëqytetarë, vizioni ynë për Studeniçanin është i qartë: një komunë moderne, ku shërbimet janë efikase dhe infrastruktura i përgjigjet nevojave të kohës. Ne jemi këtu për t'ju shërbyer juve, me transparencë të plotë dhe përkushtim të palëkundur për të përmirësuar cilësinë e jetës në çdo fshat dhe çdo lagje."
+            ],
+            "jargonFound": [
+              "Prokurimet Publike",
+              "Subvencionet"
+            ],
+            "passiveVoiceExamples": [
+              "Të gjitha të drejtat e rezervuara."
+            ],
+            "positives": [
+              "The content uses clear, direct language for most sections, especially for instructions like applying for e-services.",
+              "Headings and link labels are concise and easy to understand, aiding navigation.",
+              "The overall tone is informative and aims to be transparent."
+            ],
+            "improvements": [
+              "Consider providing brief, plain-language explanations or tooltips for administrative terms like 'Prokurimet Publike' (Public Procurements) and 'Subvencionet' (Subsidies) to ensure full comprehension for all users.",
+              "Break down the longer sentences, such as the mayor's quote, into shorter, more digestible parts to improve flow and reduce cognitive load."
+            ],
+            "summary": "The content generally meets the lower-secondary education level, utilizing clear and direct language for most information and instructions. While largely accessible, minor improvements in simplifying some administrative terms and breaking down longer sentences could further enhance readability for a broader audience."
+          }
+        ]
+      },
+      "tables": {
+        "moduleName": "Table Header Quality",
+        "wcag": "1.3.1",
+        "total": 0,
+        "passed": 0,
+        "failed": 0,
+        "score": 100,
+        "note": "No tables found on this page",
+        "items": []
+      },
+      "pageTitle": {
+        "moduleName": "Page Title Quality",
+        "wcag": "2.4.2",
+        "currentTitle": "Komuna e Studeniçanit",
+        "total": 1,
+        "passed": 0,
+        "failed": 1,
+        "score": 40,
+        "items": [
+          {
+            "pass": false,
+            "score": 40,
+            "severity": "serious",
+            "issues": [
+              "Title is too generic, it is just the site name for what appears to be the homepage.",
+              "Title does not describe the specific purpose of the page (e.g., 'Welcome' or 'Home').",
+              "Most specific information is not front-loaded."
+            ],
+            "suggestion": "Mirësevini — Komuna e Studeniçanit",
+            "isTooGeneric": true,
+            "isFrontLoaded": false,
+            "includesSiteName": true,
+            "characterCount": 21,
+            "source": "ai-evaluation"
+          }
+        ]
+      },
+      "language": {
+        "moduleName": "Language Accessibility & Albanian Evaluation",
+        "wcag": "3.1.1 / 3.1.2",
+        "pageUrl": "https://studenicani.gov.mk/",
+        "languagesOffered": {
+          "albanian": true,
+          "macedonian": true,
+          "english": false,
+          "albanianLinks": [
+            {
+              "text": "Ballina",
+              "href": "https://studenicani.gov.mk/#/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            }
+          ],
+          "macedonianLinks": [
+            {
+              "text": "",
+              "href": "https://studenicani.gov.mk/#",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "",
+              "href": "https://studenicani.gov.mk/#/",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Lajme",
+              "href": "https://studenicani.gov.mk/#/lajme",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Njoftime",
+              "href": "https://studenicani.gov.mk/#/njoftime",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Kryetari",
+              "href": "https://studenicani.gov.mk/#/kryetari",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Këshilli",
+              "href": "https://studenicani.gov.mk/#/keshilli",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Thirrjet Publike",
+              "href": "https://studenicani.gov.mk/#/thirrjet-publike",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Konkurse",
+              "href": "https://studenicani.gov.mk/#/konkurse",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Buxheti",
+              "href": "https://studenicani.gov.mk/#/buxheti",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Subvencionet",
+              "href": "https://studenicani.gov.mk/#/subvencionet",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Rreth Nesh",
+              "href": "https://studenicani.gov.mk/#/rreth-nesh",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": true
+            },
+            {
+              "text": "Njoftim për qytetarët mbi analizat e ujit në terri",
+              "href": "https://studenicani.gov.mk/#/lajme/rod51f3nfUDEbb48NPzf",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Shërbimet Online",
+              "href": "https://studenicani.gov.mk/#/sherbimet",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "INFRASTRUKTURË",
+              "href": "https://studenicani.gov.mk/#/lajme/QubyQcUq6b4xP9M2WV20",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "MJEDIS",
+              "href": "https://studenicani.gov.mk/#/lajme/lDA0syioYDBQ1MlWj776",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            },
+            {
+              "text": "Admin",
+              "href": "https://studenicani.gov.mk/#/admin/login",
+              "hreflang": null,
+              "ariaLabel": null,
+              "source": "full-dom-scan",
+              "isHidden": false
+            }
+          ],
+          "englishLinks": [],
+          "detectionMethod": "full-dom-scan including hidden dropdowns, select elements, and clickable-div patterns"
+        },
+        "langAttributeCheck": {
+          "declared": "sq",
+          "detected": "Albanian",
+          "matches": true,
+          "issue": null,
+          "pass": true,
+          "score": 100,
+          "severity": null,
+          "confidence": "high"
+        },
+        "inlineLangUsage": {
+          "found": true,
+          "count": 1,
+          "elements": [
+            {
+              "lang": "sq",
+              "tag": "html",
+              "text": "02 2724 005\nstudenican@studenicani.gov.mk\nNjoftim për qytetarët mbi analizat e ujit në territorin e "
+            }
+          ],
+          "note": "Page uses inline lang attributes for mixed-language content — good practice"
+        },
+        "albanianVersion": {
+          "found": true,
+          "url": "https://studenicani.gov.mk/#/",
+          "detectedVia": "full-dom-scan",
+          "wasHidden": true,
+          "langAttributeOnAlbanianPage": "sq",
+          "evaluation": {
+            "langAttributeCorrect": true,
+            "langAttributeFound": "sq",
+            "isActuallyAlbanian": true,
+            "detectedLanguage": "Albanian",
+            "hasMixedContent": false,
+            "mixedContentExamples": [],
+            "translationQuality": "excellent",
+            "translationScore": 95,
+            "qualityIssues": [
+              "The term 'Admin' at the end of the page is left in English."
+            ],
+            "completenessEstimate": "full",
+            "completenessScore": 95,
+            "missingAlbanianChars": false,
+            "technicalTermIssues": [
+              "The term 'Admin' at the end of the page is left in English."
+            ],
+            "overallPass": true,
+            "overallScore": 95,
+            "severity": "minor",
+            "summary": "The Albanian translation of the Studeniçan Municipality website is of excellent quality, demonstrating fluency and adherence to standard literary Albanian. All major content sections are translated, and Albanian special characters are correctly used. The only minor issue is the untranslated 'Admin' term at the very end of the page.",
+            "recommendations": [
+              "Translate the term 'Admin' at the bottom of the page into Albanian (e.g., 'Administratori' or 'Administrimi')."
+            ]
+          },
+          "overallPass": true,
+          "overallScore": 95,
+          "severity": "minor"
+        },
+        "total": 2,
+        "score": 98,
+        "passed": 2,
+        "failed": 0
+      },
+      "visual": {
+        "moduleName": "Visual Disability Checks",
+        "category": "visual",
+        "wcagPrinciples": [
+          "Perceivable",
+          "Operable"
+        ],
+        "affectedUsers": "Blind users, low-vision users, photosensitive users",
+        "total": 4,
+        "passed": 2,
+        "failed": 2,
+        "errored": 0,
+        "score": 63,
+        "items": [
+          {
+            "focusVisibleInScreenshot": true,
+            "focusIndicatorDescription": "A white outline appears around the 'Shërbimet Online' button.",
+            "meetsContrastRequirement": true,
+            "pass": true,
+            "score": 100,
+            "severity": null,
+            "issue": null,
+            "suggestion": null,
+            "test": "Focus indicator visibility",
+            "wcag": "2.4.7 / 2.4.11"
+          },
+          {
+            "pass": true,
+            "score": 100,
+            "severity": "null",
+            "hasHorizontalScroll": false,
+            "textOverflowCount": 0,
+            "visualIssues": [],
+            "suggestion": null,
+            "test": "Zoom/Reflow at 200%",
+            "wcag": "1.4.10",
+            "overflowElements": []
+          },
+          {
+            "pass": false,
+            "score": 50,
+            "severity": "serious",
+            "contentClipped": true,
+            "layoutBroken": false,
+            "issues": [
+              "Text in H3 elements is programmatically detected as clipped, leading to loss of content when text spacing overrides are applied."
+            ],
+            "suggestion": "Ensure that text within H3 elements, and other content, can expand vertically without clipping when text spacing properties (line-height, letter-spacing, word-spacing, paragraph margin) are applied. This may require adjusting element heights, using flexible box models, or ensuring sufficient padding.",
+            "test": "Text Spacing Override",
+            "wcag": "1.4.12",
+            "clippedElementsFound": 2,
+            "clippedElements": [
+              {
+                "tag": "H3",
+                "text": "Kryqi i Kuq i Republikës së Maqedonisë së Veriut organizon A"
+              },
+              {
+                "tag": "H3",
+                "text": "Ejup Abazi: Bashkë me nxënësit e SH.F. “Naim Frashëri” shëno"
+              }
+            ]
+          },
+          {
+            "darkModeSupported": false,
+            "darkModeScore": 0,
+            "pass": false,
+            "score": 0,
+            "severity": "serious",
+            "issues": [
+              "The website does not support the 'prefers-color-scheme: dark' media query, as indicated by 'prefers-color-scheme supported: false'. This means it does not adapt its colors for users who prefer dark mode.",
+              "The site displays its default theme, which includes a light/white background in the logo area, even when the user's system is set to dark mode."
+            ],
+            "suggestions": [
+              "Implement CSS rules for the 'prefers-color-scheme: dark' media query to provide a dedicated dark theme.",
+              "Ensure all text, backgrounds, and UI elements maintain sufficient contrast ratios in both light and dark modes to meet accessibility guidelines (e.g., WCAG 2.1 AA)."
+            ],
+            "test": "Dark Mode Support",
+            "wcag": "1.4.3",
+            "mediaQuerySupport": {
+              "hasDarkMode": false,
+              "hasReducedMotion": false,
+              "hasForcedColors": false
+            },
+            "note": "High contrast (forced-colors) skipped — not supported in Puppeteer 21"
+          }
+        ]
+      },
+      "motor": {
+        "moduleName": "Motor Disability Checks",
+        "category": "motor",
+        "wcagPrinciples": [
+          "Operable"
+        ],
+        "affectedUsers": "Users with motor impairments, switch access users, keyboard-only users, tremor/reduced dexterity users",
+        "total": 5,
+        "passed": 1,
+        "failed": 4,
+        "skipped": 0,
+        "score": 24,
+        "items": [
+          {
+            "test": "Skip navigation link",
+            "pass": false,
+            "score": 0,
+            "severity": "serious",
+            "wcag": "2.4.1",
+            "source": "rule-based",
+            "issue": "No \"Skip to main content\" link found — keyboard users must tab through entire navigation on every page",
+            "suggestion": "Add <a href=\"#main\" class=\"skip-link\">Skip to main content</a> as the first focusable element",
+            "firstFocusableElement": {
+              "idx": 0,
+              "tag": "A",
+              "text": "",
+              "tabindex": 0,
+              "type": null,
+              "href": "https://studenicani.gov.mk/#"
+            }
+          },
+          {
+            "test": "Keyboard trap detection",
+            "pass": false,
+            "score": 0,
+            "severity": "critical",
+            "wcag": "2.1.2",
+            "source": "rule-based",
+            "focusableElementCount": 35,
+            "tabSequenceSample": [
+              {
+                "tag": "A",
+                "text": "",
+                "href": "https://studenicani.gov.mk/#"
+              }
+            ],
+            "issue": "Keyboard trap detected — user cannot Tab away from an element",
+            "suggestion": "Ensure modals and widgets release focus correctly when closed"
+          },
+          {
+            "test": "Touch Target Size",
+            "wcag": "2.5.5",
+            "source": "rule-based",
+            "pass": false,
+            "score": 0,
+            "severity": "serious",
+            "smallTargetsFound": 20,
+            "items": [
+              {
+                "tag": "A",
+                "text": "",
+                "width": 12,
+                "height": 12,
+                "issue": "Touch target 12×12px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "",
+                "width": 12,
+                "height": 12,
+                "issue": "Touch target 12×12px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "",
+                "width": 12,
+                "height": 12,
+                "issue": "Touch target 12×12px is below the 44×44px minimum"
+              },
+              {
+                "tag": "BUTTON",
+                "text": "",
+                "width": 40,
+                "height": 40,
+                "issue": "Touch target 40×40px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Lexo më shumë",
+                "width": 124,
+                "height": 20,
+                "issue": "Touch target 124×20px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Lexo më shumë",
+                "width": 124,
+                "height": 20,
+                "issue": "Touch target 124×20px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Lexo më shumë",
+                "width": 124,
+                "height": 20,
+                "issue": "Touch target 124×20px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Shiko të gjitha lajmet",
+                "width": 182,
+                "height": 24,
+                "issue": "Touch target 182×24px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "",
+                "width": 32,
+                "height": 32,
+                "issue": "Touch target 32×32px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "",
+                "width": 32,
+                "height": 32,
+                "issue": "Touch target 32×32px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "",
+                "width": 32,
+                "height": 32,
+                "issue": "Touch target 32×32px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Njoftime për Qytetarët",
+                "width": 145,
+                "height": 17,
+                "issue": "Touch target 145×17px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Lajmet e fundit",
+                "width": 97,
+                "height": 17,
+                "issue": "Touch target 97×17px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Kryetari i Komunës",
+                "width": 121,
+                "height": 17,
+                "issue": "Touch target 121×17px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Këshilli i Komunës",
+                "width": 116,
+                "height": 17,
+                "issue": "Touch target 116×17px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Shërbimet administrative",
+                "width": 161,
+                "height": 17,
+                "issue": "Touch target 161×17px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Historia e Komunës",
+                "width": 125,
+                "height": 17,
+                "issue": "Touch target 125×17px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Prokurimet Publike",
+                "width": 121,
+                "height": 17,
+                "issue": "Touch target 121×17px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Raporto Problemet",
+                "width": 122,
+                "height": 17,
+                "issue": "Touch target 122×17px is below the 44×44px minimum"
+              },
+              {
+                "tag": "A",
+                "text": "Admin",
+                "width": 52,
+                "height": 16,
+                "issue": "Touch target 52×16px is below the 44×44px minimum"
+              }
+            ],
+            "issue": "20 interactive elements are smaller than the 44×44px minimum touch target size",
+            "suggestion": "Increase padding on small links and buttons so the clickable area is at least 44×44px"
+          },
+          {
+            "test": "Session Timeout Warning",
+            "wcag": "2.2.1",
+            "source": "rule-based",
+            "pass": true,
+            "score": 100,
+            "note": "No session timeout detected on this page"
+          },
+          {
+            "test": "Sticky Header Scroll Margin",
+            "wcag": "2.4.12",
+            "source": "rule-based",
+            "pass": false,
+            "score": 20,
+            "severity": "moderate",
+            "headerHeight": 80,
+            "scrollPaddingTop": 0,
+            "issue": "Sticky header is 80px but scroll-padding-top is only 0px",
+            "suggestion": "Add to CSS: html { scroll-padding-top: 90px; }"
+          }
+        ]
+      }
+    }
+  }
+}

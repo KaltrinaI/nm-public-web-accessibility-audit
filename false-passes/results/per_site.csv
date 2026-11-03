@@ -1,0 +1,36 @@
+site,cat,n_passed,objective_fp,fp_rate,img_fp,lnk_fp,ai_fail_img,ai_fail_lnk,axe,hybrid,title_ai
+av_gov_mk,Central gov.,82,4,4.9,0,4,1,25,0,29,15
+cair_gov_mk,Municipality,192,40,20.8,0,40,48,53,0,31,40
+finance_gov_mk,Central gov.,302,33,10.9,2,31,24,76,0,33,35
+gostivari_gov_mk,Municipality,104,0,0.0,0,0,18,21,0,37,25
+gradsko_gov_mk,Municipality,339,1,0.3,0,1,0,143,0,24,60
+investnorthmacedonia_gov_mk,Central gov.,173,16,9.2,13,3,21,44,9,36,30
+iust_edu_mk,University,125,27,21.6,11,16,31,27,0,33,55
+karpos_gov_mk,Municipality,275,31,11.3,17,14,98,57,0,29,60
+mfa_gov_mk,Central gov.,163,37,22.7,5,32,25,46,0,44,60
+mon_gov_mk,Central gov.,190,38,20.0,4,34,53,54,0,39,50
+mtc_gov_mk,Central gov.,185,29,15.7,1,28,29,56,0,41,40
+mtsp_gov_mk,Central gov.,203,42,20.7,8,34,29,57,0,36,50
+ohrid_gov_mk,Municipality,129,0,0.0,0,0,13,69,0,24,25
+saraj_gov_mk,Municipality,333,29,8.7,5,24,70,84,0,32,35
+skopje_gov_mk,Municipality,129,4,3.1,0,4,20,45,0,33,40
+skopjebus_mk,Transport,78,9,11.5,7,2,7,15,62,54,20
+stip_gov_mk,Municipality,288,14,4.9,4,10,27,27,0,30,55
+studenicani_gov_mk,Municipality,45,3,6.7,0,3,5,8,22,52,40
+tetovatransport_mk,Transport,80,0,0.0,0,0,3,8,0,36,50
+tetovo_gov_mk,Municipality,551,0,0.0,0,0,45,131,0,39,50
+ukim_edu_mk,University,79,17,21.5,15,2,25,15,0,33,40
+uklo_edu_mk,University,314,4,1.3,0,4,24,42,0,35,15
+unite_edu_mk,University,125,0,0.0,0,0,20,44,0,39,70
+vlada_mk,Central gov.,191,44,23.0,2,42,20,65,0,33,60
+www_bitola_gov_mk,Municipality,127,10,7.9,2,8,16,19,0,28,45
+www_centar_gov_mk,Municipality,167,14,8.4,13,1,40,42,0,32,40
+www_economy_gov_mk,Central gov.,180,29,16.1,0,29,26,59,0,43,50
+www_haracina_gov_mk,Municipality,321,0,0.0,0,0,21,53,0,40,65
+www_moepp_gov_mk,Central gov.,242,40,16.5,5,35,45,79,0,39,50
+www_nbrm_mk,Central gov.,569,10,1.8,1,9,9,306,0,23,25
+www_seeu_edu_mk,University,95,0,0.0,0,0,0,23,0,39,35
+www_struga_gov_mk,Municipality,132,0,0.0,0,0,1,33,0,27,75
+www_ugd_edu_mk,University,482,15,3.1,13,2,59,80,0,35,40
+zdravstvo_gov_mk,Central gov.,153,37,24.2,7,30,18,52,,40,40
+zhelina_gov_mk,Municipality,156,1,0.6,1,0,23,56,0,31,50
